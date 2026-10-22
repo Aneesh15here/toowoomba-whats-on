@@ -9,6 +9,7 @@
   --leaf-deep: #143d2e;
   --jacaranda: #68458a;
   --focus: #9a5b12;
+  --required: #8c2f2f;
   --shadow: 0 1px 0 rgba(36, 28, 20, 0.04);
   --sans: "Segoe UI", "Helvetica Neue", sans-serif;
   --serif: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
@@ -243,6 +244,32 @@ input:focus, select:focus, textarea:focus, button:focus, a:focus {
 
 .form-actions { margin-top: 0.5rem; }
 
+.required-legend {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.req {
+  color: var(--required);
+  font-weight: 700;
+}
+
+label:not(.is-required) .req { display: none; }
+
+.required-legend .req { margin-inline-end: 0.15rem; }
+
+html.js .garage-only:not(.is-shown) { display: none; }
+
+.field-error {
+  color: var(--required);
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+.show-invalid :invalid { border-color: var(--required); }
+
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -273,6 +300,8 @@ code {
   }
 
   .form-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  .form-row.location-row { grid-template-columns: 1fr 1fr; }
 
   .listings { grid-template-columns: 1fr 1fr; }
 

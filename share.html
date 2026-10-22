@@ -6,6 +6,7 @@
   <title>Share something · What's On Toowoomba</title>
   <meta name="description" content="Send an event, garage sale, or notice for What's On Toowoomba. Submissions are reviewed before they are published.">
   <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <a class="skip" href="#share-form">Skip to form</a>
@@ -34,20 +35,22 @@
       </ol>
     </section>
 
-    <form id="share-form" class="panel contact-form" method="POST" action="https://formsubmit.co/whatsontoowoomba@agentmail.to" accept-charset="UTF-8">
+    <form id="share-form" class="panel contact-form" method="POST" action="https://formsubmit.co/whatsontoowoomba@agentmail.to" accept-charset="UTF-8" aria-describedby="required-legend">
       <label for="share-honey" style="display:none">Leave this empty</label>
       <input id="share-honey" type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <p id="required-legend" class="required-legend"><span class="req" aria-hidden="true">*</span> required</p>
 
       <div class="form-row">
         <label>Your name
           <input name="name" type="text" autocomplete="name" maxlength="200">
         </label>
-        <label>Email
+        <label class="is-required"><span class="label-text">Email <span class="req" aria-hidden="true">*</span></span>
           <input name="email" type="email" autocomplete="email" inputmode="email" maxlength="200" required>
         </label>
       </div>
 
-      <label>What are you sharing?
+      <label class="is-required"><span class="label-text">What are you sharing? <span class="req" aria-hidden="true">*</span></span>
         <select name="type" required>
           <option value="event">Event</option>
           <option value="garage-sale">Garage sale</option>
@@ -55,15 +58,15 @@
         </select>
       </label>
 
-      <label>Title
+      <label class="is-required"><span class="label-text">Title <span class="req" aria-hidden="true">*</span></span>
         <input name="title" type="text" maxlength="200" required>
       </label>
 
       <div class="form-row">
-        <label>Date
+        <label class="is-required"><span class="label-text">Date <span class="req" aria-hidden="true">*</span></span>
           <input name="date" type="date" required>
         </label>
-        <label>Start time
+        <label><span class="label-text">Start time <span class="req" aria-hidden="true">*</span></span>
           <input name="start_time" type="time">
         </label>
         <label>End time
@@ -71,12 +74,12 @@
         </label>
       </div>
 
-      <div class="form-row">
+      <div class="form-row location-row">
         <label>Venue
           <input name="venue" type="text" maxlength="200">
         </label>
-        <label>Suburb or address
-          <input name="suburb_or_address" type="text" maxlength="200">
+        <label class="is-required"><span class="label-text">Suburb or address (required) <span class="req" aria-hidden="true">*</span></span>
+          <input name="suburb_or_address" type="text" maxlength="200" required>
         </label>
       </div>
 
@@ -127,7 +130,7 @@
         </label>
       </div>
 
-      <label>Garage sale items
+      <label class="garage-only"><span class="label-text">Garage sale items <span class="req" aria-hidden="true">*</span></span>
         <textarea name="items" rows="3" maxlength="1000" placeholder="For a garage sale: what is for sale"></textarea>
       </label>
 
@@ -135,7 +138,7 @@
         <input name="source_link" type="url" maxlength="500" placeholder="https://">
       </label>
 
-      <label>Details
+      <label class="is-required"><span class="label-text">Details <span class="req" aria-hidden="true">*</span></span>
         <textarea name="message" rows="5" maxlength="2000" required placeholder="Who it is for, how to get there, and anything a reader needs to know"></textarea>
       </label>
 
