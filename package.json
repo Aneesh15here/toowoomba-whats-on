@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
+    "pages": "node scripts/pages.mjs",
     "test": "node --test"
   }
 }

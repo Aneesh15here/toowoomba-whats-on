@@ -128,7 +128,10 @@ function placeCard(place, labels, tone) {
   chip.dataset.tone = place.type;
   chip.textContent = labels.get(place.type) || "Things to do";
   const title = document.createElement("h3");
-  title.textContent = place.name;
+  const titleLink = document.createElement("a");
+  titleLink.href = `/things-to-do/${place.id}/`;
+  titleLink.textContent = place.name;
+  title.append(titleLink);
   const area = document.createElement("p");
   area.className = "meta";
   area.textContent = place.area || "";

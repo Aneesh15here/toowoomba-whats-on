@@ -8,7 +8,10 @@ A free static calendar of events, garage sales, and community notices in Toowoom
 2. It normalises each listing, tags age group, community, and category with keyword rules, drops anything outside the Toowoomba region or already finished, and dedupes matches.
 3. It writes `data/events.json` only when the listings changed. A source that errors keeps its previous listings. A source that is skipped or returns nothing contributes nothing new.
 4. The page merges that file with approved rows in `data/submissions.json`. Past listings stay hidden.
-5. GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and when someone starts the workflow by hand. The workflow uses the default `GITHUB_TOKEN` with `contents: write` only.
+5. `scripts/pages.mjs` then writes crawlable HTML: one page per event, category, and suburb, plus this weekend, this week, garage sales, search, `sitemap.xml`, `robots.txt`, RSS, Atom, and iCal. It refreshes the homepage head and the static listing HTML, and adds the same head and a crawlable place list to `things-to-do.html`. Place pages come from `data/things-to-do.json`. Run it on its own with `npm run pages`.
+6. GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and when someone starts the workflow by hand. The same run generates the pages above and commits them with `data/events.json` when something changed. The workflow uses the default `GITHUB_TOKEN` with `contents: write` only.
+
+Canonical URLs use `https://whatsontoowoomba.au`. `CNAME` stays in the repo root. Homepage `<head>` has placeholder `google-site-verification` and `msvalidate.01` meta tags for Search Console and Bing Webmaster. Replace the tokens, or add the DNS TXT records those tools show, then submit `https://whatsontoowoomba.au/sitemap.xml`. Feeds: `/feed.xml`, `/atom.xml`, `/events.ics`.
 
 Filters on the calendar:
 
@@ -85,7 +88,7 @@ The share form's fallback thanks URL points at that address. On the live site, t
 
 ## Things to do
 
-Evergreen places live in `data/things-to-do.json`. The home page and [Things to do](things-to-do.html) read that file. Each place needs a name, an area, a short summary, a `type` from the `types` list, and an `https` link to an official page (council, parkrun, Queensland Parks, or a tourism page). Edit the JSON to add or correct a place. The collector does not write this file.
+Evergreen places live in `data/things-to-do.json`. The home page and [Things to do](things-to-do.html) read that file. Each place needs a name, an area, a short summary, a `type` from the `types` list, and an `https` link to an official page (council, parkrun, Queensland Parks, or a tourism page). Optional `suburb`, `streetAddress`, `postcode`, `venue`, `recurrence`, and `schemaType` fields are used by the generated place pages. Edit the JSON to add or correct a place. The collector does not write this file. `things-to-do.html` is the list people open. `/things-to-do/` points at that same list so the directory of place pages does not replace it.
 
 ## Photographs
 

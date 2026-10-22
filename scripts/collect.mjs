@@ -12,6 +12,7 @@ import {
   parseMalayaliEvents,
   parseTimsEvents,
 } from "./parse.mjs";
+import { generateSite } from "./pages.mjs";
 import {
   dedupeListings,
   cityBeforeState,
@@ -95,6 +96,7 @@ async function main() {
     events,
   };
   const changed = await writeIfChanged(payload);
+  const pages = await generateSite({ now });
   for (const report of reports) {
     const status = report.ok ? "ok" : "failed";
     console.log(
@@ -103,6 +105,7 @@ async function main() {
     for (const note of report.notes) console.log(`  - ${note}`);
   }
   console.log(`events.json ${changed ? "updated" : "unchanged"} with ${events.length} upcoming listings`);
+  console.log(`pages: wrote ${pages.written} files, removed ${pages.removed}, events ${pages.events}, places ${pages.places}`);
 }
 
 async function runSource(id, run, previous, now) {
