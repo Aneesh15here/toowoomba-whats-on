@@ -11,6 +11,10 @@ A free static calendar of events, garage sales, and community notices in Toowoom
 5. `scripts/pages.mjs` then writes crawlable HTML: one page per event, category, and suburb, plus this weekend, this week, garage sales, search, `sitemap.xml`, `robots.txt`, RSS, Atom, and iCal. It refreshes the homepage head and the static listing HTML, and adds the same head and a crawlable place list to `things-to-do.html`. Place pages come from `data/things-to-do.json`. Run it on its own with `npm run pages`.
 6. GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and when someone starts the workflow by hand. The same run generates the pages above and commits them with `data/events.json` when something changed. The workflow uses the default `GITHUB_TOKEN` with `contents: write` only.
 
+Visitor counts use [GoatCounter](https://www.goatcounter.com/): no cookies and no personal data. The site code is `whatsontoowoomba` in `scripts/analytics.mjs`, which is the only place to change it. Every page, including pages written by `scripts/pages.mjs`, includes the GoatCounter `count.js` snippet. Outbound clicks on event source links, share-form submits, report submits (`form.report-form`), and the things-to-do filters are sent as GoatCounter events.
+
+`.github/workflows/visitor-stats.yml` runs every Monday at 03:17 UTC and when started by hand. If the `GOATCOUNTER_TOKEN` repository secret is missing, the job exits without writing or committing. With the secret set, it writes `data/stats/weekly.json` (top pages, referrers, search versus direct, top events, and totals against the previous week) and commits only when those counts change.
+
 Canonical URLs use `https://whatsontoowoomba.au`. `CNAME` stays in the repo root. Homepage `<head>` has placeholder `google-site-verification` and `msvalidate.01` meta tags for Search Console and Bing Webmaster. Replace the tokens, or add the DNS TXT records those tools show, then submit `https://whatsontoowoomba.au/sitemap.xml`. Feeds: `/feed.xml`, `/atom.xml`, `/events.ics`.
 
 Filters on the calendar:
