@@ -5,55 +5,153 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What's On Toowoomba</title>
   <meta name="description" content="Free community calendar of events, garage sales, and notices in Toowoomba, Queensland.">
+  <meta name="theme-color" content="#f3f6f1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("wot-theme");
+      if (savedTheme === "dark" || savedTheme === "light") document.documentElement.dataset.theme = savedTheme;
+    } catch (e) {}
+  </script>
 </head>
 <body>
   <a class="skip" href="#listings">Skip to listings</a>
-  <header class="site-header">
-    <div class="wrap header-row">
-      <div>
-        <p class="eyebrow">Toowoomba, Queensland</p>
-        <h1>What's On Toowoomba</h1>
-        <p class="lede">Events, garage sales, and community notices from public listings. Nothing here is made up.</p>
-      </div>
+  <header class="topbar">
+    <div class="wrap topbar-row">
+      <a class="brand" href="index.html">What's On <span>Toowoomba</span></a>
       <nav class="nav" aria-label="Sections">
         <a href="index.html" aria-current="page">Calendar</a>
-        <a href="share.html">Share something</a>
+        <a href="share.html"><span class="wide-label">Share something</span><span class="short-label">Share</span></a>
       </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">Dark</button>
     </div>
   </header>
 
-  <main class="wrap">
-    <div class="tabs" role="tablist" aria-label="Listing type">
-      <button type="button" id="tab-whats-on" role="tab" aria-selected="true" aria-controls="listings">What's on</button>
-      <button type="button" id="tab-garage" role="tab" aria-selected="false" aria-controls="listings">Garage sales</button>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/img/picnic-point-lookout-960.webp" type="image/webp">
+          <source srcset="assets/img/picnic-point-lookout.webp" type="image/webp">
+          <img src="assets/img/picnic-point-lookout.jpg" srcset="assets/img/picnic-point-lookout-960.jpg 960w, assets/img/picnic-point-lookout.jpg 1600w" sizes="100vw" alt="View from Picnic Point lookout across the Toowoomba range" width="1600" height="900" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Toowoomba, Queensland</p>
+        <h1 id="hero-title">What's on in Toowoomba</h1>
+        <p class="lede">Events, garage sales, and community notices from public listings. Nothing here is made up.</p>
+        <div class="hero-tools">
+          <label class="search">Search listings
+            <input id="filter-search" form="filters" type="search" name="q" placeholder="Title, venue, or suburb" autocomplete="off" enterkeyhint="search">
+          </label>
+          <div class="date-shortcuts" role="group" aria-label="Date shortcut">
+            <button type="button" data-date="">All upcoming</button>
+            <button type="button" data-date="today">Today</button>
+            <button type="button" data-date="weekend">This weekend</button>
+            <button type="button" data-date="week">This week</button>
+          </div>
+        </div>
+        <p class="photo-credit"><a href="credits.html#picnic-point">Photo: Josselin Berger, CC BY 2.0</a></p>
+      </div>
+    </section>
+
+    <div class="filter-bar">
+      <form id="filters" class="filters wrap" aria-label="Filter listings">
+        <div class="tabs" role="tablist" aria-label="Listing type">
+          <button type="button" id="tab-whats-on" role="tab" aria-selected="true" aria-controls="listings">What's on</button>
+          <button type="button" id="tab-garage" role="tab" aria-selected="false" aria-controls="listings">Garage sales</button>
+        </div>
+        <div class="filter-fields">
+          <label><span class="filter-label">Age group</span>
+            <select name="age" id="filter-age"></select>
+          </label>
+          <label><span class="filter-label">Community</span>
+            <select name="community" id="filter-community"></select>
+          </label>
+          <label id="category-field"><span class="filter-label">Category</span>
+            <select name="category" id="filter-category"></select>
+          </label>
+          <label><span class="filter-label">Date</span>
+            <select name="date" id="filter-date"></select>
+          </label>
+        </div>
+      </form>
     </div>
 
-    <form id="filters" class="filters" aria-label="Filter listings">
-      <label>Age group
-        <select name="age" id="filter-age"></select>
-      </label>
-      <label>Community
-        <select name="community" id="filter-community"></select>
-      </label>
-      <label id="category-field">Category
-        <select name="category" id="filter-category"></select>
-      </label>
-      <label>Date
-        <select name="date" id="filter-date"></select>
-      </label>
-    </form>
+    <section class="weekend wrap" id="weekend" aria-labelledby="weekend-title" hidden>
+      <div class="section-head">
+        <h2 id="weekend-title">This weekend</h2>
+        <button type="button" class="text-btn" data-date="weekend">Show only this weekend</button>
+      </div>
+      <div id="weekend-row" class="weekend-row"></div>
+    </section>
 
-    <p id="status" class="status" aria-live="polite">Loading listings…</p>
-    <div id="listings" class="listings" tabindex="-1"></div>
+    <div class="wrap page-block">
+      <section class="section-banner" id="garage-banner" hidden aria-labelledby="garage-banner-title">
+        <div class="section-banner-media">
+          <picture data-hydrate="garage">
+            <source data-srcset="assets/img/laurel-bank-park.webp" type="image/webp">
+            <img data-src="assets/img/laurel-bank-park.jpg" alt="Garden beds and Chilean wine palms at Laurel Bank Park, Toowoomba" width="800" height="531" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="section-banner-copy">
+          <p class="eyebrow">Laurel Bank Park</p>
+          <h2 id="garage-banner-title">Garage sales</h2>
+          <p>Date, suburb, and items from public listings.</p>
+          <p class="photo-credit"><a href="credits.html#laurel-bank">Photo: Heritage branch staff, CC BY 4.0</a></p>
+        </div>
+      </section>
+
+      <p id="status" class="status" aria-live="polite">Loading listings…</p>
+      <div id="listings" class="listings" tabindex="-1"></div>
+    </div>
+
+    <section class="places" aria-labelledby="places-title">
+      <div class="wrap">
+        <div class="places-head">
+          <h2 id="places-title">In the city</h2>
+          <p>Queens Park in flower, and City Hall on the edge of the centre.</p>
+        </div>
+        <div class="places-grid">
+          <figure>
+            <picture data-hydrate="later">
+              <source data-srcset="assets/img/flower-festival.webp" type="image/webp">
+              <img data-src="assets/img/flower-festival.jpg" alt="Toowoomba Flower Festival in the Queens Park Botanic Gardens" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>Toowoomba Flower Festival at the Queens Park Botanic Gardens, during the Carnival of Flowers. <a href="credits.html#flower-festival">Photo: Kgbo, CC BY-SA 4.0</a>.</figcaption>
+          </figure>
+          <figure>
+            <picture data-hydrate="later">
+              <source data-srcset="assets/img/city-hall.webp" type="image/webp">
+              <img data-src="assets/img/city-hall.jpg" alt="Toowoomba City Hall" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>Toowoomba City Hall. <a href="credits.html#city-hall">Photo: Shiftchange, CC0</a>.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
+      <section class="credits" id="photo-credits" aria-labelledby="photo-credits-title">
+        <h2 id="photo-credits-title">Photograph credits</h2>
+        <ul>
+          <li id="credit-picnic">Picnic Point lookout by <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_Picnic_point_lookout_(16484578794).jpg">Josselin Berger</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_Picnic_point_lookout_(16484578794).jpg">Wikimedia Commons</a>.</li>
+          <li>Queens Park flower festival by <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_Flower_Festival_at_the_Botanic_Gardens_01.jpg">Kgbo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_Flower_Festival_at_the_Botanic_Gardens_01.jpg">Wikimedia Commons</a>.</li>
+          <li>Laurel Bank Park by <a href="https://commons.wikimedia.org/wiki/File:650083_Laurel_Bank_Park_Chilean_Wine_Palms_with_round_garden_beds,_from_N_(2018).jpg">Heritage branch staff</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:650083_Laurel_Bank_Park_Chilean_Wine_Palms_with_round_garden_beds,_from_N_(2018).jpg">Wikimedia Commons</a>.</li>
+          <li>Toowoomba City Hall by <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_City_Hall_front.jpg">Shiftchange</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, <a href="https://commons.wikimedia.org/wiki/File:Toowoomba_City_Hall_front.jpg">Wikimedia Commons</a>.</li>
+          <li>Empire Theatre by <a href="https://commons.wikimedia.org/wiki/File:EmpireTheatreFacade.jpg">James Newport</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:EmpireTheatreFacade.jpg">Wikimedia Commons</a>.</li>
+        </ul>
+        <p><a href="credits.html">Full credits, including how each photo was resized</a>.</p>
+      </section>
       <p>Listings are collected from public pages and from items Aneesh has approved in <code>data/submissions.json</code>. Past events are hidden.</p>
       <p id="source-line"></p>
     </div>
   </footer>
+  <script type="module" src="js/theme.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

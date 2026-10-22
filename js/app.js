@@ -20,6 +20,10 @@ const listings = document.querySelector("#listings");
 const status = document.querySelector("#status");
 const sourceLine = document.querySelector("#source-line");
 const categoryField = document.querySelector("#category-field");
+const searchInput = document.querySelector("#filter-search");
+const weekendSection = document.querySelector("#weekend");
+const weekendRow = document.querySelector("#weekend-row");
+const garageBanner = document.querySelector("#garage-banner");
 
 fillSelect(document.querySelector("#filter-age"), AGE_GROUPS, "Any age");
 fillSelect(document.querySelector("#filter-community"), COMMUNITIES, "Any community");
@@ -29,6 +33,15 @@ fillSelect(document.querySelector("#filter-date"), DATE_FILTERS);
 document.querySelector("#tab-whats-on").addEventListener("click", () => setTab("whats-on"));
 document.querySelector("#tab-garage").addEventListener("click", () => setTab("garage"));
 filtersForm.addEventListener("change", render);
+filtersForm.addEventListener("submit", (event) => event.preventDefault());
+searchInput?.addEventListener("input", render);
+
+for (const button of document.querySelectorAll("[data-date]")) {
+  button.addEventListener("click", () => {
+    filtersForm.date.value = button.dataset.date;
+    filtersForm.dispatchEvent(new Event("change", { bubbles: true }));
+  });
+}
 
 load().catch((error) => {
   status.textContent = "The listings file could not be read.";
@@ -89,7 +102,8 @@ function render() {
     category: filtersForm.category.value,
     date: filtersForm.date.value,
   };
-  const visible = state.events.filter((event) => matchesFilters(event, filters));
+  const query = (searchInput?.value || "").trim().toLowerCase();
+  const visible = state.events.filter((event) => matchesFilters(event, filters) && matchesQuery(event, query));
   const noun = state.tab === "garage" ? "garage sale" : "listing";
   status.textContent = visible.length
     ? `${visible.length} ${noun}${visible.length === 1 ? "" : "s"}`
@@ -100,7 +114,49 @@ function render() {
   } else {
     for (const event of visible) listings.append(card(event));
   }
+  renderWeekend(filters, query);
+  if (garageBanner) garageBanner.hidden = state.tab !== "garage";
+  hydratePictures();
+  syncDateChips(filters.date);
   sourceLine.textContent = sourceSummary();
+}
+
+function renderWeekend(filters, query) {
+  if (!weekendSection || !weekendRow) return;
+  const events = state.tab === "garage" || filters.date
+    ? []
+    : state.events.filter((event) => matchesFilters(event, { ...filters, tab: "whats-on", date: "weekend" }) && matchesQuery(event, query));
+  weekendSection.hidden = events.length === 0;
+  weekendRow.replaceChildren();
+  for (const event of events) weekendRow.append(card(event));
+}
+
+function hydratePictures() {
+  for (const picture of document.querySelectorAll("picture[data-hydrate]")) {
+    const mode = picture.dataset.hydrate;
+    if (mode === "garage" && state.tab !== "garage") continue;
+    if (picture.dataset.hydrated === "true") continue;
+    const source = picture.querySelector("source");
+    const image = picture.querySelector("img");
+    if (source?.dataset.srcset) source.srcset = source.dataset.srcset;
+    if (image?.dataset.src) image.src = image.dataset.src;
+    picture.dataset.hydrated = "true";
+  }
+}
+
+function syncDateChips(value) {
+  for (const button of document.querySelectorAll("[data-date]")) {
+    button.setAttribute("aria-pressed", String(button.dataset.date === value));
+  }
+}
+
+function matchesQuery(event, query) {
+  if (!query) return true;
+  const haystack = [event.title, event.venue, event.suburb, event.address, event.summary, event.items]
+    .filter(Boolean)
+    .join("\n")
+    .toLowerCase();
+  return query.split(/\s+/).every((word) => haystack.includes(word));
 }
 
 function emptyState() {
@@ -122,32 +178,42 @@ function emptyState() {
 function card(event) {
   const article = document.createElement("article");
   article.className = "card";
+  const body = document.createElement("div");
+  body.className = "card-body";
   const chips = document.createElement("div");
   chips.className = "chips";
-  for (const label of chipLabels(event)) {
+  for (const item of chipLabels(event)) {
     const chip = document.createElement("span");
     chip.className = "chip";
-    chip.textContent = label;
+    chip.dataset.tone = item.tone;
+    chip.textContent = item.label;
     chips.append(chip);
   }
   const title = document.createElement("h2");
   title.textContent = event.title;
   const when = document.createElement("p");
   when.className = "meta";
-  when.textContent = formatWhen(event.start, event.end, event.allDay);
+  const time = document.createElement("time");
+  time.dateTime = event.start;
+  time.textContent = formatWhen(event.start, event.end, event.allDay);
+  when.append(time);
   const place = document.createElement("p");
   place.className = "meta";
   place.textContent = placeLine(event);
-  article.append(chips, title, when, place);
+  body.append(chips, title, when, place);
   if (event.kind === "garage" && event.items) {
     const items = document.createElement("p");
+    items.className = "summary";
     items.textContent = event.items;
-    article.append(items);
+    body.append(items);
   } else if (event.summary) {
     const summary = document.createElement("p");
+    summary.className = "summary";
     summary.textContent = event.summary;
-    article.append(summary);
+    body.append(summary);
   }
+  const foot = document.createElement("div");
+  foot.className = "card-foot";
   const price = document.createElement("p");
   price.className = `price${String(event.price).toLowerCase().startsWith("free") ? " free" : ""}`;
   price.textContent = event.price || "See listing";
@@ -157,20 +223,78 @@ function card(event) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = SOURCE_LABELS[event.source] || "Source";
-  article.append(price, link);
+  const hint = document.createElement("span");
+  hint.className = "sr-only";
+  hint.textContent = " (opens in a new tab)";
+  link.append(hint);
+  foot.append(price, link);
+  body.append(foot);
+  article.append(cardMedia(event), body);
   return article;
+}
+
+function cardMedia(event) {
+  const src = localImage(event);
+  if (!src) return placeholder(event);
+  const figure = document.createElement("div");
+  figure.className = "card-media";
+  const image = document.createElement("img");
+  image.src = src;
+  image.alt = "";
+  image.width = 800;
+  image.height = 450;
+  image.loading = "lazy";
+  image.decoding = "async";
+  image.addEventListener("error", () => {
+    figure.replaceWith(placeholder(event));
+  });
+  figure.append(image);
+  return figure;
+}
+
+function localImage(event) {
+  const src = typeof event.image === "string" ? event.image : event.imageUrl;
+  if (typeof src !== "string") return "";
+  if (!src.startsWith("assets/img/") || src.includes("..")) return "";
+  return src;
+}
+
+function placeholder(event) {
+  const figure = document.createElement("div");
+  const tone = primaryCategory(event);
+  figure.className = "card-media card-media-placeholder";
+  figure.dataset.tone = tone;
+  figure.setAttribute("aria-hidden", "true");
+  const label = document.createElement("span");
+  label.className = "card-media-label";
+  label.textContent = categoryName(tone);
+  figure.append(label);
+  return figure;
+}
+
+function primaryCategory(event) {
+  if (event.kind === "garage") return "garage";
+  const categories = event.categories || [];
+  return categories.find((id) => id !== "free") || categories[0] || "general";
+}
+
+function categoryName(id) {
+  const match = CATEGORIES.find(([value]) => value === id);
+  if (match) return match[1];
+  if (id === "general") return "What's on";
+  return "Listing";
 }
 
 function chipLabels(event) {
   const labels = [];
   const ages = AGE_GROUPS.filter(([id]) => (event.ageGroups || []).includes(id) && id !== "families");
   const shownAges = ages.length ? ages : AGE_GROUPS.filter(([id]) => (event.ageGroups || []).includes(id));
-  for (const [, label] of shownAges.slice(0, 2)) labels.push(label);
+  for (const [, label] of shownAges.slice(0, 2)) labels.push({ tone: "age", label });
   for (const [id, label] of COMMUNITIES) {
-    if (id !== "multicultural" && (event.communities || []).includes(id)) labels.push(label);
+    if (id !== "multicultural" && (event.communities || []).includes(id)) labels.push({ tone: "community", label });
   }
   for (const [id, label] of CATEGORIES) {
-    if (id !== "free" && (event.categories || []).includes(id)) labels.push(label);
+    if (id !== "free" && (event.categories || []).includes(id)) labels.push({ tone: id, label });
   }
   return labels.slice(0, 4);
 }
