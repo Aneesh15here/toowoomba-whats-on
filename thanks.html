@@ -4,26 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thanks · What's On Toowoomba</title>
+  <meta name="theme-color" content="#fff6ee">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("wot-theme");
+      if (savedTheme === "dark" || savedTheme === "light") document.documentElement.dataset.theme = savedTheme;
+    } catch (e) {}
+  </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-row">
-      <div>
-        <p class="eyebrow">Toowoomba, Queensland</p>
-        <h1>Thanks, it's with Aneesh</h1>
-        <p class="lede">Your event, garage sale, or notice was sent for review. It will appear on the calendar only after it is added to the approved submissions file.</p>
-      </div>
+  <a class="skip" href="#thanks">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap topbar-row">
+      <a class="brand" href="index.html">What's On <span>Toowoomba</span></a>
       <nav class="nav" aria-label="Sections">
         <a href="index.html">Calendar</a>
-        <a href="share.html">Share something</a>
+        <a href="things-to-do.html"><span class="wide-label">Things to do</span><span class="short-label">To do</span></a>
+        <a href="share.html"><span class="wide-label">Share something</span><span class="short-label">Share</span></a>
       </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">Dark</button>
     </div>
   </header>
-  <main class="wrap">
-    <section class="panel">
-      <p><a class="btn" href="index.html">Back to what's on</a></p>
-    </section>
+  <main class="wrap page-intro" id="thanks">
+    <p class="eyebrow">Toowoomba, Queensland</p>
+    <h1>Thanks, it's with Aneesh</h1>
+    <p class="lede">Your event, garage sale, or notice was sent for review. It will appear on the calendar only after it is added to the approved submissions file.</p>
+    <p><a class="btn" href="index.html">Back to what's on</a></p>
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><a href="credits.html">Photograph credits</a></p>
+    </div>
+  </footer>
+  <script type="module" src="js/theme.js"></script>
 </body>
 </html>

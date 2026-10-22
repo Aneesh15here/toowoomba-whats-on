@@ -5,23 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Share something · What's On Toowoomba</title>
   <meta name="description" content="Send an event, garage sale, or notice for What's On Toowoomba. Submissions are reviewed before they are published.">
+  <meta name="theme-color" content="#fff6ee">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("wot-theme");
+      if (savedTheme === "dark" || savedTheme === "light") document.documentElement.dataset.theme = savedTheme;
+    } catch (e) {}
+  </script>
 </head>
 <body>
   <a class="skip" href="#share-form">Skip to form</a>
-  <header class="site-header">
-    <div class="wrap header-row">
-      <div>
-        <p class="eyebrow">Toowoomba, Queensland</p>
-        <h1>Share something</h1>
-        <p class="lede">Send an event, a garage sale, or a short notice. It is emailed for review and is not published automatically.</p>
-      </div>
+  <header class="topbar">
+    <div class="wrap topbar-row">
+      <a class="brand" href="index.html">What's On <span>Toowoomba</span></a>
       <nav class="nav" aria-label="Sections">
         <a href="index.html">Calendar</a>
-        <a href="share.html" aria-current="page">Share something</a>
+        <a href="things-to-do.html"><span class="wide-label">Things to do</span><span class="short-label">To do</span></a>
+        <a href="share.html" aria-current="page"><span class="wide-label">Share something</span><span class="short-label">Share</span></a>
       </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">Dark</button>
     </div>
   </header>
+
+  <section class="hero hero-page" aria-labelledby="share-title">
+    <div class="hero-media">
+      <picture>
+        <source srcset="assets/img/empire-theatre.webp" type="image/webp">
+        <img src="assets/img/empire-theatre.jpg" alt="Facade of the Empire Theatre in Toowoomba" width="800" height="600" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">Toowoomba, Queensland</p>
+      <h1 id="share-title">Share something</h1>
+      <p class="lede">Send an event, a garage sale, or a short notice. It is emailed for review and is not published automatically.</p>
+      <p class="photo-credit"><a href="credits.html#empire-theatre">Photo: James Newport, CC BY-SA 3.0</a></p>
+    </div>
+  </section>
 
   <main class="wrap share-layout">
     <section class="panel" aria-labelledby="how-title">
@@ -155,8 +177,10 @@
   <footer class="site-footer">
     <div class="wrap">
       <p>Free static site. No account, no payment, no automatic publishing.</p>
+      <p>Empire Theatre photograph by <a href="https://commons.wikimedia.org/wiki/File:EmpireTheatreFacade.jpg">James Newport</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:EmpireTheatreFacade.jpg">Wikimedia Commons</a>. <a href="credits.html">All photograph credits</a>.</p>
     </div>
   </footer>
+  <script type="module" src="js/theme.js"></script>
   <script type="module" src="js/share.js"></script>
 </body>
 </html>

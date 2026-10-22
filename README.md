@@ -82,3 +82,19 @@ Submissions are not published by the form or by the collector.
 4. The site is published at `https://aneesh15here.github.io/toowoomba-whats-on/`.
 
 The share form's fallback thanks URL points at that address. On the live site, the page script sets `_next` from the address you are actually on.
+
+## Things to do
+
+Evergreen places live in `data/things-to-do.json`. The home page and [Things to do](things-to-do.html) read that file. Each place needs a name, an area, a short summary, a `type` from the `types` list, and an `https` link to an official page (council, parkrun, Queensland Parks, or a tourism page). Edit the JSON to add or correct a place. The collector does not write this file.
+
+## Photographs
+
+Pictures in `assets/img/` are local copies of freely licensed Toowoomba photographs. They are not hotlinked. Event cards do not use them: `data/events.json` has no image fields, so a card shows a category colour block unless a listing carries a local `image` path under `assets/img/`. Full photographer, licence, and source links are on [credits.html](credits.html) and in the home page footer.
+
+| File | Place | Photographer | Licence |
+| --- | --- | --- | --- |
+| `picnic-point-lookout` | Picnic Point lookout | Josselin Berger | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
+| `flower-festival` | Carnival of Flowers, Queens Park Botanic Gardens | Kgbo | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
+| `laurel-bank-park` | Laurel Bank Park | Heritage branch staff | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+| `city-hall` | Toowoomba City Hall | Shiftchange | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| `empire-theatre` | Empire Theatre | James Newport | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |

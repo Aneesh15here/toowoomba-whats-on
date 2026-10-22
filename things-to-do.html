@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Things to do around Toowoomba</title>
+  <meta name="description" content="Evergreen walks, parks, lookouts, parkruns and drives around Toowoomba, each linked to an official page.">
+  <meta name="theme-color" content="#fff6ee">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("wot-theme");
+      if (savedTheme === "dark" || savedTheme === "light") document.documentElement.dataset.theme = savedTheme;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#thing-groups">Skip to places</a>
+  <header class="topbar">
+    <div class="wrap topbar-row">
+      <a class="brand" href="index.html">What's On <span>Toowoomba</span></a>
+      <nav class="nav" aria-label="Sections">
+        <a href="index.html">Calendar</a>
+        <a href="things-to-do.html" aria-current="page"><span class="wide-label">Things to do</span><span class="short-label">To do</span></a>
+        <a href="share.html"><span class="wide-label">Share something</span><span class="short-label">Share</span></a>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">Dark</button>
+    </div>
+  </header>
+  <main>
+    <section class="things-hero">
+      <div class="wrap">
+        <p class="eyebrow">Around the region</p>
+        <h1>Things to do around Toowoomba</h1>
+        <p class="lede">Places that are here all year: walks, parks, lookouts, parkruns and drives. Every card links to a council, parkrun, university or Queensland Parks page.</p>
+      </div>
+    </section>
+    <div class="filter-bar">
+      <div class="wrap">
+        <div id="thing-filters" class="type-filters" role="group" aria-label="Activity type"></div>
+      </div>
+    </div>
+    <div class="wrap things-page">
+      <p id="thing-status" class="status" aria-live="polite">Loading places…</p>
+      <div id="thing-groups" data-things="full"></div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>These places are stored in <code>data/things-to-do.json</code>. The list does not replace the collected events calendar.</p>
+      <p><a href="credits.html">Photograph credits</a></p>
+    </div>
+  </footer>
+  <script type="module" src="js/theme.js"></script>
+  <script type="module" src="js/things.js"></script>
+</body>
+</html>
