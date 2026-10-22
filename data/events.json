@@ -1,0 +1,3044 @@
+{
+  "generatedAt": "2026-10-22T10:24:20.874Z",
+  "timezone": "Australia/Brisbane",
+  "sources": [
+    {
+      "id": "council",
+      "ok": true,
+      "parsed": 22,
+      "kept": 2,
+      "error": null,
+      "notes": [
+        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au was not readable",
+        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
+      ]
+    },
+    {
+      "id": "library",
+      "ok": true,
+      "parsed": 25,
+      "kept": 20,
+      "error": null,
+      "notes": [
+        "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
+      ]
+    },
+    {
+      "id": "eventbrite",
+      "ok": true,
+      "parsed": 79,
+      "kept": 70,
+      "error": null,
+      "notes": [
+        "Reads the public Toowoomba destination page. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
+      ]
+    },
+    {
+      "id": "humanitix",
+      "ok": true,
+      "parsed": 32,
+      "kept": 36,
+      "error": null,
+      "notes": [
+        "Uses the public Australia/Toowoomba search page."
+      ]
+    },
+    {
+      "id": "multicultural",
+      "ok": true,
+      "parsed": 7,
+      "kept": 0,
+      "error": null,
+      "notes": []
+    },
+    {
+      "id": "garage",
+      "ok": true,
+      "parsed": 2,
+      "kept": 0,
+      "error": null,
+      "notes": [
+        "Facebook and Instagram are not fetched. List those sales through the share form.",
+        "Gumtree HTTP 403; not parsed."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "c4aee75a00057f59",
+      "kind": "event",
+      "title": "Term 4 2026: indelarts Toowoomba Film Class - Empire Theatre",
+      "start": "2026-10-06T01:00:00+10:00",
+      "end": "2026-12-08T14:30:00+10:00",
+      "allDay": false,
+      "venue": "The Empire",
+      "suburb": "Toowoomba City",
+      "address": "54-56 Neil St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$270",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
+    },
+    {
+      "id": "7d34c8f90004d499",
+      "kind": "event",
+      "title": "Cathy Drummond @ Toowoomba City Library",
+      "start": "2026-10-23T10:00:00+10:00",
+      "end": "2026-10-23T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/cathy-drummond-toowoomba-city-library-tickets-2003044875142",
+      "summary": "Join local entertainer Cathy Drummond for a morning of music and fun as part of the Queensland Seniors Series."
+    },
+    {
+      "id": "2729a7440003bb90",
+      "kind": "event",
+      "title": "Read + Play — Cecil Plains Library",
+      "start": "2026-10-23T10:00:00+10:00",
+      "end": "2026-10-23T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Cecil Plains Library",
+      "suburb": "",
+      "address": "Cecil Plains Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
+    },
+    {
+      "id": "9fcb761a0005084d",
+      "kind": "event",
+      "title": "Reading Journal Workshop @ Highfields Library",
+      "start": "2026-10-24T10:30:00+10:00",
+      "end": "2026-10-24T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Highfields Library",
+      "suburb": "Highfields",
+      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/reading-journal-workshop-highfields-library-tickets-1999248990549",
+      "summary": "Reading and Writing: How Keeping a Reading Journal Can Enhance Your Reading Life"
+    },
+    {
+      "id": "1d9230ae0006b3dc",
+      "kind": "event",
+      "title": "Toowoomba’s Endless Edit - Sunday 25th OCTOBER, 2026",
+      "start": "2026-10-25T08:00:00+10:00",
+      "end": "2026-10-25T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Indoor Bowls Hall",
+      "suburb": "Toowoomba City",
+      "address": "10 Annand St, Toowoomba City QLD 4350, Australia",
+      "price": "$10–$70",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-s-endless-edit-sunday-25th-october-2026"
+    },
+    {
+      "id": "2f256797000a95a5",
+      "kind": "event",
+      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
+      "start": "2026-10-25T10:00:00+10:00",
+      "end": "2026-10-25T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849276186937",
+      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
+    },
+    {
+      "id": "994e370200037044",
+      "kind": "event",
+      "title": "Boots, Beats & Good Company",
+      "start": "2026-10-25T16:00:00+10:00",
+      "end": "2026-10-25T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Tonic Lounge & Bar",
+      "suburb": "Toowoomba City",
+      "address": "Tonic Lounge & Bar, 183-187 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/boots-beats-good-company-tickets-1994945241921",
+      "summary": "Kick up your heels and join us for a fun evening of line dancing, great music, plenty of laughs and genuine connection."
+    },
+    {
+      "id": "486367320003ab86",
+      "kind": "event",
+      "title": "Sound Harmony & Meditation - Pittsworth",
+      "start": "2026-10-25T17:00:00+10:00",
+      "end": "2026-10-25T18:00:00+10:00",
+      "allDay": false,
+      "venue": "13 Briggs St",
+      "suburb": "Pittsworth",
+      "address": "13 Briggs St, 13 Briggs Street, Pittsworth, QLD, 4356",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/sound-harmony-meditation-pittsworth-registration-1999886330851",
+      "summary": "A deeply grounding meditation and sound harmony experience to slow your nervous system, reset your energy and come home to yourself."
+    },
+    {
+      "id": "d576c5490006dad1",
+      "kind": "event",
+      "title": "The Australian Voices - Rituals of Farewell - Toowoomba",
+      "start": "2026-10-25T18:00:00+10:00",
+      "end": "2026-10-25T20:00:00+10:00",
+      "allDay": false,
+      "venue": "St Luke's Anglican Church",
+      "suburb": "Toowoomba City",
+      "address": "152 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "$5–$120",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-australian-voices-rituals-of-farewell-toowoomba"
+    },
+    {
+      "id": "05ad9d8e00059cfa",
+      "kind": "event",
+      "title": "Meet the Author: David Raymond @ Highfields Library",
+      "start": "2026-10-26T10:00:00+10:00",
+      "end": "2026-10-26T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Highfields Library",
+      "suburb": "Highfields",
+      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/meet-the-author-david-raymond-highfields-library-tickets-1998171457619",
+      "summary": "Join author David Raymond to discuss his latest release, Vader A Police Dog Story"
+    },
+    {
+      "id": "587223330003860f",
+      "kind": "event",
+      "title": "ACOTAR Early Opening - Toowoomba",
+      "start": "2026-10-27T07:00:00+10:00",
+      "end": "2026-10-27T09:00:00+10:00",
+      "allDay": false,
+      "venue": "Dymocks Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Margaret &, Grand Central Shopping Centre, Shop 18 Victoria St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/acotar_toowoomba"
+    },
+    {
+      "id": "d91f17ad000623be",
+      "kind": "event",
+      "title": "Toowoomba: ACOTAR 6 Early Store Openings at QBD Books",
+      "start": "2026-10-27T07:30:00+10:00",
+      "end": "2026-10-27T09:00:00+10:00",
+      "allDay": false,
+      "venue": "QBD Books Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Shop 85 Margaret St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-acotar-6-early-store-openings-at-qbd-books"
+    },
+    {
+      "id": "ff7aac3b000216dd",
+      "kind": "event",
+      "title": "October Art in the Park",
+      "start": "2026-10-27T16:00:00+10:00",
+      "end": "2026-10-27T18:00:00+10:00",
+      "allDay": false,
+      "venue": "104B Neil St",
+      "suburb": "South Toowoomba",
+      "address": "104B Neil St, 104B Neil Street, South Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/october-art-in-the-park-tickets-2002975626016",
+      "summary": "A free social group for queer folks, their friends, family, & allies. Join us this month for collage making or bring your own project!"
+    },
+    {
+      "id": "ee595af40001aefc",
+      "kind": "event",
+      "title": "Honouring Her",
+      "start": "2026-10-27T18:30:00+10:00",
+      "end": "2026-10-27T20:30:00+10:00",
+      "allDay": false,
+      "venue": "DeMolay House",
+      "suburb": "East Toowoomba",
+      "address": "DeMolay House, 90 Margaret Street, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/honouring-her-tickets-1999888244575",
+      "summary": "A woman's circle to pause, reconnect and honour yourself while nurturing self-worth, inner strength and personal power."
+    },
+    {
+      "id": "e9506ce400082379",
+      "kind": "event",
+      "title": "Bx Networking Toowoomba - Business Networking in Brisbane",
+      "start": "2026-10-28T08:00:00+10:00",
+      "end": "2026-10-28T10:00:00+10:00",
+      "allDay": false,
+      "venue": "The Southern Hotel Toowoomba",
+      "suburb": "Kearneys Spring",
+      "address": "The Southern Hotel Toowoomba, 839 Ruthven Street, Kearneys Spring, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316332540",
+      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
+    },
+    {
+      "id": "b3220e6600078bc0",
+      "kind": "event",
+      "title": "Reimagining  your classroom with Universal Design for Learning (UDL)",
+      "start": "2026-10-28T10:30:00+10:00",
+      "end": "2026-10-28T14:00:00+10:00",
+      "allDay": false,
+      "venue": "WOTSO Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "WOTSO Toowoomba, 123 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/reimagining-your-classroom-with-universal-design-for-learning-udl-tickets-2002599157990",
+      "summary": "Australian classrooms are diverse. Applying Universal Design for Learning (UDL) allows teachers to cater for this diversity."
+    },
+    {
+      "id": "8291ca3300052b40",
+      "kind": "event",
+      "title": "DROP IN | Game Zone @ Toowoomba City Library",
+      "start": "2026-10-28T15:30:00+10:00",
+      "end": "2026-10-28T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-game-zone-toowoomba-city-library-tickets-2002014815205",
+      "summary": "Meet new people and play fun games in a relaxed and welcoming space."
+    },
+    {
+      "id": "ac17407200058d9d",
+      "kind": "event",
+      "title": "The Society for Tactical Regrets and Perilous Renewal",
+      "start": "2026-10-28T15:30:00+10:00",
+      "end": "2026-10-28T17:30:00+10:00",
+      "allDay": false,
+      "venue": "158 Margaret St",
+      "suburb": "Toowoomba City",
+      "address": "158 Margaret St, 158 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "young-adults",
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486441313",
+      "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
+    },
+    {
+      "id": "74744e8300052fdb",
+      "kind": "event",
+      "title": "Toowoomba Data Centre and AI Risks Community Forum",
+      "start": "2026-10-28T17:30:00+10:00",
+      "end": "2026-10-28T19:30:00+10:00",
+      "allDay": false,
+      "venue": "615 Boundary St",
+      "suburb": "Glenvale",
+      "address": "615 Boundary St, Glenvale QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-data-centre-and-ai-risks-community-forum"
+    },
+    {
+      "id": "57cb498d000699a1",
+      "kind": "event",
+      "title": "The Body Shop Toowoomba: The Feel-Good Gifting Event",
+      "start": "2026-10-28T18:00:00+10:00",
+      "end": "2026-10-28T19:30:00+10:00",
+      "allDay": false,
+      "venue": "The Body Shop Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Shop 27A Margaret St, Toowoomba City QLD 4350, Australia",
+      "price": "$10",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-feel-good-gifting-event-4fykey8z"
+    },
+    {
+      "id": "6338fbcd0002928c",
+      "kind": "event",
+      "title": "INTRO TO GROOV3: Toowoomba",
+      "start": "2026-10-28T18:15:00+10:00",
+      "end": "2026-10-28T19:15:00+10:00",
+      "allDay": false,
+      "venue": "Belong Church",
+      "suburb": "South Toowoomba",
+      "address": "Belong Church, 1 Fitzgibbon Street, South Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-1998698427801",
+      "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
+    },
+    {
+      "id": "6198294c000555d1",
+      "kind": "event",
+      "title": "Care & Lifestyle Expo 2026 - Toowoomba",
+      "start": "2026-10-29T10:00:00+10:00",
+      "end": "2026-10-29T13:00:00+10:00",
+      "allDay": false,
+      "venue": "Highfields Cultural Centre",
+      "suburb": "Highfields",
+      "address": "Highfields Cultural Centre, Sean McCarthy Way, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/care-lifestyle-expo-2026-toowoomba-tickets-2000359391789",
+      "summary": "The Care & Lifestyle Expo is coming to Toowoomba!"
+    },
+    {
+      "id": "2900c43600023d43",
+      "kind": "event",
+      "title": "Make & Mend Afternoon",
+      "start": "2026-10-29T13:00:00+10:00",
+      "end": "2026-10-29T16:00:00+10:00",
+      "allDay": false,
+      "venue": "USQ Library",
+      "suburb": "Darling Heights",
+      "address": "USQ Library, Room R104, Darling Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/make-mend-afternoon-tickets-1988885934369",
+      "summary": "Bring along a project and socialise in the Make & Mend afternoons at the UniSQ Makerspace."
+    },
+    {
+      "id": "149c918a000380a9",
+      "kind": "event",
+      "title": "The Write Time: Writers group",
+      "start": "2026-10-29T15:30:00+10:00",
+      "end": "2026-10-29T17:00:00+10:00",
+      "allDay": false,
+      "venue": "New Leaf Social Work",
+      "suburb": "Toowoomba City",
+      "address": "New Leaf Social Work, 158 Margaret St, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/the-write-time-writers-group-tickets-2001998408131",
+      "summary": "A low demand place to write something, lay on the floor, or do both!"
+    },
+    {
+      "id": "ed7f2f3b0006e2b4",
+      "kind": "event",
+      "title": "Meet the Author: Fleur McDonald @ Toowoomba City Library",
+      "start": "2026-10-29T18:00:00+10:00",
+      "end": "2026-10-29T19:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/meet-the-author-fleur-mcdonald-toowoomba-city-library-tickets-1999230811174",
+      "summary": "Join bestselling Australian crime writer Fleur McDonald for the launch of her latest book, The Buried."
+    },
+    {
+      "id": "c616b8010006c41a",
+      "kind": "event",
+      "title": "Toowoomba Paediatric Allied Health Professionals Networking - October",
+      "start": "2026-10-29T18:30:00+10:00",
+      "end": "2026-10-29T20:00:00+10:00",
+      "allDay": false,
+      "venue": "MET Phys",
+      "suburb": "Highfields",
+      "address": "MET Phys, 10517 New England Highway, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-paediatric-allied-health-professionals-networking-october-tickets-2003456440144",
+      "summary": "Meet other local paediatric allied health practitioners and share ideas, expertise, problem solving, collaboration and connection."
+    },
+    {
+      "id": "426bb2c90008bc6e",
+      "kind": "event",
+      "title": "(Toowoomba) Morning Tea with the Vocational Coaching Team",
+      "start": "2026-10-30T10:00:00+10:00",
+      "end": "2026-10-30T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Carer Gateway Wellways Toowoomba",
+      "suburb": "East Toowoomba",
+      "address": "Carer Gateway Wellways Toowoomba, 15 -17 Kitchener St, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-morning-tea-with-the-vocational-coaching-team-tickets-2000228532385",
+      "summary": "Morning Tea, real conversations and support to explore your next steps in study, work or volunteering"
+    },
+    {
+      "id": "830c5f5800078e33",
+      "kind": "event",
+      "title": "Toowoomba's Favourite Sing-Along With Cassidy Rae - Deadly Divas",
+      "start": "2026-10-30T18:00:00+10:00",
+      "end": "2026-10-30T22:00:00+10:00",
+      "allDay": false,
+      "venue": "Tonic Lounge & Bar",
+      "suburb": "Toowoomba City",
+      "address": "Tonic Lounge & Bar, 183-187 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/toowoombas-favourite-sing-along-with-cassidy-rae-deadly-divas-tickets-2000007800169",
+      "summary": "Think Practical Magic meets piano bar. Join Cassidy Rae for a glamorous Halloween night with a little witchy magic!"
+    },
+    {
+      "id": "60c94072000777ec",
+      "kind": "event",
+      "title": "AC/DC vs INXS by Candlelight | Toowoomba, QLD",
+      "start": "2026-10-30T20:00:00+10:00",
+      "end": "2026-10-30T21:00:00+10:00",
+      "allDay": false,
+      "venue": "St Stephen's Toowoomba Uniting Church",
+      "suburb": "Toowoomba City",
+      "address": "St Stephen's Toowoomba Uniting Church, 51 Neil Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music",
+        "faith"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/acdc-vs-inxs-by-candlelight-toowoomba-qld-tickets-2002281515914",
+      "summary": "Join us for an evening celebrating the music of AC/DC and INXS, performed by a live string quartet in an intimate candlelit setting."
+    },
+    {
+      "id": "8af15eaa000425e5",
+      "kind": "event",
+      "title": "ABCDANCE  Halloween Themed Mazes",
+      "start": "2026-10-31T16:00:00+10:00",
+      "end": "2026-10-31T22:00:00+10:00",
+      "allDay": false,
+      "venue": "Oakey State High School",
+      "suburb": "Oakey",
+      "address": "Oakey State High School, 1 Campbell Street, Oakey, QLD, 4401",
+      "price": "Paid",
+      "ageGroups": [
+        "teens",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/abcdance-halloween-themed-mazes-tickets-1992400771341",
+      "summary": "Three mazes. Three levels of scares.  Family-friendly fun to full-blown horror. How brave are you?  Dare to enter!"
+    },
+    {
+      "id": "c73329f90005d866",
+      "kind": "event",
+      "title": "Feelings In Focus: Creating Your Emotional Toolkit",
+      "start": "2026-11-02T10:00:00+10:00",
+      "end": "2026-11-02T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Wellways Toowoomba",
+      "suburb": "East Toowoomba",
+      "address": "Wellways Toowoomba, 15-17 Kitchen St, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/feelings-in-focus-creating-your-emotional-toolkit-tickets-2003585264461",
+      "summary": "Build emotional awareness and practical coping skills through discussion, reflection and mood card creation."
+    },
+    {
+      "id": "0520092c000632f0",
+      "kind": "event",
+      "title": "Goodstart Highfields Twilight Tour",
+      "start": "2026-11-02T18:30:00+10:00",
+      "end": "2026-11-02T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Goodstart Early Learning Highfields",
+      "suburb": "Highfields",
+      "address": "Goodstart Early Learning Highfields, 7 Gladswood Drive, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/goodstart-highfields-twilight-tour-tickets-2003488859110",
+      "summary": "Discover the Difference During Twilight"
+    },
+    {
+      "id": "b2f025b1000ea9a6",
+      "kind": "event",
+      "title": "TOOWOOMBA Supercharge Your Student Supervision Skills - Full Day Workshop",
+      "start": "2026-11-03T08:30:00+10:00",
+      "end": "2026-11-03T16:30:00+10:00",
+      "allDay": false,
+      "venue": "Southern Queensland Rural Health Toowoomba (SQRH)",
+      "suburb": "Toowoomba",
+      "address": "Southern Queensland Rural Health Toowoomba (SQRH), Baillie Henderson Hospital Campus, Building 24, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-supercharge-your-student-supervision-skills-full-day-workshop-tickets-1992334426903",
+      "summary": "Supercharge Your Supervision Skills Workshop is for supervisors new to student supervision or wanting to refresh their skills"
+    },
+    {
+      "id": "4d7c4e8b000bbb30",
+      "kind": "event",
+      "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
+      "start": "2026-11-03T10:00:00+10:00",
+      "end": "2026-11-03T11:00:00+10:00",
+      "allDay": false,
+      "venue": "1a Birch Court Park, Darling Heights",
+      "suburb": "",
+      "address": "1a Birch Court Park, Darling Heights",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. 1a Birch Court Park, Darling Heights: 3 November, and 1 December, 10am - 11am"
+    },
+    {
+      "id": "4670b22c0004a4e4",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2026-11-03T10:00:00+10:00",
+      "end": "2026-11-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "69cd73d50004f059",
+      "kind": "event",
+      "title": "Melbourne Cup @ Tatts Hotel | Food & Beverage Package",
+      "start": "2026-11-03T11:00:00+10:00",
+      "end": "2026-11-03T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Tatts Hotel",
+      "suburb": "Toowoomba City",
+      "address": "Tatts Hotel, 180 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/melbourne-cup-tatts-hotel-food-beverage-package-tickets-2002766353075",
+      "summary": "Melbourne Cup live at Tatts, Tuesday 3 November! $55 for 3 courses + one drink."
+    },
+    {
+      "id": "f61be1ab0003d0af",
+      "kind": "event",
+      "title": "Line Dancing: Fortnightly Boot Scootin'",
+      "start": "2026-11-03T18:00:00+10:00",
+      "end": "2026-11-03T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Aberfeldy Barn",
+      "suburb": "Toowoomba",
+      "address": "Aberfeldy Barn, 126 Macaulay Street, Westbrook, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
+      "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
+    },
+    {
+      "id": "f2d0967a0007ad18",
+      "kind": "event",
+      "title": "Bx Networking Pittsworth Breakfast  - Business Networking in Pittsworth",
+      "start": "2026-11-04T08:00:00+10:00",
+      "end": "2026-11-04T10:00:00+10:00",
+      "allDay": false,
+      "venue": "59 Yandilla St",
+      "suburb": "Pittsworth",
+      "address": "59 Yandilla St, 59 Yandilla Street, Pittsworth, QLD, 4356",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-pittsworth-breakfast-business-networking-in-pittsworth-tickets-1997930860988",
+      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
+    },
+    {
+      "id": "4ca4c4060003689d",
+      "kind": "event",
+      "title": "Read + Play — Millmerran Library",
+      "start": "2026-11-04T10:00:00+10:00",
+      "end": "2026-11-04T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Millmerran Library",
+      "suburb": "",
+      "address": "Millmerran Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Millmerran Library: Millmerran Library: Wednesday 21 October, 4 November, 18 November, and 2 December, 10 - 10.30am"
+    },
+    {
+      "id": "6658e92e00047e2f",
+      "kind": "event",
+      "title": "Liven Carabella Information Session",
+      "start": "2026-11-04T10:30:00+10:00",
+      "end": "2026-11-04T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Sports Club",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba Sports Club, 360 Ruthven Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "markets"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/liven-carabella-information-session-tickets-2003489730717",
+      "summary": "Join us for a morning of local market insights, expert perspectives and the latest from Liven Carabella."
+    },
+    {
+      "id": "78ad52cd00087f32",
+      "kind": "event",
+      "title": "BxNetworking Highfields - Business Networking Reimagined in Queensland",
+      "start": "2026-11-05T08:00:00+10:00",
+      "end": "2026-11-05T10:00:00+10:00",
+      "allDay": false,
+      "venue": "Savour This Eatery",
+      "suburb": "Highfields",
+      "address": "Savour This Eatery, 10522 New England Highway, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/bxnetworking-highfields-business-networking-reimagined-in-queensland-tickets-1984605499473",
+      "summary": "Unlock the power of word-of-mouth marketing and get hundreds of quality referrals flowing into your business"
+    },
+    {
+      "id": "d597f538000dd9b3",
+      "kind": "event",
+      "title": "TOOWOOMBA Master Your Supervision Skills Workshop - Full Day Workshop",
+      "start": "2026-11-05T08:30:00+10:00",
+      "end": "2026-11-05T16:30:00+10:00",
+      "allDay": false,
+      "venue": "Southern Queensland Rural Health Toowoomba (SQRH)",
+      "suburb": "Toowoomba",
+      "address": "Southern Queensland Rural Health Toowoomba (SQRH), Baillie Henderson Hospital Campus, Building 24, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-master-your-supervision-skills-workshop-full-day-workshop-tickets-1992335060799",
+      "summary": "Master Your Supervision Skills Workshop has been developed for experienced supervisors."
+    },
+    {
+      "id": "68459d69000a1a7b",
+      "kind": "event",
+      "title": "Queensland Regional Disability Conference 2026 - Toowoomba",
+      "start": "2026-11-05T09:30:00+10:00",
+      "end": "2026-11-05T16:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Hall - The Annex, Auditorium ",
+      "suburb": "Toowoomba City",
+      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/queensland-disability-conference-2026-toowoomba"
+    },
+    {
+      "id": "bef79f8b0002cad4",
+      "kind": "event",
+      "title": "Read + Play — Clifton Library",
+      "start": "2026-11-05T10:00:00+10:00",
+      "end": "2026-11-05T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifton Library",
+      "suburb": "",
+      "address": "Clifton Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "7fd476910003b57f",
+      "kind": "event",
+      "title": "Windy Acres Beekeeping Workshop",
+      "start": "2026-11-05T10:00:00+10:00",
+      "end": "2026-11-05T13:00:00+10:00",
+      "allDay": false,
+      "venue": "Goombungee Library",
+      "suburb": "Goombungee",
+      "address": "Goombungee Library, 89 Mocatta Street, Goombungee, QLD, 4354",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/windy-acres-beekeeping-workshop-tickets-2003324702112",
+      "summary": "Curious about beekeeping? This introductory workshop is ideal for new and aspiring beekeepers."
+    },
+    {
+      "id": "c9e9cb9800063c02",
+      "kind": "event",
+      "title": "• QLD 2 Carers; The Mindful Stitching Project (Toowoomba)",
+      "start": "2026-11-05T12:00:00+10:00",
+      "end": "2026-11-05T13:30:00+10:00",
+      "allDay": false,
+      "venue": "Wellways Toowoomba",
+      "suburb": "East Toowoomba",
+      "address": "Wellways Toowoomba, 15-17 Kitchen St, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/qld-2-carers-the-mindful-stitching-project-toowoomba-tickets-2002980892769",
+      "summary": "Create your own stitching square and help form a collaborative piece celebrating our caring community"
+    },
+    {
+      "id": "fa84ee2100049568",
+      "kind": "event",
+      "title": "Common Good Convention - Toowoomba",
+      "start": "2026-11-05T18:00:00+10:00",
+      "end": "2026-11-05T20:30:00+10:00",
+      "allDay": false,
+      "venue": "To be announced, Toowoomba",
+      "suburb": "",
+      "address": "Toowoomba",
+      "price": "Free–$25",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/common-good-convention-toowoomba"
+    },
+    {
+      "id": "79b0bb270007735a",
+      "kind": "event",
+      "title": "Master Builders BUSSQ Downs & Western Golf Day",
+      "start": "2026-11-06T07:00:00+10:00",
+      "end": "2026-11-06T15:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Golf Club Middle Ridge",
+      "suburb": "Middle Ridge",
+      "address": "Toowoomba Golf Club Middle Ridge, 235-323 Rowbotham Street, Middle Ridge, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/master-builders-bussq-downs-western-golf-day-tickets-1999348015736",
+      "summary": "A friendly mix of competition and networking, while enjoying a fun day on the green with members and industry players."
+    },
+    {
+      "id": "5484239b000401af",
+      "kind": "event",
+      "title": "DROP IN | Bikkies and Boardgames",
+      "start": "2026-11-06T10:00:00+10:00",
+      "end": "2026-11-06T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-bikkies-and-boardgames-tickets-2000918404812",
+      "summary": "Looking for a way to give your brain a workout and meet new people over a cuppa and bit of friendly competition?"
+    },
+    {
+      "id": "237cd2300003bbed",
+      "kind": "event",
+      "title": "Read + Play — Cecil Plains Library",
+      "start": "2026-11-06T10:00:00+10:00",
+      "end": "2026-11-06T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Cecil Plains Library",
+      "suburb": "",
+      "address": "Cecil Plains Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
+    },
+    {
+      "id": "a0afaa580005218d",
+      "kind": "event",
+      "title": "Talk, Read, Sing, Play in the Community — Harlaxton Hub",
+      "start": "2026-11-06T10:00:00+10:00",
+      "end": "2026-11-06T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton Hub",
+      "suburb": "",
+      "address": "Harlaxton Hub",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
+    },
+    {
+      "id": "dafc3d5d000702a6",
+      "kind": "event",
+      "title": "Adnate, Wizard Eyes, Light Eater, Lavender Threat -Irish Club, Toowoomba - $20",
+      "start": "2026-11-06T19:00:00+10:00",
+      "end": "2026-11-06T23:30:00+10:00",
+      "allDay": false,
+      "venue": "The Irish",
+      "suburb": "Toowoomba City",
+      "address": "80 Russell St, Toowoomba City QLD 4350, Australia",
+      "price": "$20",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/adnate-presents-mountainsofdoom"
+    },
+    {
+      "id": "6c177eee000206e8",
+      "kind": "event",
+      "title": "✨ JASHAN-E DIWALI 2.0 ✨",
+      "start": "2026-11-06T21:00:00+10:00",
+      "end": "2026-11-07T03:00:00+10:00",
+      "allDay": false,
+      "venue": "The Cube Hotel",
+      "suburb": "Toowoomba City",
+      "address": "The Cube Hotel, 169 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "indian"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/jashan-e-diwali-20-tickets-2003544921795",
+      "summary": "TOOWOOMBA, THE WAIT IS OVER! \n\nWE’RE BACK — BIGGER, BOLDER & BETTER! \n\n✨ JASHAN-E DIWALI 2.0 ✨\n The Ultimate Diwali Club Takeover"
+    },
+    {
+      "id": "f1513649000942d6",
+      "kind": "event",
+      "title": "Baby Bunting Toowoomba: Grand Reopening Celebration Weekend | Free Event",
+      "start": "2026-11-07T09:00:00+10:00",
+      "end": "2026-11-08T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Baby Bunting Toowoomba",
+      "suburb": "Harristown",
+      "address": "Baby Bunting Toowoomba, 16 Hyde Court, Harristown, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/baby-bunting-toowoomba-grand-reopening-celebration-weekend-free-event-tickets-2003044602326",
+      "summary": "Celebrate with us! Shop our Cyber Sale, meet the experts, over $13.4K in Prizes & Gifts, free coffee & face painting!"
+    },
+    {
+      "id": "4e4a24380003e187",
+      "kind": "event",
+      "title": "Nationally Accredited  First Aid Training",
+      "start": "2026-11-07T09:00:00+10:00",
+      "end": "2026-11-07T12:00:00+10:00",
+      "allDay": false,
+      "venue": "2 Lawrence St",
+      "suburb": "South Toowoomba",
+      "address": "2 Lawrence St, 2 Lawrence Street, South Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/nationally-accredited-first-aid-training-tickets-1967850716466",
+      "summary": "CPR | First Aid | Education and Care | Asthma and Anaphylaxis"
+    },
+    {
+      "id": "276b61f200032210",
+      "kind": "event",
+      "title": "Fun Factory: Paper Zoo",
+      "start": "2026-11-07T10:30:00+10:00",
+      "end": "2026-11-07T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/fun-factory-paper-zoo-tickets-2001984006054",
+      "summary": "Let your imagination run wild!"
+    },
+    {
+      "id": "ddb4dbb90004a26d",
+      "kind": "event",
+      "title": "Mime Show & Workshop with James Kerwin",
+      "start": "2026-11-07T10:30:00+10:00",
+      "end": "2026-11-07T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Highfields Library",
+      "suburb": "Highfields",
+      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/mime-show-workshop-with-james-kerwin-tickets-2002678353867",
+      "summary": "Get ready to learn the art of silent storytelling and have a blast with James Kerwin’s show and mime workshop!"
+    },
+    {
+      "id": "2c56c94f0009fef0",
+      "kind": "event",
+      "title": "$5* Bowls & Burgers! South Seoul Toowoomba @ Northpoint Shopping Centre.",
+      "start": "2026-11-07T11:00:00+10:00",
+      "end": "2026-11-07T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Northpoint Shopping Centre",
+      "suburb": "Toowoomba City",
+      "address": "Northpoint Shopping Centre, Jones Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/5-bowls-burgers-south-seoul-toowoomba-northpoint-shopping-centre-tickets-2003583514226",
+      "summary": "We're opening our doors for the Grand Opening of South Seoul Toowoomba and we want you there with us! $5* Bowls & Burgers. Be there!"
+    },
+    {
+      "id": "0698382400034a6c",
+      "kind": "event",
+      "title": "Dance your way to peace",
+      "start": "2026-11-07T12:00:00+10:00",
+      "end": "2026-11-07T13:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/dance-your-way-to-peace-tickets-2001809021671",
+      "summary": "Toowoomba City Library, Level 3, Meeting Room 1: An hour of slow dancing that settles into deep relaxation. Only 5 Seats"
+    },
+    {
+      "id": "b6e8ffea000466ca",
+      "kind": "event",
+      "title": "Games on the Green & Good  Company",
+      "start": "2026-11-07T16:00:00+10:00",
+      "end": "2026-11-07T18:30:00+10:00",
+      "allDay": false,
+      "venue": "Queens Park Toowoomba",
+      "suburb": "East Toowoomba",
+      "address": "Queens Park Toowoomba, 43-73 Lindsay Street, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/games-on-the-green-good-company-tickets-1999382950226",
+      "summary": "Rugs, bocce and good company,  a laid back lawn games picnic for grown ups who'd rather make new friends than make small talk."
+    },
+    {
+      "id": "791357f10004bd9f",
+      "kind": "event",
+      "title": "TGW and Smithy Bring the Big Fights 44",
+      "start": "2026-11-07T16:00:00+10:00",
+      "end": "2026-11-07T23:00:00+10:00",
+      "allDay": false,
+      "venue": "Rumours International",
+      "suburb": "Toowoomba City",
+      "address": "Rumours International, 323 Ruthven Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/tgw-and-smithy-bring-the-big-fights-44-tickets-2001269784799",
+      "summary": "TGW  & Smithy's Promotions presents THE BIG FIGHTS 44 featuring local favourite Stoneleigh Jackson and a stacked undercard!"
+    },
+    {
+      "id": "5258c8c700089372",
+      "kind": "event",
+      "title": "Monster Truck Mayhem Thrill & Stunt Show Toowoomba Showgrounds",
+      "start": "2026-11-07T17:00:00+10:00",
+      "end": "2026-11-07T19:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "Toowoomba Showgrounds, Frank Thomas Avenue, Glenvale, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/monster-truck-mayhem-thrill-stunt-show-toowoomba-showgrounds-tickets-1994261112672",
+      "summary": "Monster Truck Mayhem Thrill & Stunt Show roars into Toowoomba Showgrounds on 7 November 2026. Family thrills, stunts & fireworks!"
+    },
+    {
+      "id": "029f06040005b3a5",
+      "kind": "event",
+      "title": "Key Word Sign Workshop for Parents - Toowoomba",
+      "start": "2026-11-09T16:00:00+10:00",
+      "end": "2026-11-09T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/key-word-sign-workshop-for-parents-toowoomba"
+    },
+    {
+      "id": "a791b6ab0005cb15",
+      "kind": "event",
+      "title": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026",
+      "start": "2026-11-10T07:00:00+10:00",
+      "end": "2026-11-10T09:00:00+10:00",
+      "allDay": false,
+      "venue": "Oaks Hotel",
+      "suburb": "Toowoomba",
+      "address": "Oaks Hotel, Annand Street, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/qld-major-projects-pipeline-report-toowoomba-10-november-2026-tickets-1994392174682",
+      "summary": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026"
+    },
+    {
+      "id": "0b70834e00023a22",
+      "kind": "event",
+      "title": "UniSQ Library Book Club",
+      "start": "2026-11-10T13:00:00+10:00",
+      "end": "2026-11-10T14:00:00+10:00",
+      "allDay": false,
+      "venue": "USQ Library",
+      "suburb": "Darling Heights",
+      "address": "USQ Library, Room R104, Darling Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/unisq-library-book-club-tickets-1982853324671",
+      "summary": "Come along and talk about the latest books you've read.  Read to the monthly theme for inspiration or bring your latest reads instead!"
+    },
+    {
+      "id": "5c30384b000571d8",
+      "kind": "event",
+      "title": "Key Word Sign Workshop for Educators - Toowoomba",
+      "start": "2026-11-10T15:30:00+10:00",
+      "end": "2026-11-10T17:30:00+10:00",
+      "allDay": false,
+      "venue": "St Anthony's School",
+      "suburb": "Harristown",
+      "address": "9 Memory St, Harristown QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/key-word-sign-workshop-for-educators-toowoomba"
+    },
+    {
+      "id": "7b6fe0b9000da0f6",
+      "kind": "event",
+      "title": "First Aid for Educators - IN SERVICE ONLY - The Funberry Kids Childcare",
+      "start": "2026-11-10T16:00:00+10:00",
+      "end": "2026-11-10T19:00:00+10:00",
+      "allDay": false,
+      "venue": "Kath Dickson Education and Care Centre - Toowoomba Central",
+      "suburb": "Toowoomba City",
+      "address": "Kath Dickson Education and Care Centre - Toowoomba Central, 5 Jennings Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "kids",
+        "adults",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/first-aid-for-educators-in-service-only-the-funberry-kids-childcare-tickets-1997396927980",
+      "summary": "Learn the skills and knowledge to respond to a range of emergency situations in an early childhood setting."
+    },
+    {
+      "id": "ca8db1240007797e",
+      "kind": "event",
+      "title": "Talk, Read, Sing, Play in the Community — Newtown Community Hub",
+      "start": "2026-11-12T09:30:00+10:00",
+      "end": "2026-11-12T10:00:00+10:00",
+      "allDay": false,
+      "venue": "Newtown Community Hub",
+      "suburb": "",
+      "address": "Newtown Community Hub",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Newtown Community Hub: Thursday 12 November, 9.30am - 10am"
+    },
+    {
+      "id": "7c8520290004882a",
+      "kind": "event",
+      "title": "Rural and Regional Practice Management Essentials",
+      "start": "2026-11-12T17:00:00+10:00",
+      "end": "2026-11-12T19:00:00+10:00",
+      "allDay": false,
+      "venue": "190 Hume St",
+      "suburb": "Toowoomba City",
+      "address": "190 Hume St, 190 Hume Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/rural-and-regional-practice-management-essentials-tickets-1980044503411",
+      "summary": "Take the next step in your practice management career with Rural and Regional Practice Management Essentials."
+    },
+    {
+      "id": "02ef23a800064338",
+      "kind": "event",
+      "title": "Welcoming Australia Summit Series, Toowoomba",
+      "start": "2026-11-13T09:30:00+10:00",
+      "end": "2026-11-13T16:00:00+10:00",
+      "allDay": false,
+      "venue": "The Annex, City Hall Building",
+      "suburb": "Toowoomba City",
+      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/welcoming-australia-summit-series-toowoomba"
+    },
+    {
+      "id": "9f7ba18e00026ffe",
+      "kind": "event",
+      "title": "Powerpoint Party",
+      "start": "2026-11-13T17:00:00+10:00",
+      "end": "2026-11-13T19:30:00+10:00",
+      "allDay": false,
+      "venue": "New Leaf Social Work",
+      "suburb": "Toowoomba City",
+      "address": "New Leaf Social Work, 158 Margaret St, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/powerpoint-party-tickets-2003692877334",
+      "summary": "Join us for a good ol' wholesome powerpoint night/show & tell. Listen, learn, or do an interpretive dance - it's up to you."
+    },
+    {
+      "id": "ac6b81070006963b",
+      "kind": "event",
+      "title": "Love without pain (Workshop) Toowoomba - 14 November 2026",
+      "start": "2026-11-14T10:00:00+10:00",
+      "end": "2026-11-14T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$65",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
+    },
+    {
+      "id": "0b2f6961000627ed",
+      "kind": "event",
+      "title": "DROP IN | Knit, Hook & Sew @ Toowoomba City Library",
+      "start": "2026-11-16T10:30:00+10:00",
+      "end": "2026-11-16T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-knit-hook-sew-toowoomba-city-library-tickets-1998512614027",
+      "summary": "Bring your yarn, hooks, and needles for a morning of knitting, crocheting, and sewing with fellow craft lovers."
+    },
+    {
+      "id": "81ceba30000a6d07",
+      "kind": "event",
+      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
+      "start": "2026-11-16T18:30:00+10:00",
+      "end": "2026-11-16T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$30",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways"
+    },
+    {
+      "id": "6469aac80002fec3",
+      "kind": "event",
+      "title": "Read + Play — Yarraman Library",
+      "start": "2026-11-17T10:15:00+10:00",
+      "end": "2026-11-17T10:45:00+10:00",
+      "allDay": false,
+      "venue": "Yarraman Library",
+      "suburb": "",
+      "address": "Yarraman Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
+    },
+    {
+      "id": "629c9b3700049617",
+      "kind": "event",
+      "title": "Future of Women in Business - Toowoomba",
+      "start": "2026-11-17T12:00:00+10:00",
+      "end": "2026-11-17T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Burke & Wills Hotel",
+      "suburb": "Toowoomba City",
+      "address": "554 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "$39–$140",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/future-of-women-in-business-toowoomba"
+    },
+    {
+      "id": "a59a83310003697d",
+      "kind": "event",
+      "title": "Read + Play — Millmerran Library",
+      "start": "2026-11-18T10:00:00+10:00",
+      "end": "2026-11-18T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Millmerran Library",
+      "suburb": "",
+      "address": "Millmerran Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Millmerran Library: Millmerran Library: Wednesday 21 October, 4 November, 18 November, and 2 December, 10 - 10.30am"
+    },
+    {
+      "id": "dbaad65f0004d2e0",
+      "kind": "event",
+      "title": "A Fireside Chat with Lachlan Stuart",
+      "start": "2026-11-18T17:30:00+10:00",
+      "end": "2026-11-18T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifford House, Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Clifford House, Toowoomba, 120 Russell Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/a-fireside-chat-with-lachlan-stuart-tickets-2003096120418",
+      "summary": "Hear Lachlan Stuart's story of 58 marathons in 58 days, and his lessons on resilience, purpose and pushing past self-doubt. And what's next"
+    },
+    {
+      "id": "250911600006bce8",
+      "kind": "event",
+      "title": "Australian citizenship ceremony",
+      "start": "2026-11-19T10:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "The Annex, 541 Ruthven Street Toowoomba City",
+      "suburb": "Toowoomba City",
+      "address": "The Annex, 541 Ruthven Street Toowoomba City",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "council",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
+      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Thursday, 19 November 2026 - 10am and 2pm"
+    },
+    {
+      "id": "fbd5245e0002cba5",
+      "kind": "event",
+      "title": "Read + Play — Clifton Library",
+      "start": "2026-11-19T10:00:00+10:00",
+      "end": "2026-11-19T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifton Library",
+      "suburb": "",
+      "address": "Clifton Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "3066a8740006bdb4",
+      "kind": "event",
+      "title": "Australian citizenship ceremony",
+      "start": "2026-11-19T14:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "The Annex, 541 Ruthven Street Toowoomba City",
+      "suburb": "Toowoomba City",
+      "address": "The Annex, 541 Ruthven Street Toowoomba City",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "council",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
+      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Thursday, 19 November 2026 - 10am and 2pm"
+    },
+    {
+      "id": "fea569a80005f49b",
+      "kind": "event",
+      "title": "UniSQ National Agriculture Day 2026",
+      "start": "2026-11-20T09:00:00+10:00",
+      "end": "2026-11-20T14:30:00+10:00",
+      "allDay": false,
+      "venue": "University of Southern Queensland",
+      "suburb": "Darling Heights",
+      "address": "University of Southern Queensland, 487-535 West Street, Darling Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/unisq-national-agriculture-day-2026-tickets-2003639000186",
+      "summary": "Celebrate National Ag Day with UniSQ. Explore research, innovation and the people shaping the future of Australian agriculture."
+    },
+    {
+      "id": "2ab5b489000504d5",
+      "kind": "event",
+      "title": "Meet, Make, and Do @ Toowoomba City Library",
+      "start": "2026-11-20T10:00:00+10:00",
+      "end": "2026-11-20T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/meet-make-and-do-toowoomba-city-library-tickets-1998469552228",
+      "summary": "Get creative and bind your own notebook."
+    },
+    {
+      "id": "fa3a0c940003bb2f",
+      "kind": "event",
+      "title": "Read + Play — Cecil Plains Library",
+      "start": "2026-11-20T10:00:00+10:00",
+      "end": "2026-11-20T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Cecil Plains Library",
+      "suburb": "",
+      "address": "Cecil Plains Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
+    },
+    {
+      "id": "fafe849c00061782",
+      "kind": "event",
+      "title": "Reading Journal Workshop @ Toowoomba City Library",
+      "start": "2026-11-21T10:30:00+10:00",
+      "end": "2026-11-21T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/reading-journal-workshop-toowoomba-city-library-tickets-1999969836619",
+      "summary": "Reading and Writing: How Keeping a Reading Journal Can Enhance Your Reading Life"
+    },
+    {
+      "id": "e008d1a10006d732",
+      "kind": "event",
+      "title": "Toowoomba’s Endless Edit - Sunday 22nd NOVEMBER, 2026",
+      "start": "2026-11-22T08:00:00+10:00",
+      "end": "2026-11-22T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Indoor Bowls Hall",
+      "suburb": "Toowoomba City",
+      "address": "10 Annand St, Toowoomba City QLD 4350, Australia",
+      "price": "$10–$70",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-s-endless-edit-sunday-22nd-november-2026"
+    },
+    {
+      "id": "5f506f510003c9bb",
+      "kind": "event",
+      "title": "Deluxe Floral Cupcake Class (Toowoomba)",
+      "start": "2026-11-22T10:00:00+10:00",
+      "end": "2026-11-22T13:00:00+10:00",
+      "allDay": false,
+      "venue": "10 Tristania St",
+      "suburb": "Drayton",
+      "address": "10 Tristania St, 10 Tristania Street, Drayton, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/deluxe-floral-cupcake-class-toowoomba-tickets-2002315195651",
+      "summary": "Join us for a fun Floral Buttercream Masterclass suitable for all levels."
+    },
+    {
+      "id": "4756c8f900028d90",
+      "kind": "event",
+      "title": "Sound Meditation - Pittsworth",
+      "start": "2026-11-22T17:00:00+10:00",
+      "end": "2026-11-22T18:00:00+10:00",
+      "allDay": false,
+      "venue": "13 Briggs St",
+      "suburb": "Pittsworth",
+      "address": "13 Briggs St, 13 Briggs Street, Pittsworth, QLD, 4356",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/sound-meditation-pittsworth-registration-2002909070948",
+      "summary": "A deeply grounding meditation and sound harmony experience to slow your nervous system, reset your energy and come home to yourself."
+    },
+    {
+      "id": "dfeaa5f3000377f9",
+      "kind": "event",
+      "title": "2026 QLD Roadshow - Toowoomba",
+      "start": "2026-11-25T09:00:00+10:00",
+      "end": "2026-11-25T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Oaks Toowoomba Hotel",
+      "suburb": "Toowoomba City",
+      "address": "25 Annand St, Toowoomba City QLD 4350, Australia",
+      "price": "$30–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/2026-qld-roadshow-toowoomba"
+    },
+    {
+      "id": "b71900d90006bace",
+      "kind": "event",
+      "title": "2026 SCOTS PGC College Foundation Toowoomba Luncheon",
+      "start": "2026-11-25T11:30:00+10:00",
+      "end": "2026-11-25T15:00:00+10:00",
+      "allDay": false,
+      "venue": "Picnic Point Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "164 Tourist Rd, Toowoomba City QLD 4350, Australia",
+      "price": "$35",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/2026-scots-pgc-college-foundation-toowoomba-luncheon"
+    },
+    {
+      "id": "11d337440005952c",
+      "kind": "event",
+      "title": "Stronger Together: NDIS Roundtable – Toowoomba",
+      "start": "2026-11-26T10:00:00+10:00",
+      "end": "2026-11-26T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/stronger-together-ndis-roundtable-toowoomba-tickets-2002409964106",
+      "summary": "An ongoing series created for NDIS stakeholders, Aruma is collaborating with NDIS providers to give industry and organisational updates."
+    },
+    {
+      "id": "e98d3a7a00054acc",
+      "kind": "event",
+      "title": "Contiki Summer Series: Toowoomba, QLD",
+      "start": "2026-11-26T18:00:00+10:00",
+      "end": "2026-11-26T21:00:00+10:00",
+      "allDay": false,
+      "venue": "BCC Cinemas Toowoomba Strand",
+      "suburb": "Toowoomba City",
+      "address": "BCC Cinemas Toowoomba Strand, 163 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/contiki-summer-series-toowoomba-qld-tickets-2001156499961",
+      "summary": "VIP Access to Contiki’s best deals of the year with exclusive event-only offers, $0 deposits, and your chance to win a free trip."
+    },
+    {
+      "id": "d1f7b94a0005491b",
+      "kind": "event",
+      "title": "Mickey Wilson - How Ya Goin? | Toowoomba Stand Up Comedy Show",
+      "start": "2026-11-27T19:30:00+10:00",
+      "end": "2026-11-27T20:30:00+10:00",
+      "allDay": false,
+      "venue": "The Irish",
+      "suburb": "Toowoomba City",
+      "address": "The Irish, 80 Russell Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "young-adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/mickey-wilson-how-ya-goin-toowoomba-stand-up-comedy-show-tickets-2003333011967",
+      "summary": "Dave Hughes calls him a rising star. 50M+ views, lightning wit, zero filter: an hour of fast, filthy laughs. One night only. 18+"
+    },
+    {
+      "id": "5eebb124000ece1d",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-friendly Motor Vehicle Show & Shine and Community Cruise Registration",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$20",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
+      "id": "3ea7d9c700022b1f",
+      "kind": "event",
+      "title": "Rnb 90s - 2000s Before Dark",
+      "start": "2026-11-28T16:00:00+10:00",
+      "end": "2026-11-28T21:00:00+10:00",
+      "allDay": false,
+      "venue": "Cube Hotel",
+      "suburb": "Toowoomba",
+      "address": "Cube Hotel, 169 Margaret Street, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/rnb-90s-2000s-before-dark-tickets-2002506823816",
+      "summary": "Get ready to vibe to the smoothest RnB jams from the 90s and 2000s before the sun goes down."
+    },
+    {
+      "id": "7018879c0006bc6a",
+      "kind": "event",
+      "title": "Gong Sound Experience Toowoomba – Live Gong Meditation & Chai",
+      "start": "2026-11-28T18:30:00+10:00",
+      "end": "2026-11-28T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "Toowoomba",
+      "address": "Groom Park Hall, 104C Neil Street, Toowoomba, QLD",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/gong-sound-experience-toowoomba-live-gong-meditation-chai-tickets-2002980452452",
+      "summary": "Lie down and listen to live gongs at Groom Park Hall, Toowoomba. A guided gong sound meditation with chai after. No experience needed."
+    },
+    {
+      "id": "4482d12c0005c927",
+      "kind": "event",
+      "title": "Live & Local @ The Powerhouse ! November 28th!",
+      "start": "2026-11-28T18:30:00+10:00",
+      "end": "2026-11-28T22:00:00+10:00",
+      "allDay": false,
+      "venue": "The Powerhouse Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Powerhouse, 20-26 Neil St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
+    },
+    {
+      "id": "0baaa332000bbad4",
+      "kind": "event",
+      "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
+      "start": "2026-12-01T10:00:00+10:00",
+      "end": "2026-12-01T11:00:00+10:00",
+      "allDay": false,
+      "venue": "1a Birch Court Park, Darling Heights",
+      "suburb": "",
+      "address": "1a Birch Court Park, Darling Heights",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. 1a Birch Court Park, Darling Heights: 3 November, and 1 December, 10am - 11am"
+    },
+    {
+      "id": "985260070004a4af",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2026-12-01T10:00:00+10:00",
+      "end": "2026-12-01T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "c77491650003686d",
+      "kind": "event",
+      "title": "Read + Play — Millmerran Library",
+      "start": "2026-12-02T10:00:00+10:00",
+      "end": "2026-12-02T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Millmerran Library",
+      "suburb": "",
+      "address": "Millmerran Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Millmerran Library: Millmerran Library: Wednesday 21 October, 4 November, 18 November, and 2 December, 10 - 10.30am"
+    },
+    {
+      "id": "0a1f42920002caa7",
+      "kind": "event",
+      "title": "Read + Play — Clifton Library",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifton Library",
+      "suburb": "",
+      "address": "Clifton Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "4ee52dd70003bbbb",
+      "kind": "event",
+      "title": "Read + Play — Cecil Plains Library",
+      "start": "2026-12-04T10:00:00+10:00",
+      "end": "2026-12-04T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Cecil Plains Library",
+      "suburb": "",
+      "address": "Cecil Plains Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
+    },
+    {
+      "id": "bd23f6e900052147",
+      "kind": "event",
+      "title": "Talk, Read, Sing, Play in the Community — Harlaxton Hub",
+      "start": "2026-12-04T10:00:00+10:00",
+      "end": "2026-12-04T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton Hub",
+      "suburb": "",
+      "address": "Harlaxton Hub",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
+    },
+    {
+      "id": "b3402e5200049db4",
+      "kind": "event",
+      "title": "Sparks Fly Singles Only Bowling - Toowoomba",
+      "start": "2026-12-04T18:30:00+10:00",
+      "end": "2026-12-04T21:00:00+10:00",
+      "allDay": false,
+      "venue": "Sunset Superbowl",
+      "suburb": "Glenvale",
+      "address": "Sunset Superbowl, 527 South Street, Glenvale, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/sparks-fly-singles-only-bowling-toowoomba-tickets-2003439200580",
+      "summary": "Join us for a night of fun for SINGLES ONLY bowling at Sunset Bowling, Toowoomba"
+    },
+    {
+      "id": "62ba59390004c5fe",
+      "kind": "event",
+      "title": "toowoomba queer social ★ 18+ prom night",
+      "start": "2026-12-05T17:00:00+10:00",
+      "end": "2026-12-05T23:00:00+10:00",
+      "allDay": false,
+      "venue": "Greek Hall @ 240 Hume Street",
+      "suburb": "South Toowoomba",
+      "address": "240 Hume St, South Toowoomba QLD 4350, Australia",
+      "price": "Free–$30",
+      "ageGroups": [
+        "young-adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-queer-social-18-prom-night"
+    },
+    {
+      "id": "01a18b42000431ce",
+      "kind": "event",
+      "title": "Fa La La La Flaws: An Ugly Christmas Shirt Mingle",
+      "start": "2026-12-05T18:30:00+10:00",
+      "end": "2026-12-05T22:00:00+10:00",
+      "allDay": false,
+      "venue": "The Rock",
+      "suburb": "Toowoomba City",
+      "address": "The Rock, 526 Ruthven Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/fa-la-la-la-flaws-an-ugly-christmas-shirt-mingle-tickets-2002292824739",
+      "summary": "Rock your ugliest Christmas shirt and jingle all night at the fun and festive Fa La La La Flaws mingle!"
+    },
+    {
+      "id": "2709ebba00051025",
+      "kind": "event",
+      "title": "Liam Higgins - Love Is A Language Tour - Toowoomba",
+      "start": "2026-12-05T19:00:00+10:00",
+      "end": "2026-12-05T23:00:00+10:00",
+      "allDay": false,
+      "venue": "Volcanic Brewing",
+      "suburb": "Toowoomba City",
+      "address": "2/161 James St, Toowoomba City QLD 4350, Australia",
+      "price": "$25",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
+    },
+    {
+      "id": "bfa9ec3e0007b598",
+      "kind": "event",
+      "title": "Turkish Coffee & Ceramic Painting Workshop - Toowoomba",
+      "start": "2026-12-12T09:00:00+10:00",
+      "end": "2026-12-12T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Middle Ridge Uniting Church",
+      "suburb": "Centenary Heights",
+      "address": "Middle Ridge Uniting Church, 264 Stenner Street, Centenary Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/turkish-coffee-ceramic-painting-workshop-toowoomba-tickets-2003757037238",
+      "summary": "Brew Turkish coffee in hot sand, enjoy Turkish delight & baklava and a fun fortune reading. Add mug painting to take home.",
+      "alsoFrom": [
+        "humanitix"
+      ]
+    },
+    {
+      "id": "873240cf00069fdb",
+      "kind": "event",
+      "title": "Christmas of Remembrance Service - Toowoomba",
+      "start": "2026-12-13T14:00:00+10:00",
+      "end": "2026-12-13T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Garden of Remembrance",
+      "suburb": "Kearneys Spring",
+      "address": "1001 Ruthven St, Kearneys Spring QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/christmas-of-remembrance-2026-tw"
+    },
+    {
+      "id": "adfb19ef00041436",
+      "kind": "event",
+      "title": "Mantra Rhythm - Toowoomba",
+      "start": "2026-12-13T16:30:00+10:00",
+      "end": "2026-12-13T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Choral Society Hall",
+      "suburb": "North Toowoomba",
+      "address": "16 Raff St, North Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/mantra-rhythm-toowoomba"
+    },
+    {
+      "id": "582ca8e30002fe95",
+      "kind": "event",
+      "title": "Read + Play — Yarraman Library",
+      "start": "2026-12-15T10:15:00+10:00",
+      "end": "2026-12-15T10:45:00+10:00",
+      "allDay": false,
+      "venue": "Yarraman Library",
+      "suburb": "",
+      "address": "Yarraman Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
+    },
+    {
+      "id": "3ffd7c10000272b1",
+      "kind": "event",
+      "title": "Build a Bot 2 Day Workshop",
+      "start": "2026-12-17T09:00:00+10:00",
+      "end": "2026-12-18T15:00:00+10:00",
+      "allDay": false,
+      "venue": "USQ Library",
+      "suburb": "Darling Heights",
+      "address": "USQ Library, Room R104, Darling Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/build-a-bot-2-day-workshop-tickets-1988886014609",
+      "summary": "Learn to create your own robot with a personality in this hands-on, two day workshop."
+    },
+    {
+      "id": "f10722fb0002cb78",
+      "kind": "event",
+      "title": "Read + Play — Clifton Library",
+      "start": "2026-12-17T10:00:00+10:00",
+      "end": "2026-12-17T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifton Library",
+      "suburb": "",
+      "address": "Clifton Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "9e240d4700048732",
+      "kind": "event",
+      "title": "NYE Charity Casino Night",
+      "start": "2026-12-31T19:00:00+10:00",
+      "end": "2026-12-31T23:30:00+10:00",
+      "allDay": false,
+      "venue": "Rink 46 home of Drayton Bowls Club",
+      "suburb": "Drayton",
+      "address": "Rink 46 home of Drayton Bowls Club, 46 Gipps Street, Drayton, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/nye-charity-casino-night-tickets-1994107920470",
+      "summary": "Bring in 2027 here at Rink 46 - Charity Casino Night raising money for Little Wings. Las Vegas Style!"
+    },
+    {
+      "id": "dc1bffb60004a546",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2027-01-05T10:00:00+10:00",
+      "end": "2027-01-05T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "c0d3c6710002cad1",
+      "kind": "event",
+      "title": "Read + Play — Clifton Library",
+      "start": "2027-01-14T10:00:00+10:00",
+      "end": "2027-01-14T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Clifton Library",
+      "suburb": "",
+      "address": "Clifton Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "72be527e0002ff17",
+      "kind": "event",
+      "title": "Read + Play — Yarraman Library",
+      "start": "2027-01-19T10:15:00+10:00",
+      "end": "2027-01-19T10:45:00+10:00",
+      "allDay": false,
+      "venue": "Yarraman Library",
+      "suburb": "",
+      "address": "Yarraman Library",
+      "price": "See listing",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "library",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
+      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
+    },
+    {
+      "id": "3e2f43a80004a4df",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2027-02-02T10:00:00+10:00",
+      "end": "2027-02-02T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "13af8b51000a1d3d",
+      "kind": "event",
+      "title": "Navigating Grants and Incentives: Unlocking Manufacturing Growth, Toowoomba",
+      "start": "2027-02-03T11:30:00+10:00",
+      "end": "2027-02-03T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "markets",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/navigating-grants-and-incentives-unlocking-manufacturing-growth-toowoomba-tickets-1998175420472",
+      "summary": "Grants and incentives give manufacturers the boost to invest in new technologies, improve efficiency, upskill teams, & explore new markets."
+    },
+    {
+      "id": "27bddf9d00075dc3",
+      "kind": "event",
+      "title": "Your Local Wedding Guide Toowoomba Expo - 7th February 2027",
+      "start": "2027-02-07T10:00:00+10:00",
+      "end": "2027-02-07T14:00:00+10:00",
+      "allDay": false,
+      "venue": "The Goods Shed Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "The Goods Shed Toowoomba, 3 Victoria Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/your-local-wedding-guide-toowoomba-expo-7th-february-2027-tickets-1998337399957",
+      "summary": "Find your dream team, win prizes, plus get inspo & advice at Your Local Wedding Guide Toowoomba Expo - All You Need to Plan Your Wedding."
+    },
+    {
+      "id": "c98f7df90008b9cf",
+      "kind": "event",
+      "title": "ACORN Qld Regional Education Day - Toowoomba",
+      "start": "2027-02-27T08:00:00+10:00",
+      "end": "2027-02-27T15:30:00+10:00",
+      "allDay": false,
+      "venue": "St Vincents Hospital Clinical School, Level 2, 22 Scott Street, Toowoomba",
+      "suburb": "East Toowoomba",
+      "address": "St Vincents Hospital, East Toowoomba QLD 4350, Australia",
+      "price": "$10–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/acorn-qld-regional-education-day-toowoomba"
+    },
+    {
+      "id": "c858876c00080d9d",
+      "kind": "event",
+      "title": "ACORN Qld Regional Education Day 2027 - Toowoomba",
+      "start": "2027-02-27T08:00:00+10:00",
+      "end": "2027-02-27T15:30:00+10:00",
+      "allDay": false,
+      "venue": "St Vincent's Hospital Clinical School ",
+      "suburb": "East Toowoomba",
+      "address": "Level 2, 22 Scott St, East Toowoomba QLD 4350, Australia",
+      "price": "$15–$55",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/acorn-qld-regional-education-day-2027-toowoomba"
+    },
+    {
+      "id": "ef201f9c00062016",
+      "kind": "event",
+      "title": "The Athlete & The Alchemist Breathwork Journey | Toowoomba",
+      "start": "2027-02-28T16:00:00+10:00",
+      "end": "2027-02-28T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Newtown Hall",
+      "suburb": "Newtown",
+      "address": "Newtown Hall, 49 Rome St, Newtown QLD 4350, Australia",
+      "price": "$70–$145",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-athlete-and-the-alchemist-breathwork-journey-or-toowoomba"
+    },
+    {
+      "id": "d3cafdf70004a50e",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2027-03-02T10:00:00+10:00",
+      "end": "2027-03-02T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "885b57f20004a605",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2027-04-06T10:00:00+10:00",
+      "end": "2027-04-06T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "3196246f00029136",
+      "kind": "event",
+      "title": "Open Heavens - Rich in Life!",
+      "start": "2027-05-01T16:00:00+10:00",
+      "end": "2027-05-01T20:30:00+10:00",
+      "allDay": false,
+      "venue": "311 Cooby Dam Rd",
+      "suburb": "Meringandan",
+      "address": "311 Cooby Dam Rd, 311 Cooby Dam Road, Meringandan, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/open-heavens-rich-in-life-tickets-1994917892117",
+      "summary": "*POSTPONED UNTIL MAY 1 2027 DUE TO WEATHER* We're throwing open the gates of a local backyard for an evening of live music under the stars."
+    },
+    {
+      "id": "87de149b0004a5d0",
+      "kind": "event",
+      "title": "Toowoomba, QLD - Starts at 60 Meetup",
+      "start": "2027-05-04T10:00:00+10:00",
+      "end": "2027-05-04T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Muffin Break Grand Central",
+      "suburb": "Toowoomba City",
+      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "seniors"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    }
+  ]
+}
