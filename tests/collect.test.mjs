@@ -1,6 +1,19 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import http from "node:http";
 import test from "node:test";
-import { parseCouncilPage, parseGarageSales, parseMalayaliEvents, parseTimsEvents } from "../scripts/parse.mjs";
+import { fetchPermission, runSource } from "../scripts/collect.mjs";
+import {
+  parseCouncilPage,
+  parseEmpireEvents,
+  parseGarageSales,
+  parseMalayaliEvents,
+  parseMeetupEvents,
+  parseMoshtixEvents,
+  parseTimsEvents,
+  parseUnisqEvents,
+  parseUnisqFeed,
+} from "../scripts/parse.mjs";
 import {
   dedupeListings,
   inToowoombaRegion,
@@ -164,6 +177,106 @@ test("date filters use the Brisbane week", () => {
   assert.equal(matchesFilters(event, { tab: "whats-on", date: "today" }, NOW), false);
   assert.equal(matchesFilters(event, { tab: "whats-on", date: "month", category: "markets" }, NOW), true);
   assert.equal(matchesFilters(event, { tab: "garage", date: "" }, NOW), false);
+});
+
+test("new source fixtures report a parsed count through runSource", async () => {
+  const cases = [
+    ["meetup", "meetup.html", parseMeetupEvents, "https://www.meetup.com/find/au--toowoomba/", "Language Exchange"],
+    ["empire", "empire.html", parseEmpireEvents, "https://empiretheatre.com.au/whats-on", "Dolly I Will Always Love You"],
+    ["moshtix", "moshtix.html", parseMoshtixEvents, "https://www.moshtix.com.au/v2/search?query=toowoomba", "Jet - The Rumblin' Regional Revue w/ Liquid Zoo"],
+    ["unisq", "unisq.html", parseUnisqEvents, "https://www.unisq.edu.au/events", "Toowoomba campus twilight"],
+  ];
+  for (const [id, file, parse, url, title] of cases) {
+    const html = await readFile(new URL(`./fixtures/${file}`, import.meta.url), "utf8");
+    const result = parse(html, url);
+    const report = await runSource(id, async () => result, [], NOW);
+    assert.equal(report.ok, true, id);
+    assert.ok(report.parsed > 0, `${id} parsed`);
+    assert.ok(report.events.length > 0, `${id} kept`);
+    assert.ok(report.events.some((event) => event.title === title), id);
+    assert.equal(report.events.every((event) => event.source === id), true, id);
+  }
+});
+
+test("meetup drops online rows and empire prefers schema.org events", () => {
+  const meetup = parseMeetupEvents(
+    `<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"eventsInLocation":[
+      {"title":"Online trivia night","eventUrl":"https://www.meetup.com/example/events/1/","eventType":"ONLINE","isOnline":true,"dateTime":"2026-11-02T18:00:00+10:00"}
+    ]}}}</script>`,
+    "https://www.meetup.com/find/au--toowoomba/",
+  );
+  assert.equal(meetup.parsed, 1);
+  assert.equal(meetup.events.length, 0);
+  const empire = parseEmpireEvents(`
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"TheaterEvent","name":"Schema Gala","startDate":"2026-12-01T19:30:00+10:00","location":{"@type":"Place","name":"Empire Theatre","address":{"addressLocality":"Toowoomba","addressRegion":"QLD"}}}
+    </script>
+    <time datetime="2026-10-24T00:00:00+10:00">24 Oct</time>
+    <h3><a href="/whats-on/card-only">Card only show</a></h3>
+  `, "https://empiretheatre.com.au/whats-on");
+  assert.equal(empire.events.length, 1);
+  assert.equal(empire.events[0].title, "Schema Gala");
+  assert.equal(empire.events[0].start, "2026-12-01T19:30:00+10:00");
+});
+
+test("moshtix and unisq keep Toowoomba venues only", () => {
+  const moshtix = parseMoshtixEvents(
+    `<div class="searchresult"><h2 class="main-event-header"><a href="/v2/event/brisbane-only-show/1"><span>Brisbane Only Show</span></a></h2><h2 class="main-artist-event-header">Sat 7 Nov 2026, 7.00pm | <a href="/v2/venues/the-triffid/1"><span>The Triffid</span></a></h2></div>`,
+    "https://www.moshtix.com.au/v2/search?query=toowoomba",
+  );
+  assert.equal(moshtix.parsed, 1);
+  assert.equal(moshtix.events.length, 0);
+  const unisq = parseUnisqFeed({
+    Events: [
+      { Title: "Brisbane open evening", Location: "UniSQ Brisbane, 293 Queen Street", FormattedDateRange: "18 NOV 2026", Time: "5.30 PM - 8.00 PM", Url: "/events/2026/11/brisbane-open-evening" },
+      { Title: "Toowoomba campus twilight", Location: "UniSQ Toowoomba, West Street", FormattedDateRange: "12 NOV 2026", Time: "5.30 PM - 8.00 PM", Url: "/events/2026/11/toowoomba-campus-twilight" },
+    ],
+  }, "https://www.unisq.edu.au/events");
+  assert.equal(unisq.parsed, 2);
+  assert.equal(unisq.events.length, 1);
+  assert.equal(unisq.events[0].start, "2026-11-12T17:30:00+10:00");
+  assert.equal(unisq.events[0].end, "2026-11-12T20:00:00+10:00");
+});
+
+test("a new source dedupes against an existing listing for the same show", () => {
+  const merged = dedupeListings([
+    { kind: "event", title: "Language Exchange", start: "2026-10-25T16:00:00+10:00", venue: "New Hope", price: "See listing", source: "eventbrite", sourceUrl: "https://example.com/a" },
+    { kind: "event", title: "Language Exchange", start: "2026-10-25T16:00:00+10:00", venue: "New Hope", price: "Free", source: "meetup", sourceUrl: "https://www.meetup.com/e" },
+  ]);
+  assert.equal(merged.length, 1);
+  const sources = new Set([merged[0].source, ...(merged[0].alsoFrom || [])]);
+  assert.equal(sources.has("meetup"), true);
+  assert.equal(sources.has("eventbrite"), true);
+});
+
+test("fetchPermission follows a robots.txt redirect", async () => {
+  const server = http.createServer((request, response) => {
+    if (request.url === "/robots.txt") {
+      response.writeHead(301, { Location: "/robots-final.txt", "content-type": "text/html" });
+      response.end("<html><title>301 Moved Permanently</title></html>");
+      return;
+    }
+    if (request.url === "/robots-final.txt") {
+      response.writeHead(200, { "content-type": "text/plain" });
+      response.end("User-agent: *\nDisallow: /private\nAllow: /\n");
+      return;
+    }
+    response.writeHead(404);
+    response.end();
+  });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  try {
+    const address = server.address();
+    const port = typeof address === "object" && address ? address.port : 0;
+    const origin = `http://127.0.0.1:${port}`;
+    const allowed = await fetchPermission(`${origin}/whats-on`);
+    const blocked = await fetchPermission(`${origin}/private`);
+    assert.equal(allowed.ok, true);
+    assert.equal(blocked.ok, false);
+    assert.match(blocked.reason, /disallows/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+  }
 });
 
 test("robots rules allow the public listing paths and block the disallowed API", () => {

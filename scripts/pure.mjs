@@ -46,6 +46,10 @@ export const DATE_FILTERS = [
 ];
 
 export const SOURCE_LABELS = {
+  meetup: "Meetup",
+  empire: "Empire Theatre",
+  moshtix: "Moshtix",
+  unisq: "UniSQ",
   council: "Toowoomba Regional Council",
   library: "Toowoomba Region Libraries",
   eventbrite: "Eventbrite",

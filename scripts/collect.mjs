@@ -8,9 +8,14 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   parseCouncilPage,
+  parseEmpireEvents,
   parseGarageSales,
   parseMalayaliEvents,
+  parseMeetupEvents,
+  parseMoshtixEvents,
   parseTimsEvents,
+  parseUnisqEvents,
+  parseUnisqFeed,
 } from "./parse.mjs";
 import { generateSite } from "./pages.mjs";
 import {
@@ -28,6 +33,18 @@ import {
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const EVENTS_PATH = path.join(ROOT, "data", "events.json");
 const UA = "WhatsOnToowoombaCollector/1.0 (+https://github.com/Aneesh15here/toowoomba-whats-on; public events index; respects robots.txt)";
+const BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+const BROWSER_HEADERS = {
+  "user-agent": BROWSER_UA,
+  accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+  "accept-language": "en-AU,en;q=0.9",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+};
+const COUNCIL_FETCH = { headers: BROWSER_HEADERS, retryOn: [403, 409, 429] };
 
 const COUNCIL_INDEX = "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days";
 const LIBRARY_INDEX = "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events";
@@ -43,6 +60,10 @@ const TIMS_URL = "https://www.tims.org.au/events";
 const MALAYALI_URL = "https://toowoombamalayali.org/events";
 const GARAGE_URL = "https://www.buysearchsell.com.au/toowoomba/buy-sell/garage-sales/";
 const GUMTREE_URL = "https://www.gumtree.com.au/s-garage-sale/toowoomba/k0c18397l3005921";
+const MEETUP_URL = "https://www.meetup.com/find/au--toowoomba/";
+const EMPIRE_URL = "https://www.empiretheatre.com.au/whats-on";
+const MOSHTIX_URL = "https://www.moshtix.com.au/v2/search?query=toowoomba";
+const UNISQ_URL = "https://www.unisq.edu.au/events";
 
 const EVENTBRITE_CATEGORIES = {
   music: ["music"],
@@ -72,6 +93,10 @@ async function main() {
     ["library", () => collectLibrary(now)],
     ["eventbrite", () => collectEventbrite(now)],
     ["humanitix", () => collectHumanitix(now)],
+    ["meetup", () => collectMeetup()],
+    ["empire", () => collectEmpire()],
+    ["moshtix", () => collectMoshtix()],
+    ["unisq", () => collectUnisq()],
     ["multicultural", () => collectMulticultural()],
     ["garage", () => collectGarage()],
   ];
@@ -138,7 +163,9 @@ async function runSource(id, run, previous, now) {
 }
 
 async function collectCouncil(now) {
-  const notes = [];
+  const notes = [
+    "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
+  ];
   try {
     const visit = await fetchText(VISIT_URL);
     if (!visit.ok || /blocked/i.test(visit.text.slice(0, 300))) {
@@ -149,7 +176,7 @@ async function collectCouncil(now) {
   } catch (error) {
     notes.push(`visit.tr.qld.gov.au skipped: ${error.message}`);
   }
-  const pages = await crawlSection(COUNCIL_INDEX, "/Events-and-special-days", notes);
+  const pages = await crawlSection(COUNCIL_INDEX, "/Events-and-special-days", notes, [], COUNCIL_FETCH);
   const events = [];
   for (const page of pages) {
     events.push(...parseCouncilPage(page.text, page.url, now).map((event) => ({ ...event, source: "council" })));
@@ -265,15 +292,97 @@ async function collectGarage() {
   };
 }
 
-async function crawlSection(indexUrl, pathPart, notes, seeds = []) {
-  const index = await fetchText(indexUrl);
+async function collectMeetup() {
+  const response = await fetchText(MEETUP_URL);
+  if (!response.ok) throw new Error(`Meetup HTTP ${response.status}`);
+  const result = parseMeetupEvents(response.text, response.url || MEETUP_URL);
+  return {
+    ...result,
+    notes: ["Reads the public find page for au--toowoomba. Disallowed query strings are not used."],
+  };
+}
+
+async function collectEmpire() {
+  const response = await fetchText(EMPIRE_URL);
+  if (!response.ok) throw new Error(`Empire Theatre HTTP ${response.status}`);
+  const result = parseEmpireEvents(response.text, response.url || EMPIRE_URL);
+  return {
+    ...result,
+    notes: ["Uses schema.org Event data when present, otherwise the what's-on cards."],
+  };
+}
+
+async function collectMoshtix() {
+  const response = await fetchText(MOSHTIX_URL);
+  if (!response.ok) throw new Error(`Moshtix HTTP ${response.status}`);
+  const result = parseMoshtixEvents(response.text, response.url || MOSHTIX_URL);
+  return {
+    ...result,
+    notes: ["Reads the public Toowoomba search and keeps venues in the region."],
+  };
+}
+
+async function collectUnisq() {
+  const page = await fetchText(UNISQ_URL);
+  if (!page.ok) throw new Error(`UniSQ HTTP ${page.status}`);
+  const fromHtml = parseUnisqEvents(page.text, page.url || UNISQ_URL);
+  const notes = ["Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba."];
+  let parsed = fromHtml.parsed;
+  const events = [...fromHtml.events];
+  const feed = unisqFeedUrl(page.text, page.url || UNISQ_URL);
+  if (feed) {
+    let skip = 0;
+    for (let pageNo = 0; pageNo < 5; pageNo += 1) {
+      const url = new URL(feed);
+      url.searchParams.set("skip", String(skip));
+      const response = await fetchText(url.href);
+      if (!response.ok) {
+        notes.push(`UniSQ event feed HTTP ${response.status}`);
+        if (!events.length && pageNo === 0) throw new Error(`UniSQ event feed HTTP ${response.status}`);
+        break;
+      }
+      let payload;
+      try {
+        payload = JSON.parse(response.text);
+      } catch {
+        notes.push("UniSQ event feed was not JSON.");
+        if (!events.length) throw new Error("UniSQ event feed was not JSON");
+        break;
+      }
+      const batch = parseUnisqFeed(payload, page.url || UNISQ_URL);
+      parsed += batch.parsed;
+      events.push(...batch.events);
+      if (!payload.HasMoreResults) break;
+      skip += 50;
+    }
+  }
+  return { parsed, events, notes };
+}
+
+function unisqFeedUrl(html, pageUrl) {
+  const target = String(html || "").match(/data-target="(\{[^"}]+\})"/i);
+  if (!target) return null;
+  const location = String(html || "").match(/<option[^>]*value="(\{[^"}]+\})"[^>]*>\s*Toowoomba\s*<\/option>/i);
+  const url = new URL("/USQ/Web/CharlieEvents/FilteredEventPreviews", pageUrl);
+  url.searchParams.set("take", "50");
+  url.searchParams.set("skip", "0");
+  url.searchParams.set("categories", "");
+  url.searchParams.set("audiences", "");
+  url.searchParams.set("locations", location ? location[1] : "");
+  url.searchParams.set("targets", target[1]);
+  url.searchParams.set("date", "");
+  return url.href;
+}
+
+async function crawlSection(indexUrl, pathPart, notes, seeds = [], fetchOptions = {}) {
+  const index = await fetchText(indexUrl, fetchOptions);
   if (!index.ok) throw new Error(`${indexUrl} HTTP ${index.status}`);
   const urls = new Set([indexUrl, ...seeds]);
   for (const link of discoverLinks(index.text, pathPart)) urls.add(link);
   const pages = [];
   for (const url of [...urls].slice(0, 16)) {
     try {
-      const page = url === indexUrl ? index : await fetchText(url);
+      const page = url === indexUrl ? index : await fetchText(url, fetchOptions);
       if (!page.ok) {
         notes.push(`${url} HTTP ${page.status}`);
         continue;
@@ -459,24 +568,35 @@ function suburbFromAddress(address) {
   return match ? match[1] : "";
 }
 
-async function fetchText(url) {
+async function fetchText(url, options = {}) {
   const permission = await fetchPermission(url);
   if (!permission.ok) throw new SourceSkip(permission.reason);
+  const headers = options.headers || {
+    "user-agent": UA,
+    accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+    "accept-language": "en-AU,en;q=0.9",
+  };
+  const retryOn = new Set(options.retryOn || []);
   const host = new URL(url).host;
-  const wait = (nextRequestAt.get(host) || 0) - Date.now();
-  if (wait > 0) await sleep(wait);
-  nextRequestAt.set(host, Date.now() + Math.max(permission.delay, 1) * 1000);
-  const response = await fetch(url, {
-    redirect: "follow",
-    signal: AbortSignal.timeout(25000),
-    headers: {
-      "user-agent": UA,
-      accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
-      "accept-language": "en-AU,en;q=0.9",
-    },
-  });
-  const text = await response.text();
-  return { ok: response.ok, status: response.status, url: response.url, text };
+  let attempt = 0;
+  while (attempt < 4) {
+    const wait = (nextRequestAt.get(host) || 0) - Date.now();
+    if (wait > 0) await sleep(wait);
+    nextRequestAt.set(host, Date.now() + Math.max(permission.delay, 1) * 1000);
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: AbortSignal.timeout(25000),
+      headers,
+    });
+    const text = await response.text();
+    const result = { ok: response.ok, status: response.status, url: response.url, text };
+    if (!retryOn.has(response.status) || attempt >= 2) return result;
+    attempt += 1;
+    const backoff = 2000 * attempt;
+    nextRequestAt.set(host, Date.now() + backoff);
+    await sleep(backoff);
+  }
+  return { ok: false, status: 0, url, text: "" };
 }
 
 async function fetchPermission(url) {
@@ -487,12 +607,7 @@ async function fetchPermission(url) {
   let robots = robotsCache.get(target.origin);
   if (robots === undefined) {
     try {
-      const response = await fetch(`${target.origin}/robots.txt`, {
-        redirect: "follow",
-        signal: AbortSignal.timeout(15000),
-        headers: { "user-agent": UA, accept: "text/plain,*/*" },
-      });
-      robots = response.ok ? await response.text() : null;
+      robots = await readRobots(target.origin);
     } catch {
       robots = null;
     }
@@ -508,6 +623,33 @@ async function fetchPermission(url) {
   return { ok: true, delay: robotsCrawlDelay(robots) };
 }
 
+async function readRobots(origin) {
+  let current = `${origin}/robots.txt`;
+  const seen = new Set();
+  for (let hop = 0; hop < 5; hop += 1) {
+    if (seen.has(current)) return null;
+    seen.add(current);
+    const response = await fetch(current, {
+      redirect: "manual",
+      signal: AbortSignal.timeout(15000),
+      headers: { "user-agent": UA, accept: "text/plain,*/*" },
+    });
+    if ([301, 302, 303, 307, 308].includes(response.status)) {
+      const location = response.headers.get("location");
+      await response.text();
+      if (!location) return null;
+      current = new URL(location, current).href;
+      continue;
+    }
+    if (!response.ok) {
+      await response.text();
+      return null;
+    }
+    return response.text();
+  }
+  return null;
+}
+
 async function readPrevious() {
   try {
     const parsed = JSON.parse(await readFile(EVENTS_PATH, "utf8"));
@@ -518,17 +660,23 @@ async function readPrevious() {
 }
 
 async function writeIfChanged(payload) {
-  const nextEvents = JSON.stringify(payload.events);
-  let previousEvents = null;
+  const next = comparable(payload);
+  let previous = null;
   try {
-    const existing = JSON.parse(await readFile(EVENTS_PATH, "utf8"));
-    previousEvents = JSON.stringify(existing.events || []);
+    previous = comparable(JSON.parse(await readFile(EVENTS_PATH, "utf8")));
   } catch {
-    previousEvents = null;
+    previous = null;
   }
-  if (previousEvents === nextEvents) return false;
+  if (previous === next) return false;
   await writeFile(EVENTS_PATH, `${JSON.stringify(payload, null, 2)}\n`);
   return true;
+}
+
+function comparable(payload) {
+  return JSON.stringify({
+    sources: payload.sources || [],
+    events: payload.events || [],
+  });
 }
 
 function publicEvent(event) {
@@ -559,7 +707,12 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+const invokedDirectly = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (invokedDirectly) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+export { fetchPermission, runSource };
