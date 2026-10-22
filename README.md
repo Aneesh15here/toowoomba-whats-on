@@ -7,8 +7,8 @@ A free static calendar of events, garage sales, and community notices in Toowoom
 1. `scripts/collect.mjs` fetches public listing pages that allow automated reads.
 2. It normalises each listing, tags age group, community, and category with keyword rules, drops anything outside the Toowoomba region or already finished, and dedupes matches.
 3. It writes `data/events.json` only when the listings changed. A source that errors keeps its previous listings. A source that is skipped or returns nothing contributes nothing new.
-4. The page merges that file with approved rows in `data/submissions.json`. Past listings stay hidden.
-5. GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and when someone starts the workflow by hand. The workflow uses the default `GITHUB_TOKEN` with `contents: write` only.
+4. The page merges that file with rows in `data/submissions.json`. Community listings are published by an hourly check of the admin inbox, not by hand. Past listings stay hidden, and a reported row stays hidden.
+5. GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and when someone starts the workflow by hand. A second workflow publishes community submissions at 15 minutes past every hour. Both use the default `GITHUB_TOKEN` with `contents: write` only.
 
 Filters on the calendar:
 
@@ -24,8 +24,15 @@ If a run finds nothing upcoming, the page shows an empty state. The collector do
 Run it locally with Node 22:
 
 ```bash
+npm install
 node scripts/collect.mjs
 npm test
+```
+
+Publishing submissions needs `AGENTMAIL_API_KEY` in the environment. Without it, the command leaves `data/submissions.json` alone:
+
+```bash
+npm run publish-submissions
 ```
 
 ## Sources
@@ -39,46 +46,62 @@ npm test
 | Community groups | [Toowoomba International Multicultural Society events](https://www.tims.org.au/events) and [Toowoomba Malayali Association events](https://toowoombamalayali.org/events). | Squarespace disallows `?format=json` and `?format=ical`, so the HTML page is used. |
 | Garage sales | [Buy Search Sell, Toowoomba garage sales](https://www.buysearchsell.com.au/toowoomba/buy-sell/garage-sales/). `robots.txt` allows that path and asks for a 5 second crawl delay. | Facebook and Instagram are never fetched. Gumtree is used only when `robots.txt` is readable and allows the path; a block is recorded and the run continues. |
 
-## Moderate a submission
+## Community submissions
 
-Submissions are not published by the form or by the collector.
+Submissions are published by the hourly workflow. There is no manual approval step.
 
-1. Someone uses [Share something](share.html). The form posts to `https://formsubmit.co/whatsontoowoomba@agentmail.to` with `_captcha` enabled and `_template` set to `table`, then FormSubmit sends them to the thanks page.
-2. Aneesh reads the email and checks the listing.
-3. For an approved listing, add an object to the `items` array in `data/submissions.json` and commit it to `main`:
+1. Someone uses [Share something](share.html). The form posts to `https://formsubmit.co/whatsontoowoomba@agentmail.to` with `_captcha` enabled, a honeypot, and `_template` set to `table`, then FormSubmit sends them to the thanks page.
+2. `.github/workflows/publish.yml` lists messages in that inbox whose subject contains `What's On Toowoomba`, reads each new message with the AgentMail API, and validates it.
+3. A valid event, garage sale, or notice is appended to `data/submissions.json` with `"status": "published"`. The workflow commits that file. The name and email from the form stay in the inbox only. They are not written into the file.
+4. The calendar shows rows with `"status": "published"` (and any older `"approved"` rows) that still have a location, are not finished, and, for a garage sale, have an items list. Events and garage sales must have a start time. Notices can be all day.
 
-```json
-{
-  "items": [
-    {
-      "status": "approved",
-      "kind": "event",
-      "title": "Title from the email",
-      "start": "2026-11-19T10:00:00+10:00",
-      "end": null,
-      "allDay": false,
-      "venue": "Venue",
-      "suburb": "Toowoomba City",
-      "address": "Street address",
-      "price": "Free",
-      "ageGroups": ["families"],
-      "communities": ["multicultural"],
-      "categories": ["education"],
-      "sourceUrl": "https://example.com/original",
-      "items": "",
-      "summary": "Short public description"
-    }
-  ]
-}
-```
+Required fields:
 
-`kind` is `event`, `garage`, or `notice`. Only rows with `"status": "approved"` are shown. `ageGroups`, `communities`, and `categories` use the ids in `scripts/pure.mjs` (`kids`, `teens`, `young-adults`, `adults`, `seniors`, `families`, `indian`, `filipino`, `african`, `pacific`, `chinese`, `korean`, `latin`, `indigenous`, `multicultural`, `music`, `sport`, `faith`, `markets`, `arts`, `education`, `free`, `garage`). Garage sales need `items`. Leave a row out, or set another status, to keep it off the site.
+| Kind | Location | Start time | Items |
+| --- | --- | --- | --- |
+| Event | yes | yes | no |
+| Garage sale | yes | yes | yes |
+| Notice | yes | no | no |
+
+The location has to be in the Toowoomba region. A date is required for every kind so a finished listing can expire. The publisher removes past rows on each run.
+
+Spam checks, all in `scripts/submissions.mjs`:
+
+- Honeypot: `_honey` is FormSubmit's field. `hp_field` must be empty or the message is rejected.
+- Sender: the From address must be on `formsubmit.co`. Mail from anywhere else is left unhandled, so a later run can accept it if `SUBMISSION_FROM_SUFFIX` is changed.
+- Length limits match the form (`title` 200, `message` 2000, `items` 1000, and the other `FIELD_LIMITS`).
+- More than two links in the listing text, a title that is only a link, or a shortener host is rejected. `source_link`, when present, must be an `http` or `https` URL.
+- A small profanity and spam-word list rejects the listing.
+- The same kind, title, day, and place is not added twice. A hidden listing cannot be put back by sending it again. A listing already collected from a public source is skipped, and that email is tried again on a later run if the collected copy has gone.
+- A listing that has already finished is not added. Later runs delete finished rows.
+
+`kind` in the file is `event`, `garage`, or `notice`. `ageGroups`, `communities`, and `categories` use the ids in `scripts/pure.mjs`.
+
+### Secret the owner must add
+
+| Name | Where | Required | Purpose |
+| --- | --- | --- | --- |
+| `AGENTMAIL_API_KEY` | Repository secret | yes | Lets the hourly workflow read the inbox `whatsontoowoomba@agentmail.to` and send the hide confirmation. Create the key in the AgentMail organization that owns that inbox. |
+| `SUBMISSION_FROM_SUFFIX` | Workflow env | no | Defaults to `formsubmit.co`. Change it only if FormSubmit's sending domain changes. |
+
+Until `AGENTMAIL_API_KEY` is set, the workflow exits without changing `data/submissions.json` and submissions stay in the inbox. FormSubmit must already be confirmed for that address. No paid host, database, or login is added. The site stays on GitHub Pages from `main`.
+
+### Flagging
+
+Every community submission with an id shaped like `sub` plus 16 hex characters has a Report control. Collected listings do not.
+
+One report hides the listing. The report form posts to the same FormSubmit address with the subject `What's On Toowoomba FLAG: <id>`. That email is the admin notification. On the next publish run the row's `status` becomes `"hidden"`, `reportCount` becomes `1`, and the workflow sends one more message to `whatsontoowoomba@agentmail.to` with the subject `What's On Toowoomba HIDDEN: <id>`. The listing drops off the calendar. The row stays in `data/submissions.json` so it can be restored.
+
+A report does not hide the row when the honeypot is filled, the reason is over 500 characters, the listing id does not match, the id is unknown, or the sender is not FormSubmit. A second report on a hidden row does not send another hide confirmation.
+
+To show a hidden listing again, set `"status": "published"` in `data/submissions.json` and commit it to `main`. A later report hides it again. Deleting the row removes it. Finished rows are deleted by the publisher whether or not they were hidden.
+
+Contact the admin inbox from the footer, or from the Contact admin section on the share page: `whatsontoowoomba@agentmail.to`.
 
 ## Enable GitHub Pages
 
 1. Open the repository on GitHub and go to Settings, then Pages.
 2. Under Build and deployment, set Source to Deploy from a branch.
 3. Choose branch `main` and folder `/` (root). Save.
-4. The site is published at `https://aneesh15here.github.io/toowoomba-whats-on/`.
 
-The share form's fallback thanks URL points at that address. On the live site, the page script sets `_next` from the address you are actually on.
+The `CNAME` file serves that site at `whatsontoowoomba.au`. The share form sets its thanks address in the browser from the page you are on, so the repository does not hard-code a personal Pages URL.

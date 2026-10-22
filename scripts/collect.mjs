@@ -26,7 +26,7 @@ import {
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const EVENTS_PATH = path.join(ROOT, "data", "events.json");
-const UA = "WhatsOnToowoombaCollector/1.0 (+https://github.com/Aneesh15here/toowoomba-whats-on; public events index; respects robots.txt)";
+const UA = "WhatsOnToowoombaCollector/1.0 (public Toowoomba events index; contact whatsontoowoomba@agentmail.to; respects robots.txt)";
 
 const COUNCIL_INDEX = "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days";
 const LIBRARY_INDEX = "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events";
