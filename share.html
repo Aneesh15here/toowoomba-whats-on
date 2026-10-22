@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Share something · What's On Toowoomba</title>
+  <meta name="description" content="Send an event, garage sale, or notice for What's On Toowoomba. Submissions are reviewed before they are published.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#share-form">Skip to form</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <p class="eyebrow">Toowoomba, Queensland</p>
+        <h1>Share something</h1>
+        <p class="lede">Send an event, a garage sale, or a short notice. It is emailed for review and is not published automatically.</p>
+      </div>
+      <nav class="nav" aria-label="Sections">
+        <a href="index.html">Calendar</a>
+        <a href="share.html" aria-current="page">Share something</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap share-layout">
+    <section class="panel" aria-labelledby="how-title">
+      <h2 id="how-title">What happens next</h2>
+      <ol>
+        <li>This form emails Aneesh at aneesh@mail.grokbot.com through FormSubmit.</li>
+        <li>Aneesh checks that the listing is real and suitable.</li>
+        <li>Approved items are added by hand to <code>data/submissions.json</code> with <code>"status": "approved"</code>.</li>
+        <li>The site merges that file with the collected listings. The collector never publishes a submission on its own.</li>
+      </ol>
+    </section>
+
+    <form id="share-form" class="panel contact-form" method="POST" action="https://formsubmit.co/aneesh@mail.grokbot.com" accept-charset="UTF-8">
+      <label for="share-honey" style="display:none">Leave this empty</label>
+      <input id="share-honey" type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="form-row">
+        <label>Your name
+          <input name="name" type="text" autocomplete="name" maxlength="200">
+        </label>
+        <label>Email
+          <input name="email" type="email" autocomplete="email" inputmode="email" maxlength="200" required>
+        </label>
+      </div>
+
+      <label>What are you sharing?
+        <select name="type" required>
+          <option value="event">Event</option>
+          <option value="garage-sale">Garage sale</option>
+          <option value="notice">Notice</option>
+        </select>
+      </label>
+
+      <label>Title
+        <input name="title" type="text" maxlength="200" required>
+      </label>
+
+      <div class="form-row">
+        <label>Date
+          <input name="date" type="date" required>
+        </label>
+        <label>Start time
+          <input name="start_time" type="time">
+        </label>
+        <label>End time
+          <input name="end_time" type="time">
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>Venue
+          <input name="venue" type="text" maxlength="200">
+        </label>
+        <label>Suburb or address
+          <input name="suburb_or_address" type="text" maxlength="200">
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>Price
+          <input name="price" type="text" maxlength="80" placeholder="Free, or a price">
+        </label>
+        <label>Age group
+          <select name="age_group">
+            <option value="">Not sure</option>
+            <option>Kids 0-12</option>
+            <option>Teens 13-17</option>
+            <option>Young adults 18-30</option>
+            <option>Adults</option>
+            <option>Seniors 60+</option>
+            <option>Families/All ages</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>Community
+          <select name="community">
+            <option value="">Multicultural/All</option>
+            <option>Indian</option>
+            <option>Filipino</option>
+            <option>African</option>
+            <option>Pacific Islander</option>
+            <option>Chinese</option>
+            <option>Korean</option>
+            <option>Latin American</option>
+            <option>Indigenous/First Nations</option>
+            <option>Multicultural/All</option>
+          </select>
+        </label>
+        <label>Category
+          <select name="category">
+            <option value="">Not sure</option>
+            <option>Music</option>
+            <option>Sport</option>
+            <option>Church/faith</option>
+            <option>Markets</option>
+            <option>Arts</option>
+            <option>Education</option>
+            <option>Free events</option>
+            <option>Garage sales</option>
+          </select>
+        </label>
+      </div>
+
+      <label>Garage sale items
+        <textarea name="items" rows="3" maxlength="1000" placeholder="For a garage sale: what is for sale"></textarea>
+      </label>
+
+      <label>Link to the original listing
+        <input name="source_link" type="url" maxlength="500" placeholder="https://">
+      </label>
+
+      <label>Details
+        <textarea name="message" rows="5" maxlength="2000" required placeholder="Who it is for, how to get there, and anything a reader needs to know"></textarea>
+      </label>
+
+      <input type="hidden" name="page" id="share-page" value="">
+      <input type="hidden" name="_subject" id="share-subject" value="What's On Toowoomba: event">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" id="share-next" value="https://aneesh15here.github.io/toowoomba-whats-on/thanks.html">
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Send for review</button>
+      </div>
+      <p class="form-note">FormSubmit shows a captcha, then returns you to the thanks page. Sending a listing does not put it on the calendar.</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Free static site. No account, no payment, no automatic publishing.</p>
+    </div>
+  </footer>
+  <script type="module" src="js/share.js"></script>
+</body>
+</html>

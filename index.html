@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What's On Toowoomba</title>
+  <meta name="description" content="Free community calendar of events, garage sales, and notices in Toowoomba, Queensland.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#listings">Skip to listings</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <p class="eyebrow">Toowoomba, Queensland</p>
+        <h1>What's On Toowoomba</h1>
+        <p class="lede">Events, garage sales, and community notices from public listings. Nothing here is made up.</p>
+      </div>
+      <nav class="nav" aria-label="Sections">
+        <a href="index.html" aria-current="page">Calendar</a>
+        <a href="share.html">Share something</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="tabs" role="tablist" aria-label="Listing type">
+      <button type="button" id="tab-whats-on" role="tab" aria-selected="true" aria-controls="listings">What's on</button>
+      <button type="button" id="tab-garage" role="tab" aria-selected="false" aria-controls="listings">Garage sales</button>
+    </div>
+
+    <form id="filters" class="filters" aria-label="Filter listings">
+      <label>Age group
+        <select name="age" id="filter-age"></select>
+      </label>
+      <label>Community
+        <select name="community" id="filter-community"></select>
+      </label>
+      <label id="category-field">Category
+        <select name="category" id="filter-category"></select>
+      </label>
+      <label>Date
+        <select name="date" id="filter-date"></select>
+      </label>
+    </form>
+
+    <p id="status" class="status" aria-live="polite">Loading listings…</p>
+    <div id="listings" class="listings" tabindex="-1"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Listings are collected from public pages and from items Aneesh has approved in <code>data/submissions.json</code>. Past events are hidden.</p>
+      <p id="source-line"></p>
+    </div>
+  </footer>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

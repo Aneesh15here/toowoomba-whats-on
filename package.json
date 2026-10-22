@@ -1,0 +1,9 @@
+{
+  "name": "toowoomba-whats-on",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test"
+  }
+}
