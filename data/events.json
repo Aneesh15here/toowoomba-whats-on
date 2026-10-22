@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T13:07:46.688Z",
+  "generatedAt": "2026-10-22T22:51:09.832Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -26,13 +26,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
+      "ok": false,
+      "parsed": 0,
       "kept": 70,
-      "error": null,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 70 earlier listing(s) from this source."
       ]
     },
     {
@@ -48,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 8,
-      "kept": 8,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -78,7 +77,7 @@
     {
       "id": "unisq",
       "ok": true,
-      "parsed": 1,
+      "parsed": 0,
       "kept": 0,
       "error": null,
       "notes": [
@@ -131,28 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "dafa4c530004b3a6",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-10-23T09:00:00+10:00",
-      "end": "2026-10-23T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317019616/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "7d34c8f90004d499",
       "kind": "event",
       "title": "Cathy Drummond @ Toowoomba City Library",
@@ -201,28 +178,6 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
-    },
-    {
-      "id": "49a3fcfc0004f24e",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-10-23T13:30:00+10:00",
-      "end": "2026-10-23T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton State School",
-      "suburb": "Toowoomba",
-      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317021894/",
-      "summary": "Community English Class"
     },
     {
       "id": "00fcce6e0002ddc2",
@@ -431,15 +386,15 @@
       "sourceUrl": "https://events.humanitix.com/the-australian-voices-rituals-of-farewell-toowoomba"
     },
     {
-      "id": "0bc7f7800003f624",
+      "id": "4303e21e0004b44b",
       "kind": "event",
-      "title": "Toowoomba Swing Into The Night Social",
-      "start": "2026-10-25T18:00:00+10:00",
-      "end": "2026-10-25T19:00:00+10:00",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-10-26T09:00:00+10:00",
+      "end": "2026-10-26T10:30:00+10:00",
       "allDay": false,
-      "venue": "C26W+M3 Derrymore",
+      "venue": "Newtown State School",
       "suburb": "Toowoomba",
-      "address": "C26W+M3 Derrymore, Toowoomba, au",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
       "price": "See listing",
       "ageGroups": [
         "families"
@@ -449,8 +404,8 @@
       ],
       "categories": [],
       "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/swing-into-the-night-dance-social/events/317073629/",
-      "summary": "Swing Into The Night Dance Social"
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317055102/",
+      "summary": "Community English Class"
     },
     {
       "id": "05ad9d8e00059cfa",
@@ -475,28 +430,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/meet-the-author-david-raymond-highfields-library-tickets-1998171457619",
       "summary": "Join author David Raymond to discuss his latest release, Vader A Police Dog Story"
-    },
-    {
-      "id": "cc8fed800004af9b",
-      "kind": "event",
-      "title": "Toowoomba Espresso and Ink Sketching Sessions",
-      "start": "2026-10-26T14:00:00+10:00",
-      "end": "2026-10-26T15:00:00+10:00",
-      "allDay": false,
-      "venue": "CV3V+6C Drayton",
-      "suburb": "Toowoomba",
-      "address": "CV3V+6C Drayton, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/coffee-shop-sketching-and-social-sessions/events/317072373/",
-      "summary": "Coffee Shop Sketching and Social Sessions"
     },
     {
       "id": "587223330003860f",
@@ -1005,30 +938,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/abcdance-halloween-themed-mazes-tickets-1992400771341",
       "summary": "Three mazes. Three levels of scares.  Family-friendly fun to full-blown horror. How brave are you?  Dare to enter!"
-    },
-    {
-      "id": "de6abfc40003f750",
-      "kind": "event",
-      "title": "Toowoomba Mastering the Art of War",
-      "start": "2026-11-01T19:00:00+10:00",
-      "end": "2026-11-01T20:00:00+10:00",
-      "allDay": false,
-      "venue": "9XQF+5M Silver Ridge",
-      "suburb": "Toowoomba",
-      "address": "9XQF+5M Silver Ridge, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/tactical-minds-warhammer-bootcamp-social-club/events/317073474/",
-      "summary": "Tactical Minds Warhammer Bootcamp Social Club"
     },
     {
       "id": "c73329f90005d866",
