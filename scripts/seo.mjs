@@ -3,6 +3,7 @@
  * No filesystem access, so tests can render a site from fixtures.
  */
 
+import { countSnippet, outboundEventPath, privacyNoteHtml, stampHtml } from "./analytics.mjs";
 import {
   CATEGORIES,
   LOCALITIES,
@@ -712,6 +713,8 @@ function renderDocument(options) {
 <body>
 ${options.body}
   <script type="module" src="/js/theme.js"></script>
+  <script type="module" src="/js/analytics.js"></script>
+  ${countSnippet()}
 </body>
 </html>
 `;
@@ -773,6 +776,7 @@ function layout({ current, crumbs, heading, lede, main }) {
       </nav>
       <p>Public listings for Toowoomba, Queensland. These pages are rebuilt when the collector runs.</p>
       <p><a href="/credits.html">Photograph credits</a></p>
+      ${privacyNoteHtml()}
     </div>
   </footer>`;
 }
@@ -796,11 +800,13 @@ function primaryCategory(event) {
   return categories.find((id) => id !== "free") || categories[0] || "general";
 }
 
-function sourceAnchor(href, label) {
+function sourceAnchor(href, label, track = false) {
   const external = /^https?:\/\//i.test(href);
   const extra = external ? ` target="_blank" rel="noopener noreferrer"` : "";
   const hint = external ? `<span class="sr-only"> (opens in a new tab)</span>` : "";
-  return `<a class="source-link" href="${escapeHtml(href)}"${extra}>${escapeHtml(label)}${hint}</a>`;
+  const outbound = track ? outboundEventPath(href) : "";
+  const tracked = outbound ? ` data-track="${escapeHtml(outbound)}" data-track-title="Outbound event link"` : "";
+  return `<a class="source-link" href="${escapeHtml(href)}"${extra}${tracked}>${escapeHtml(label)}${hint}</a>`;
 }
 
 function renderCard(event) {
@@ -824,7 +830,7 @@ function renderCard(event) {
         ${summary}
         <div class="card-foot">
           <p class="${priceClass}">${escapeHtml(event.price || "See listing")}</p>
-          ${sourceAnchor(sourceHref, sourceLabel)}
+          ${sourceAnchor(sourceHref, sourceLabel, true)}
         </div>
       </div>
     </article>`;
@@ -1206,6 +1212,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
   nextIndex = replaceMarker(nextIndex, "status", `${all.length} upcoming listing${all.length === 1 ? "" : "s"} in Toowoomba`);
   nextIndex = replaceMarker(nextIndex, "listings", `<ul class="related">${all.map(renderListingLine).join("\n")}</ul>`);
   nextIndex = replaceMarker(nextIndex, "browse", browseBlock(suburbs));
+  nextIndex = stampHtml(nextIndex);
 
   for (const event of calendar) {
     const crumbs = [
@@ -1237,7 +1244,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
       <p class="${isKnownFree(event.price) ? "price free" : "price"}">${escapeHtml(event.price || "See listing")}</p>
       ${event.summary ? `<p>${escapeHtml(event.summary)}</p>` : ""}
       ${event.items ? `<p>${escapeHtml(event.items)}</p>` : ""}
-      <p class="stack-links">${event.sourceUrl ? sourceAnchor(event.sourceUrl, `View the ${sourceLabel} listing`) : ""}</p>
+      <p class="stack-links">${event.sourceUrl ? sourceAnchor(event.sourceUrl, `View the ${sourceLabel} listing`, true) : ""}</p>
     </article>
     ${suburbHref ? `<p><a href="${suburbHref}">More events in ${escapeHtml(event.suburb)}</a></p>` : ""}
     ${primary ? `<p><a href="${primary === "garage" ? "/garage-sales/" : `/category/${primary}/`}">${escapeHtml(categoryCopy(primary).heading)}</a></p>` : ""}
@@ -1396,6 +1403,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
       graph: thingsGraph,
     }));
     nextThings = replaceMarker(nextThings, "places", placeGrid);
+    nextThings = stampHtml(nextThings);
   }
 
   for (const place of readyPlaces) {

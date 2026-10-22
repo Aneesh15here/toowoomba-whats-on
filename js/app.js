@@ -1,3 +1,4 @@
+import { outboundEventPath } from "../scripts/analytics.mjs";
 import {
   AGE_GROUPS,
   CATEGORIES,
@@ -236,9 +237,15 @@ function card(event) {
   price.textContent = event.price || "See listing";
   const link = document.createElement("a");
   link.className = "source-link";
-  link.href = event.sourceUrl || "share.html";
+  const sourceHref = event.sourceUrl || "share.html";
+  link.href = sourceHref;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
+  const outbound = outboundEventPath(sourceHref);
+  if (outbound) {
+    link.dataset.track = outbound;
+    link.dataset.trackTitle = "Outbound event link";
+  }
   link.textContent = SOURCE_LABELS[event.source] || "Source";
   const hint = document.createElement("span");
   hint.className = "sr-only";

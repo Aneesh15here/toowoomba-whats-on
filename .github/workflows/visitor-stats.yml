@@ -1,0 +1,45 @@
+name: Weekly visitor stats
+
+on:
+  schedule:
+    - cron: "17 3 * * 1" # Monday 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch weekly stats from GoatCounter
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: |
+          if [ -z "$GOATCOUNTER_TOKEN" ]; then
+            echo "GOATCOUNTER_TOKEN secret not set — skipping (add it in repo Settings → Secrets)."
+            echo "skip=true" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          node scripts/visitor-stats.mjs
+
+      - name: Commit updated stats
+        if: env.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stats/weekly.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update weekly visitor stats"
+            git push
+          fi

@@ -1,0 +1,36 @@
+{
+  "updated": null,
+  "site": "whatsontoowoomba",
+  "status": "awaiting-token",
+  "period": {
+    "start": null,
+    "end": null,
+    "previousStart": null,
+    "previousEnd": null
+  },
+  "totals": {
+    "week": {
+      "visits": 0,
+      "events": 0,
+      "pages": 0
+    },
+    "previousWeek": {
+      "visits": 0,
+      "events": 0,
+      "pages": 0
+    },
+    "change": {
+      "visits": 0,
+      "events": 0,
+      "pages": 0
+    }
+  },
+  "pages": [],
+  "referrers": [],
+  "traffic": {
+    "search": 0,
+    "direct": 0,
+    "other": 0
+  },
+  "events": []
+}
