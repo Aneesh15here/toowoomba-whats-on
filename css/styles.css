@@ -254,6 +254,27 @@ input:focus, select:focus, textarea:focus, button:focus, a:focus {
 
 .form-note { color: var(--muted); font-size: 0.92rem; }
 
+.honey {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.report { margin-top: 0.75rem; }
+
+.report summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.report-form {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
 ol { padding-left: 1.2rem; }
 
 code {

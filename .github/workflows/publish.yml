@@ -1,0 +1,54 @@
+name: Publish community submissions
+
+on:
+  schedule:
+    # Hourly at :15 UTC. GitHub may delay scheduled runs on the free plan.
+    - cron: "15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-submissions
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Publish submissions from the admin inbox
+        env:
+          AGENTMAIL_API_KEY: ${{ secrets.AGENTMAIL_API_KEY }}
+        run: node scripts/publish-submissions.mjs
+
+      - name: Commit data/submissions.json if it changed
+        run: |
+          if git diff --quiet -- data/submissions.json; then
+            echo "submissions.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/submissions.json
+          git commit -m "Publish community submissions"
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin main && git push && exit 0
+            git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          exit 1

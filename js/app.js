@@ -7,6 +7,7 @@ import {
   formatWhen,
   matchesFilters,
 } from "../scripts/pure.mjs";
+import { isPublicSubmission, reportHelp } from "../scripts/submissions.mjs";
 
 const state = {
   tab: "whats-on",
@@ -51,26 +52,32 @@ async function load() {
   state.sources = Array.isArray(eventsPayload.sources) ? eventsPayload.sources : [];
   state.events = [
     ...(Array.isArray(eventsPayload.events) ? eventsPayload.events : []),
-    ...approvedSubmissions(submissionsPayload),
+    ...communitySubmissions(submissionsPayload),
   ];
   render();
 }
 
-function approvedSubmissions(payload) {
+function communitySubmissions(payload) {
   const items = Array.isArray(payload?.items) ? payload.items : [];
-  return items
-    .filter((item) => item && item.status === "approved" && item.title && item.start)
-    .map((item) => ({
-      ...item,
-      kind: item.kind === "garage" || item.kind === "notice" ? item.kind : "event",
-      source: "submission",
-      sourceUrl: item.sourceUrl || "share.html",
-      allDay: Boolean(item.allDay),
-      ageGroups: item.ageGroups || ["families"],
-      communities: item.communities || ["multicultural"],
-      categories: item.categories || [],
-      price: item.price || "See listing",
-    }));
+  return items.filter((item) => isPublicSubmission(item)).map((item) => ({
+    id: item.id,
+    kind: item.kind === "garage" || item.kind === "notice" ? item.kind : "event",
+    title: item.title,
+    start: item.start,
+    end: item.end || null,
+    allDay: Boolean(item.allDay),
+    venue: item.venue || "",
+    suburb: item.suburb || "",
+    address: item.address || "",
+    price: item.price || "See listing",
+    ageGroups: item.ageGroups || ["families"],
+    communities: item.communities || ["multicultural"],
+    categories: item.categories || [],
+    source: "submission",
+    sourceUrl: item.sourceUrl || "share.html",
+    items: item.items || "",
+    summary: item.summary || "",
+  }));
 }
 
 function setTab(tab) {
@@ -111,7 +118,7 @@ function emptyState() {
   const copy = document.createElement("p");
   copy.textContent = state.events.length
     ? "Try another date or clear a filter. Listings that have already finished stay hidden."
-    : "The collector did not return any upcoming listings, and there are no approved submissions yet.";
+    : "The collector did not return any upcoming listings, and there are no community submissions yet.";
   const link = document.createElement("a");
   link.href = "share.html";
   link.textContent = "Share something happening in Toowoomba";
@@ -158,7 +165,84 @@ function card(event) {
   link.rel = "noopener noreferrer";
   link.textContent = SOURCE_LABELS[event.source] || "Source";
   article.append(price, link);
+  const report = reportControl(event);
+  if (report) article.append(report);
   return article;
+}
+
+function reportControl(event) {
+  if (!/^sub[a-f0-9]{16}$/.test(event.id || "")) return null;
+  const details = document.createElement("details");
+  details.className = "report";
+  const summary = document.createElement("summary");
+  summary.textContent = "Report";
+  const form = document.createElement("form");
+  form.className = "report-form";
+  form.method = "POST";
+  form.action = "https://formsubmit.co/whatsontoowoomba@agentmail.to";
+  form.acceptCharset = "UTF-8";
+
+  const trap = document.createElement("label");
+  trap.className = "honey";
+  trap.textContent = "Leave this empty";
+  trap.setAttribute("aria-hidden", "true");
+  const trapInput = document.createElement("input");
+  trapInput.type = "text";
+  trapInput.name = "hp_field";
+  trapInput.tabIndex = -1;
+  trapInput.autocomplete = "off";
+  trapInput.setAttribute("aria-hidden", "true");
+  const formHoney = document.createElement("input");
+  formHoney.type = "text";
+  formHoney.name = "_honey";
+  formHoney.tabIndex = -1;
+  formHoney.autocomplete = "off";
+  formHoney.setAttribute("aria-hidden", "true");
+  trap.append(trapInput, formHoney);
+
+  const reasonLabel = document.createElement("label");
+  reasonLabel.textContent = "Reason (optional)";
+  const reason = document.createElement("textarea");
+  reason.name = "reason";
+  reason.maxLength = 500;
+  reason.rows = 2;
+  reasonLabel.append(reason);
+
+  const note = document.createElement("p");
+  note.className = "form-note";
+  note.textContent = reportHelp();
+
+  const button = document.createElement("button");
+  button.type = "submit";
+  button.className = "btn";
+  button.textContent = "Report this listing";
+
+  const next = hiddenInput("_next", "");
+  form.addEventListener("submit", () => {
+    next.value = new URL("thanks.html?reported=1", window.location.href).href;
+  });
+  form.append(
+    trap,
+    hiddenInput("listing_id", event.id),
+    hiddenInput("listing_title", event.title),
+    hiddenInput("_subject", `What's On Toowoomba FLAG: ${event.id}`),
+    hiddenInput("_template", "table"),
+    hiddenInput("_captcha", "true"),
+    next,
+    reasonLabel,
+    note,
+    button,
+  );
+  details.append(summary, form);
+  return details;
+}
+
+function hiddenInput(name, value) {
+  const input = document.createElement("input");
+  input.type = "hidden";
+  input.name = name;
+  input.value = value;
+  return input;
 }
 
 function chipLabels(event) {

@@ -4,6 +4,10 @@
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
+    "publish-submissions": "node scripts/publish-submissions.mjs",
     "test": "node --test"
+  },
+  "dependencies": {
+    "agentmail": "^0.5.46"
   }
 }
