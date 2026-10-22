@@ -15,6 +15,12 @@ const state = {
   sources: [],
 };
 
+function listingHref(event) {
+  if (event.pagePath) return event.pagePath;
+  if (event.id) return `/events/${event.id}/`;
+  return "";
+}
+
 const filtersForm = document.querySelector("#filters");
 const listings = document.querySelector("#listings");
 const status = document.querySelector("#status");
@@ -53,19 +59,22 @@ load().catch((error) => {
 });
 
 async function load() {
-  const [eventsResponse, submissionsResponse] = await Promise.all([
+  const [eventsResponse, submissionsResponse, occurrencesResponse] = await Promise.all([
     fetch("data/events.json"),
     fetch("data/submissions.json"),
+    fetch("data/occurrences.json"),
   ]);
   if (!eventsResponse.ok) throw new Error("data/events.json is missing.");
   const eventsPayload = await eventsResponse.json();
   const submissionsPayload = submissionsResponse.ok ? await submissionsResponse.json() : { items: [] };
+  const occurrencesPayload = occurrencesResponse.ok ? await occurrencesResponse.json() : { events: [] };
   state.generatedAt = eventsPayload.generatedAt || null;
   state.sources = Array.isArray(eventsPayload.sources) ? eventsPayload.sources : [];
   state.events = [
     ...(Array.isArray(eventsPayload.events) ? eventsPayload.events : []),
     ...approvedSubmissions(submissionsPayload),
-  ];
+    ...(Array.isArray(occurrencesPayload.events) ? occurrencesPayload.events : []),
+  ].sort((a, b) => String(a.start).localeCompare(String(b.start)) || String(a.title).localeCompare(String(b.title)));
   render();
 }
 
@@ -169,7 +178,7 @@ function emptyState() {
     ? "Try another date or clear a filter. Listings that have already finished stay hidden."
     : "The collector did not return any upcoming listings, and there are no approved submissions yet.";
   const link = document.createElement("a");
-  link.href = "share.html";
+  link.href = "/share.html";
   link.textContent = "Share something happening in Toowoomba";
   box.append(title, copy, link);
   return box;
@@ -190,7 +199,15 @@ function card(event) {
     chips.append(chip);
   }
   const title = document.createElement("h2");
-  title.textContent = event.title;
+  const href = listingHref(event);
+  if (href) {
+    const titleLink = document.createElement("a");
+    titleLink.href = href;
+    titleLink.textContent = event.title;
+    title.append(titleLink);
+  } else {
+    title.textContent = event.title;
+  }
   const when = document.createElement("p");
   when.className = "meta";
   const time = document.createElement("time");

@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "toowoomba-parkrun",
+      "kind": "event",
+      "title": "Toowoomba parkrun",
+      "start": "2026-10-24T07:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "Queens Park",
+      "suburb": "East Toowoomba",
+      "address": "Lindsay Street, East Toowoomba, QLD, 4350",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport",
+        "free"
+      ],
+      "source": "parkrun",
+      "sourceUrl": "https://www.parkrun.com.au/toowoomba/",
+      "summary": "A free 5 km every Saturday morning on the paths through Queens Park. Register once with parkrun and bring a barcode.",
+      "pagePath": "/things-to-do/toowoomba-parkrun/"
+    },
+    {
+      "id": "highfields-parkrun",
+      "kind": "event",
+      "title": "Highfields parkrun",
+      "start": "2026-10-24T07:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "Highfields Sports and Recreation Park",
+      "suburb": "Highfields",
+      "address": "220 Barracks Road, Highfields, QLD, 4352",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport",
+        "free"
+      ],
+      "source": "parkrun",
+      "sourceUrl": "https://www.parkrun.com.au/highfields/",
+      "summary": "A free Saturday 5 km at Highfields Sports and Recreation Park on Barracks Road.",
+      "pagePath": "/things-to-do/highfields-parkrun/"
+    }
+  ]
+}

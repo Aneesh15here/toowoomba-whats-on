@@ -53,6 +53,7 @@ export const SOURCE_LABELS = {
   multicultural: "Community group",
   garage: "Garage sale listing",
   submission: "Community submission",
+  parkrun: "parkrun",
 };
 
 const MONTHS = {
@@ -82,7 +83,7 @@ const MONTHS = {
   dec: 12,
 };
 
-const LOCALITIES = [
+export const LOCALITIES = [
   "toowoomba",
   "newtown",
   "harristown",

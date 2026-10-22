@@ -27,17 +27,17 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Collect public listings
+      - name: Collect public listings and generate pages
         run: node scripts/collect.mjs
 
-      - name: Commit data/events.json if it changed
+      - name: Commit listings and generated pages if they changed
         run: |
-          if git diff --quiet -- data/events.json; then
-            echo "events.json unchanged"
+          git add -A -- data/events.json data/occurrences.json index.html things-to-do.html sitemap.xml robots.txt feed.xml atom.xml events.ics 404.html events category suburb this-weekend this-week garage-sales things-to-do search
+          if git diff --cached --quiet; then
+            echo "listings and pages unchanged"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
-          git commit -m "Update collected Toowoomba events"
+          git commit -m "Update collected Toowoomba events and SEO pages"
           git push
