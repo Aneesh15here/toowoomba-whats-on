@@ -43,7 +43,7 @@ npm test
 
 Submissions are not published by the form or by the collector.
 
-1. Someone uses [Share something](share.html). The form posts to `https://formsubmit.co/aneesh@mail.grokbot.com` with `_captcha` enabled and `_template` set to `table`, then FormSubmit sends them to the thanks page.
+1. Someone uses [Share something](share.html). The form posts to `https://formsubmit.co/whatsontoowoomba@agentmail.to` with `_captcha` enabled and `_template` set to `table`, then FormSubmit sends them to the thanks page.
 2. Aneesh reads the email and checks the listing.
 3. For an approved listing, add an object to the `items` array in `data/submissions.json` and commit it to `main`:
 
