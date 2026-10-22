@@ -83,6 +83,10 @@ Submissions are not published by the form or by the collector.
 
 The share form's fallback thanks URL points at that address. On the live site, the page script sets `_next` from the address you are actually on.
 
+## Things to do
+
+Evergreen places live in `data/things-to-do.json`. The home page and [Things to do](things-to-do.html) read that file. Each place needs a name, an area, a short summary, a `type` from the `types` list, and an `https` link to an official page (council, parkrun, Queensland Parks, or a tourism page). Edit the JSON to add or correct a place. The collector does not write this file.
+
 ## Photographs
 
 Pictures in `assets/img/` are local copies of freely licensed Toowoomba photographs. They are not hotlinked. Event cards do not use them: `data/events.json` has no image fields, so a card shows a category colour block unless a listing carries a local `image` path under `assets/img/`. Full photographer, licence, and source links are on [credits.html](credits.html) and in the home page footer.

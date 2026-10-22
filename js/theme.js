@@ -23,7 +23,7 @@ function paintTheme(theme) {
     button.textContent = dark ? "Light" : "Dark";
     button.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
   }
-  if (themeColor) themeColor.setAttribute("content", dark ? "#101915" : "#f3f6f1");
+  if (themeColor) themeColor.setAttribute("content", dark ? "#171410" : "#fff6ee");
 }
 
 function storeTheme(theme) {

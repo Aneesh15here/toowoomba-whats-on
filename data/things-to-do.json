@@ -1,0 +1,157 @@
+{
+  "notes": "Evergreen places around Toowoomba. A maintainer can add or edit places here. type is the group heading on the full list. types lists every filter the place belongs to, and the first matching official page is url. Keep summaries short and do not invent events.",
+  "types": [
+    { "id": "outdoor", "label": "Outdoor events" },
+    { "id": "drives", "label": "Scenic drives" },
+    { "id": "walks", "label": "Hikes and walks" },
+    { "id": "parkruns", "label": "Parkruns" },
+    { "id": "parks", "label": "Parks and gardens" },
+    { "id": "lookouts", "label": "Lookouts" },
+    { "id": "family", "label": "Family and kids" }
+  ],
+  "places": [
+    {
+      "id": "queens-park",
+      "name": "Queens Park and Botanic Gardens",
+      "type": "outdoor",
+      "types": ["outdoor", "parks", "family"],
+      "area": "East Toowoomba",
+      "summary": "Heritage gardens and lawns beside the CBD, playgrounds and barbecues, and the ground for the Carnival of Flowers.",
+      "url": "https://www.tr.qld.gov.au/Places-and-activities/Parks-and-gardens/Find-a-park/Queens-Park",
+      "source": "Toowoomba Regional Council",
+      "featured": true
+    },
+    {
+      "id": "spring-bluff",
+      "name": "Spring Bluff railway station",
+      "type": "drives",
+      "types": ["drives", "family"],
+      "area": "Spring Bluff",
+      "summary": "A heritage station and gardens about 15 minutes north of the city, along Murphy's Creek Road.",
+      "url": "https://www.tr.qld.gov.au/Places-and-activities/Parks-and-gardens/Find-a-park/Spring-Bluff",
+      "source": "Toowoomba Regional Council",
+      "featured": true
+    },
+    {
+      "id": "pittsworth",
+      "name": "Drive to Pittsworth",
+      "type": "drives",
+      "types": ["drives"],
+      "area": "Pittsworth",
+      "summary": "About 40 km southwest across farming country, with a historical village, gallery and a small main street.",
+      "url": "https://www.tr.qld.gov.au/Places-and-activities/Our-towns-and-history/Our-towns/Pittsworth",
+      "source": "Toowoomba Regional Council",
+      "featured": false
+    },
+    {
+      "id": "table-top",
+      "name": "Table Top Mountain walk",
+      "type": "walks",
+      "types": ["walks"],
+      "area": "Rangeville",
+      "summary": "A steep Grade 5 return walk to the flat summit. The route is not maintained, so wear boots and take care.",
+      "url": "https://visit.tr.qld.gov.au/listing/19492-a/table-top-mountain-bushland-reserve",
+      "source": "Visit Toowoomba Region",
+      "featured": true
+    },
+    {
+      "id": "redwood-park",
+      "name": "Redwood Park",
+      "type": "walks",
+      "types": ["walks", "parks"],
+      "area": "Redwood",
+      "summary": "Escarpment bushland with walking tracks and a picnic area, reached from Bridge Street or the Range highway.",
+      "url": "https://www.tr.qld.gov.au/facilities-recreation/parks-gardens/parks-by-location/redwood-redwood-park",
+      "source": "Toowoomba Regional Council",
+      "featured": false
+    },
+    {
+      "id": "jubilee-park",
+      "name": "Jubilee Park",
+      "type": "walks",
+      "types": ["walks", "parks"],
+      "area": "Prince Henry Heights",
+      "summary": "A large bushland park below the escarpment, with walking trails and mountain-bike tracks.",
+      "url": "https://www.tr.qld.gov.au/Places-and-activities/Parks-and-gardens/Find-a-park/Jubilee-Park",
+      "source": "Toowoomba Regional Council",
+      "featured": false
+    },
+    {
+      "id": "ravensbourne",
+      "name": "Ravensbourne National Park",
+      "type": "walks",
+      "types": ["walks", "lookouts"],
+      "area": "Ravensbourne",
+      "summary": "Short rainforest and palm-creek walks, and Gus Beutel lookout over the range. Day visits only.",
+      "url": "https://parks.qld.gov.au/parks/ravensbourne",
+      "source": "Queensland Parks and Forests",
+      "featured": false
+    },
+    {
+      "id": "toowoomba-parkrun",
+      "name": "Toowoomba parkrun",
+      "type": "parkruns",
+      "types": ["parkruns", "outdoor", "family"],
+      "area": "Queens Park, East Toowoomba",
+      "summary": "A free 5 km every Saturday morning on the paths through Queens Park. Register once with parkrun and bring a barcode.",
+      "url": "https://www.parkrun.com.au/toowoomba/",
+      "source": "parkrun Australia",
+      "featured": true
+    },
+    {
+      "id": "highfields-parkrun",
+      "name": "Highfields parkrun",
+      "type": "parkruns",
+      "types": ["parkruns", "outdoor"],
+      "area": "Highfields",
+      "summary": "A free Saturday 5 km at Highfields Sports and Recreation Park on Barracks Road.",
+      "url": "https://www.parkrun.com.au/highfields/",
+      "source": "parkrun Australia",
+      "featured": false
+    },
+    {
+      "id": "ju-raku-en",
+      "name": "Ju Raku En Japanese Garden",
+      "type": "parks",
+      "types": ["parks", "family"],
+      "area": "Darling Heights",
+      "summary": "A traditional Japanese stroll garden with a lake, bridges and paths, on the UniSQ Toowoomba campus.",
+      "url": "https://www.unisq.edu.au/about-unisq/locations/toowoomba/japanese-garden",
+      "source": "University of Southern Queensland",
+      "featured": true
+    },
+    {
+      "id": "picnic-point",
+      "name": "Picnic Point lookout",
+      "type": "lookouts",
+      "types": ["lookouts", "parks", "family"],
+      "area": "Rangeville",
+      "summary": "The escarpment lookout over the Lockyer Valley, with playgrounds, picnic lawns and short walks in the parklands.",
+      "url": "https://www.tr.qld.gov.au/Places-and-activities/Parks-and-gardens/Find-a-park/Picnic-Point-Bushland-Reserve",
+      "source": "Toowoomba Regional Council",
+      "featured": true
+    },
+    {
+      "id": "crows-nest-falls",
+      "name": "Crows Nest Falls",
+      "type": "lookouts",
+      "types": ["lookouts", "walks"],
+      "area": "Crows Nest National Park",
+      "summary": "Cascades and a 20 metre waterfall in eucalypt forest, about 50 km north of Toowoomba. Stay behind the lookout barriers.",
+      "url": "https://parks.qld.gov.au/parks/crows-nest",
+      "source": "Queensland Parks and Forests",
+      "featured": false
+    },
+    {
+      "id": "laurel-bank",
+      "name": "Laurel Bank Park",
+      "type": "family",
+      "types": ["family", "parks"],
+      "area": "Toowoomba City",
+      "summary": "Formal gardens, a scented garden, a playground and picnic lawns a short walk from the centre.",
+      "url": "https://www.tr.qld.gov.au/facilities-recreation/parks-gardens/parks-by-location/toowoomba-cbd-laurel-bank-park",
+      "source": "Toowoomba Regional Council",
+      "featured": false
+    }
+  ]
+}

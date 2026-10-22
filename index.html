@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What's On Toowoomba</title>
-  <meta name="description" content="Free community calendar of events, garage sales, and notices in Toowoomba, Queensland.">
-  <meta name="theme-color" content="#f3f6f1">
+  <meta name="description" content="Free community calendar of events, garage sales, and things to do around Toowoomba, Queensland.">
+  <meta name="theme-color" content="#fff6ee">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
   <script>
@@ -22,6 +22,7 @@
       <a class="brand" href="index.html">What's On <span>Toowoomba</span></a>
       <nav class="nav" aria-label="Sections">
         <a href="index.html" aria-current="page">Calendar</a>
+        <a href="things-to-do.html"><span class="wide-label">Things to do</span><span class="short-label">To do</span></a>
         <a href="share.html"><span class="wide-label">Share something</span><span class="short-label">Share</span></a>
       </nav>
       <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">Dark</button>
@@ -52,6 +53,7 @@
             <button type="button" data-date="weekend">This weekend</button>
             <button type="button" data-date="week">This week</button>
           </div>
+          <p class="hero-jump"><a href="things-to-do.html">Things to do around Toowoomba</a></p>
         </div>
         <p class="photo-credit"><a href="credits.html#picnic-point">Photo: Josselin Berger, CC BY 2.0</a></p>
       </div>
@@ -79,6 +81,16 @@
         </div>
       </form>
     </div>
+
+    <section class="things-band wrap" aria-labelledby="things-title">
+      <div class="section-head">
+        <h2 id="things-title">Things to do around Toowoomba</h2>
+        <a class="text-btn" href="things-to-do.html">See all</a>
+      </div>
+      <p class="lede">Walks, parks, lookouts and drives that are here all year. Each card links to the council, parkrun or Queensland Parks page.</p>
+      <div class="type-filters" data-things-chips></div>
+      <div class="things-grid" data-things="preview"></div>
+    </section>
 
     <section class="weekend wrap" id="weekend" aria-labelledby="weekend-title" hidden>
       <div class="section-head">
@@ -153,5 +165,6 @@
   </footer>
   <script type="module" src="js/theme.js"></script>
   <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/things.js"></script>
 </body>
 </html>
