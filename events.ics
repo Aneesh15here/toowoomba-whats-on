@@ -28,36 +28,6 @@ DTSTART;TZID=Australia/Brisbane:20261006T010000
 DTEND;TZID=Australia/Brisbane:20261208T143000
 END:VEVENT
 BEGIN:VEVENT
-UID:7d34c8f90004d499@whatsontoowoomba.au
-DTSTAMP:20261022T225109Z
-SUMMARY:Cathy Drummond @ Toowoomba City Library
-DESCRIPTION:Cathy Drummond @ Toowoomba City Library is listed for Fri\, 23 
- Oct 2026\, 10:00 am – 11:00 am at Toowoomba City Library\, Toowoomba Cit
- y. Join local entertainer Cathy Drummond for a morning of music and fun as
-  part of the Queensland Seniors Series. Price: Paid.
-URL:https://whatsontoowoomba.au/events/7d34c8f90004d499/
-LOCATION:Toowoomba City Library\, Toowoomba City Library\, 155 Herries Stre
- et\, Toowoomba City\, QLD\, 4350
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261023T100000
-DTEND;TZID=Australia/Brisbane:20261023T110000
-END:VEVENT
-BEGIN:VEVENT
-UID:2729a7440003bb90@whatsontoowoomba.au
-DTSTAMP:20261022T225109Z
-SUMMARY:Read + Play — Cecil Plains Library
-DESCRIPTION:Read + Play — Cecil Plains Library is listed for Fri\, 23 Oct
-  2026\, 10:00 am – 10:30 am at Cecil Plains Library\, Cecil Plains. Firs
- t 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Frid
- ay 23 October\, 6 November\, 20 November\, and 4 December\, 10am – 10.30
- am…
-URL:https://whatsontoowoomba.au/events/2729a7440003bb90/
-LOCATION:Cecil Plains Library\, Cecil Plains Library
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261023T100000
-DTEND;TZID=Australia/Brisbane:20261023T103000
-END:VEVENT
-BEGIN:VEVENT
 UID:00fcce6e0002ddc2@whatsontoowoomba.au
 DTSTAMP:20261022T225109Z
 SUMMARY:Dolly I Will Always Love You
@@ -98,6 +68,19 @@ STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261024T070000
 END:VEVENT
 BEGIN:VEVENT
+UID:d5205f270001f8f9@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Among the Wildflowers
+DESCRIPTION:Among the Wildflowers is listed for Sat\, 24 Oct 2026\, 9:00 am
+  – 11:00 am at Toowoomba\, Toowoomba. Organised by Immersionarts. Whethe
+ r it is free or paid was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/d5205f270001f8f9/
+LOCATION:Toowoomba\, Toowoomba
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261024T090000
+DTEND;TZID=Australia/Brisbane:20261024T110000
+END:VEVENT
+BEGIN:VEVENT
 UID:9fcb761a0005084d@whatsontoowoomba.au
 DTSTAMP:20261022T225109Z
 SUMMARY:Reading Journal Workshop @ Highfields Library
@@ -113,6 +96,47 @@ DTSTART;TZID=Australia/Brisbane:20261024T103000
 DTEND;TZID=Australia/Brisbane:20261024T123000
 END:VEVENT
 BEGIN:VEVENT
+UID:5c12cba5000354f4@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Stand together for MND
+DESCRIPTION:Stand together for MND is listed for Sat\, 24 Oct 2026\, 3:00 p
+ m – 10:00 pm at Pittsworth Showgrounds\, Pittsworth. Organised by Commun
+ ity (Facebook). Whether it is free or paid was not published. Price: See l
+ isting.
+URL:https://whatsontoowoomba.au/events/5c12cba5000354f4/
+LOCATION:Pittsworth Showgrounds\, Pittsworth
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261024T150000
+DTEND;TZID=Australia/Brisbane:20261024T220000
+END:VEVENT
+BEGIN:VEVENT
+UID:311682300003152c@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Acoustic Mayhem at the Bone
+DESCRIPTION:Acoustic Mayhem at the Bone is listed for Sat\, 24 Oct 2026\, 5
+ :00 pm at Bone Idol Brewery\, Toowoomba City. Organised by Community (Face
+ book). No end time was published. Whether it is free or paid was not publi
+ shed. Price: See listing.
+URL:https://whatsontoowoomba.au/events/311682300003152c/
+LOCATION:Bone Idol Brewery\, 424 Ruthven St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261024T170000
+END:VEVENT
+BEGIN:VEVENT
+UID:fbed76560001e846@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Oakey Homemakers Swap
+DESCRIPTION:Oakey Homemakers Swap is listed for Sun\, 25 Oct 2026 at Oakey\
+ , Oakey. Organised by Community (Facebook). The start time was not publish
+ ed\, so this is an all-day listing. Whether it is free or paid was not pub
+ lished. Price: See listing.
+URL:https://whatsontoowoomba.au/events/fbed76560001e846/
+LOCATION:Oakey\, Oakey
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+END:VEVENT
+BEGIN:VEVENT
 UID:0907bf940003ae79@whatsontoowoomba.au
 DTSTAMP:20261022T225109Z
 SUMMARY:The Golden Days of Aussie Rock n Roll
@@ -126,6 +150,20 @@ LOCATION:The Empire\, The Empire\, Toowoomba
 STATUS:CONFIRMED
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
+END:VEVENT
+BEGIN:VEVENT
+UID:b65e52ae00027330@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:The Rotary Ramble (9.5km walk)
+DESCRIPTION:The Rotary Ramble (9.5km walk) is listed for Sun\, 25 Oct 2026\
+ , 7:30 am – 11:00 am at Lions Park\, Rangeville. A 9.5 km walk organised
+  by Toowoomba Metropolitan Rotary. Whether it is free or paid was not publ
+ ished. Price: See listing.
+URL:https://whatsontoowoomba.au/events/b65e52ae00027330/
+LOCATION:Lions Park\, Rangeville
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261025T073000
+DTEND;TZID=Australia/Brisbane:20261025T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:1d9230ae0006b3dc@whatsontoowoomba.au
@@ -504,6 +542,19 @@ LOCATION:Carer Gateway Wellways Toowoomba\, Carer Gateway Wellways Toowoomb
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261030T100000
 DTEND;TZID=Australia/Brisbane:20261030T113000
+END:VEVENT
+BEGIN:VEVENT
+UID:b7b356b40001e4a0@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Built on Foundations
+DESCRIPTION:Built on Foundations is listed for Fri\, 30 Oct 2026\, 12:00 pm
+  – 3:00 pm at Toowoomba\, Toowoomba. Organised by Shannon Duggan. Whethe
+ r it is free or paid was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/b7b356b40001e4a0/
+LOCATION:Toowoomba\, Toowoomba
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261030T120000
+DTEND;TZID=Australia/Brisbane:20261030T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:830c5f5800078e33@whatsontoowoomba.au
@@ -927,6 +978,20 @@ DTSTART;TZID=Australia/Brisbane:20261106T210000
 DTEND;TZID=Australia/Brisbane:20261107T030000
 END:VEVENT
 BEGIN:VEVENT
+UID:03c593920004ae85@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Car Boot Sale (Follow the Star fundraiser)
+DESCRIPTION:Car Boot Sale (Follow the Star fundraiser) is listed for Sat\, 
+ 7 Nov 2026\, 8:00 am – 12:00 pm at Living Grace Church\, Toowoomba. Foll
+ ow the Star fundraiser\, organised by Community (Facebook). Whether it is 
+ free or paid was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/03c593920004ae85/
+LOCATION:Living Grace Church\, 90 Jellicoe St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261107T080000
+DTEND;TZID=Australia/Brisbane:20261107T120000
+END:VEVENT
+BEGIN:VEVENT
 UID:f1513649000942d6@whatsontoowoomba.au
 DTSTAMP:20261022T225109Z
 SUMMARY:Baby Bunting Toowoomba: Grand Reopening Celebration Weekend | Free 
@@ -1016,6 +1081,19 @@ LOCATION:Toowoomba City Library\, Toowoomba City Library\, 155 Herries Stre
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T120000
 DTEND;TZID=Australia/Brisbane:20261107T130000
+END:VEVENT
+BEGIN:VEVENT
+UID:a075a82e0002373e@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Justice for John cent sale
+DESCRIPTION:Justice for John cent sale is listed for Sat\, 7 Nov 2026\, 12:
+ 00 pm at QCWA Hall\, Toowoomba City. Organised by Community (Facebook). No
+  end time was published. Whether it is free or paid was not published. Pri
+ ce: See listing.
+URL:https://whatsontoowoomba.au/events/a075a82e0002373e/
+LOCATION:QCWA Hall\, 263 Margaret St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261107T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e8ffea000466ca@whatsontoowoomba.au
@@ -1164,6 +1242,19 @@ LOCATION:Kath Dickson Education and Care Centre - Toowoomba Central\, Kath
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261110T160000
 DTEND;TZID=Australia/Brisbane:20261110T190000
+END:VEVENT
+BEGIN:VEVENT
+UID:158dd67a00032541@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Come and Try Pickleball
+DESCRIPTION:Come and Try Pickleball is listed for Tue\, 10 Nov 2026\, 6:00 
+ pm at Concordia College Gym\, Harristown. Organised by Community (Facebook
+ ). No end time was published. Whether it is free or paid was not published
+ . Price: See listing.
+URL:https://whatsontoowoomba.au/events/158dd67a00032541/
+LOCATION:Concordia College Gym\, Harristown
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261110T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8db1240007797e@whatsontoowoomba.au
@@ -1369,6 +1460,20 @@ LOCATION:The Annex\, 541 Ruthven Street Toowoomba City\, The Annex\, 541 Ru
  thven Street Toowoomba City
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261119T140000
+END:VEVENT
+BEGIN:VEVENT
+UID:b5b2037000035501@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Nourish & Nurture Retreat
+DESCRIPTION:Nourish & Nurture Retreat is listed for Fri\, 20 Nov 2026 at Bo
+ hemia Retreat\, Crows Nest. 20–22 November 2026 at Bohemia Retreat\, Cro
+ ws Nest. Daily times were not published\, so this is an all-day listing. L
+ ikely paid\; the amount was not published. Organised by Community…
+URL:https://whatsontoowoomba.au/events/b5b2037000035501/
+LOCATION:Bohemia Retreat\, Crows Nest
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
 END:VEVENT
 BEGIN:VEVENT
 UID:fea569a80005f49b@whatsontoowoomba.au
@@ -1843,6 +1948,20 @@ LOCATION:Clifton Library\, Clifton Library
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261217T100000
 DTEND;TZID=Australia/Brisbane:20261217T103000
+END:VEVENT
+BEGIN:VEVENT
+UID:5bda5da400041641@whatsontoowoomba.au
+DTSTAMP:20261022T225109Z
+SUMMARY:Community Christmas Carols
+DESCRIPTION:Community Christmas Carols is listed for Sun\, 20 Dec 2026\, 4:
+ 00 pm at Highfields Cultural Centre\, Highfields. Organised by Community (
+ Facebook). No end time was published. Whether it is free or paid was not p
+ ublished. Price: See listing.
+URL:https://whatsontoowoomba.au/events/5bda5da400041641/
+LOCATION:Highfields Cultural Centre\, Highfields Cultural Centre\, Sean McC
+ arthy Way\, Highfields\, QLD\, 4352
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261220T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:9e240d4700048732@whatsontoowoomba.au
