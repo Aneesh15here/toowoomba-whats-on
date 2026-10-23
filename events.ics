@@ -1369,6 +1369,19 @@ DTSTART;TZID=Australia/Brisbane:20261113T170000
 DTEND;TZID=Australia/Brisbane:20261113T193000
 END:VEVENT
 BEGIN:VEVENT
+UID:f90d8762000231c7@whatsontoowoomba.au
+DTSTAMP:20261023T125508Z
+SUMMARY:Mosaics and Merlot
+DESCRIPTION:Mosaics and Merlot is listed for Fri\, 13 Nov 2026\, 6:00 pm 
+ – 8:00 pm at Darling Heights\, Darling Heights. Organised by Pearce My H
+ eart Art. The amount was not published. Price: Paid.
+URL:https://whatsontoowoomba.au/events/f90d8762000231c7/
+LOCATION:Darling Heights\, Darling Heights
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261113T180000
+DTEND;TZID=Australia/Brisbane:20261113T200000
+END:VEVENT
+BEGIN:VEVENT
 UID:29c15bae00031373@whatsontoowoomba.au
 DTSTAMP:20261023T125508Z
 SUMMARY:Bangarra Dance Theatre: Horizon
@@ -1395,6 +1408,20 @@ LOCATION:Toowoomba City Library\, 155 Herries St\, Toowoomba City QLD 4350\
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261114T100000
 DTEND;TZID=Australia/Brisbane:20261114T143000
+END:VEVENT
+BEGIN:VEVENT
+UID:c6f6b88a0004cdca@whatsontoowoomba.au
+DTSTAMP:20261023T125508Z
+SUMMARY:Witches Christmas / Yule Market
+DESCRIPTION:Witches Christmas / Yule Market is listed for Sat\, 14 Nov 2026
+ \, 10:00 am – 4:00 pm at Scouts Hall\, Heller Street Park\, Rangeville. 
+ Organised by Community (Facebook). Whether it is free or paid was not publ
+ ished. Price: See listing.
+URL:https://whatsontoowoomba.au/events/c6f6b88a0004cdca/
+LOCATION:Scouts Hall\, Heller Street Park\, 1 Heller St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261114T100000
+DTEND;TZID=Australia/Brisbane:20261114T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:81ceba30000a6d07@whatsontoowoomba.au
@@ -2013,6 +2040,18 @@ URL:https://whatsontoowoomba.au/events/3af93e460003faa9/
 LOCATION:Jondaryan Community Hall\, 8 Duke St
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261219T090000
+END:VEVENT
+BEGIN:VEVENT
+UID:8cb9534c000180e1@whatsontoowoomba.au
+DTSTAMP:20261023T125508Z
+SUMMARY:The Nutcracker
+DESCRIPTION:The Nutcracker is listed for Sat\, 19 Dec 2026\, 11:00 am at Th
+ e Empire\, Toowoomba City. Organised by Toowoomba Ballet Theatre. No end t
+ ime was published. The amount was not published. Price: Paid.
+URL:https://whatsontoowoomba.au/events/8cb9534c000180e1/
+LOCATION:The Empire\, 54 Neil St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261219T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:5bda5da400041641@whatsontoowoomba.au
