@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T12:55:08.678Z",
+  "generatedAt": "2026-10-23T21:26:39.656Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,8 +10,7 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au was not readable",
-        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
+        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409"
       ]
     },
     {
@@ -26,12 +25,13 @@
     },
     {
       "id": "eventbrite",
-      "ok": false,
-      "parsed": 0,
-      "kept": 69,
-      "error": "Eventbrite HTTP 405",
+      "ok": true,
+      "parsed": 79,
+      "kept": 70,
+      "error": null,
       "notes": [
-        "Kept 69 earlier listing(s) from this source."
+        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
       ]
     },
     {
@@ -71,7 +71,7 @@
       "kept": 0,
       "error": null,
       "notes": [
-        "robots.txt for https://www.moshtix.com.au was not readable"
+        "robots.txt for https://www.moshtix.com.au returned HTTP 403"
       ]
     },
     {
@@ -81,7 +81,8 @@
       "kept": 0,
       "error": null,
       "notes": [
-        "Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba."
+        "Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba.",
+        "UniSQ event feed returned no rows for the current date."
       ]
     },
     {
@@ -176,6 +177,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/reading-journal-workshop-highfields-library-tickets-1999248990549",
       "summary": "Reading and Writing: How Keeping a Reading Journal Can Enhance Your Reading Life"
+    },
+    {
+      "id": "9f928d3a000190f7",
+      "kind": "event",
+      "title": "Play it Forward",
+      "start": "2026-10-24T17:30:00+10:00",
+      "end": "2026-10-24T20:30:00+10:00",
+      "allDay": false,
+      "venue": "128 Baker St",
+      "suburb": "Darling Heights",
+      "address": "128 Baker St, Darling Heights QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/play-it-forward"
     },
     {
       "id": "0907bf940003ae79",
@@ -518,30 +542,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316332540",
       "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
-    },
-    {
-      "id": "b3220e6600078bc0",
-      "kind": "event",
-      "title": "Reimagining  your classroom with Universal Design for Learning (UDL)",
-      "start": "2026-10-28T10:30:00+10:00",
-      "end": "2026-10-28T14:00:00+10:00",
-      "allDay": false,
-      "venue": "WOTSO Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "WOTSO Toowoomba, 123 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/reimagining-your-classroom-with-universal-design-for-learning-udl-tickets-2002599157990",
-      "summary": "Australian classrooms are diverse. Applying Universal Design for Learning (UDL) allows teachers to cater for this diversity."
     },
     {
       "id": "8291ca3300052b40",
@@ -2041,30 +2041,6 @@
       "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
     },
     {
-      "id": "81ceba30000a6d07",
-      "kind": "event",
-      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
-      "start": "2026-11-16T18:30:00+10:00",
-      "end": "2026-11-16T20:30:00+10:00",
-      "allDay": false,
-      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "Free–$30",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways"
-    },
-    {
       "id": "6469aac80002fec3",
       "kind": "event",
       "title": "Read + Play — Yarraman Library",
@@ -2389,6 +2365,30 @@
       "summary": "A deeply grounding meditation and sound harmony experience to slow your nervous system, reset your energy and come home to yourself."
     },
     {
+      "id": "5e7255700006f548",
+      "kind": "event",
+      "title": "Art for the Ocean (Sea Shepherd Toowoomba Fundraiser)",
+      "start": "2026-11-23T16:00:00+10:00",
+      "end": "2026-11-23T18:00:00+10:00",
+      "allDay": false,
+      "venue": "The Milk House Collective",
+      "suburb": "North Toowoomba",
+      "address": "The Milk House Collective, 57 Brook Street, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/art-for-the-ocean-sea-shepherd-toowoomba-fundraiser-tickets-2003804375829",
+      "summary": "100% of ticket sales support Sea Shepherd Australia. Join us for art, community, and conversation."
+    },
+    {
       "id": "dfeaa5f3000377f9",
       "kind": "event",
       "title": "2026 QLD Roadshow - Toowoomba",
@@ -2640,6 +2640,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "4309600900051193",
+      "kind": "event",
+      "title": "Queensland Police Service Recruiting Seminar - Toowoomba",
+      "start": "2026-12-01T17:30:00+10:00",
+      "end": "2026-12-01T19:00:00+10:00",
+      "allDay": false,
+      "venue": "52 Neil St",
+      "suburb": "Toowoomba City",
+      "address": "52 Neil St, 52 Neil Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/queensland-police-service-recruiting-seminar-toowoomba-tickets-2003694798079",
+      "summary": "A career within the Queensland Police Service is like no other. Register for a recruiting information and Q&A session to learn more."
     },
     {
       "id": "c77491650003686d",

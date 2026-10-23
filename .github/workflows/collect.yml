@@ -2,10 +2,11 @@ name: Collect events
 
 on:
   schedule:
-    # 06:00 Australia/Brisbane (UTC+10, no daylight saving)
-    - cron: "0 20 * * *"
-    # 18:00 Australia/Brisbane
-    - cron: "0 8 * * *"
+    # 06:17 Australia/Brisbane (UTC+10, no daylight saving).
+    # Minute 17 avoids the crowded :00 slot. The 23 Oct runs set for :00 started at 08:51 and 22:54 Brisbane.
+    - cron: "17 20 * * *"
+    # 18:17 Australia/Brisbane
+    - cron: "17 8 * * *"
   workflow_dispatch:
 
 permissions:
