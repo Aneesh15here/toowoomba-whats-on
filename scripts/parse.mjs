@@ -3,6 +3,7 @@
  */
 
 import {
+  TIMEZONE,
   brisbaneIso,
   decodeHtml,
   htmlToText,
@@ -408,6 +409,39 @@ export function parseEmpireEvents(html, pageUrl) {
   return { parsed: events.length, events };
 }
 
+const EVENTBRITE_CATEGORIES = {
+  music: ["music"],
+  "sports-and-fitness": ["sport"],
+  "performing-and-visual-arts": ["arts"],
+  spirituality: ["faith"],
+  "family-and-education": ["education"],
+  "school-activities": ["education"],
+  "auto-boat-and-air": ["sport"],
+};
+
+export function parseEventbriteEvents(body, pageUrl) {
+  const data = readEventbritePayload(body);
+  const results = data?.search_data?.events?.results;
+  const jsonLd = eventbriteJsonLd(body, pageUrl);
+  if (!Array.isArray(results) && !jsonLd.length) {
+    throw new Error("Eventbrite page had no event data");
+  }
+  const pageCount = data?.search_data?.events?.pagination?.page_count
+    || data?.page_count
+    || (jsonLd.length ? 4 : 1);
+  if (Array.isArray(results) && results.length) {
+    const cards = eventbriteCards(body);
+    const events = [];
+    for (const item of results) {
+      const normalised = normaliseEventbrite(item, cards.get(String(item.id)) || {});
+      if (normalised) events.push(normalised);
+    }
+    return { parsed: results.length, events, pageCount };
+  }
+  if (jsonLd.length) return { parsed: jsonLd.length, events: jsonLd, pageCount };
+  return { parsed: 0, events: [], pageCount };
+}
+
 export function parseMoshtixEvents(html, pageUrl) {
   const blocks = String(html || "").split(/<div class="searchresult\b/i).slice(1);
   if (!blocks.length && !/searchresult|Your search returned/i.test(String(html || ""))) {
@@ -620,6 +654,174 @@ function unisqListing({ title, location, whenText, timeText, href, summary, page
     source: "unisq",
     sourceUrl: absoluteUrl(href, pageUrl),
   });
+}
+
+function eventbriteJsonLd(body, pageUrl) {
+  const cards = eventbriteCards(body);
+  const events = [];
+  for (const node of readJsonLd(body)) {
+    const items = node["@type"] === "ItemList" && Array.isArray(node.itemListElement)
+      ? node.itemListElement.map((entry) => entry?.item || entry)
+      : [node];
+    for (const item of items) {
+      if (!item || !isSchemaEvent(item["@type"]) || isOnlineSchema(item)) continue;
+      const listing = schemaListing(item, pageUrl, "eventbrite");
+      if (!listing) continue;
+      const id = (String(listing.sourceUrl).match(/tickets-(\d+)/) || [])[1];
+      const card = id ? cards.get(id) : null;
+      if (card?.status === "free") listing.price = "Free";
+      else if (card?.status === "paid") listing.price = "Paid";
+      if (card?.category) {
+        const tagged = tagListing({
+          ...listing,
+          rawCategory: card.category,
+          extraCategories: EVENTBRITE_CATEGORIES[card.category] || [],
+        });
+        listing.categories = tagged.categories;
+        listing.ageGroups = tagged.ageGroups;
+        listing.communities = tagged.communities;
+      }
+      events.push(listing);
+    }
+  }
+  return events;
+}
+
+function isOnlineSchema(node) {
+  const mode = String(node.eventAttendanceMode || "");
+  if (/OnlineEventAttendanceMode/i.test(mode) && !/OfflineEventAttendanceMode/i.test(mode)) return true;
+  const location = node.location;
+  return Boolean(location && /VirtualLocation/i.test(String(location["@type"] || "")));
+}
+
+function normaliseEventbrite(event, card) {
+  if (!event || event.is_online_event || event.is_cancelled) return null;
+  const venue = event.primary_venue || {};
+  const address = venue.address || {};
+  const place = [venue.name, address.address_1, address.city, address.region, address.postal_code]
+    .filter(Boolean)
+    .join(", ");
+  const cityFocus = [address.city, address.region, address.postal_code].filter(Boolean).join(" ");
+  if (cityFocus) {
+    if (!inToowoombaRegion([cityFocus])) return null;
+  } else if (!inToowoombaRegion([venue.name, place])) return null;
+  const start = zonedIso(event.start_date, event.start_time, event.timezone);
+  if (!start) return null;
+  const end = event.end_date && event.end_time
+    ? zonedIso(event.end_date, event.end_time, event.timezone)
+    : null;
+  const price = card.status === "free" ? "Free" : card.status === "paid" ? "Paid" : "See listing";
+  return finishListing({
+    kind: "event",
+    title: String(event.name || "").trim(),
+    start: start.iso,
+    end: end?.iso || null,
+    allDay: start.allDay,
+    venue: venue.name || place || "Toowoomba",
+    suburb: address.city || "",
+    address: place,
+    price,
+    summary: String(event.summary || "").slice(0, 280),
+    source: "eventbrite",
+    sourceUrl: event.url,
+    rawCategory: card.category || "",
+    extraCategories: EVENTBRITE_CATEGORIES[card.category] || [],
+  });
+}
+
+function eventbriteCards(body) {
+  const map = new Map();
+  for (const tag of String(body || "").matchAll(/<a\b[^>]*class="[^"]*event-card-link[^"]*"[^>]*>/gi)) {
+    const id = tag[0].match(/data-event-id="(\d+)"/);
+    if (!id) continue;
+    map.set(id[1], {
+      status: (tag[0].match(/data-event-paid-status="([^"]+)"/) || [])[1] || "",
+      category: (tag[0].match(/data-event-category="([^"]+)"/) || [])[1] || "",
+    });
+  }
+  return map;
+}
+
+function readEventbritePayload(body) {
+  const text = String(body || "").trim();
+  if (text.startsWith("{")) {
+    try {
+      const data = JSON.parse(text);
+      if (data && typeof data === "object" && !Array.isArray(data)) return data;
+    } catch {
+      // Listing documents are HTML. A leading brace is not enough to trust as JSON.
+    }
+  }
+  const marker = "window.__SERVER_DATA__ = ";
+  const start = text.indexOf(marker);
+  if (start < 0) return null;
+  const slice = text.slice(start + marker.length);
+  return JSON.parse(slice.slice(0, jsonEnd(slice)));
+}
+
+function jsonEnd(text) {
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  for (let i = 0; i < text.length; i += 1) {
+    const char = text[i];
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (char === "\\") escaped = true;
+      else if (char === "\"") inString = false;
+      continue;
+    }
+    if (char === "\"") inString = true;
+    else if (char === "{" || char === "[") depth += 1;
+    else if (char === "}" || char === "]") {
+      depth -= 1;
+      if (depth === 0) return i + 1;
+    }
+  }
+  throw new Error("Eventbrite event data was incomplete");
+}
+
+function zonedIso(date, time, timeZone) {
+  if (!date) return null;
+  if (!time) {
+    return { iso: `${date}T00:00:00+10:00`, allDay: true };
+  }
+  const instant = wallTimeToUtc(date, time, timeZone || TIMEZONE);
+  return { iso: toBrisbaneIso(instant), allDay: false };
+}
+
+function wallTimeToUtc(date, time, timeZone) {
+  const [year, month, day] = date.split("-").map(Number);
+  const [hour, minute] = time.split(":").map(Number);
+  const utc = Date.UTC(year, month - 1, day, hour || 0, minute || 0);
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(new Date(utc));
+  const value = (type) => Number(parts.find((part) => part.type === type).value);
+  const zoned = Date.UTC(value("year"), value("month") - 1, value("day"), value("hour"), value("minute"));
+  return new Date(utc - (zoned - utc));
+}
+
+function toBrisbaneIso(date) {
+  const day = new Intl.DateTimeFormat("en-CA", {
+    timeZone: TIMEZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+  const time = new Intl.DateTimeFormat("en-GB", {
+    timeZone: TIMEZONE,
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).format(date);
+  return `${day}T${time}:00+10:00`;
 }
 
 function schemaListing(node, pageUrl, source) {

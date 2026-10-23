@@ -6,6 +6,7 @@ import { fetchPermission, runSource } from "../scripts/collect.mjs";
 import {
   parseCouncilPage,
   parseEmpireEvents,
+  parseEventbriteEvents,
   parseGarageSales,
   parseMalayaliEvents,
   parseMeetupEvents,
@@ -219,6 +220,69 @@ test("meetup drops online rows and empire prefers schema.org events", () => {
   assert.equal(empire.events[0].start, "2026-12-01T19:30:00+10:00");
 });
 
+test("eventbrite uses embedded times and json-ld, and drops online or out-of-region rows", () => {
+  const pageUrl = "https://www.eventbrite.com.au/d/australia--toowoomba/all-events/";
+  const html = `
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"ItemList","itemListElement":[
+      {"@type":"ListItem","position":1,"item":{"@type":"Event","name":"Toowoomba market","startDate":"2026-11-07","url":"https://www.eventbrite.com.au/e/toowoomba-market-tickets-1","location":{"@type":"Place","name":"Queens Park","address":{"addressLocality":"Toowoomba","addressRegion":"QLD","postalCode":"4350"}}}},
+      {"@type":"ListItem","position":2,"item":{"@type":"Event","name":"Online webinar","startDate":"2026-11-08","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://www.eventbrite.com.au/e/online-tickets-2","location":{"@type":"VirtualLocation","url":"https://example.com"}}}
+    ]}
+    </script>
+    <script>window.__SERVER_DATA__ = {"search_data":{"events":{"results":[
+      {"id":"1","name":"Toowoomba market","start_date":"2026-11-07","start_time":"09:30","end_date":"2026-11-07","end_time":"12:00","timezone":"Australia/Brisbane","url":"https://www.eventbrite.com.au/e/toowoomba-market-tickets-1","is_online_event":false,"summary":"Stalls","primary_venue":{"name":"Queens Park","address":{"city":"Toowoomba","region":"QLD","postal_code":"4350"}}},
+      {"id":"9","name":"Brisbane only","start_date":"2026-11-09","start_time":"18:00","timezone":"Australia/Brisbane","url":"https://www.eventbrite.com.au/e/brisbane-tickets-9","is_online_event":false,"primary_venue":{"name":"The Triffid","address":{"city":"Brisbane","region":"QLD","postal_code":"4000"}}}
+    ],"pagination":{"page_count":2}}}};</script>
+    <a class="event-card-link" data-event-id="1" data-event-paid-status="free" data-event-category="family-and-education"></a>
+  `;
+  const result = parseEventbriteEvents(html, pageUrl);
+  assert.equal(result.parsed, 2);
+  assert.equal(result.events.length, 1);
+  assert.equal(result.events[0].title, "Toowoomba market");
+  assert.equal(result.events[0].start, "2026-11-07T09:30:00+10:00");
+  assert.equal(result.events[0].end, "2026-11-07T12:00:00+10:00");
+  assert.equal(result.events[0].price, "Free");
+  assert.equal(result.events[0].source, "eventbrite");
+  assert.equal(result.events[0].categories.includes("education"), true);
+  assert.equal(result.pageCount, 2);
+
+  const jsonOnly = parseEventbriteEvents(`
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"ItemList","itemListElement":[
+      {"@type":"ListItem","item":{"@type":"Event","name":"Glenvale show","startDate":"2026-11-20","url":"https://www.eventbrite.com.au/e/glenvale-show-tickets-3","location":{"@type":"Place","name":"Toowoomba Showgrounds","address":{"streetAddress":"Glenvale Road","addressLocality":"Glenvale","addressRegion":"QLD","postalCode":"4350"}}}}
+    ]}
+    </script>
+  `, pageUrl);
+  assert.equal(jsonOnly.parsed, 1);
+  assert.equal(jsonOnly.events[0].start, "2026-11-20T00:00:00+10:00");
+  assert.equal(jsonOnly.events[0].allDay, true);
+  assert.equal(jsonOnly.events[0].venue, "Toowoomba Showgrounds");
+
+  const xhr = parseEventbriteEvents(JSON.stringify({
+    search_data: {
+      events: {
+        results: [{
+          id: "4",
+          name: "JSON listing",
+          start_date: "2026-12-01",
+          start_time: "19:00",
+          timezone: "Australia/Brisbane",
+          url: "https://www.eventbrite.com.au/e/json-listing-tickets-4",
+          is_online_event: false,
+          primary_venue: { name: "The Empire", address: { city: "Toowoomba", region: "QLD", postal_code: "4350" } },
+        }],
+        pagination: { page_count: 3 },
+      },
+    },
+  }), pageUrl);
+  assert.equal(xhr.events.length, 1);
+  assert.equal(xhr.events[0].start, "2026-12-01T19:00:00+10:00");
+  assert.throws(
+    () => parseEventbriteEvents('<html><script>window.__SERVER_DATA__ = {"search_data":{}};</script>', pageUrl),
+    /no event data/,
+  );
+});
+
 test("moshtix and unisq keep Toowoomba venues only", () => {
   const moshtix = parseMoshtixEvents(
     `<div class="searchresult"><h2 class="main-event-header"><a href="/v2/event/brisbane-only-show/1"><span>Brisbane Only Show</span></a></h2><h2 class="main-artist-event-header">Sat 7 Nov 2026, 7.00pm | <a href="/v2/venues/the-triffid/1"><span>The Triffid</span></a></h2></div>`,
@@ -274,6 +338,28 @@ test("fetchPermission follows a robots.txt redirect", async () => {
     assert.equal(allowed.ok, true);
     assert.equal(blocked.ok, false);
     assert.match(blocked.reason, /disallows/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+  }
+});
+
+test("fetchPermission records the HTTP status when robots.txt is blocked", async () => {
+  const server = http.createServer((request, response) => {
+    if (request.url === "/robots.txt") {
+      response.writeHead(403, { "content-type": "application/json" });
+      response.end('{"response":"block"}');
+      return;
+    }
+    response.writeHead(200, { "content-type": "text/html" });
+    response.end("ok");
+  });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  try {
+    const address = server.address();
+    const port = typeof address === "object" && address ? address.port : 0;
+    const permission = await fetchPermission(`http://127.0.0.1:${port}/v2/search?query=toowoomba`);
+    assert.equal(permission.ok, false);
+    assert.match(permission.reason, /HTTP 403/);
   } finally {
     await new Promise((resolve) => server.close(resolve));
   }
