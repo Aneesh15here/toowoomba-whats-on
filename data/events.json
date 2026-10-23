@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:51:09.832Z",
+  "generatedAt": "2026-10-23T12:55:08.678Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 20,
+      "kept": 19,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 70,
+      "kept": 69,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 70 earlier listing(s) from this source."
+        "Kept 69 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 7,
+      "kept": 7,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -128,56 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "7d34c8f90004d499",
-      "kind": "event",
-      "title": "Cathy Drummond @ Toowoomba City Library",
-      "start": "2026-10-23T10:00:00+10:00",
-      "end": "2026-10-23T11:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "seniors"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music",
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/cathy-drummond-toowoomba-city-library-tickets-2003044875142",
-      "summary": "Join local entertainer Cathy Drummond for a morning of music and fun as part of the Queensland Seniors Series."
-    },
-    {
-      "id": "2729a7440003bb90",
-      "kind": "event",
-      "title": "Read + Play — Cecil Plains Library",
-      "start": "2026-10-23T10:00:00+10:00",
-      "end": "2026-10-23T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Cecil Plains Library",
-      "suburb": "",
-      "address": "Cecil Plains Library",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
     },
     {
       "id": "00fcce6e0002ddc2",
@@ -522,6 +472,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/honouring-her-tickets-1999888244575",
       "summary": "A woman's circle to pause, reconnect and honour yourself while nurturing self-worth, inner strength and personal power."
+    },
+    {
+      "id": "d7a8167900058e97",
+      "kind": "event",
+      "title": "Toowoomba Learn to Draw Glass with Realistic Shading",
+      "start": "2026-10-27T20:30:00+10:00",
+      "end": "2026-10-27T21:30:00+10:00",
+      "allDay": false,
+      "venue": "C2J5+5P Withcott",
+      "suburb": "Toowoomba",
+      "address": "C2J5+5P Withcott, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/sketching-socials-and-good-times-gathered/events/317094204/",
+      "summary": "Sketching Socials and Good Times Gathered"
     },
     {
       "id": "e9506ce400082379",
@@ -938,6 +912,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/abcdance-halloween-themed-mazes-tickets-1992400771341",
       "summary": "Three mazes. Three levels of scares.  Family-friendly fun to full-blown horror. How brave are you?  Dare to enter!"
+    },
+    {
+      "id": "907f72230004bea0",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Gay Speed Dating for Locals",
+      "start": "2026-11-01T19:00:00+10:00",
+      "end": "2026-11-01T20:00:00+10:00",
+      "allDay": false,
+      "venue": "3 Elizabeth St",
+      "suburb": "Toowoomba",
+      "address": "3 Elizabeth St, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/frozen-trails-and-fireside-winter-chats/events/317092645/",
+      "summary": "Frozen Trails and Fireside Winter Chats"
     },
     {
       "id": "c73329f90005d866",
@@ -1759,6 +1755,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
       "summary": "Sparks Fly Single Socials"
+    },
+    {
+      "id": "e9a0006000054c37",
+      "kind": "event",
+      "title": "Toowoomba Speed Dating for Local Community",
+      "start": "2026-11-08T20:00:00+11:00",
+      "end": "2026-11-08T21:00:00+11:00",
+      "allDay": false,
+      "venue": "161 Preston Boundary Rd",
+      "suburb": "Toowoomba",
+      "address": "161 Preston Boundary Rd, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/bend-and-brunch-yoga-social-club/events/317093200/",
+      "summary": "Bend and Brunch Yoga Social Club"
     },
     {
       "id": "029f06040005b3a5",
