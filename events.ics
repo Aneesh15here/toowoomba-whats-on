@@ -196,6 +196,19 @@ DTSTART;TZID=Australia/Brisbane:20261025T100000
 DTEND;TZID=Australia/Brisbane:20261025T110000
 END:VEVENT
 BEGIN:VEVENT
+UID:126aa4f7000580f8@whatsontoowoomba.au
+DTSTAMP:20261023T125508Z
+SUMMARY:Concert: Christie\, Josh and Daniel
+DESCRIPTION:Concert: Christie\, Josh and Daniel is listed for Sun\, 25 Oct 
+ 2026\, 2:00 pm at St John's Anglican Church (town tbc). Covers of ABBA\, C
+ yndi Lauper\, Alicia Keys\, and Neil Finn\, with afternoon tea included. T
+ ickets at https://www.trybooking.com/DQEOP or at the door. The town was…
+URL:https://whatsontoowoomba.au/events/126aa4f7000580f8/
+LOCATION:St John's Anglican Church (town tbc)
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261025T140000
+END:VEVENT
+BEGIN:VEVENT
 UID:994e370200037044@whatsontoowoomba.au
 DTSTAMP:20261023T125508Z
 SUMMARY:Boots\, Beats & Good Company
@@ -1987,6 +2000,19 @@ LOCATION:Clifton Library\, Clifton Library
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261217T100000
 DTEND;TZID=Australia/Brisbane:20261217T103000
+END:VEVENT
+BEGIN:VEVENT
+UID:3af93e460003faa9@whatsontoowoomba.au
+DTSTAMP:20261023T125508Z
+SUMMARY:Jondaryan Christmas Markets
+DESCRIPTION:Jondaryan Christmas Markets is listed for Sat\, 19 Dec 2026\, 9
+ :00 am at Jondaryan Community Hall\, Jondaryan. Santa appearing. Organised
+  by Jondaryn Markets. No end time was published. Whether it is free or pai
+ d was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/3af93e460003faa9/
+LOCATION:Jondaryan Community Hall\, 8 Duke St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261219T090000
 END:VEVENT
 BEGIN:VEVENT
 UID:5bda5da400041641@whatsontoowoomba.au
