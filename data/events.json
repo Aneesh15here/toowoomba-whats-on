@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:26:39.656Z",
+  "generatedAt": "2026-10-24T12:40:20.287Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,7 +10,8 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409"
+        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409",
+        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
       ]
     },
     {
@@ -25,13 +26,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
-      "kept": 70,
-      "error": null,
+      "ok": false,
+      "parsed": 0,
+      "kept": 69,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 69 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 7,
-      "kept": 7,
+      "parsed": 8,
+      "kept": 8,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -129,77 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "00fcce6e0002ddc2",
-      "kind": "event",
-      "title": "Dolly I Will Always Love You",
-      "start": "2026-10-24T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/dolly-i-will-always-love-you-26",
-      "summary": "Get ready to experience the ultimate tribute to country music royalty! DOLLY: I Will Always Love You is a spectacular celebration of the one and only Dolly Parton!"
-    },
-    {
-      "id": "9fcb761a0005084d",
-      "kind": "event",
-      "title": "Reading Journal Workshop @ Highfields Library",
-      "start": "2026-10-24T10:30:00+10:00",
-      "end": "2026-10-24T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Highfields Library",
-      "suburb": "Highfields",
-      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/reading-journal-workshop-highfields-library-tickets-1999248990549",
-      "summary": "Reading and Writing: How Keeping a Reading Journal Can Enhance Your Reading Life"
-    },
-    {
-      "id": "9f928d3a000190f7",
-      "kind": "event",
-      "title": "Play it Forward",
-      "start": "2026-10-24T17:30:00+10:00",
-      "end": "2026-10-24T20:30:00+10:00",
-      "allDay": false,
-      "venue": "128 Baker St",
-      "suburb": "Darling Heights",
-      "address": "128 Baker St, Darling Heights QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/play-it-forward"
     },
     {
       "id": "0907bf940003ae79",
@@ -291,28 +220,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/boots-beats-good-company-tickets-1994945241921",
       "summary": "Kick up your heels and join us for a fun evening of line dancing, great music, plenty of laughs and genuine connection."
-    },
-    {
-      "id": "aaffede7000188b3",
-      "kind": "event",
-      "title": "Language Exchange",
-      "start": "2026-10-25T16:00:00+10:00",
-      "end": "2026-10-25T16:45:00+10:00",
-      "allDay": false,
-      "venue": "New Hope",
-      "suburb": "Toowoomba",
-      "address": "12 Peace Street, Toowoomba, AU",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/316821518/",
-      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "486367320003ab86",
@@ -934,6 +841,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/frozen-trails-and-fireside-winter-chats/events/317092645/",
       "summary": "Frozen Trails and Fireside Winter Chats"
+    },
+    {
+      "id": "a4f015270003aa35",
+      "kind": "event",
+      "title": "Toowoomba Safe Gay Speed Dating from Home",
+      "start": "2026-11-01T19:00:00+10:00",
+      "end": "2026-11-01T20:00:00+10:00",
+      "allDay": false,
+      "venue": "5 Nathua Ct",
+      "suburb": "Toowoomba",
+      "address": "5 Nathua Ct, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/high-altitude-kite-flyers-social-club/events/317111744/",
+      "summary": "High Altitude Kite Flyers Social Club"
     },
     {
       "id": "c73329f90005d866",
@@ -1711,6 +1640,27 @@
       "summary": "Monster Truck Mayhem Thrill & Stunt Show roars into Toowoomba Showgrounds on 7 November 2026. Family thrills, stunts & fireworks!"
     },
     {
+      "id": "b968aec900061944",
+      "kind": "event",
+      "title": "Toowoomba Ecstatic Dance - Awaken the Spirit Within",
+      "start": "2026-11-07T18:00:00+10:00",
+      "end": "2026-11-07T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Drayton Memorial Hall",
+      "suburb": "Drayton",
+      "address": "39 Brisbane St, Drayton QLD 4350, Australia",
+      "price": "$25–$45",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-ecstatic-dance-awaken-the-spirit-within"
+    },
+    {
       "id": "12cc1728000531da",
       "kind": "event",
       "title": "Sparks Fly Singles Only Lawn Bowls - Club Toowoomba",
@@ -1755,6 +1705,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
       "summary": "Sparks Fly Single Socials"
+    },
+    {
+      "id": "ae715df70004c104",
+      "kind": "event",
+      "title": "Toowoomba Personality Matched Local Singles",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "46 Nugent Pinch Rd",
+      "suburb": "Toowoomba",
+      "address": "46 Nugent Pinch Rd, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/the-mobile-kitchen-gourmet-tasting-squad/events/317111040/",
+      "summary": "The Mobile Kitchen Gourmet Tasting Squad"
     },
     {
       "id": "e9a0006000054c37",
@@ -2906,15 +2878,15 @@
       "sourceUrl": "https://events.humanitix.com/christmas-of-remembrance-2026-tw"
     },
     {
-      "id": "adfb19ef00041436",
+      "id": "7d317ad900048fc4",
       "kind": "event",
       "title": "Mantra Rhythm - Toowoomba",
-      "start": "2026-12-13T16:30:00+10:00",
-      "end": "2026-12-13T18:00:00+10:00",
+      "start": "2026-12-13T16:00:00+10:00",
+      "end": "2026-12-13T17:30:00+10:00",
       "allDay": false,
-      "venue": "Toowoomba Choral Society Hall",
-      "suburb": "North Toowoomba",
-      "address": "16 Raff St, North Toowoomba QLD 4350, Australia",
+      "venue": "Clive Berghofer Recreation Centre ",
+      "suburb": "Darling Heights",
+      "address": "20 Baker St, Darling Heights QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "families"
