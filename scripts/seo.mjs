@@ -858,6 +858,20 @@ function emptyBox(title, copy) {
   return `<div class="empty"><h2>${escapeHtml(title)}</h2><p>${copy}</p><p><a class="btn" href="/share.html">Share something in Toowoomba</a></p></div>`;
 }
 
+// Edit this sentence to change the garage sales call to action.
+const GARAGE_SALE_CTA = "Know of a garage sale? Add it yourself. Pop the address, date and time into the Share something form and it'll show up here.";
+
+function garageSaleCtaInner() {
+  return `        <p>${escapeHtml(GARAGE_SALE_CTA)}</p>
+        <a class="btn" href="/share.html">Share something</a>`;
+}
+
+function garageSaleCta() {
+  return `<aside class="garage-cta" aria-label="Add a garage sale">
+${garageSaleCtaInner()}
+      </aside>`;
+}
+
 function relatedList(events) {
   if (!events.length) return "";
   const items = events.map((event) => {
@@ -920,14 +934,14 @@ function pageGraph(crumbs, extra) {
   return [breadcrumbNode(crumbs), organizationNode(), ...extra];
 }
 
-function writeLanding(files, { path, title, description, heading, lede, crumbs, events, emptyTitle, emptyCopy, extraGraph = [], current, excludeCategory = "" }) {
+function writeLanding(files, { path, title, description, heading, lede, crumbs, events, emptyTitle, emptyCopy, extraGraph = [], current, excludeCategory = "", notice = "" }) {
   const graph = pageGraph(crumbs, [itemListNode(heading, events), ...extraGraph]);
   const body = layout({
     current,
     crumbs,
     heading,
     lede: `<p>${lede}</p>`,
-    main: `${renderCards(events, emptyBox(emptyTitle, emptyCopy))}
+    main: `${notice}${renderCards(events, emptyBox(emptyTitle, emptyCopy))}
     ${linkGrid(categoryLinks(excludeCategory), "Categories")}
     <p><a href="/">Back to the full Toowoomba calendar</a></p>`,
   });
@@ -1212,6 +1226,9 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
   nextIndex = replaceMarker(nextIndex, "status", `${all.length} upcoming listing${all.length === 1 ? "" : "s"} in Toowoomba`);
   nextIndex = replaceMarker(nextIndex, "listings", `<ul class="related">${all.map(renderListingLine).join("\n")}</ul>`);
   nextIndex = replaceMarker(nextIndex, "browse", browseBlock(suburbs));
+  if (nextIndex.includes("<!-- seo:garage-cta -->")) {
+    nextIndex = replaceMarker(nextIndex, "garage-cta", garageSaleCtaInner());
+  }
   nextIndex = stampHtml(nextIndex);
 
   for (const event of calendar) {
@@ -1299,6 +1316,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
     emptyCopy: "No upcoming garage sale is on the calendar. Send the date, suburb, and a list of items and it can be added after review.",
     current: "/garage-sales/",
     excludeCategory: "garage",
+    notice: `${garageSaleCta()}\n      `,
   });
 
   for (const suburb of suburbs) {

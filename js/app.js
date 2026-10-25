@@ -31,6 +31,7 @@ const searchInput = document.querySelector("#filter-search");
 const weekendSection = document.querySelector("#weekend");
 const weekendRow = document.querySelector("#weekend-row");
 const garageBanner = document.querySelector("#garage-banner");
+const garageCta = document.querySelector("#garage-cta");
 
 fillSelect(document.querySelector("#filter-age"), AGE_GROUPS, "Any age");
 fillSelect(document.querySelector("#filter-community"), COMMUNITIES, "Any community");
@@ -126,6 +127,7 @@ function render() {
   }
   renderWeekend(filters, query);
   if (garageBanner) garageBanner.hidden = state.tab !== "garage";
+  if (garageCta) garageCta.hidden = state.tab !== "garage";
   hydratePictures();
   syncDateChips(filters.date);
   sourceLine.textContent = sourceSummary();
