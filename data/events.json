@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T13:10:53.331Z",
+  "generatedAt": "2026-10-25T22:32:50.312Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -131,28 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "4303e21e0004b44b",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-10-26T09:00:00+10:00",
-      "end": "2026-10-26T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317055102/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "05ad9d8e00059cfa",
       "kind": "event",
       "title": "Meet the Author: David Raymond @ Highfields Library",
@@ -221,6 +199,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-acotar-6-early-store-openings-at-qbd-books"
+    },
+    {
+      "id": "611370ff0004b482",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-10-27T09:00:00+10:00",
+      "end": "2026-10-27T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317067090/",
+      "summary": "Community English Class"
     },
     {
       "id": "ff7aac3b000216dd",
@@ -750,28 +750,6 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/frozen-trails-and-fireside-winter-chats/events/317092645/",
       "summary": "Frozen Trails and Fireside Winter Chats"
-    },
-    {
-      "id": "a4f015270003aa35",
-      "kind": "event",
-      "title": "Toowoomba Safe Gay Speed Dating from Home",
-      "start": "2026-11-01T19:00:00+10:00",
-      "end": "2026-11-01T20:00:00+10:00",
-      "allDay": false,
-      "venue": "5 Nathua Ct",
-      "suburb": "Toowoomba",
-      "address": "5 Nathua Ct, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/high-altitude-kite-flyers-social-club/events/317111744/",
-      "summary": "High Altitude Kite Flyers Social Club"
     },
     {
       "id": "c73329f90005d866",
@@ -1549,27 +1527,6 @@
       "summary": "Monster Truck Mayhem Thrill & Stunt Show roars into Toowoomba Showgrounds on 7 November 2026. Family thrills, stunts & fireworks!"
     },
     {
-      "id": "b968aec900061944",
-      "kind": "event",
-      "title": "Toowoomba Ecstatic Dance - Awaken the Spirit Within",
-      "start": "2026-11-07T18:00:00+10:00",
-      "end": "2026-11-07T20:00:00+10:00",
-      "allDay": false,
-      "venue": "Drayton Memorial Hall",
-      "suburb": "Drayton",
-      "address": "39 Brisbane St, Drayton QLD 4350, Australia",
-      "price": "$25–$45",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-ecstatic-dance-awaken-the-spirit-within"
-    },
-    {
       "id": "12cc1728000531da",
       "kind": "event",
       "title": "Sparks Fly Singles Only Lawn Bowls - Club Toowoomba",
@@ -1614,6 +1571,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
       "summary": "Sparks Fly Single Socials"
+    },
+    {
+      "id": "42b4e78e0003f86c",
+      "kind": "event",
+      "title": "Toowoomba Local Singles, Real Connections Fast",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "52 Jack St",
+      "suburb": "Toowoomba",
+      "address": "52 Jack St, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/meetup-group-dmdydnpb/events/317113237/",
+      "summary": "Ink and Insights Journaling Social Club"
     },
     {
       "id": "e9a0006000054c37",
@@ -2406,6 +2385,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
+      "id": "5aa691950009af03",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
       "id": "3ea7d9c700022b1f",
