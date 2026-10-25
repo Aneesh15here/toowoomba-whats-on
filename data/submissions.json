@@ -234,6 +234,27 @@
     {
       "status": "approved",
       "kind": "event",
+      "title": "Craft Market Jamboree",
+      "start": "2026-12-12T06:30:00+10:00",
+      "end": "2026-12-12T12:00:00+10:00",
+      "allDay": false,
+      "venue": "The Milk House Collective",
+      "suburb": "North Toowoomba",
+      "address": "Unit 36/57 Brook St",
+      "organiser": "The Milk House Collective and Moon Jazmine",
+      "price": "See listing",
+      "ageGroups": ["families"],
+      "communities": ["multicultural"],
+      "categories": ["markets"],
+      "source": "community (facebook)",
+      "sourceUrl": "https://www.facebook.com/events/1101210492311741/",
+      "url": "https://www.facebook.com/events/1101210492311741/",
+      "items": "",
+      "summary": "Organised by The Milk House Collective and Moon Jazmine. Whether it is free or paid was not published."
+    },
+    {
+      "status": "approved",
+      "kind": "event",
       "title": "Jondaryan Christmas Markets",
       "start": "2026-12-19T09:00:00+10:00",
       "end": null,
@@ -272,6 +293,27 @@
       "url": "https://www.facebook.com/events/1812064253553117/",
       "items": "",
       "summary": "Organised by Community (Facebook). No end time was published. Whether it is free or paid was not published."
+    },
+    {
+      "status": "approved",
+      "kind": "event",
+      "title": "Neil Diamond musical 'A Beautiful Noise' day trip",
+      "start": "2027-04-15T10:00:00+10:00",
+      "end": "2027-04-15T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Discovery Coaches",
+      "suburb": "Toowoomba City",
+      "address": "276 Margaret St",
+      "organiser": "Discovery Coaches",
+      "price": "Paid",
+      "ageGroups": ["families"],
+      "communities": ["multicultural"],
+      "categories": ["arts"],
+      "source": "community (facebook)",
+      "sourceUrl": "https://www.facebook.com/events/1044091441861048/",
+      "url": "https://www.facebook.com/events/1044091441861048/",
+      "items": "",
+      "summary": "Day trip to the Neil Diamond musical A Beautiful Noise, departing Discovery Coaches. Tickets at https://discoverycoaches.com.au/day-trips/neil-diamond-musical-a-beautiful-noise. Organised by Discovery Coaches. Paid; the amount was not published."
     }
   ]
 }
