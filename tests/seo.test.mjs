@@ -178,6 +178,10 @@ test("landing pages, event schema, feeds, and sitemap", () => {
   assert.match(built.files.get("category/education/index.html"), /November talk/);
   assert.match(sales, /Hill Street garage sale/);
   assert.match(sales, /Books and tools/);
+  assert.match(sales, /class="garage-cta"/);
+  assert.match(sales, /Know of a garage sale\? Add it yourself\. Pop the address, date and time into the Share something form and it&#39;ll show up here\./);
+  assert.match(sales, /<a class="btn" href="\/share\.html">Share something<\/a>/);
+  assert.doesNotMatch(built.files.get("category/markets/index.html"), /Know of a garage sale/);
   assert.match(things, /Things to do in Toowoomba/);
   assert.match(things, /class="thing-card"/);
   assert.match(things, /rel="canonical" href="https:\/\/whatsontoowoomba\.au\/things-to-do\.html"/);
