@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:40:20.287Z",
+  "generatedAt": "2026-10-24T22:28:19.049Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 3,
+      "kept": 3,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -129,28 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "0907bf940003ae79",
-      "kind": "event",
-      "title": "The Golden Days of Aussie Rock n Roll",
-      "start": "2026-10-25T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/the-golden-days-of-aussie-rock-n-roll",
-      "summary": "For the first time, the original stars of Australia’s early rock ’n’ roll era are joining forces on stage, bringing together a lineup of legendary performers whose chart-topping hits and television appearances defined the sound of a generation."
     },
     {
       "id": "1d9230ae0006b3dc",
