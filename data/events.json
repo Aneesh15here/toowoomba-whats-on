@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:10:47.554Z",
+  "generatedAt": "2026-10-26T23:52:46.321Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -129,52 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "587223330003860f",
-      "kind": "event",
-      "title": "ACOTAR Early Opening - Toowoomba",
-      "start": "2026-10-27T07:00:00+10:00",
-      "end": "2026-10-27T09:00:00+10:00",
-      "allDay": false,
-      "venue": "Dymocks Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "Margaret &, Grand Central Shopping Centre, Shop 18 Victoria St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/acotar_toowoomba"
-    },
-    {
-      "id": "d91f17ad000623be",
-      "kind": "event",
-      "title": "Toowoomba: ACOTAR 6 Early Store Openings at QBD Books",
-      "start": "2026-10-27T07:30:00+10:00",
-      "end": "2026-10-27T09:00:00+10:00",
-      "allDay": false,
-      "venue": "QBD Books Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "Shop 85 Margaret St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-acotar-6-early-store-openings-at-qbd-books"
     },
     {
       "id": "ff7aac3b000216dd",
@@ -561,6 +515,30 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/community-english-class/events/317117009/",
       "summary": "Community English Class"
+    },
+    {
+      "id": "7f376b7900083fca",
+      "kind": "event",
+      "title": "Blush Bridge Walk of Hope October 2026",
+      "start": "2026-10-30T17:30:00+10:00",
+      "end": "2026-10-30T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Civic Square (between City Hall & Library) ",
+      "suburb": "Toowoomba City",
+      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/blush-bridge-walk-october-2026"
     },
     {
       "id": "830c5f5800078e33",
@@ -1223,9 +1201,9 @@
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
     },
     {
-      "id": "dafc3d5d000702a6",
+      "id": "0311a97a0004eb41",
       "kind": "event",
-      "title": "Adnate, Wizard Eyes, Light Eater, Lavender Threat -Irish Club, Toowoomba - $20",
+      "title": "Adnate, Wizard Eyes, Light Eater - Irish Club, Toowoomba - $20",
       "start": "2026-11-06T19:00:00+10:00",
       "end": "2026-11-06T23:30:00+10:00",
       "allDay": false,
@@ -2643,6 +2621,29 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
+    },
+    {
+      "id": "fec8f2c70005f2c0",
+      "kind": "event",
+      "title": "Patrick James - Live In Concert - GROOM PARK HALL, TOOWOOMBA",
+      "start": "2026-12-10T19:00:00+10:00",
+      "end": "2026-12-10T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "$20–$45",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
     },
     {
       "id": "bfa9ec3e0007b598",
