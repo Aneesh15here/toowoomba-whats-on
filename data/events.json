@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:32:50.312Z",
+  "generatedAt": "2026-10-26T15:10:47.554Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 66,
+      "kept": 65,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 66 earlier listing(s) from this source."
+        "Kept 65 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 8,
-      "kept": 8,
+      "parsed": 5,
+      "kept": 5,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -96,7 +96,7 @@
     {
       "id": "garage",
       "ok": true,
-      "parsed": 2,
+      "parsed": 1,
       "kept": 0,
       "error": null,
       "notes": [
@@ -129,30 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "05ad9d8e00059cfa",
-      "kind": "event",
-      "title": "Meet the Author: David Raymond @ Highfields Library",
-      "start": "2026-10-26T10:00:00+10:00",
-      "end": "2026-10-26T11:30:00+10:00",
-      "allDay": false,
-      "venue": "Highfields Library",
-      "suburb": "Highfields",
-      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/meet-the-author-david-raymond-highfields-library-tickets-1998171457619",
-      "summary": "Join author David Raymond to discuss his latest release, Vader A Police Dog Story"
     },
     {
       "id": "587223330003860f",
@@ -201,28 +177,6 @@
       "sourceUrl": "https://events.humanitix.com/toowoomba-acotar-6-early-store-openings-at-qbd-books"
     },
     {
-      "id": "611370ff0004b482",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-10-27T09:00:00+10:00",
-      "end": "2026-10-27T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317067090/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "ff7aac3b000216dd",
       "kind": "event",
       "title": "October Art in the Park",
@@ -267,30 +221,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/honouring-her-tickets-1999888244575",
       "summary": "A woman's circle to pause, reconnect and honour yourself while nurturing self-worth, inner strength and personal power."
-    },
-    {
-      "id": "d7a8167900058e97",
-      "kind": "event",
-      "title": "Toowoomba Learn to Draw Glass with Realistic Shading",
-      "start": "2026-10-27T20:30:00+10:00",
-      "end": "2026-10-27T21:30:00+10:00",
-      "allDay": false,
-      "venue": "C2J5+5P Withcott",
-      "suburb": "Toowoomba",
-      "address": "C2J5+5P Withcott, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/sketching-socials-and-good-times-gathered/events/317094204/",
-      "summary": "Sketching Socials and Good Times Gathered"
     },
     {
       "id": "e9506ce400082379",
@@ -565,6 +495,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-paediatric-allied-health-professionals-networking-october-tickets-2003456440144",
       "summary": "Meet other local paediatric allied health practitioners and share ideas, expertise, problem solving, collaboration and connection."
+    },
+    {
+      "id": "069744c30004b337",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-10-30T09:00:00+10:00",
+      "end": "2026-10-30T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317113661/",
+      "summary": "Community English Class"
     },
     {
       "id": "426bb2c90008bc6e",
@@ -1527,6 +1479,27 @@
       "summary": "Monster Truck Mayhem Thrill & Stunt Show roars into Toowoomba Showgrounds on 7 November 2026. Family thrills, stunts & fireworks!"
     },
     {
+      "id": "b968aec900061944",
+      "kind": "event",
+      "title": "Toowoomba Ecstatic Dance - Awaken the Spirit Within",
+      "start": "2026-11-07T18:00:00+10:00",
+      "end": "2026-11-07T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Drayton Memorial Hall",
+      "suburb": "Drayton",
+      "address": "39 Brisbane St, Drayton QLD 4350, Australia",
+      "price": "$25–$45",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-ecstatic-dance-awaken-the-spirit-within"
+    },
+    {
       "id": "12cc1728000531da",
       "kind": "event",
       "title": "Sparks Fly Singles Only Lawn Bowls - Club Toowoomba",
@@ -1571,50 +1544,6 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
       "summary": "Sparks Fly Single Socials"
-    },
-    {
-      "id": "42b4e78e0003f86c",
-      "kind": "event",
-      "title": "Toowoomba Local Singles, Real Connections Fast",
-      "start": "2026-11-08T19:00:00+10:00",
-      "end": "2026-11-08T20:00:00+10:00",
-      "allDay": false,
-      "venue": "52 Jack St",
-      "suburb": "Toowoomba",
-      "address": "52 Jack St, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/meetup-group-dmdydnpb/events/317113237/",
-      "summary": "Ink and Insights Journaling Social Club"
-    },
-    {
-      "id": "e9a0006000054c37",
-      "kind": "event",
-      "title": "Toowoomba Speed Dating for Local Community",
-      "start": "2026-11-08T20:00:00+11:00",
-      "end": "2026-11-08T21:00:00+11:00",
-      "allDay": false,
-      "venue": "161 Preston Boundary Rd",
-      "suburb": "Toowoomba",
-      "address": "161 Preston Boundary Rd, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/bend-and-brunch-yoga-social-club/events/317093200/",
-      "summary": "Bend and Brunch Yoga Social Club"
     },
     {
       "id": "029f06040005b3a5",
@@ -2385,30 +2314,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
-    },
-    {
-      "id": "5aa691950009af03",
-      "kind": "event",
-      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
-      "start": "2026-11-28T10:00:00+10:00",
-      "end": "2026-11-28T16:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Showgrounds",
-      "suburb": "Glenvale",
-      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
-      "price": "Free–$5",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
       "id": "3ea7d9c700022b1f",
