@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:52:46.321Z",
+  "generatedAt": "2026-10-27T14:29:41.079Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 65,
+      "kept": 63,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 65 earlier listing(s) from this source."
+        "Kept 63 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 6,
+      "kept": 6,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -129,52 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "ff7aac3b000216dd",
-      "kind": "event",
-      "title": "October Art in the Park",
-      "start": "2026-10-27T16:00:00+10:00",
-      "end": "2026-10-27T18:00:00+10:00",
-      "allDay": false,
-      "venue": "104B Neil St",
-      "suburb": "South Toowoomba",
-      "address": "104B Neil St, 104B Neil Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/october-art-in-the-park-tickets-2002975626016",
-      "summary": "A free social group for queer folks, their friends, family, & allies. Join us this month for collage making or bring your own project!"
-    },
-    {
-      "id": "ee595af40001aefc",
-      "kind": "event",
-      "title": "Honouring Her",
-      "start": "2026-10-27T18:30:00+10:00",
-      "end": "2026-10-27T20:30:00+10:00",
-      "allDay": false,
-      "venue": "DeMolay House",
-      "suburb": "East Toowoomba",
-      "address": "DeMolay House, 90 Margaret Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/honouring-her-tickets-1999888244575",
-      "summary": "A woman's circle to pause, reconnect and honour yourself while nurturing self-worth, inner strength and personal power."
     },
     {
       "id": "e9506ce400082379",
@@ -517,30 +471,6 @@
       "summary": "Community English Class"
     },
     {
-      "id": "7f376b7900083fca",
-      "kind": "event",
-      "title": "Blush Bridge Walk of Hope October 2026",
-      "start": "2026-10-30T17:30:00+10:00",
-      "end": "2026-10-30T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Civic Square (between City Hall & Library) ",
-      "suburb": "Toowoomba City",
-      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/blush-bridge-walk-october-2026"
-    },
-    {
       "id": "830c5f5800078e33",
       "kind": "event",
       "title": "Toowoomba's Favourite Sing-Along With Cassidy Rae - Deadly Divas",
@@ -658,6 +588,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/garden-tools-workshop-kftrvh4a"
+    },
+    {
+      "id": "5ecd253e00018808",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-01T16:00:00+10:00",
+      "end": "2026-11-01T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317141523/",
+      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "907f72230004bea0",
@@ -2292,6 +2244,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
+      "id": "5aa691950009af03",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
       "id": "3ea7d9c700022b1f",
