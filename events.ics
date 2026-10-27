@@ -28,36 +28,6 @@ DTSTART;TZID=Australia/Brisbane:20261006T010000
 DTEND;TZID=Australia/Brisbane:20261208T143000
 END:VEVENT
 BEGIN:VEVENT
-UID:ff7aac3b000216dd@whatsontoowoomba.au
-DTSTAMP:20261026T235246Z
-SUMMARY:October Art in the Park
-DESCRIPTION:October Art in the Park is listed for Tue\, 27 Oct 2026\, 4:00 
- pm – 6:00 pm at 104B Neil St\, South Toowoomba. A free social group for 
- queer folks\, their friends\, family\, & allies. Join us this month for co
- llage making or bring your own project! Price: Paid.
-URL:https://whatsontoowoomba.au/events/ff7aac3b000216dd/
-LOCATION:104B Neil St\, 104B Neil St\, 104B Neil Street\, South Toowoomba\,
-  QLD\, 4350
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261027T160000
-DTEND;TZID=Australia/Brisbane:20261027T180000
-END:VEVENT
-BEGIN:VEVENT
-UID:ee595af40001aefc@whatsontoowoomba.au
-DTSTAMP:20261026T235246Z
-SUMMARY:Honouring Her
-DESCRIPTION:Honouring Her is listed for Tue\, 27 Oct 2026\, 6:30 pm – 8:3
- 0 pm at DeMolay House\, East Toowoomba. A woman's circle to pause\, reconn
- ect and honour yourself while nurturing self-worth\, inner strength and pe
- rsonal power. Price: Paid.
-URL:https://whatsontoowoomba.au/events/ee595af40001aefc/
-LOCATION:DeMolay House\, DeMolay House\, 90 Margaret Street\, East Toowoomb
- a\, QLD\, 4350
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261027T183000
-DTEND;TZID=Australia/Brisbane:20261027T203000
-END:VEVENT
-BEGIN:VEVENT
 UID:e9506ce400082379@whatsontoowoomba.au
 DTSTAMP:20261026T235246Z
 SUMMARY:Bx Networking Toowoomba - Business Networking in Brisbane
@@ -101,6 +71,19 @@ LOCATION:158 Margaret St\, 158 Margaret St\, 158 Margaret Street\, Toowoomb
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261028T153000
 DTEND;TZID=Australia/Brisbane:20261028T173000
+END:VEVENT
+BEGIN:VEVENT
+UID:3f2d75e50004b15b@whatsontoowoomba.au
+DTSTAMP:20261026T235246Z
+SUMMARY:Breast Cancer Fundraiser (Aura Glo x Blush Cancer Care)
+DESCRIPTION:Breast Cancer Fundraiser (Aura Glo x Blush Cancer Care) is list
+ ed for Wed\, 28 Oct 2026\, 5:00 pm at Aura Glo\, Toowoomba City. At Aura G
+ lo\, a Pilates studio\, with Blush Cancer Care. Donation on arrival. Organ
+ ised by Aura Glo. No end time was published. Price: Donation.
+URL:https://whatsontoowoomba.au/events/3f2d75e50004b15b/
+LOCATION:Aura Glo\, 444 Ruthven St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261028T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:74744e8300052fdb@whatsontoowoomba.au
@@ -198,6 +181,20 @@ LOCATION:New Leaf Social Work\, New Leaf Social Work\, 158 Margaret St\, To
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261029T153000
 DTEND;TZID=Australia/Brisbane:20261029T170000
+END:VEVENT
+BEGIN:VEVENT
+UID:d15da0040001a6aa@whatsontoowoomba.au
+DTSTAMP:20261026T235246Z
+SUMMARY:Kids Halloween Party
+DESCRIPTION:Kids Halloween Party is listed for Thu\, 29 Oct 2026\, 5:00 pm 
+ – 9:00 pm at Flipp'd\, Toowoomba City. Arcade party at Flipp'd. $10 entr
+ y includes unlimited arcade play\, scratch cards for costumes\, and trick 
+ or treat. Organised by Flipp'd. Price: $10.
+URL:https://whatsontoowoomba.au/events/d15da0040001a6aa/
+LOCATION:Flipp'd\, 2 Club Lane
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261029T170000
+DTEND;TZID=Australia/Brisbane:20261029T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:ed7f2f3b0006e2b4@whatsontoowoomba.au
@@ -803,6 +800,20 @@ LOCATION:Baby Bunting Toowoomba\, Baby Bunting Toowoomba\, 16 Hyde Court\,
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T090000
 DTEND;TZID=Australia/Brisbane:20261108T170000
+END:VEVENT
+BEGIN:VEVENT
+UID:01906ead00068b0f@whatsontoowoomba.au
+DTSTAMP:20261026T235246Z
+SUMMARY:Lockyer Valley Art Society Pottery & Art Sale
+DESCRIPTION:Lockyer Valley Art Society Pottery & Art Sale is listed for Sat
+ \, 7 Nov 2026\, 9:00 am – 4:00 pm at Lockyer Valley Art Society. Pottery
+  and art sale at 24 Bertrand Avenue. Organised by Lockyer Valley Art Socie
+ ty Inc. The suburb was not published. Whether it is free or paid was…
+URL:https://whatsontoowoomba.au/events/01906ead00068b0f/
+LOCATION:Lockyer Valley Art Society\, 24 Bertrand Avenue
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261107T090000
+DTEND;TZID=Australia/Brisbane:20261107T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:4e4a24380003e187@whatsontoowoomba.au
