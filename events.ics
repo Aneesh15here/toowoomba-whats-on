@@ -329,6 +329,20 @@ DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 END:VEVENT
 BEGIN:VEVENT
+UID:f44a8e4e00037820@whatsontoowoomba.au
+DTSTAMP:20261027T142941Z
+SUMMARY:Hallo-Wiener Dachshund Racing
+DESCRIPTION:Hallo-Wiener Dachshund Racing is listed for Sat\, 31 Oct 2026 a
+ t The Royal Hotel\, Leyburn. Dachshund racing at The Royal Hotel\, Leyburn
+ \, on the Darling Downs outside Toowoomba city. Free entry. Organised by C
+ ommunity (Facebook). The start time was not published\, so this is an…
+URL:https://whatsontoowoomba.au/events/f44a8e4e00037820/
+LOCATION:The Royal Hotel\, Leyburn
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+END:VEVENT
+BEGIN:VEVENT
 UID:highfields-parkrun-20261031@whatsontoowoomba.au
 DTSTAMP:20261027T142941Z
 SUMMARY:Highfields parkrun
@@ -740,6 +754,21 @@ LOCATION:Harlaxton Hub\, Harlaxton Hub
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261106T100000
 DTEND;TZID=Australia/Brisbane:20261106T110000
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf0e0930009d36b@whatsontoowoomba.au
+DTSTAMP:20261027T142941Z
+SUMMARY:RAMAYANA – PART 1 Multilingual Movie Screening (Deepavali special
+ )
+DESCRIPTION:RAMAYANA – PART 1 Multilingual Movie Screening (Deepavali spe
+ cial) is listed for Fri\, 6 Nov 2026\, 6:00 pm at Strand Theatre (Toowoomb
+ a 5 Cinema)\, Toowoomba City. Multilingual movie screening of Ramayana Par
+ t 1\, a Deepavali special\, at Strand Theatre (Toowoomba 5 Cinema).…
+URL:https://whatsontoowoomba.au/events/5cf0e0930009d36b/
+LOCATION:Strand Theatre (Toowoomba 5 Cinema)\, 42 Neil St\, Toowoomba City 
+ QLD 4350
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261106T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:0311a97a0004eb41@whatsontoowoomba.au
