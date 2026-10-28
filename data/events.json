@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T23:46:04.478Z",
+  "generatedAt": "2026-10-28T15:05:55.359Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,17 +28,17 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 63,
+      "kept": 59,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 63 earlier listing(s) from this source."
+        "Kept 59 earlier listing(s) from this source."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 36,
+      "kept": 37,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 3,
-      "kept": 3,
+      "parsed": 2,
+      "kept": 2,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -129,166 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "e9506ce400082379",
-      "kind": "event",
-      "title": "Bx Networking Toowoomba - Business Networking in Brisbane",
-      "start": "2026-10-28T08:00:00+10:00",
-      "end": "2026-10-28T10:00:00+10:00",
-      "allDay": false,
-      "venue": "The Southern Hotel Toowoomba",
-      "suburb": "Kearneys Spring",
-      "address": "The Southern Hotel Toowoomba, 839 Ruthven Street, Kearneys Spring, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316332540",
-      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
-    },
-    {
-      "id": "8291ca3300052b40",
-      "kind": "event",
-      "title": "DROP IN | Game Zone @ Toowoomba City Library",
-      "start": "2026-10-28T15:30:00+10:00",
-      "end": "2026-10-28T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-game-zone-toowoomba-city-library-tickets-2002014815205",
-      "summary": "Meet new people and play fun games in a relaxed and welcoming space."
-    },
-    {
-      "id": "ac17407200058d9d",
-      "kind": "event",
-      "title": "The Society for Tactical Regrets and Perilous Renewal",
-      "start": "2026-10-28T15:30:00+10:00",
-      "end": "2026-10-28T17:30:00+10:00",
-      "allDay": false,
-      "venue": "158 Margaret St",
-      "suburb": "Toowoomba City",
-      "address": "158 Margaret St, 158 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "young-adults",
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486441313",
-      "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
-    },
-    {
-      "id": "74744e8300052fdb",
-      "kind": "event",
-      "title": "Toowoomba Data Centre and AI Risks Community Forum",
-      "start": "2026-10-28T17:30:00+10:00",
-      "end": "2026-10-28T19:30:00+10:00",
-      "allDay": false,
-      "venue": "615 Boundary St",
-      "suburb": "Glenvale",
-      "address": "615 Boundary St, Glenvale QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-data-centre-and-ai-risks-community-forum"
-    },
-    {
-      "id": "57cb498d000699a1",
-      "kind": "event",
-      "title": "The Body Shop Toowoomba: The Feel-Good Gifting Event",
-      "start": "2026-10-28T18:00:00+10:00",
-      "end": "2026-10-28T19:30:00+10:00",
-      "allDay": false,
-      "venue": "The Body Shop Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "Shop 27A Margaret St, Toowoomba City QLD 4350, Australia",
-      "price": "$10",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/the-feel-good-gifting-event-4fykey8z"
-    },
-    {
-      "id": "6338fbcd0002928c",
-      "kind": "event",
-      "title": "INTRO TO GROOV3: Toowoomba",
-      "start": "2026-10-28T18:15:00+10:00",
-      "end": "2026-10-28T19:15:00+10:00",
-      "allDay": false,
-      "venue": "Belong Church",
-      "suburb": "South Toowoomba",
-      "address": "Belong Church, 1 Fitzgibbon Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "faith",
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-1998698427801",
-      "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
-    },
-    {
-      "id": "081b30770001b50d",
-      "kind": "event",
-      "title": "Orava Quartet",
-      "start": "2026-10-29T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/orava-quartet-26",
-      "summary": "Step into the intimate world of the Orava Quartet, Camerata’s Quartet-in-Residence for the past decade."
     },
     {
       "id": "6198294c000555d1",
@@ -471,6 +311,30 @@
       "summary": "Community English Class"
     },
     {
+      "id": "7f376b7900083fca",
+      "kind": "event",
+      "title": "Blush Bridge Walk of Hope October 2026",
+      "start": "2026-10-30T17:30:00+10:00",
+      "end": "2026-10-30T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Civic Square (between City Hall & Library) ",
+      "suburb": "Toowoomba City",
+      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/blush-bridge-walk-october-2026"
+    },
+    {
       "id": "830c5f5800078e33",
       "kind": "event",
       "title": "Toowoomba's Favourite Sing-Along With Cassidy Rae - Deadly Divas",
@@ -612,28 +476,6 @@
       "summary": "International Hangouts Toowoomba"
     },
     {
-      "id": "907f72230004bea0",
-      "kind": "event",
-      "title": "Toowoomba Inclusive Gay Speed Dating for Locals",
-      "start": "2026-11-01T19:00:00+10:00",
-      "end": "2026-11-01T20:00:00+10:00",
-      "allDay": false,
-      "venue": "3 Elizabeth St",
-      "suburb": "Toowoomba",
-      "address": "3 Elizabeth St, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/frozen-trails-and-fireside-winter-chats/events/317092645/",
-      "summary": "Frozen Trails and Fireside Winter Chats"
-    },
-    {
       "id": "c73329f90005d866",
       "kind": "event",
       "title": "Feelings In Focus: Creating Your Emotional Toolkit",
@@ -678,6 +520,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/goodstart-highfields-twilight-tour-tickets-2003488859110",
       "summary": "Discover the Difference During Twilight"
+    },
+    {
+      "id": "c0b5f0120006ba67",
+      "kind": "event",
+      "title": "Event Planner Professional Development: 1 Day Training in Toowoomba",
+      "start": "2026-11-03T08:00:00+10:00",
+      "end": "2026-11-03T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba",
+      "suburb": "",
+      "address": "Toowoomba QLD, Australia",
+      "price": "$779–$879",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/event-planner-professional-development-1-day-training-in-toowoomba"
     },
     {
       "id": "b2f025b1000ea9a6",
@@ -794,29 +659,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
       "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
-    },
-    {
-      "id": "7b9d37c5000336aa",
-      "kind": "event",
-      "title": "Home, I'm Darling",
-      "start": "2026-11-03T19:30:00+10:00",
-      "end": "2026-11-03T21:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Repertory Theatre",
-      "suburb": "East Toowoomba",
-      "address": "94 Margaret St, East Toowoomba QLD 4350, Australia",
-      "price": "$20–$100",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/i-m-home-darling"
     },
     {
       "id": "f2d0967a0007ad18",
@@ -1499,6 +1341,28 @@
       "summary": "Sparks Fly Single Socials"
     },
     {
+      "id": "833fc10b0006cc5c",
+      "kind": "event",
+      "title": "Toowoomba Retroactive Bytes: Debugging Our Digital Past",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "368-368A Alderley Street",
+      "suburb": "Toowoomba",
+      "address": "368-368A Alderley Street, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/retroactive-bytes-and-coffee-club/events/317160218/",
+      "summary": "Retroactive Bytes and Coffee Club"
+    },
+    {
       "id": "029f06040005b3a5",
       "kind": "event",
       "title": "Key Word Sign Workshop for Parents - Toowoomba",
@@ -1759,6 +1623,27 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
+    },
+    {
+      "id": "8eb898dd00046ec6",
+      "kind": "event",
+      "title": "Do More Club| Croquet & Bouquet Garden Party",
+      "start": "2026-11-14T12:00:00+10:00",
+      "end": "2026-11-14T14:00:00+10:00",
+      "allDay": false,
+      "venue": "209 Herries St",
+      "suburb": "Toowoomba City",
+      "address": "209 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/do-more-club"
     },
     {
       "id": "81ceba30000a6d07",
@@ -2315,11 +2200,11 @@
       "summary": "Lie down and listen to live gongs at Groom Park Hall, Toowoomba. A guided gong sound meditation with chai after. No experience needed."
     },
     {
-      "id": "4482d12c0005c927",
+      "id": "e744fb530007379f",
       "kind": "event",
-      "title": "Live & Local @ The Powerhouse ! November 28th!",
+      "title": "Live & Local @ The Powerhouse - Saturday 28 November 2026",
       "start": "2026-11-28T18:30:00+10:00",
-      "end": "2026-11-28T22:00:00+10:00",
+      "end": "2026-11-28T22:30:00+10:00",
       "allDay": false,
       "venue": "The Powerhouse Toowoomba",
       "suburb": "Toowoomba City",
@@ -2619,6 +2504,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
+    },
+    {
+      "id": "86df23fb0006bab6",
+      "kind": "event",
+      "title": "Event Planner Professional Development: 1 Day Training in Toowoomba",
+      "start": "2026-12-12T08:00:00+10:00",
+      "end": "2026-12-12T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba",
+      "suburb": "",
+      "address": "Toowoomba QLD, Australia",
+      "price": "$779–$879",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/event-planner-professional-development-1-day-training-in-toowoomba"
     },
     {
       "id": "bfa9ec3e0007b598",
