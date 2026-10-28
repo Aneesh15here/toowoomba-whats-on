@@ -1,0 +1,112 @@
+# Squash-merge pull requests into main after tests pass, with no manual approval.
+#
+# How it works: a pull request against main runs the test job (checkout, Node,
+# install, npm test). If tests pass, auto-merge squash-merges and deletes the
+# branch only when the head repository is this one (forks are never merged),
+# the author is Aneesh15here, the PR has no label named hold, and the title
+# does not contain [hold]. A draft is marked ready first. A newer push to the
+# same PR cancels the in-progress run. The merge is tied to the tested head
+# commit. Conflicts fail the job; nothing is force-merged.
+#
+# Stop a PR from merging: add the hold label, or put [hold] in the title.
+# Disable this: delete this file.
+
+name: Auto-merge green pull requests
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+
+      # No package-lock.json in this repo, so npm ci runs only when a lockfile exists.
+      - name: Install
+        run: |
+          set -euo pipefail
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Test
+        run: npm test
+
+  auto-merge:
+    needs: test
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.login == 'Aneesh15here' &&
+      !contains(github.event.pull_request.labels.*.name, 'hold') &&
+      !contains(github.event.pull_request.title, '[hold]')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PR_NUMBER: ${{ github.event.pull_request.number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Mark draft pull request ready
+        if: github.event.pull_request.draft
+        run: gh pr ready "$PR_NUMBER"
+
+      - name: Check the pull request is mergeable
+        id: gate
+        run: |
+          set -euo pipefail
+
+          state="$(gh pr view "$PR_NUMBER" --json state --jq .state)"
+          if [ "$state" != "OPEN" ]; then
+            echo "PR #${PR_NUMBER} is ${state}; nothing to merge."
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          mergeable="UNKNOWN"
+          i=0
+          while [ "$i" -lt 10 ]; do
+            mergeable="$(gh pr view "$PR_NUMBER" --json mergeable --jq .mergeable)"
+            if [ -n "$mergeable" ] && [ "$mergeable" != "UNKNOWN" ]; then
+              break
+            fi
+            i=$((i + 1))
+            if [ "$i" -lt 10 ]; then
+              sleep 3
+            fi
+          done
+
+          if [ "$mergeable" = "CONFLICTING" ]; then
+            echo "::error::PR #${PR_NUMBER} has merge conflicts and is not mergeable. Resolve the conflicts and push. This workflow will not force a merge."
+            exit 1
+          fi
+
+          if [ "$mergeable" != "MERGEABLE" ]; then
+            echo "::error::PR #${PR_NUMBER} is not mergeable (mergeable=${mergeable}). This workflow will not force a merge."
+            exit 1
+          fi
+
+          echo "proceed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Squash-merge and delete branch
+        if: steps.gate.outputs.proceed == 'true'
+        run: gh pr merge "$PR_NUMBER" --squash --delete-branch --match-head-commit "$HEAD_SHA"
