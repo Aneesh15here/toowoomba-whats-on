@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:12:58.271Z",
+  "generatedAt": "2026-10-29T23:56:36.195Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -151,52 +151,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-morning-tea-with-the-vocational-coaching-team-tickets-2000228532385",
       "summary": "Morning Tea, real conversations and support to explore your next steps in study, work or volunteering"
-    },
-    {
-      "id": "9ab7a12c0004f1df",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-10-30T13:30:00+10:00",
-      "end": "2026-10-30T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton State School",
-      "suburb": "Toowoomba",
-      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317117009/",
-      "summary": "Community English Class"
-    },
-    {
-      "id": "7f376b7900083fca",
-      "kind": "event",
-      "title": "Blush Bridge Walk of Hope October 2026",
-      "start": "2026-10-30T17:30:00+10:00",
-      "end": "2026-10-30T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Civic Square (between City Hall & Library) ",
-      "suburb": "Toowoomba City",
-      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/blush-bridge-walk-october-2026"
     },
     {
       "id": "830c5f5800078e33",
@@ -522,6 +476,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
       "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
+    },
+    {
+      "id": "7b9d37c5000336aa",
+      "kind": "event",
+      "title": "Home, I'm Darling",
+      "start": "2026-11-03T19:30:00+10:00",
+      "end": "2026-11-03T21:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Repertory Theatre",
+      "suburb": "East Toowoomba",
+      "address": "94 Margaret St, East Toowoomba QLD 4350, Australia",
+      "price": "$20–$100",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/i-m-home-darling"
     },
     {
       "id": "f2d0967a0007ad18",
