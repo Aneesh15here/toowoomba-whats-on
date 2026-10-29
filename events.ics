@@ -99,6 +99,33 @@ DTSTART;TZID=Australia/Brisbane:20261030T180000
 DTEND;TZID=Australia/Brisbane:20261030T220000
 END:VEVENT
 BEGIN:VEVENT
+UID:7b2035470002f550@whatsontoowoomba.au
+DTSTAMP:20261029T151258Z
+SUMMARY:Spooktacular Bingo
+DESCRIPTION:Spooktacular Bingo is listed for Fri\, 30 Oct 2026\, 7:00 pm at
+  Cambooya Community Hall\, Cambooya. Organised by Cambooya Community Hall.
+  No end time was published. Whether it is free or paid was not published. 
+ Price: See listing.
+URL:https://whatsontoowoomba.au/events/7b2035470002f550/
+LOCATION:Cambooya Community Hall\, Cambooya
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261030T190000
+END:VEVENT
+BEGIN:VEVENT
+UID:2533cc3200058dda@whatsontoowoomba.au
+DTSTAMP:20261029T151258Z
+SUMMARY:Kingsthorpe Hotel Halloween Dress Up Party
+DESCRIPTION:Kingsthorpe Hotel Halloween Dress Up Party is listed for Fri\, 
+ 30 Oct 2026\, 7:30 pm – 11:55 pm at Kingsthorpe Hotel Motel\, Kingsthorp
+ e. Organised by Kingsthorpe Hotel Motel. Whether it is free or paid was no
+ t published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/2533cc3200058dda/
+LOCATION:Kingsthorpe Hotel Motel\, 6/12 Kingsthorpe Haden Rd
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261030T193000
+DTEND;TZID=Australia/Brisbane:20261030T235500
+END:VEVENT
+BEGIN:VEVENT
 UID:60c94072000777ec@whatsontoowoomba.au
 DTSTAMP:20261029T151258Z
 SUMMARY:AC/DC vs INXS by Candlelight | Toowoomba\, QLD
@@ -167,6 +194,20 @@ URL:https://whatsontoowoomba.au/things-to-do/toowoomba-parkrun/
 LOCATION:Queens Park\, Lindsay Street\, East Toowoomba\, QLD\, 4350
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261031T070000
+END:VEVENT
+BEGIN:VEVENT
+UID:9a0abead000297fc@whatsontoowoomba.au
+DTSTAMP:20261029T151258Z
+SUMMARY:Goombungee Hall Markets
+DESCRIPTION:Goombungee Hall Markets is listed for Sat\, 31 Oct 2026\, 8:00 
+ am – 12:00 pm at Goombungee Hall\, Goombungee. Organised by Community (F
+ acebook). Whether it is free or paid was not published. Price: See listing
+ .
+URL:https://whatsontoowoomba.au/events/9a0abead000297fc/
+LOCATION:Goombungee Hall\, 2 King St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261031T080000
+DTEND;TZID=Australia/Brisbane:20261031T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:8af15eaa000425e5@whatsontoowoomba.au
@@ -729,6 +770,19 @@ URL:https://whatsontoowoomba.au/events/a075a82e0002373e/
 LOCATION:QCWA Hall\, 263 Margaret St
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T120000
+END:VEVENT
+BEGIN:VEVENT
+UID:7f41958900035b9c@whatsontoowoomba.au
+DTSTAMP:20261029T151258Z
+SUMMARY:Transformational Breathwork Session
+DESCRIPTION:Transformational Breathwork Session is listed for Sat\, 7 Nov 2
+ 026\, 1:00 pm at 2 Foundry St\, Toowoomba City. Organised by Community (Fa
+ cebook). No end time was published. The venue name was not published. Whet
+ her it is free or paid was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/7f41958900035b9c/
+LOCATION:2 Foundry St\, 2 Foundry St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261107T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e8ffea000466ca@whatsontoowoomba.au
@@ -1930,5 +1984,18 @@ LOCATION:Muffin Break Grand Central\, 2047/48 Margaret Street Grand Central
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20270504T100000
 DTEND;TZID=Australia/Brisbane:20270504T120000
+END:VEVENT
+BEGIN:VEVENT
+UID:e5d011fe000277b4@whatsontoowoomba.au
+DTSTAMP:20261029T151258Z
+SUMMARY:Toowoomba West Special School Cent Sale
+DESCRIPTION:Toowoomba West Special School Cent Sale is listed for Sun\, 25 
+ July 2027\, 10:30 am at Toowoomba City. Organised by Community (Facebook).
+  No end time was published. The street address was not published. Whether 
+ it is free or paid was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/e5d011fe000277b4/
+LOCATION:Toowoomba City
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20270725T103000
 END:VEVENT
 END:VCALENDAR
