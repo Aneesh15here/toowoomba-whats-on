@@ -111,6 +111,22 @@ DTSTART;TZID=Australia/Brisbane:20261031T080000
 DTEND;TZID=Australia/Brisbane:20261031T120000
 END:VEVENT
 BEGIN:VEVENT
+UID:6c298c8800041559@whatsontoowoomba.au
+DTSTAMP:20261030T150204Z
+SUMMARY:Sweet Acres Massive Garage Sale
+DESCRIPTION:Sweet Acres Massive Garage Sale is listed for Sat\, 31 Oct 2026
+ \, 8:00 am – Sun\, 1 Nov\, 12:00 pm at 524 Quinalow Peranga Rd\, Peranga
+ . Open 8:00 am–12:00 pm on Saturday 31 October and Sunday 1 November. Fr
+ ee entry. Organised by Amanda Smith. No list of items was published. Price
+ :…
+URL:https://whatsontoowoomba.au/events/6c298c8800041559/
+LOCATION:524 Quinalow Peranga Rd\, 524 Quinalow Peranga Rd\, Peranga QLD 43
+ 52
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261031T080000
+DTEND;TZID=Australia/Brisbane:20261101T120000
+END:VEVENT
+BEGIN:VEVENT
 UID:8af15eaa000425e5@whatsontoowoomba.au
 DTSTAMP:20261030T150204Z
 SUMMARY:ABCDANCE  Halloween Themed Mazes
