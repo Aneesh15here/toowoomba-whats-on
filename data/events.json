@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:56:36.195Z",
+  "generatedAt": "2026-10-30T15:02:04.473Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,17 +28,17 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 54,
+      "kept": 51,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 54 earlier listing(s) from this source."
+        "Kept 51 earlier listing(s) from this source."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 36,
+      "kept": 35,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -96,8 +96,8 @@
     {
       "id": "garage",
       "ok": true,
-      "parsed": 1,
-      "kept": 0,
+      "parsed": 2,
+      "kept": 1,
       "error": null,
       "notes": [
         "Facebook and Instagram are not fetched. List those sales through the share form.",
@@ -131,77 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "426bb2c90008bc6e",
-      "kind": "event",
-      "title": "(Toowoomba) Morning Tea with the Vocational Coaching Team",
-      "start": "2026-10-30T10:00:00+10:00",
-      "end": "2026-10-30T11:30:00+10:00",
-      "allDay": false,
-      "venue": "Carer Gateway Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Carer Gateway Wellways Toowoomba, 15 -17 Kitchener St, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-morning-tea-with-the-vocational-coaching-team-tickets-2000228532385",
-      "summary": "Morning Tea, real conversations and support to explore your next steps in study, work or volunteering"
-    },
-    {
-      "id": "830c5f5800078e33",
-      "kind": "event",
-      "title": "Toowoomba's Favourite Sing-Along With Cassidy Rae - Deadly Divas",
-      "start": "2026-10-30T18:00:00+10:00",
-      "end": "2026-10-30T22:00:00+10:00",
-      "allDay": false,
-      "venue": "Tonic Lounge & Bar",
-      "suburb": "Toowoomba City",
-      "address": "Tonic Lounge & Bar, 183-187 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/toowoombas-favourite-sing-along-with-cassidy-rae-deadly-divas-tickets-2000007800169",
-      "summary": "Think Practical Magic meets piano bar. Join Cassidy Rae for a glamorous Halloween night with a little witchy magic!"
-    },
-    {
-      "id": "60c94072000777ec",
-      "kind": "event",
-      "title": "AC/DC vs INXS by Candlelight | Toowoomba, QLD",
-      "start": "2026-10-30T20:00:00+10:00",
-      "end": "2026-10-30T21:00:00+10:00",
-      "allDay": false,
-      "venue": "St Stephen's Toowoomba Uniting Church",
-      "suburb": "Toowoomba City",
-      "address": "St Stephen's Toowoomba Uniting Church, 51 Neil Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music",
-        "faith"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/acdc-vs-inxs-by-candlelight-toowoomba-qld-tickets-2002281515914",
-      "summary": "Join us for an evening celebrating the music of AC/DC and INXS, performed by a live string quartet in an intimate candlelit setting."
-    },
-    {
       "id": "f59beff40003b125",
       "kind": "event",
       "title": "Brisbane Chamber Choir: Tides Of Ocean",
@@ -224,6 +153,32 @@
       "source": "empire",
       "sourceUrl": "https://empiretheatre.com.au/whats-on/tides-of-ocean",
       "summary": "Inspired by Matthew Orlovich's Tides of Ocean - celebrating choral music shaped by water, landscape, and motion."
+    },
+    {
+      "id": "f784ceda00027dc7",
+      "kind": "garage",
+      "title": "ALL MUST GO!",
+      "start": "2026-10-31T07:00:00+10:00",
+      "end": "2026-10-31T12:00:00+10:00",
+      "allDay": false,
+      "venue": "St Pauls Lutheran Church",
+      "suburb": "East Toowoomba",
+      "address": "St Pauls Lutheran Church",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "garage"
+      ],
+      "source": "garage",
+      "sourceUrl": "https://www.buysearchsell.com.au/buy-sell/garage-sales/all-must-go/6380978/",
+      "summary": "EAST TOOWOOMBA131 James Street ALL HOUSEHOLD ITEMS, HOME BAKED GOODS, PRELOVED CLOTHING, BOOKS, RECORDS, PLANTS AND MULTI DRAW RAFFLE",
+      "items": "EAST TOOWOOMBA131 James Street ALL HOUSEHOLD ITEMS, HOME BAKED GOODS, PRELOVED CLOTHING, BOOKS, RECORDS, PLANTS AND MULTI DRAW RAFFLE"
     },
     {
       "id": "8af15eaa000425e5",
@@ -476,29 +431,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
       "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
-    },
-    {
-      "id": "7b9d37c5000336aa",
-      "kind": "event",
-      "title": "Home, I'm Darling",
-      "start": "2026-11-03T19:30:00+10:00",
-      "end": "2026-11-03T21:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Repertory Theatre",
-      "suburb": "East Toowoomba",
-      "address": "94 Margaret St, East Toowoomba QLD 4350, Australia",
-      "price": "$20–$100",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/i-m-home-darling"
     },
     {
       "id": "f2d0967a0007ad18",
@@ -2327,29 +2259,6 @@
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
     },
     {
-      "id": "fec8f2c70005f2c0",
-      "kind": "event",
-      "title": "Patrick James - Live In Concert - GROOM PARK HALL, TOOWOOMBA",
-      "start": "2026-12-10T19:00:00+10:00",
-      "end": "2026-12-10T20:30:00+10:00",
-      "allDay": false,
-      "venue": "Groom Park Hall",
-      "suburb": "South Toowoomba",
-      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
-      "price": "$20–$45",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
-    },
-    {
       "id": "bfa9ec3e0007b598",
       "kind": "event",
       "title": "Turkish Coffee & Ceramic Painting Workshop - Toowoomba",
@@ -2662,6 +2571,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/your-local-wedding-guide-toowoomba-expo-7th-february-2027-tickets-1998337399957",
       "summary": "Find your dream team, win prizes, plus get inspo & advice at Your Local Wedding Guide Toowoomba Expo - All You Need to Plan Your Wedding."
+    },
+    {
+      "id": "ec0e212200038fbe",
+      "kind": "event",
+      "title": "Toowoomba - COMMONS WORSHIP NIGHTS",
+      "start": "2027-02-20T17:30:00+10:00",
+      "end": "2027-02-20T21:30:00+10:00",
+      "allDay": false,
+      "venue": "Highlands Church",
+      "suburb": "Kearneys Spring",
+      "address": "Kearney's Spring, 495-513 Hume St, Kearneys Spring QLD 4350, Australia",
+      "price": "$58–$85",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/copy-of-toowoomba-commons-worship-nights"
     },
     {
       "id": "c98f7df90008b9cf",
