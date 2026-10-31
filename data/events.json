@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:45:33.044Z",
+  "generatedAt": "2026-10-31T14:30:51.621Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 51,
+      "kept": 50,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 51 earlier listing(s) from this source."
+        "Kept 50 earlier listing(s) from this source."
       ]
     },
     {
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 2,
-      "kept": 2,
+      "parsed": 1,
+      "kept": 1,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -97,7 +97,7 @@
       "id": "garage",
       "ok": true,
       "parsed": 2,
-      "kept": 1,
+      "kept": 0,
       "error": null,
       "notes": [
         "Facebook and Instagram are not fetched. List those sales through the share form.",
@@ -129,79 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "f59beff40003b125",
-      "kind": "event",
-      "title": "Brisbane Chamber Choir: Tides Of Ocean",
-      "start": "2026-10-31T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/tides-of-ocean",
-      "summary": "Inspired by Matthew Orlovich's Tides of Ocean - celebrating choral music shaped by water, landscape, and motion."
-    },
-    {
-      "id": "f784ceda00027dc7",
-      "kind": "garage",
-      "title": "ALL MUST GO!",
-      "start": "2026-10-31T07:00:00+10:00",
-      "end": "2026-10-31T12:00:00+10:00",
-      "allDay": false,
-      "venue": "St Pauls Lutheran Church",
-      "suburb": "East Toowoomba",
-      "address": "St Pauls Lutheran Church",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "faith",
-        "garage"
-      ],
-      "source": "garage",
-      "sourceUrl": "https://www.buysearchsell.com.au/buy-sell/garage-sales/all-must-go/6380978/",
-      "summary": "EAST TOOWOOMBA131 James Street ALL HOUSEHOLD ITEMS, HOME BAKED GOODS, PRELOVED CLOTHING, BOOKS, RECORDS, PLANTS AND MULTI DRAW RAFFLE",
-      "items": "EAST TOOWOOMBA131 James Street ALL HOUSEHOLD ITEMS, HOME BAKED GOODS, PRELOVED CLOTHING, BOOKS, RECORDS, PLANTS AND MULTI DRAW RAFFLE"
-    },
-    {
-      "id": "8af15eaa000425e5",
-      "kind": "event",
-      "title": "ABCDANCE  Halloween Themed Mazes",
-      "start": "2026-10-31T16:00:00+10:00",
-      "end": "2026-10-31T22:00:00+10:00",
-      "allDay": false,
-      "venue": "Oakey State High School",
-      "suburb": "Oakey",
-      "address": "Oakey State High School, 1 Campbell Street, Oakey, QLD, 4401",
-      "price": "Paid",
-      "ageGroups": [
-        "teens",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/abcdance-halloween-themed-mazes-tickets-1992400771341",
-      "summary": "Three mazes. Three levels of scares.  Family-friendly fun to full-blown horror. How brave are you?  Dare to enter!"
     },
     {
       "id": "335c7f5f000536d5",
@@ -431,29 +358,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
       "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
-    },
-    {
-      "id": "7b9d37c5000336aa",
-      "kind": "event",
-      "title": "Home, I'm Darling",
-      "start": "2026-11-03T19:30:00+10:00",
-      "end": "2026-11-03T21:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Repertory Theatre",
-      "suburb": "East Toowoomba",
-      "address": "94 Margaret St, East Toowoomba QLD 4350, Australia",
-      "price": "$20–$100",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/i-m-home-darling"
     },
     {
       "id": "f2d0967a0007ad18",
@@ -2280,6 +2184,29 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
+    },
+    {
+      "id": "fec8f2c70005f2c0",
+      "kind": "event",
+      "title": "Patrick James - Live In Concert - GROOM PARK HALL, TOOWOOMBA",
+      "start": "2026-12-10T19:00:00+10:00",
+      "end": "2026-12-10T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "$20–$45",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
     },
     {
       "id": "bfa9ec3e0007b598",
