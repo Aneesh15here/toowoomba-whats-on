@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T14:30:51.621Z",
+  "generatedAt": "2026-10-31T23:23:49.697Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 3,
+      "kept": 3,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -152,28 +152,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/garden-tools-workshop-kftrvh4a"
-    },
-    {
-      "id": "5ecd253e00018808",
-      "kind": "event",
-      "title": "Language Exchange",
-      "start": "2026-11-01T16:00:00+10:00",
-      "end": "2026-11-01T16:45:00+10:00",
-      "allDay": false,
-      "venue": "New Hope",
-      "suburb": "Toowoomba",
-      "address": "12 Peace Street, Toowoomba, AU",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317141523/",
-      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "a304c8b70004b337",
