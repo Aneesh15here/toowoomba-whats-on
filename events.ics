@@ -416,6 +416,21 @@ DTSTART;TZID=Australia/Brisbane:20261106T100000
 DTEND;TZID=Australia/Brisbane:20261106T110000
 END:VEVENT
 BEGIN:VEVENT
+UID:0ba2190700068a8b@whatsontoowoomba.au
+DTSTAMP:20261031T143051Z
+SUMMARY:Lockyer Valley Art Society Pottery & Art Sale
+DESCRIPTION:Lockyer Valley Art Society Pottery & Art Sale is listed for Fri
+ \, 6 Nov 2026\, 5:00 pm – Sat\, 7 Nov\, 4:00 pm at Lockyer Valley Art So
+ ciety\, Kensington Grove. Pottery and art sale at 24 Bertrand Ave\, Kensin
+ gton Grove QLD 4341. Opens Fri 6 Nov from 5pm (opening night) and runs Sat
+ …
+URL:https://whatsontoowoomba.au/events/0ba2190700068a8b/
+LOCATION:Lockyer Valley Art Society\, 24 Bertrand Ave
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261106T170000
+DTEND;TZID=Australia/Brisbane:20261107T160000
+END:VEVENT
+BEGIN:VEVENT
 UID:5cf0e0930009d36b@whatsontoowoomba.au
 DTSTAMP:20261031T143051Z
 SUMMARY:RAMAYANA – PART 1 Multilingual Movie Screening (Deepavali special
@@ -442,6 +457,21 @@ LOCATION:The Irish\, 80 Russell St\, Toowoomba City QLD 4350\, Australia
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261106T190000
 DTEND;TZID=Australia/Brisbane:20261106T233000
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a170dd000495e5@whatsontoowoomba.au
+DTSTAMP:20261031T143051Z
+SUMMARY:NOURISH – Mind • Body • Spirit Wellness Journey
+DESCRIPTION:NOURISH – Mind • Body • Spirit Wellness Journey is listed
+  for Fri\, 6 Nov 2026\, 7:00 pm – 11:00 pm at The Village Green\, Highfi
+ elds. At The Village Green\, Shop 7\, 10475 New England Hwy\, Highfields. 
+ Ticketed\; the price was not published. Organised by The Wellbeing Cottage
+ …
+URL:https://whatsontoowoomba.au/events/b2a170dd000495e5/
+LOCATION:The Village Green\, Shop 7\, 10475 New England Hwy
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261106T190000
+DTEND;TZID=Australia/Brisbane:20261106T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:6c177eee000206e8@whatsontoowoomba.au
@@ -514,20 +544,6 @@ LOCATION:Baby Bunting Toowoomba\, Baby Bunting Toowoomba\, 16 Hyde Court\,
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T090000
 DTEND;TZID=Australia/Brisbane:20261108T170000
-END:VEVENT
-BEGIN:VEVENT
-UID:01906ead00068b0f@whatsontoowoomba.au
-DTSTAMP:20261031T143051Z
-SUMMARY:Lockyer Valley Art Society Pottery & Art Sale
-DESCRIPTION:Lockyer Valley Art Society Pottery & Art Sale is listed for Sat
- \, 7 Nov 2026\, 9:00 am – 4:00 pm at Lockyer Valley Art Society. Pottery
-  and art sale at 24 Bertrand Avenue. Organised by Lockyer Valley Art Socie
- ty Inc. The suburb was not published. Whether it is free or paid was…
-URL:https://whatsontoowoomba.au/events/01906ead00068b0f/
-LOCATION:Lockyer Valley Art Society\, 24 Bertrand Avenue
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261107T090000
-DTEND;TZID=Australia/Brisbane:20261107T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:4e4a24380003e187@whatsontoowoomba.au
