@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:23:49.697Z",
+  "generatedAt": "2026-11-01T15:05:46.642Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -38,7 +38,7 @@
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 36,
+      "kept": 37,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 3,
-      "kept": 3,
+      "parsed": 7,
+      "kept": 7,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -131,51 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "335c7f5f000536d5",
-      "kind": "event",
-      "title": "Permaculture Garden Tools: Choosing and Using",
-      "start": "2026-11-01T14:00:00+10:00",
-      "end": "2026-11-01T16:30:00+10:00",
-      "allDay": false,
-      "venue": "Sarah Smith's Garden",
-      "suburb": "Gowrie Junction",
-      "address": "5 Settlers Dr, Gowrie Junction QLD 4352, Australia",
-      "price": "Free–$30",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/garden-tools-workshop-kftrvh4a"
-    },
-    {
-      "id": "a304c8b70004b337",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-02T09:00:00+10:00",
-      "end": "2026-11-02T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317153046/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "c73329f90005d866",
       "kind": "event",
       "title": "Feelings In Focus: Creating Your Emotional Toolkit",
@@ -244,6 +199,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-supercharge-your-student-supervision-skills-full-day-workshop-tickets-1992334426903",
       "summary": "Supercharge Your Supervision Skills Workshop is for supervisors new to student supervision or wanting to refresh their skills"
+    },
+    {
+      "id": "309b0c360004b36e",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-03T09:00:00+10:00",
+      "end": "2026-11-03T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317168512/",
+      "summary": "Community English Class"
     },
     {
       "id": "4d7c4e8b000bbb30",
@@ -695,6 +672,28 @@
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
     },
     {
+      "id": "efa5c5640004f2bb",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-06T13:30:00+10:00",
+      "end": "2026-11-06T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton State School",
+      "suburb": "Toowoomba",
+      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317217338/",
+      "summary": "Community English Class"
+    },
+    {
       "id": "0311a97a0004eb41",
       "kind": "event",
       "title": "Adnate, Wizard Eyes, Light Eater - Irish Club, Toowoomba - $20",
@@ -1018,6 +1017,72 @@
       "summary": "Sparks Fly Single Socials"
     },
     {
+      "id": "c4e1f66c0003cb27",
+      "kind": "event",
+      "title": "Toowoomba For Local Singles Ready Now",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "7 Ballantyne Ct",
+      "suburb": "Toowoomba",
+      "address": "7 Ballantyne Ct, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/vr-quest-collective-gamers-united-online/events/317226205/",
+      "summary": "VR Quest Collective: Gamers United Online"
+    },
+    {
+      "id": "15d493ca0004dd14",
+      "kind": "event",
+      "title": "Toowoomba Interactive Speed Dating Your Living Room",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "6 Hanlon St",
+      "suburb": "Toowoomba",
+      "address": "6 Hanlon St, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/chakra-vibes-the-reiki-enthusiasts-collective/events/317226208/",
+      "summary": "Chakra Vibes: The Reiki Enthusiasts Collective"
+    },
+    {
+      "id": "1a18c5cb000529f8",
+      "kind": "event",
+      "title": "Toowoomba Locals Only Interactive Speed Dating",
+      "start": "2026-11-08T19:00:00+10:00",
+      "end": "2026-11-08T20:00:00+10:00",
+      "allDay": false,
+      "venue": "GX95+JM Highfields",
+      "suburb": "Toowoomba",
+      "address": "GX95+JM Highfields, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "chinese"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/mandarin-mornings-tea-talk-and-culture/events/317229893/",
+      "summary": "Mandarin Mornings: Tea, Talk, and Culture"
+    },
+    {
       "id": "029f06040005b3a5",
       "kind": "event",
       "title": "Key Word Sign Workshop for Parents - Toowoomba",
@@ -1278,6 +1343,27 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
+    },
+    {
+      "id": "8eb898dd00046ec6",
+      "kind": "event",
+      "title": "Do More Club| Croquet & Bouquet Garden Party",
+      "start": "2026-11-14T12:00:00+10:00",
+      "end": "2026-11-14T14:00:00+10:00",
+      "allDay": false,
+      "venue": "209 Herries St",
+      "suburb": "Toowoomba City",
+      "address": "209 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/do-more-club"
     },
     {
       "id": "81ceba30000a6d07",
@@ -2185,6 +2271,27 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
+    },
+    {
+      "id": "60eca832000144f9",
+      "kind": "event",
+      "title": "INTIMO",
+      "start": "2026-12-11T20:00:00+10:00",
+      "end": "2026-12-13T03:00:00+10:00",
+      "allDay": false,
+      "venue": "The Cube Hotel",
+      "suburb": "Toowoomba City",
+      "address": "169 Margaret St, Toowoomba City QLD 4350, Australia",
+      "price": "$20",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/intimo"
     },
     {
       "id": "bfa9ec3e0007b598",
