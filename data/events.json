@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:05:46.642Z",
+  "generatedAt": "2026-11-01T23:35:22.237Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -1345,27 +1345,6 @@
       "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
     },
     {
-      "id": "8eb898dd00046ec6",
-      "kind": "event",
-      "title": "Do More Club| Croquet & Bouquet Garden Party",
-      "start": "2026-11-14T12:00:00+10:00",
-      "end": "2026-11-14T14:00:00+10:00",
-      "allDay": false,
-      "venue": "209 Herries St",
-      "suburb": "Toowoomba City",
-      "address": "209 Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "$50",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/do-more-club"
-    },
-    {
       "id": "81ceba30000a6d07",
       "kind": "event",
       "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
@@ -2248,6 +2227,30 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
+    },
+    {
+      "id": "48ef291900051462",
+      "kind": "event",
+      "title": "Nano-Smooth Look & Learn - Toowoomba",
+      "start": "2026-12-07T09:30:00+10:00",
+      "end": "2026-12-07T12:30:00+10:00",
+      "allDay": false,
+      "venue": "TAFE Queensland - Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "100 Bridge St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/nano-smooth-look-and-learn-toowoomba"
     },
     {
       "id": "fec8f2c70005f2c0",
