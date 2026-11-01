@@ -417,6 +417,20 @@ STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261106T180000
 END:VEVENT
 BEGIN:VEVENT
+UID:b91d05a5000462b6@whatsontoowoomba.au
+DTSTAMP:20261101T150546Z
+SUMMARY:Plant-Based Cooking Class & Dinner with Chef Adam Guthrie
+DESCRIPTION:Plant-Based Cooking Class & Dinner with Chef Adam Guthrie is li
+ sted for Fri\, 6 Nov 2026\, 6:30 pm – 8:30 pm at Toowoomba City. Tickete
+ d\; the price was not published. Organised by Adam Guthrie. The street add
+ ress was not published. Price: See listing.
+URL:https://whatsontoowoomba.au/events/b91d05a5000462b6/
+LOCATION:Toowoomba City
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261106T183000
+DTEND;TZID=Australia/Brisbane:20261106T203000
+END:VEVENT
+BEGIN:VEVENT
 UID:0311a97a0004eb41@whatsontoowoomba.au
 DTSTAMP:20261101T150546Z
 SUMMARY:Adnate\, Wizard Eyes\, Light Eater - Irish Club\, Toowoomba - $20
@@ -458,6 +472,20 @@ LOCATION:The Cube Hotel\, The Cube Hotel\, 169 Margaret Street\, Toowoomba
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261106T210000
 DTEND;TZID=Australia/Brisbane:20261107T030000
+END:VEVENT
+BEGIN:VEVENT
+UID:80a7eee90001ace4@whatsontoowoomba.au
+DTSTAMP:20261101T150546Z
+SUMMARY:Goombungee Jacaranda Day
+DESCRIPTION:Goombungee Jacaranda Day is listed for Sat\, 7 Nov 2026 at Goom
+ bungee. Carriage rides\, pony carts\, animal cuddles\, and dog demos in Go
+ ombungee. Free entry. Organised by Outback Instincts. The start time was n
+ ot published\, so this is an all-day listing. Price: Free.
+URL:https://whatsontoowoomba.au/events/80a7eee90001ace4/
+LOCATION:Goombungee
+STATUS:CONFIRMED
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 END:VEVENT
 BEGIN:VEVENT
 UID:highfields-parkrun-20261107@whatsontoowoomba.au
