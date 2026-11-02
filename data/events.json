@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:35:22.237Z",
+  "generatedAt": "2026-11-02T18:20:02.921Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 50,
+      "kept": 48,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 50 earlier listing(s) from this source."
+        "Kept 48 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 7,
-      "kept": 7,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 1,
-      "kept": 1,
+      "parsed": 2,
+      "kept": 2,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -131,52 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "c73329f90005d866",
-      "kind": "event",
-      "title": "Feelings In Focus: Creating Your Emotional Toolkit",
-      "start": "2026-11-02T10:00:00+10:00",
-      "end": "2026-11-02T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Wellways Toowoomba, 15-17 Kitchen St, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/feelings-in-focus-creating-your-emotional-toolkit-tickets-2003585264461",
-      "summary": "Build emotional awareness and practical coping skills through discussion, reflection and mood card creation."
-    },
-    {
-      "id": "0520092c000632f0",
-      "kind": "event",
-      "title": "Goodstart Highfields Twilight Tour",
-      "start": "2026-11-02T18:30:00+10:00",
-      "end": "2026-11-02T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Goodstart Early Learning Highfields",
-      "suburb": "Highfields",
-      "address": "Goodstart Early Learning Highfields, 7 Gladswood Drive, Highfields, QLD, 4352",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/goodstart-highfields-twilight-tour-tickets-2003488859110",
-      "summary": "Discover the Difference During Twilight"
-    },
-    {
       "id": "b2f025b1000ea9a6",
       "kind": "event",
       "title": "TOOWOOMBA Supercharge Your Student Supervision Skills - Full Day Workshop",
@@ -199,28 +153,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-supercharge-your-student-supervision-skills-full-day-workshop-tickets-1992334426903",
       "summary": "Supercharge Your Supervision Skills Workshop is for supervisors new to student supervision or wanting to refresh their skills"
-    },
-    {
-      "id": "309b0c360004b36e",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-03T09:00:00+10:00",
-      "end": "2026-11-03T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317168512/",
-      "summary": "Community English Class"
     },
     {
       "id": "4d7c4e8b000bbb30",
@@ -596,6 +528,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/master-builders-bussq-downs-western-golf-day-tickets-1999348015736",
       "summary": "A friendly mix of competition and networking, while enjoying a fun day on the green with members and industry players."
+    },
+    {
+      "id": "d27b2e8b0004b413",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-06T09:00:00+10:00",
+      "end": "2026-11-06T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317212697/",
+      "summary": "Community English Class"
     },
     {
       "id": "5484239b000401af",
@@ -1017,72 +971,6 @@
       "summary": "Sparks Fly Single Socials"
     },
     {
-      "id": "c4e1f66c0003cb27",
-      "kind": "event",
-      "title": "Toowoomba For Local Singles Ready Now",
-      "start": "2026-11-08T19:00:00+10:00",
-      "end": "2026-11-08T20:00:00+10:00",
-      "allDay": false,
-      "venue": "7 Ballantyne Ct",
-      "suburb": "Toowoomba",
-      "address": "7 Ballantyne Ct, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/vr-quest-collective-gamers-united-online/events/317226205/",
-      "summary": "VR Quest Collective: Gamers United Online"
-    },
-    {
-      "id": "15d493ca0004dd14",
-      "kind": "event",
-      "title": "Toowoomba Interactive Speed Dating Your Living Room",
-      "start": "2026-11-08T19:00:00+10:00",
-      "end": "2026-11-08T20:00:00+10:00",
-      "allDay": false,
-      "venue": "6 Hanlon St",
-      "suburb": "Toowoomba",
-      "address": "6 Hanlon St, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/chakra-vibes-the-reiki-enthusiasts-collective/events/317226208/",
-      "summary": "Chakra Vibes: The Reiki Enthusiasts Collective"
-    },
-    {
-      "id": "1a18c5cb000529f8",
-      "kind": "event",
-      "title": "Toowoomba Locals Only Interactive Speed Dating",
-      "start": "2026-11-08T19:00:00+10:00",
-      "end": "2026-11-08T20:00:00+10:00",
-      "allDay": false,
-      "venue": "GX95+JM Highfields",
-      "suburb": "Toowoomba",
-      "address": "GX95+JM Highfields, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "chinese"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/mandarin-mornings-tea-talk-and-culture/events/317229893/",
-      "summary": "Mandarin Mornings: Tea, Talk, and Culture"
-    },
-    {
       "id": "029f06040005b3a5",
       "kind": "event",
       "title": "Key Word Sign Workshop for Parents - Toowoomba",
@@ -1367,6 +1255,27 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways"
+    },
+    {
+      "id": "10f04fce000ab929",
+      "kind": "event",
+      "title": "Beyond Awareness: Culturally Safe Practice in our Sector - (Toowoomba) November 2026",
+      "start": "2026-11-17T08:30:00+10:00",
+      "end": "2026-11-18T16:30:00+10:00",
+      "allDay": false,
+      "venue": "Picnic Point Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "164 Tourist Rd, Toowoomba City QLD 4350, Australia",
+      "price": "$180",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/beyond-awareness-culturally-safe-practice-in-our-sector-toowoomba-november-2026"
     },
     {
       "id": "6469aac80002fec3",
@@ -2066,6 +1975,31 @@
       "sourceUrl": "https://events.humanitix.com/conversations-with-the-chair-toowoomba"
     },
     {
+      "id": "d175dd270001c2d1",
+      "kind": "event",
+      "title": "Into the Woods",
+      "start": "2026-12-03T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "The Empire",
+      "suburb": "Toowoomba",
+      "address": "The Empire, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music",
+        "arts"
+      ],
+      "source": "empire",
+      "sourceUrl": "https://empiretheatre.com.au/whats-on/into-the-woods",
+      "summary": "In 2026, Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece this acclaimed production to Toowoomba's iconic Empire Theatre for two dazzling performances."
+    },
+    {
       "id": "0a1f42920002caa7",
       "kind": "event",
       "title": "Read + Play — Clifton Library",
@@ -2274,27 +2208,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
-    },
-    {
-      "id": "60eca832000144f9",
-      "kind": "event",
-      "title": "INTIMO",
-      "start": "2026-12-11T20:00:00+10:00",
-      "end": "2026-12-13T03:00:00+10:00",
-      "allDay": false,
-      "venue": "The Cube Hotel",
-      "suburb": "Toowoomba City",
-      "address": "169 Margaret St, Toowoomba City QLD 4350, Australia",
-      "price": "$20",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/intimo"
     },
     {
       "id": "bfa9ec3e0007b598",
