@@ -1,58 +1,48 @@
 {
-  "updated": "2026-10-26T08:57:45.709Z",
+  "updated": "2026-11-02T11:11:08.158Z",
   "site": "whatsontoowoomba",
   "status": "ok",
   "period": {
-    "start": "2026-10-19T08:00:00.000Z",
-    "end": "2026-10-26T08:00:00.000Z",
-    "previousStart": "2026-10-12T08:00:00.000Z",
-    "previousEnd": "2026-10-19T08:00:00.000Z"
+    "start": "2026-10-26T11:00:00.000Z",
+    "end": "2026-11-02T11:00:00.000Z",
+    "previousStart": "2026-10-19T11:00:00.000Z",
+    "previousEnd": "2026-10-26T11:00:00.000Z"
   },
   "totals": {
     "week": {
-      "visits": 22,
+      "visits": 5,
       "events": 0,
-      "pages": 22
+      "pages": 5
     },
     "previousWeek": {
-      "visits": 0,
+      "visits": 23,
       "events": 0,
-      "pages": 0
+      "pages": 23
     },
     "change": {
-      "visits": 22,
+      "visits": -18,
       "events": 0,
-      "pages": 22
+      "pages": -18
     }
   },
   "pages": [
     {
       "path": "/",
       "title": "What's on in Toowoomba",
-      "count": 19
-    },
-    {
-      "path": "/events/adfb19ef00041436",
-      "title": "Mantra Rhythm - Toowoomba · 13 Dec 2026, 4:30 pm · What's On Toowoomba",
-      "count": 2
-    },
-    {
-      "path": "/404.html",
-      "title": "Page not found · What's On Toowoomba",
-      "count": 1
+      "count": 5
     }
   ],
   "referrers": [
     {
       "name": "(direct)",
-      "count": 22,
+      "count": 5,
       "scheme": "o",
       "kind": "direct"
     }
   ],
   "traffic": {
     "search": 0,
-    "direct": 22,
+    "direct": 5,
     "other": 0
   },
   "events": []
