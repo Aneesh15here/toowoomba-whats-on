@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:20:02.921Z",
+  "generatedAt": "2026-11-03T02:18:07.305Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 19,
+      "kept": 18,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -38,7 +38,7 @@
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 37,
+      "kept": 36,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -153,54 +153,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-supercharge-your-student-supervision-skills-full-day-workshop-tickets-1992334426903",
       "summary": "Supercharge Your Supervision Skills Workshop is for supervisors new to student supervision or wanting to refresh their skills"
-    },
-    {
-      "id": "4d7c4e8b000bbb30",
-      "kind": "event",
-      "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
-      "start": "2026-11-03T10:00:00+10:00",
-      "end": "2026-11-03T11:00:00+10:00",
-      "allDay": false,
-      "venue": "1a Birch Court Park, Darling Heights",
-      "suburb": "",
-      "address": "1a Birch Court Park, Darling Heights",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. 1a Birch Court Park, Darling Heights: 3 November, and 1 December, 10am - 11am"
-    },
-    {
-      "id": "4670b22c0004a4e4",
-      "kind": "event",
-      "title": "Toowoomba, QLD - Starts at 60 Meetup",
-      "start": "2026-11-03T10:00:00+10:00",
-      "end": "2026-11-03T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Muffin Break Grand Central",
-      "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "seniors"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
     },
     {
       "id": "69cd73d50004f059",
