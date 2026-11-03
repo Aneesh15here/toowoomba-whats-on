@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:18:07.305Z",
+  "generatedAt": "2026-11-03T16:14:08.792Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 48,
+      "kept": 45,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 48 earlier listing(s) from this source."
+        "Kept 45 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 5,
+      "kept": 5,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -129,74 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "b2f025b1000ea9a6",
-      "kind": "event",
-      "title": "TOOWOOMBA Supercharge Your Student Supervision Skills - Full Day Workshop",
-      "start": "2026-11-03T08:30:00+10:00",
-      "end": "2026-11-03T16:30:00+10:00",
-      "allDay": false,
-      "venue": "Southern Queensland Rural Health Toowoomba (SQRH)",
-      "suburb": "Toowoomba",
-      "address": "Southern Queensland Rural Health Toowoomba (SQRH), Baillie Henderson Hospital Campus, Building 24, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-supercharge-your-student-supervision-skills-full-day-workshop-tickets-1992334426903",
-      "summary": "Supercharge Your Supervision Skills Workshop is for supervisors new to student supervision or wanting to refresh their skills"
-    },
-    {
-      "id": "69cd73d50004f059",
-      "kind": "event",
-      "title": "Melbourne Cup @ Tatts Hotel | Food & Beverage Package",
-      "start": "2026-11-03T11:00:00+10:00",
-      "end": "2026-11-03T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Tatts Hotel",
-      "suburb": "Toowoomba City",
-      "address": "Tatts Hotel, 180 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/melbourne-cup-tatts-hotel-food-beverage-package-tickets-2002766353075",
-      "summary": "Melbourne Cup live at Tatts, Tuesday 3 November! $55 for 3 courses + one drink."
-    },
-    {
-      "id": "f61be1ab0003d0af",
-      "kind": "event",
-      "title": "Line Dancing: Fortnightly Boot Scootin'",
-      "start": "2026-11-03T18:00:00+10:00",
-      "end": "2026-11-03T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Aberfeldy Barn",
-      "suburb": "Toowoomba",
-      "address": "Aberfeldy Barn, 126 Macaulay Street, Westbrook, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742933947",
-      "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
     },
     {
       "id": "f2d0967a0007ad18",
@@ -921,6 +853,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
       "summary": "Sparks Fly Single Socials"
+    },
+    {
+      "id": "17ded903000188f6",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-08T16:00:00+10:00",
+      "end": "2026-11-08T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317250215/",
+      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "029f06040005b3a5",
@@ -1737,6 +1691,30 @@
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
+      "id": "5aa691950009af03",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
       "id": "3ea7d9c700022b1f",
       "kind": "event",
       "title": "Rnb 90s - 2000s Before Dark",
@@ -1781,29 +1759,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/gong-sound-experience-toowoomba-live-gong-meditation-chai-tickets-2002980452452",
       "summary": "Lie down and listen to live gongs at Groom Park Hall, Toowoomba. A guided gong sound meditation with chai after. No experience needed."
-    },
-    {
-      "id": "e744fb530007379f",
-      "kind": "event",
-      "title": "Live & Local @ The Powerhouse - Saturday 28 November 2026",
-      "start": "2026-11-28T18:30:00+10:00",
-      "end": "2026-11-28T22:30:00+10:00",
-      "allDay": false,
-      "venue": "The Powerhouse Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "Powerhouse, 20-26 Neil St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
     },
     {
       "id": "0baaa332000bbad4",
