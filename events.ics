@@ -208,6 +208,22 @@ DTSTART;TZID=Australia/Brisbane:20261106T070000
 DTEND;TZID=Australia/Brisbane:20261106T153000
 END:VEVENT
 BEGIN:VEVENT
+UID:5441bda10004327d@whatsontoowoomba.au
+DTSTAMP:20261103T161408Z
+SUMMARY:Sweet Acres Garage Sale (extended)
+DESCRIPTION:Sweet Acres Garage Sale (extended) is listed for Fri\, 6 Nov 20
+ 26\, 7:00 am – Sun\, 8 Nov\, 2:00 pm at 524 Quinalow Peranga Rd\, Perang
+ a. Open 7:00 am–2:00 pm each day on Friday 6 November\, Saturday 7 Novem
+ ber\, and Sunday 8 November. Free entry. Organised by Amanda Smith. No lis
+ t of…
+URL:https://whatsontoowoomba.au/events/5441bda10004327d/
+LOCATION:524 Quinalow Peranga Rd\, 524 Quinalow Peranga Rd\, Peranga QLD 43
+ 52
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261106T070000
+DTEND;TZID=Australia/Brisbane:20261108T140000
+END:VEVENT
+BEGIN:VEVENT
 UID:d27b2e8b0004b413@whatsontoowoomba.au
 DTSTAMP:20261103T161408Z
 SUMMARY:Free Community English Class – Toowoomba
@@ -538,6 +554,19 @@ STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T130000
 END:VEVENT
 BEGIN:VEVENT
+UID:e16ed7f50002f4b3@whatsontoowoomba.au
+DTSTAMP:20261103T161408Z
+SUMMARY:Toowoomba Twilight Market
+DESCRIPTION:Toowoomba Twilight Market is listed for Sat\, 7 Nov 2026\, 2:00
+  pm at Indoor Bowls Hall\, Toowoomba. Organised by Community (Facebook). N
+ o end time was published. Whether it is free or paid was not published. Pr
+ ice: See listing.
+URL:https://whatsontoowoomba.au/events/e16ed7f50002f4b3/
+LOCATION:Indoor Bowls Hall\, 10 Annand St
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261107T140000
+END:VEVENT
+BEGIN:VEVENT
 UID:b6e8ffea000466ca@whatsontoowoomba.au
 DTSTAMP:20261103T161408Z
 SUMMARY:Games on the Green & Good  Company
@@ -755,6 +784,22 @@ LOCATION:190 Hume St\, 190 Hume St\, 190 Hume Street\, Toowoomba City\, QLD
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261112T170000
 DTEND;TZID=Australia/Brisbane:20261112T190000
+END:VEVENT
+BEGIN:VEVENT
+UID:9e8067ab00043218@whatsontoowoomba.au
+DTSTAMP:20261103T161408Z
+SUMMARY:Sweet Acres Garage Sale (extended)
+DESCRIPTION:Sweet Acres Garage Sale (extended) is listed for Fri\, 13 Nov 2
+ 026\, 7:00 am – Sun\, 15 Nov\, 2:00 pm at 524 Quinalow Peranga Rd\, Pera
+ nga. Open 7:00 am–2:00 pm each day on Friday 13 November\, Saturday 14 N
+ ovember\, and Sunday 15 November. Free entry. Organised by Amanda Smith. N
+ o…
+URL:https://whatsontoowoomba.au/events/9e8067ab00043218/
+LOCATION:524 Quinalow Peranga Rd\, 524 Quinalow Peranga Rd\, Peranga QLD 43
+ 52
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261113T070000
+DTEND;TZID=Australia/Brisbane:20261115T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:02ef23a800064338@whatsontoowoomba.au
