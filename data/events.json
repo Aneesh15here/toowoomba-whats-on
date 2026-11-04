@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:36:38.780Z",
+  "generatedAt": "2026-11-04T16:17:29.633Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,8 +10,7 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409",
-        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
+        "visit.tr.qld.gov.au responded, but this collector reads dated council pages on tr.qld.gov.au."
       ]
     },
     {
@@ -28,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 44,
+      "kept": 43,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 44 earlier listing(s) from this source."
+        "Kept 43 earlier listing(s) from this source."
       ]
     },
     {
@@ -57,8 +56,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 2,
-      "kept": 2,
+      "parsed": 3,
+      "kept": 3,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -96,7 +95,7 @@
     {
       "id": "garage",
       "ok": true,
-      "parsed": 2,
+      "parsed": 1,
       "kept": 0,
       "error": null,
       "notes": [
@@ -129,30 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "6658e92e00047e2f",
-      "kind": "event",
-      "title": "Liven Carabella Information Session",
-      "start": "2026-11-04T10:30:00+10:00",
-      "end": "2026-11-04T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Sports Club",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba Sports Club, 360 Ruthven Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "markets"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/liven-carabella-information-session-tickets-2003489730717",
-      "summary": "Join us for a morning of local market insights, expert perspectives and the latest from Liven Carabella."
     },
     {
       "id": "78ad52cd00087f32",
@@ -1644,6 +1619,30 @@
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
+      "id": "5aa691950009af03",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
       "id": "3ea7d9c700022b1f",
       "kind": "event",
       "title": "Rnb 90s - 2000s Before Dark",
@@ -1836,29 +1835,6 @@
       "summary": "In 2026, Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece this acclaimed production to Toowoomba's iconic Empire Theatre for two dazzling performances."
     },
     {
-      "id": "2b3e70050004f702",
-      "kind": "event",
-      "title": "Celebrate DAW, IDPwD and Christmas 2026",
-      "start": "2026-12-03T10:00:00+10:00",
-      "end": "2026-12-03T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Multicultural Australia",
-      "suburb": "Toowoomba City",
-      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
-    },
-    {
       "id": "0a1f42920002caa7",
       "kind": "event",
       "title": "Read + Play — Clifton Library",
@@ -1954,6 +1930,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/sparks-fly-singles-only-bowling-toowoomba-tickets-2003439200580",
       "summary": "Join us for a night of fun for SINGLES ONLY bowling at Sunset Bowling, Toowoomba"
+    },
+    {
+      "id": "06dd47150001e3a2",
+      "kind": "event",
+      "title": "Theatre of Magic",
+      "start": "2026-12-05T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "The Empire",
+      "suburb": "Toowoomba",
+      "address": "The Empire, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "empire",
+      "sourceUrl": "https://empiretheatre.com.au/whats-on/theatre-of-magic-2026",
+      "summary": "Theatre of Magic returns to The Empire in 2026 with four spellbinding nights, kicking off in February. Experience Australia's most magical night out!"
     },
     {
       "id": "62ba59390004c5fe",
