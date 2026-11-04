@@ -7,10 +7,10 @@ import { readFile, writeFile, mkdir, readdir, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { stampHtml } from "./analytics.mjs";
-import { buildSite } from "./seo.mjs";
+import { buildSite, ensureFeedbackFooter } from "./seo.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const MANAGED_DIRS = ["events", "category", "suburb", "things-to-do", "this-weekend", "this-week", "garage-sales", "search"];
+const MANAGED_DIRS = ["events", "category", "suburb", "things-to-do", "this-weekend", "this-week", "garage-sales", "search", "feedback"];
 const STATIC_PAGES = ["share.html", "thanks.html", "credits.html"];
 
 export async function generateSite({ root = ROOT, now = new Date() } = {}) {
@@ -32,7 +32,7 @@ export async function generateSite({ root = ROOT, now = new Date() } = {}) {
   for (const [rel, content] of built.files) {
     const abs = path.join(root, rel);
     await mkdir(path.dirname(abs), { recursive: true });
-    const body = rel.endsWith(".html") ? stampHtml(content) : content;
+    const body = rel.endsWith(".html") ? ensureFeedbackFooter(stampHtml(content)) : content;
     await writeFile(abs, body);
     written.push(rel);
   }
@@ -59,7 +59,7 @@ async function stampStaticPages(root) {
       if (error.code === "ENOENT") continue;
       throw error;
     }
-    const next = stampHtml(html);
+    const next = ensureFeedbackFooter(stampHtml(html));
     if (next !== html) await writeFile(abs, next);
   }
 }

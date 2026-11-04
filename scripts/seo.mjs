@@ -3,6 +3,7 @@
  * No filesystem access, so tests can render a site from fixtures.
  */
 
+import { FEEDBACK_TYPES } from "../js/feedback.js";
 import { countSnippet, outboundEventPath, privacyNoteHtml, stampHtml } from "./analytics.mjs";
 import {
   CATEGORIES,
@@ -21,6 +22,7 @@ import {
 
 export const SITE = "https://whatsontoowoomba.au";
 export const CONTACT_EMAIL = "whatsontoowoomba@agentmail.to";
+export const FEEDBACK_PATH = "/feedback/";
 const OG_IMAGE = `${SITE}/assets/og.png`;
 const OG_ALT = "What's On Toowoomba, a calendar of events in Toowoomba, Queensland";
 const GEO_LAT = "-27.5598";
@@ -776,9 +778,81 @@ function layout({ current, crumbs, heading, lede, main }) {
       </nav>
       <p>Public listings for Toowoomba, Queensland. These pages are rebuilt when the collector runs.</p>
       <p><a href="/credits.html">Photograph credits</a></p>
+      ${feedbackFooterLink()}
       ${privacyNoteHtml()}
     </div>
   </footer>`;
+}
+
+export function feedbackFooterLink() {
+  return `<p><a href="${FEEDBACK_PATH}">Send feedback</a></p>`;
+}
+
+export function ensureFeedbackFooter(html) {
+  const source = String(html);
+  if (!source.includes("</footer>")) return source;
+  if (source.includes(`href="${FEEDBACK_PATH}"`) || source.includes('href="feedback/"')) return source;
+  const link = feedbackFooterLink();
+  if (source.includes('class="privacy-note"')) {
+    return source.replace(/([ \t]*)<p class="privacy-note">/, `$1${link}\n$1<p class="privacy-note">`);
+  }
+  if (/([ \t]*)<\/div>\r?\n([ \t]*)<\/footer>/.test(source)) {
+    return source.replace(
+      /([ \t]*)<\/div>\r?\n([ \t]*)<\/footer>/,
+      `$1  ${link}\n$1</div>\n$2</footer>`,
+    );
+  }
+  return source.replace("</footer>", `${link}\n</footer>`);
+}
+
+function feedbackTypeLabel(type) {
+  return type.charAt(0).toUpperCase() + type.slice(1);
+}
+
+function feedbackFormHtml() {
+  const options = FEEDBACK_TYPES.map((type) => (
+    `<option value="${escapeHtml(type)}">${escapeHtml(feedbackTypeLabel(type))}</option>`
+  )).join("\n          ");
+  return `<form id="feedback-form" class="panel contact-form feedback-form" method="post" action="mailto:${escapeHtml(CONTACT_EMAIL)}" enctype="text/plain">
+      <label for="feedback-type">Feedback type
+        <select id="feedback-type" name="type" required>
+          ${options}
+        </select>
+      </label>
+      <label for="feedback-message">Message
+        <textarea id="feedback-message" name="message" rows="6" maxlength="4000" required></textarea>
+      </label>
+      <label for="feedback-email"><span>Email <span class="optional">(optional)</span></span>
+        <input id="feedback-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200" placeholder="Only if you want a reply">
+      </label>
+      <div class="form-actions">
+        <button type="submit" class="btn">Send feedback</button>
+      </div>
+      <p class="form-note">This opens an email draft to <a href="mailto:${escapeHtml(CONTACT_EMAIL)}">${escapeHtml(CONTACT_EMAIL)}</a>. The subject is &quot;Site feedback:&quot; plus the type you chose, and the message is filled in. Nothing is sent until you send that email.</p>
+    </form>`;
+}
+
+function feedbackPage() {
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Feedback", path: FEEDBACK_PATH },
+  ];
+  const lede = "<p>A suggestion, a problem, or a correction to an event. This stays on your device until you send the email.</p>";
+  const body = `${layout({
+    current: FEEDBACK_PATH,
+    crumbs,
+    heading: "Send feedback",
+    lede,
+    main: feedbackFormHtml(),
+  })}
+  <script type="module" src="/js/feedback.js"></script>`;
+  return renderDocument({
+    title: pageTitle("Send feedback"),
+    description: "Send feedback about What's On Toowoomba: a suggestion, a problem, or a correction to an event.",
+    path: FEEDBACK_PATH,
+    graph: pageGraph(crumbs, []),
+    body,
+  });
 }
 
 function renderImage(image) {
@@ -1229,7 +1303,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
   if (nextIndex.includes("<!-- seo:garage-cta -->")) {
     nextIndex = replaceMarker(nextIndex, "garage-cta", garageSaleCtaInner());
   }
-  nextIndex = stampHtml(nextIndex);
+  nextIndex = ensureFeedbackFooter(stampHtml(nextIndex));
 
   for (const event of calendar) {
     const crumbs = [
@@ -1421,7 +1495,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
       graph: thingsGraph,
     }));
     nextThings = replaceMarker(nextThings, "places", placeGrid);
-    nextThings = stampHtml(nextThings);
+    nextThings = ensureFeedbackFooter(stampHtml(nextThings));
   }
 
   for (const place of readyPlaces) {
@@ -1459,6 +1533,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
   }
 
   files.set("search/index.html", searchPage(all));
+  files.set("feedback/index.html", feedbackPage());
   files.set("404.html", notFoundPage());
   files.set("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
   const urls = [
@@ -1472,6 +1547,7 @@ export function buildSite({ events, submissions, places, now, generatedAt, index
     ...suburbs.map((name) => `/suburb/${slugify(name)}/`),
     ...calendar.map((event) => `/events/${event.id}/`),
     "/search/",
+    "/feedback/",
     "/share.html",
     "/feed.xml",
     "/atom.xml",
