@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:14:08.792Z",
+  "generatedAt": "2026-11-04T00:36:38.780Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 18,
+      "kept": 17,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 45,
+      "kept": 44,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 45 earlier listing(s) from this source."
+        "Kept 44 earlier listing(s) from this source."
       ]
     },
     {
@@ -129,53 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "f2d0967a0007ad18",
-      "kind": "event",
-      "title": "Bx Networking Pittsworth Breakfast  - Business Networking in Pittsworth",
-      "start": "2026-11-04T08:00:00+10:00",
-      "end": "2026-11-04T10:00:00+10:00",
-      "allDay": false,
-      "venue": "59 Yandilla St",
-      "suburb": "Pittsworth",
-      "address": "59 Yandilla St, 59 Yandilla Street, Pittsworth, QLD, 4356",
-      "price": "Paid",
-      "ageGroups": [
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-pittsworth-breakfast-business-networking-in-pittsworth-tickets-1997930860988",
-      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
-    },
-    {
-      "id": "4ca4c4060003689d",
-      "kind": "event",
-      "title": "Read + Play — Millmerran Library",
-      "start": "2026-11-04T10:00:00+10:00",
-      "end": "2026-11-04T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Millmerran Library",
-      "suburb": "",
-      "address": "Millmerran Library",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Millmerran Library: Millmerran Library: Wednesday 21 October, 4 November, 18 November, and 2 December, 10 - 10.30am"
     },
     {
       "id": "6658e92e00047e2f",
@@ -1691,30 +1644,6 @@
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
-      "id": "5aa691950009af03",
-      "kind": "event",
-      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
-      "start": "2026-11-28T10:00:00+10:00",
-      "end": "2026-11-28T16:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Showgrounds",
-      "suburb": "Glenvale",
-      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
-      "price": "Free–$5",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
-    },
-    {
       "id": "3ea7d9c700022b1f",
       "kind": "event",
       "title": "Rnb 90s - 2000s Before Dark",
@@ -1905,6 +1834,29 @@
       "source": "empire",
       "sourceUrl": "https://empiretheatre.com.au/whats-on/into-the-woods",
       "summary": "In 2026, Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece this acclaimed production to Toowoomba's iconic Empire Theatre for two dazzling performances."
+    },
+    {
+      "id": "2b3e70050004f702",
+      "kind": "event",
+      "title": "Celebrate DAW, IDPwD and Christmas 2026",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Multicultural Australia",
+      "suburb": "Toowoomba City",
+      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
     },
     {
       "id": "0a1f42920002caa7",
