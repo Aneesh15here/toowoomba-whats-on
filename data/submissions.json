@@ -509,12 +509,12 @@
       "kind": "event",
       "title": "Toowoomba Twilight Market",
       "start": "2026-11-07T14:00:00+10:00",
-      "end": null,
+      "end": "2026-11-07T19:00:00+10:00",
       "allDay": false,
       "venue": "Indoor Bowls Hall",
-      "suburb": "Toowoomba",
+      "suburb": "Toowoomba City",
       "address": "10 Annand St",
-      "organiser": "Community (Facebook)",
+      "organiser": "Toowoomba Twilight Markets",
       "price": "See listing",
       "ageGroups": ["families"],
       "communities": ["multicultural"],
@@ -523,7 +523,7 @@
       "sourceUrl": "https://www.facebook.com/events/1641827140763469/",
       "url": "https://www.facebook.com/events/1641827140763469/",
       "items": "",
-      "summary": "Organised by Community (Facebook). No end time was published. Whether it is free or paid was not published."
+      "summary": "Organised by Toowoomba Twilight Markets. Whether it is free or paid was not published."
     },
     {
       "status": "approved",

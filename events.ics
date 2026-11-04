@@ -512,13 +512,14 @@ UID:e16ed7f50002f4b3@whatsontoowoomba.au
 DTSTAMP:20261104T161729Z
 SUMMARY:Toowoomba Twilight Market
 DESCRIPTION:Toowoomba Twilight Market is listed for Sat\, 7 Nov 2026\, 2:00
-  pm at Indoor Bowls Hall\, Toowoomba. Organised by Community (Facebook). N
- o end time was published. Whether it is free or paid was not published. Pr
- ice: See listing.
+  pm – 7:00 pm at Indoor Bowls Hall\, Toowoomba City. Organised by Toowoo
+ mba Twilight Markets. Whether it is free or paid was not published. Price:
+  See listing.
 URL:https://whatsontoowoomba.au/events/e16ed7f50002f4b3/
 LOCATION:Indoor Bowls Hall\, 10 Annand St
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261107T140000
+DTEND;TZID=Australia/Brisbane:20261107T190000
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e8ffea000466ca@whatsontoowoomba.au
