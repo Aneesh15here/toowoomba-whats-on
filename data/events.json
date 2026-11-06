@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T00:58:16.204Z",
+  "generatedAt": "2026-11-06T15:54:27.745Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 15,
+      "kept": 14,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 68,
+      "kept": 67,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 68 earlier listing(s) from this source."
+        "Kept 67 earlier listing(s) from this source."
       ]
     },
     {
@@ -129,76 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "5484239b000401af",
-      "kind": "event",
-      "title": "DROP IN | Bikkies and Boardgames",
-      "start": "2026-11-06T10:00:00+10:00",
-      "end": "2026-11-06T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-bikkies-and-boardgames-tickets-2000918404812",
-      "summary": "Looking for a way to give your brain a workout and meet new people over a cuppa and bit of friendly competition?"
-    },
-    {
-      "id": "a0afaa580005218d",
-      "kind": "event",
-      "title": "Talk, Read, Sing, Play in the Community — Harlaxton Hub",
-      "start": "2026-11-06T10:00:00+10:00",
-      "end": "2026-11-06T11:00:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton Hub",
-      "suburb": "",
-      "address": "Harlaxton Hub",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
-    },
-    {
-      "id": "0311a97a0004eb41",
-      "kind": "event",
-      "title": "Adnate, Wizard Eyes, Light Eater - Irish Club, Toowoomba - $20",
-      "start": "2026-11-06T19:00:00+10:00",
-      "end": "2026-11-06T23:30:00+10:00",
-      "allDay": false,
-      "venue": "The Irish",
-      "suburb": "Toowoomba City",
-      "address": "80 Russell St, Toowoomba City QLD 4350, Australia",
-      "price": "$20",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/adnate-presents-mountainsofdoom"
     },
     {
       "id": "6c177eee000206e8",
@@ -1915,6 +1845,30 @@
       "sourceUrl": "https://events.humanitix.com/copy-of-cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
+      "id": "5aa691950009af03",
+      "kind": "event",
+      "title": "Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun Day",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Showgrounds",
+      "suburb": "Glenvale",
+      "address": "CVQJ+Q9, Glenvale QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
+    },
+    {
       "id": "3ea7d9c700022b1f",
       "kind": "event",
       "title": "Rnb 90s - 2000s Before Dark",
@@ -1959,29 +1913,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/gong-sound-experience-toowoomba-live-gong-meditation-chai-tickets-2002980452452",
       "summary": "Lie down and listen to live gongs at Groom Park Hall, Toowoomba. A guided gong sound meditation with chai after. No experience needed."
-    },
-    {
-      "id": "e744fb530007379f",
-      "kind": "event",
-      "title": "Live & Local @ The Powerhouse - Saturday 28 November 2026",
-      "start": "2026-11-28T18:30:00+10:00",
-      "end": "2026-11-28T22:30:00+10:00",
-      "allDay": false,
-      "venue": "The Powerhouse Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "Powerhouse, 20-26 Neil St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
     },
     {
       "id": "0baaa332000bbad4",
@@ -2103,6 +2034,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/conversations-with-the-chair-toowoomba"
+    },
+    {
+      "id": "10040c060003a777",
+      "kind": "event",
+      "title": "Connect with PeakCare | Toowoomba",
+      "start": "2026-12-02T15:00:00+10:00",
+      "end": "2026-12-02T17:00:00+10:00",
+      "allDay": false,
+      "venue": "The Rock Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "520 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/connect-with-peakcare-toowoomba"
     },
     {
       "id": "d175dd270001c2d1",
