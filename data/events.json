@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T16:27:51.205Z",
+  "generatedAt": "2026-11-06T00:58:16.204Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 16,
+      "kept": 15,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 69,
+      "kept": 68,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 69 earlier listing(s) from this source."
+        "Kept 68 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 3,
+      "kept": 3,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -131,28 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "39ea453300051aea",
-      "kind": "event",
-      "title": "Diwali Celebration: Lights, Sweets & Connection",
-      "start": "2026-11-06T09:00:00+10:00",
-      "end": "2026-11-06T10:00:00+10:00",
-      "allDay": false,
-      "venue": "15-17 Kitchener St",
-      "suburb": "East Toowoomba",
-      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "indian"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/diwali-celebration-lights-sweets-connection-tickets-2004000945775",
-      "summary": "Join us as we celebrate Diwali, the Festival of Lights, with a morning of connection, creativity, and community."
-    },
-    {
       "id": "5484239b000401af",
       "kind": "event",
       "title": "DROP IN | Bikkies and Boardgames",
@@ -175,31 +153,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-bikkies-and-boardgames-tickets-2000918404812",
       "summary": "Looking for a way to give your brain a workout and meet new people over a cuppa and bit of friendly competition?"
-    },
-    {
-      "id": "237cd2300003bbed",
-      "kind": "event",
-      "title": "Read + Play — Cecil Plains Library",
-      "start": "2026-11-06T10:00:00+10:00",
-      "end": "2026-11-06T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Cecil Plains Library",
-      "suburb": "",
-      "address": "Cecil Plains Library",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
     },
     {
       "id": "a0afaa580005218d",
@@ -225,28 +178,6 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
-    },
-    {
-      "id": "efa5c5640004f2bb",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-06T13:30:00+10:00",
-      "end": "2026-11-06T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton State School",
-      "suburb": "Toowoomba",
-      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317217338/",
-      "summary": "Community English Class"
     },
     {
       "id": "0311a97a0004eb41",
