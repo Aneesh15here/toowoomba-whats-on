@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:54:27.745Z",
+  "generatedAt": "2026-11-07T00:06:30.762Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 67,
+      "kept": 66,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 67 earlier listing(s) from this source."
+        "Kept 66 earlier listing(s) from this source."
       ]
     },
     {
@@ -129,28 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "6c177eee000206e8",
-      "kind": "event",
-      "title": "✨ JASHAN-E DIWALI 2.0 ✨",
-      "start": "2026-11-06T21:00:00+10:00",
-      "end": "2026-11-07T03:00:00+10:00",
-      "allDay": false,
-      "venue": "The Cube Hotel",
-      "suburb": "Toowoomba City",
-      "address": "The Cube Hotel, 169 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "indian"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/jashan-e-diwali-20-tickets-2003544921795",
-      "summary": "TOOWOOMBA, THE WAIT IS OVER! \n\nWE’RE BACK — BIGGER, BOLDER & BETTER! \n\n✨ JASHAN-E DIWALI 2.0 ✨\n The Ultimate Diwali Club Takeover"
     },
     {
       "id": "0e4278680007f6aa",
