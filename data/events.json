@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:53:37.711Z",
+  "generatedAt": "2026-11-07T23:37:59.161Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,8 +10,7 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409",
-        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
+        "visit.tr.qld.gov.au responded, but this collector reads dated council pages on tr.qld.gov.au."
       ]
     },
     {
@@ -47,8 +46,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 3,
-      "kept": 3,
+      "parsed": 1,
+      "kept": 1,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -200,50 +199,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/sparks-fly-singles-only-lawn-bowls-club-toowoomba-tickets-2002421456480",
       "summary": "Come join a group of singles for a Sunday Sesh with Lawn Bowls and table games at Club Toowoomba!"
-    },
-    {
-      "id": "a62979a800049f34",
-      "kind": "event",
-      "title": "Sparks Fly Singles Only Lawn Bowls - Toowoomba",
-      "start": "2026-11-08T15:00:00+10:00",
-      "end": "2026-11-08T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Club Toowoomba",
-      "suburb": "South Toowoomba",
-      "address": "331-339 Hume St, South Toowoomba, AU",
-      "price": "$30",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/sparks-fly-single-socials/events/316941321/",
-      "summary": "Sparks Fly Single Socials"
-    },
-    {
-      "id": "17ded903000188f6",
-      "kind": "event",
-      "title": "Language Exchange",
-      "start": "2026-11-08T16:00:00+10:00",
-      "end": "2026-11-08T16:45:00+10:00",
-      "allDay": false,
-      "venue": "New Hope",
-      "suburb": "Toowoomba",
-      "address": "12 Peace Street, Toowoomba, AU",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317250215/",
-      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "904a46180004b4b8",
