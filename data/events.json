@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:06:30.762Z",
+  "generatedAt": "2026-11-07T14:53:37.711Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 66,
+      "kept": 58,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 66 earlier listing(s) from this source."
+        "Kept 58 earlier listing(s) from this source."
       ]
     },
     {
@@ -152,216 +152,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/baby-bunting-toowoomba-grand-reopening-celebration-weekend-free-event-tickets-2003044602326",
       "summary": "Celebrate with us! Shop our Cyber Sale, meet the experts, over $13.4K in Prizes & Gifts, free coffee & face painting!"
-    },
-    {
-      "id": "4e4a24380003e187",
-      "kind": "event",
-      "title": "Nationally Accredited  First Aid Training",
-      "start": "2026-11-07T09:00:00+10:00",
-      "end": "2026-11-07T12:00:00+10:00",
-      "allDay": false,
-      "venue": "2 Lawrence St",
-      "suburb": "South Toowoomba",
-      "address": "2 Lawrence St, 2 Lawrence Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/nationally-accredited-first-aid-training-tickets-1967850716466",
-      "summary": "CPR | First Aid | Education and Care | Asthma and Anaphylaxis"
-    },
-    {
-      "id": "276b61f200032210",
-      "kind": "event",
-      "title": "Fun Factory: Paper Zoo",
-      "start": "2026-11-07T10:30:00+10:00",
-      "end": "2026-11-07T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/fun-factory-paper-zoo-tickets-2001984006054",
-      "summary": "Let your imagination run wild!"
-    },
-    {
-      "id": "ddb4dbb90004a26d",
-      "kind": "event",
-      "title": "Mime Show & Workshop with James Kerwin",
-      "start": "2026-11-07T10:30:00+10:00",
-      "end": "2026-11-07T11:30:00+10:00",
-      "allDay": false,
-      "venue": "Highfields Library",
-      "suburb": "Highfields",
-      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts",
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/mime-show-workshop-with-james-kerwin-tickets-2002678353867",
-      "summary": "Get ready to learn the art of silent storytelling and have a blast with James Kerwin’s show and mime workshop!"
-    },
-    {
-      "id": "2c56c94f0009fef0",
-      "kind": "event",
-      "title": "$5* Bowls & Burgers! South Seoul Toowoomba @ Northpoint Shopping Centre.",
-      "start": "2026-11-07T11:00:00+10:00",
-      "end": "2026-11-07T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Northpoint Shopping Centre",
-      "suburb": "Toowoomba City",
-      "address": "Northpoint Shopping Centre, Jones Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/5-bowls-burgers-south-seoul-toowoomba-northpoint-shopping-centre-tickets-2003583514226",
-      "summary": "We're opening our doors for the Grand Opening of South Seoul Toowoomba and we want you there with us! $5* Bowls & Burgers. Be there!"
-    },
-    {
-      "id": "67a0b7cf00076b2d",
-      "kind": "event",
-      "title": "Outback Thunda \"The Ride\" - TOOWOOMBA 7th November 2026- 1 x ride",
-      "start": "2026-11-07T15:00:00+10:00",
-      "end": "2026-11-07T19:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Showgrounds",
-      "suburb": "Glenvale",
-      "address": "Toowoomba Showgrounds, Glenvale road, Glenvale, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/outback-thunda-the-ride-toowoomba-7th-november-2026-1-x-ride-tickets-2004211206671",
-      "summary": "Get ready to ride Outback Thunda \"The Ride\" in TOOWOOMBA 7th November 2026"
-    },
-    {
-      "id": "b6e8ffea000466ca",
-      "kind": "event",
-      "title": "Games on the Green & Good  Company",
-      "start": "2026-11-07T16:00:00+10:00",
-      "end": "2026-11-07T18:30:00+10:00",
-      "allDay": false,
-      "venue": "Queens Park Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Queens Park Toowoomba, 43-73 Lindsay Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/games-on-the-green-good-company-tickets-1999382950226",
-      "summary": "Rugs, bocce and good company,  a laid back lawn games picnic for grown ups who'd rather make new friends than make small talk."
-    },
-    {
-      "id": "791357f10004bd9f",
-      "kind": "event",
-      "title": "TGW and Smithy Bring the Big Fights 44",
-      "start": "2026-11-07T16:00:00+10:00",
-      "end": "2026-11-07T23:00:00+10:00",
-      "allDay": false,
-      "venue": "Rumours International",
-      "suburb": "Toowoomba City",
-      "address": "Rumours International, 323 Ruthven Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/tgw-and-smithy-bring-the-big-fights-44-tickets-2001269784799",
-      "summary": "TGW  & Smithy's Promotions presents THE BIG FIGHTS 44 featuring local favourite Stoneleigh Jackson and a stacked undercard!"
-    },
-    {
-      "id": "88ac1591000a372c",
-      "kind": "event",
-      "title": "USA V AUS Monster Truck Mayhem Thrill & Stunt Show Toowoomba Showgrounds",
-      "start": "2026-11-07T17:00:00+10:00",
-      "end": "2026-11-07T19:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Showgrounds",
-      "suburb": "Glenvale",
-      "address": "Toowoomba Showgrounds, Frank Thomas Avenue, Glenvale, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/usa-v-aus-monster-truck-mayhem-thrill-stunt-show-toowoomba-showgrounds-tickets-1994261112672",
-      "summary": "USA V AUS Monster Truck Mayhem Thrill & Stunt Show roars into Toowoomba Showgrounds on 7 November 2026. Family thrills, stunts & fireworks!"
-    },
-    {
-      "id": "b968aec900061944",
-      "kind": "event",
-      "title": "Toowoomba Ecstatic Dance - Awaken the Spirit Within",
-      "start": "2026-11-07T18:00:00+10:00",
-      "end": "2026-11-07T20:00:00+10:00",
-      "allDay": false,
-      "venue": "Drayton Memorial Hall",
-      "suburb": "Drayton",
-      "address": "39 Brisbane St, Drayton QLD 4350, Australia",
-      "price": "$25–$45",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-ecstatic-dance-awaken-the-spirit-within"
     },
     {
       "id": "9403a73b000a965e",
@@ -1545,6 +1335,27 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/deluxe-floral-cupcake-class-toowoomba-tickets-2002315195651",
       "summary": "Join us for a fun Floral Buttercream Masterclass suitable for all levels."
+    },
+    {
+      "id": "c61d716e00039484",
+      "kind": "event",
+      "title": "Toowoomba's Kite Flying Festival",
+      "start": "2026-11-22T10:00:00+10:00",
+      "end": "2026-11-22T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Queens Park - Oval 1",
+      "suburb": "East Toowoomba",
+      "address": "43-73 Lindsay St, East Toowoomba QLD 4350, Australia",
+      "price": "$3",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
     },
     {
       "id": "4756c8f900028d90",
