@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:37:59.161Z",
+  "generatedAt": "2026-11-08T15:09:58.924Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,7 +10,8 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au responded, but this collector reads dated council pages on tr.qld.gov.au."
+        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409",
+        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
       ]
     },
     {
@@ -27,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 58,
+      "kept": 55,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 58 earlier listing(s) from this source."
+        "Kept 55 earlier listing(s) from this source."
       ]
     },
     {
@@ -46,8 +47,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 1,
-      "kept": 1,
+      "parsed": 2,
+      "kept": 2,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -130,99 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "0e4278680007f6aa",
-      "kind": "event",
-      "title": "Baby Bunting Toowoomba: Grand Reopening Celebration Weekend | Free Event",
-      "start": "2026-11-07T09:00:00+10:00",
-      "end": "2026-11-08T17:00:00+10:00",
-      "allDay": false,
-      "venue": "910-932 Ruthven St",
-      "suburb": "Toowoomba City",
-      "address": "910-932 Ruthven St, 910-932 Ruthven Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/baby-bunting-toowoomba-grand-reopening-celebration-weekend-free-event-tickets-2003044602326",
-      "summary": "Celebrate with us! Shop our Cyber Sale, meet the experts, over $13.4K in Prizes & Gifts, free coffee & face painting!"
-    },
-    {
-      "id": "9403a73b000a965e",
-      "kind": "event",
-      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
-      "start": "2026-11-08T10:00:00+10:00",
-      "end": "2026-11-08T11:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849276206997",
-      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
-    },
-    {
-      "id": "12cc1728000531da",
-      "kind": "event",
-      "title": "Sparks Fly Singles Only Lawn Bowls - Club Toowoomba",
-      "start": "2026-11-08T15:00:00+10:00",
-      "end": "2026-11-08T17:30:00+10:00",
-      "allDay": false,
-      "venue": "Club Toowoomba",
-      "suburb": "South Toowoomba",
-      "address": "Club Toowoomba, 331-339 Hume Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/sparks-fly-singles-only-lawn-bowls-club-toowoomba-tickets-2002421456480",
-      "summary": "Come join a group of singles for a Sunday Sesh with Lawn Bowls and table games at Club Toowoomba!"
-    },
-    {
-      "id": "904a46180004b4b8",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-09T09:00:00+10:00",
-      "end": "2026-11-09T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317263472/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "9d19fba50003e5c5",
       "kind": "event",
       "title": "Book club, Board Games & Connect",
@@ -289,6 +197,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/qld-major-projects-pipeline-report-toowoomba-10-november-2026-tickets-1994392174682",
       "summary": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026"
+    },
+    {
+      "id": "bf3c123a0004b2ff",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-10T09:00:00+10:00",
+      "end": "2026-11-10T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317278453/",
+      "summary": "Community English Class"
     },
     {
       "id": "9ba9b0450006e3d3",
@@ -615,6 +545,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/welcoming-australia-summit-series-toowoomba"
+    },
+    {
+      "id": "88a4562e0004f24c",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-13T13:30:00+10:00",
+      "end": "2026-11-13T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton State School",
+      "suburb": "Toowoomba",
+      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317323805/",
+      "summary": "Community English Class"
     },
     {
       "id": "9f7ba18e00026ffe",
@@ -1292,27 +1244,6 @@
       "summary": "Join us for a fun Floral Buttercream Masterclass suitable for all levels."
     },
     {
-      "id": "c61d716e00039484",
-      "kind": "event",
-      "title": "Toowoomba's Kite Flying Festival",
-      "start": "2026-11-22T10:00:00+10:00",
-      "end": "2026-11-22T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Queens Park - Oval 1",
-      "suburb": "East Toowoomba",
-      "address": "43-73 Lindsay St, East Toowoomba QLD 4350, Australia",
-      "price": "$3",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
-    },
-    {
       "id": "4756c8f900028d90",
       "kind": "event",
       "title": "Sound Meditation - Pittsworth",
@@ -1657,6 +1588,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/gong-sound-experience-toowoomba-live-gong-meditation-chai-tickets-2002980452452",
       "summary": "Lie down and listen to live gongs at Groom Park Hall, Toowoomba. A guided gong sound meditation with chai after. No experience needed."
+    },
+    {
+      "id": "e744fb530007379f",
+      "kind": "event",
+      "title": "Live & Local @ The Powerhouse - Saturday 28 November 2026",
+      "start": "2026-11-28T18:30:00+10:00",
+      "end": "2026-11-28T22:30:00+10:00",
+      "allDay": false,
+      "venue": "The Powerhouse Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Powerhouse, 20-26 Neil St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
     },
     {
       "id": "0baaa332000bbad4",
