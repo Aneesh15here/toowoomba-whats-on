@@ -72,6 +72,20 @@ DTSTART;TZID=Australia/Brisbane:20261109T160000
 DTEND;TZID=Australia/Brisbane:20261109T180000
 END:VEVENT
 BEGIN:VEVENT
+UID:f74a7b1a00039466@whatsontoowoomba.au
+DTSTAMP:20261108T150958Z
+SUMMARY:Men's Guided Shamanic Sound Journey
+DESCRIPTION:Men's Guided Shamanic Sound Journey is listed for Mon\, 9 Nov 2
+ 026\, 7:00 pm at 14 Toowoomba Rd\, Crows Nest. Monday 9 November\, from 7:
+ 00 pm at 14 Toowoomba Rd\, Crows Nest QLD 4355. $30 per person. Organised 
+ by Inner Grove Wisdom / The Crow's Gathering. No end time was published.
+ …
+URL:https://whatsontoowoomba.au/events/f74a7b1a00039466/
+LOCATION:14 Toowoomba Rd\, 14 Toowoomba Rd\, Crows Nest QLD 4355
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261109T190000
+END:VEVENT
+BEGIN:VEVENT
 UID:a791b6ab0005cb15@whatsontoowoomba.au
 DTSTAMP:20261108T150958Z
 SUMMARY:Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026
@@ -464,6 +478,19 @@ LOCATION:209 Herries St\, 209 Herries St\, Toowoomba City QLD 4350\, Austra
 STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261114T120000
 DTEND;TZID=Australia/Brisbane:20261114T140000
+END:VEVENT
+BEGIN:VEVENT
+UID:7cd254aa000251d0@whatsontoowoomba.au
+DTSTAMP:20261108T150958Z
+SUMMARY:Ladies Who Travel Global
+DESCRIPTION:Ladies Who Travel Global is listed for Sun\, 15 Nov 2026\, 12:0
+ 0 pm at On the Green\, Crows Nest. Sunday 15 November\, from 12:00 pm at O
+ n the Green\, 1 Golf Course Lane\, Crows Nest QLD 4355. Organised by Toni 
+ Sherwin. No end time was published. Whether it is free or paid was not…
+URL:https://whatsontoowoomba.au/events/7cd254aa000251d0/
+LOCATION:On the Green\, 1 Golf Course Lane\, Crows Nest QLD 4355
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261115T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:0b2f6961000627ed@whatsontoowoomba.au
@@ -1801,16 +1828,16 @@ DTSTART;TZID=Australia/Brisbane:20270504T100000
 DTEND;TZID=Australia/Brisbane:20270504T120000
 END:VEVENT
 BEGIN:VEVENT
-UID:e5d011fe000277b4@whatsontoowoomba.au
+UID:225c18f5000277ef@whatsontoowoomba.au
 DTSTAMP:20261108T150958Z
 SUMMARY:Toowoomba West Special School Cent Sale
 DESCRIPTION:Toowoomba West Special School Cent Sale is listed for Sun\, 25 
- July 2027\, 10:30 am at Toowoomba City. Organised by Community (Facebook).
-  No end time was published. The street address was not published. Whether 
- it is free or paid was not published. Price: See listing.
-URL:https://whatsontoowoomba.au/events/e5d011fe000277b4/
+ July 2027\, 11:30 am at Toowoomba City. Doors open at 10:30 am and the sal
+ e starts at 11:30 am on Sunday 25 July 2027. Adults $10\, children $5\, an
+ d extra sheets $1. Entry includes a sausage sizzle. Organised by Jo…
+URL:https://whatsontoowoomba.au/events/225c18f5000277ef/
 LOCATION:Toowoomba City
 STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20270725T103000
+DTSTART;TZID=Australia/Brisbane:20270725T113000
 END:VEVENT
 END:VCALENDAR
