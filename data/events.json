@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:09:58.924Z",
+  "generatedAt": "2026-11-09T18:46:10.740Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 55,
+      "kept": 54,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 55 earlier listing(s) from this source."
+        "Kept 54 earlier listing(s) from this source."
       ]
     },
     {
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 3,
-      "kept": 3,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -131,52 +131,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "9d19fba50003e5c5",
-      "kind": "event",
-      "title": "Book club, Board Games & Connect",
-      "start": "2026-11-09T14:00:00+10:00",
-      "end": "2026-11-09T15:00:00+10:00",
-      "allDay": false,
-      "venue": "Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Wellways Toowoomba, 15-17 Kitchen St, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/book-club-board-games-connect-tickets-2004099274880",
-      "summary": "Enjoy books, board games and great conversation while building connections with other carers."
-    },
-    {
-      "id": "029f06040005b3a5",
-      "kind": "event",
-      "title": "Key Word Sign Workshop for Parents - Toowoomba",
-      "start": "2026-11-09T16:00:00+10:00",
-      "end": "2026-11-09T18:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/key-word-sign-workshop-for-parents-toowoomba"
-    },
-    {
       "id": "a791b6ab0005cb15",
       "kind": "event",
       "title": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026",
@@ -197,28 +151,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/qld-major-projects-pipeline-report-toowoomba-10-november-2026-tickets-1994392174682",
       "summary": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026"
-    },
-    {
-      "id": "bf3c123a0004b2ff",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-10T09:00:00+10:00",
-      "end": "2026-11-10T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317278453/",
-      "summary": "Community English Class"
     },
     {
       "id": "9ba9b0450006e3d3",
@@ -522,6 +454,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/rural-and-regional-practice-management-essentials-tickets-1980044503411",
       "summary": "Take the next step in your practice management career with Rural and Regional Practice Management Essentials."
+    },
+    {
+      "id": "004731c50004b3a4",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-13T09:00:00+10:00",
+      "end": "2026-11-13T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317320806/",
+      "summary": "Community English Class"
     },
     {
       "id": "02ef23a800064338",
@@ -1901,6 +1855,30 @@
       "summary": "Join us for a night of fun for SINGLES ONLY bowling at Sunset Bowling, Toowoomba"
     },
     {
+      "id": "1122ea050006945b",
+      "kind": "event",
+      "title": "Toowoomba Disciple Making Accelerator",
+      "start": "2026-12-04T18:30:00+10:00",
+      "end": "2026-12-05T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Victory Life Church North Toowoomba",
+      "suburb": "North Toowoomba",
+      "address": "8 Hume St, North Toowoomba QLD 4350, Australia",
+      "price": "Free–$15",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-disciple-making-accelrator"
+    },
+    {
       "id": "06dd47150001e3a2",
       "kind": "event",
       "title": "Theatre of Magic",
@@ -2061,6 +2039,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/meet-the-author-writers-workshop-lee-boehm-tickets-2003274213098",
       "summary": "Bring Your Ancestors’ Stories to Life\u000bJoin passionate family historian and author Lee Boehm for an inspiring writer’s workshop."
+    },
+    {
+      "id": "c7795e95000283f7",
+      "kind": "event",
+      "title": "The Australian Army Band",
+      "start": "2026-12-10T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "The Empire",
+      "suburb": "Toowoomba",
+      "address": "The Empire, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "empire",
+      "sourceUrl": "https://empiretheatre.com.au/whats-on/the-australian-army-band-2026",
+      "summary": "One of the finest military bands in the country makes their return to The Empire for a Christmas special!"
     },
     {
       "id": "fec8f2c70005f2c0",
