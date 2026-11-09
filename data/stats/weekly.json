@@ -1,28 +1,28 @@
 {
-  "updated": "2026-11-02T11:11:08.158Z",
+  "updated": "2026-11-09T11:35:15.120Z",
   "site": "whatsontoowoomba",
   "status": "ok",
   "period": {
-    "start": "2026-10-26T11:00:00.000Z",
-    "end": "2026-11-02T11:00:00.000Z",
-    "previousStart": "2026-10-19T11:00:00.000Z",
-    "previousEnd": "2026-10-26T11:00:00.000Z"
+    "start": "2026-11-02T11:00:00.000Z",
+    "end": "2026-11-09T11:00:00.000Z",
+    "previousStart": "2026-10-26T11:00:00.000Z",
+    "previousEnd": "2026-11-02T11:00:00.000Z"
   },
   "totals": {
     "week": {
+      "visits": 10,
+      "events": 0,
+      "pages": 10
+    },
+    "previousWeek": {
       "visits": 5,
       "events": 0,
       "pages": 5
     },
-    "previousWeek": {
-      "visits": 23,
-      "events": 0,
-      "pages": 23
-    },
     "change": {
-      "visits": -18,
+      "visits": 5,
       "events": 0,
-      "pages": -18
+      "pages": 5
     }
   },
   "pages": [
@@ -30,19 +30,40 @@
       "path": "/",
       "title": "What's on in Toowoomba",
       "count": 5
+    },
+    {
+      "path": "/events/5bda5da400041641",
+      "title": "Community Christmas Carols · 20 Dec 2026, 4:00 pm · What's On Toowoomba",
+      "count": 3
+    },
+    {
+      "path": "/events/17ded903000188f6",
+      "title": "Language Exchange · 8 Nov 2026, 4:00 pm · What's On Toowoomba",
+      "count": 1
+    },
+    {
+      "path": "/this-weekend",
+      "title": "Toowoomba events this weekend · What's On Toowoomba",
+      "count": 1
     }
   ],
   "referrers": [
     {
-      "name": "(direct)",
+      "name": "Google",
       "count": 5,
+      "scheme": "g",
+      "kind": "search"
+    },
+    {
+      "name": "(direct)",
+      "count": 4,
       "scheme": "o",
       "kind": "direct"
     }
   ],
   "traffic": {
-    "search": 0,
-    "direct": 5,
+    "search": 5,
+    "direct": 4,
     "other": 0
   },
   "events": []
