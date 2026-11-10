@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T18:46:10.740Z",
+  "generatedAt": "2026-11-10T02:44:01.787Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
       "id": "council",
       "ok": true,
-      "parsed": 22,
+      "parsed": 20,
       "kept": 2,
       "error": null,
       "notes": [
@@ -28,10 +28,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 54,
+      "kept": 53,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 54 earlier listing(s) from this source."
+        "Kept 53 earlier listing(s) from this source."
       ]
     },
     {
@@ -129,28 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "a791b6ab0005cb15",
-      "kind": "event",
-      "title": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026",
-      "start": "2026-11-10T07:00:00+10:00",
-      "end": "2026-11-10T09:00:00+10:00",
-      "allDay": false,
-      "venue": "Oaks Hotel",
-      "suburb": "Toowoomba",
-      "address": "Oaks Hotel, Annand Street, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/qld-major-projects-pipeline-report-toowoomba-10-november-2026-tickets-1994392174682",
-      "summary": "Qld Major Projects Pipeline Report: Toowoomba  - 10 November 2026"
     },
     {
       "id": "9ba9b0450006e3d3",
@@ -651,7 +629,7 @@
       "venue": "209 Herries St",
       "suburb": "Toowoomba City",
       "address": "209 Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "$50",
+      "price": "$50–$75",
       "ageGroups": [
         "families"
       ],
@@ -1151,29 +1129,6 @@
       "sourceUrl": "https://events.humanitix.com/toowoomba-s-endless-edit-sunday-22nd-november-2026"
     },
     {
-      "id": "0e2a26a50004ee96",
-      "kind": "event",
-      "title": "Canopy Family Welcome Day Toowoomba",
-      "start": "2026-11-22T10:00:00+10:00",
-      "end": "2026-11-22T13:00:00+10:00",
-      "allDay": false,
-      "venue": "Leaps & Bounds by Canopy",
-      "suburb": "Wilsonton",
-      "address": "10 Moran St, Wilsonton QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/canopy-family-welcome-day-toowoomba"
-    },
-    {
       "id": "5f506f510003c9bb",
       "kind": "event",
       "title": "Deluxe Floral Cupcake Class (Toowoomba)",
@@ -1196,6 +1151,27 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/deluxe-floral-cupcake-class-toowoomba-tickets-2002315195651",
       "summary": "Join us for a fun Floral Buttercream Masterclass suitable for all levels."
+    },
+    {
+      "id": "c61d716e00039484",
+      "kind": "event",
+      "title": "Toowoomba's Kite Flying Festival",
+      "start": "2026-11-22T10:00:00+10:00",
+      "end": "2026-11-22T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Queens Park - Oval 1",
+      "suburb": "East Toowoomba",
+      "address": "43-73 Lindsay St, East Toowoomba QLD 4350, Australia",
+      "price": "$3",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
     },
     {
       "id": "4756c8f900028d90",
