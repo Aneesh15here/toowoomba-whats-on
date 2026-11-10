@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:44:01.787Z",
+  "generatedAt": "2026-11-10T16:25:01.354Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -10,8 +10,7 @@
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
-        "visit.tr.qld.gov.au skipped: robots.txt for https://visit.tr.qld.gov.au returned HTTP 409",
-        "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Toowoomba-Region-Events HTTP 409"
+        "visit.tr.qld.gov.au responded, but this collector reads dated council pages on tr.qld.gov.au."
       ]
     },
     {
@@ -28,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 53,
+      "kept": 50,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 53 earlier listing(s) from this source."
+        "Kept 50 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,8 +46,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 2,
-      "kept": 2,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -129,104 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "9ba9b0450006e3d3",
-      "kind": "event",
-      "title": "Tabletop Tuesday: NDIS Supported Community Activity",
-      "start": "2026-11-10T10:00:00+10:00",
-      "end": "2026-11-10T14:00:00+10:00",
-      "allDay": false,
-      "venue": "The Milk House Collective",
-      "suburb": "North Toowoomba",
-      "address": "The Milk House Collective, 36/57 Brook Street, North Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000955805",
-      "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
-    },
-    {
-      "id": "0b70834e00023a22",
-      "kind": "event",
-      "title": "UniSQ Library Book Club",
-      "start": "2026-11-10T13:00:00+10:00",
-      "end": "2026-11-10T14:00:00+10:00",
-      "allDay": false,
-      "venue": "USQ Library",
-      "suburb": "Darling Heights",
-      "address": "USQ Library, Room R104, Darling Heights, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/unisq-library-book-club-tickets-1982853324671",
-      "summary": "Come along and talk about the latest books you've read.  Read to the monthly theme for inspiration or bring your latest reads instead!"
-    },
-    {
-      "id": "5c30384b000571d8",
-      "kind": "event",
-      "title": "Key Word Sign Workshop for Educators - Toowoomba",
-      "start": "2026-11-10T15:30:00+10:00",
-      "end": "2026-11-10T17:30:00+10:00",
-      "allDay": false,
-      "venue": "St Anthony's School",
-      "suburb": "Harristown",
-      "address": "9 Memory St, Harristown QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/key-word-sign-workshop-for-educators-toowoomba"
-    },
-    {
-      "id": "7b6fe0b9000da0f6",
-      "kind": "event",
-      "title": "First Aid for Educators - IN SERVICE ONLY - The Funberry Kids Childcare",
-      "start": "2026-11-10T16:00:00+10:00",
-      "end": "2026-11-10T19:00:00+10:00",
-      "allDay": false,
-      "venue": "Kath Dickson Education and Care Centre - Toowoomba Central",
-      "suburb": "Toowoomba City",
-      "address": "Kath Dickson Education and Care Centre - Toowoomba Central, 5 Jennings Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "kids",
-        "adults",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/first-aid-for-educators-in-service-only-the-funberry-kids-childcare-tickets-1997396927980",
-      "summary": "Learn the skills and knowledge to respond to a range of emergency situations in an early childhood setting."
     },
     {
       "id": "8d09c97e00041460",
@@ -639,6 +540,28 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/do-more-club"
+    },
+    {
+      "id": "5bae3165000188b1",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-15T16:00:00+10:00",
+      "end": "2026-11-15T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317352200/",
+      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "0b2f6961000627ed",
@@ -1543,6 +1466,29 @@
       "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
     },
     {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
+    },
+    {
       "id": "0baaa332000bbad4",
       "kind": "event",
       "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
@@ -1735,6 +1681,30 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "9be9337d0004f095",
+      "kind": "event",
+      "title": "Let's meetup to share and learn more about WordPress",
+      "start": "2026-12-03T18:00:00+10:00",
+      "end": "2026-12-03T20:00:00+10:00",
+      "allDay": false,
+      "venue": "2 Derwak St",
+      "suburb": "Harristown",
+      "address": "2 Derwak St, Harristown, QL, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/toowoomba-wordpress-meetup/events/317350974/",
+      "summary": "Toowoomba WordPress Meetup"
     },
     {
       "id": "4ee52dd70003bbbb",
