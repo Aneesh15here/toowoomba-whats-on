@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:25:01.354Z",
+  "generatedAt": "2026-11-11T00:40:12.414Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 50,
+      "kept": 47,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 50 earlier listing(s) from this source."
+        "Kept 47 earlier listing(s) from this source."
       ]
     },
     {
@@ -128,72 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "8d09c97e00041460",
-      "kind": "event",
-      "title": "Toowoomba | Workplace Breakfast | Session Two",
-      "start": "2026-11-11T07:30:00+10:00",
-      "end": "2026-11-11T08:30:00+10:00",
-      "allDay": false,
-      "venue": "259 Ruthven St",
-      "suburb": "Toowoomba City",
-      "address": "259 Ruthven St, 259 Ruthven Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-workplace-breakfast-session-two-tickets-2003749910923",
-      "summary": "This November, we're offering two breakfast sessions on key workplace law topics. You're welcome to attend either one, or join us for both."
-    },
-    {
-      "id": "e7d2f3270008217f",
-      "kind": "event",
-      "title": "Bx Networking Toowoomba - Business Networking in Brisbane",
-      "start": "2026-11-11T08:00:00+10:00",
-      "end": "2026-11-11T10:00:00+10:00",
-      "allDay": false,
-      "venue": "The Southern Hotel Toowoomba",
-      "suburb": "Kearneys Spring",
-      "address": "The Southern Hotel Toowoomba, 839 Ruthven Street, Kearneys Spring, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316333543",
-      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
-    },
-    {
-      "id": "56b071e20003ba92",
-      "kind": "event",
-      "title": "Coffee and Connect - The Weekly Pause",
-      "start": "2026-11-11T09:30:00+10:00",
-      "end": "2026-11-11T10:30:00+10:00",
-      "allDay": false,
-      "venue": "15-17 Kitchener St",
-      "suburb": "East Toowoomba",
-      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/coffee-and-connect-the-weekly-pause-tickets-2004101785389",
-      "summary": "Take a break, grab a coffee, and chill with other carers to reset for your week."
     },
     {
       "id": "f7c8aebb00058bb1",
