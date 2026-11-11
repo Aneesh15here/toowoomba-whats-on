@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T00:40:12.414Z",
+  "generatedAt": "2026-11-11T16:09:04.097Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
       "id": "council",
       "ok": true,
-      "parsed": 20,
-      "kept": 2,
+      "parsed": 7,
+      "kept": 3,
       "error": null,
       "notes": [
         "Council pages use a browser user-agent and accept headers. HTTP 403 and 409 are retried after a backoff.",
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 47,
+      "kept": 45,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 47 earlier listing(s) from this source."
+        "Kept 45 earlier listing(s) from this source."
       ]
     },
     {
@@ -46,8 +46,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 5,
+      "kept": 5,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -128,54 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "f7c8aebb00058bb1",
-      "kind": "event",
-      "title": "The Society for Tactical Regrets and Perilous Renewal",
-      "start": "2026-11-11T15:30:00+10:00",
-      "end": "2026-11-11T17:30:00+10:00",
-      "allDay": false,
-      "venue": "158 Margaret St",
-      "suburb": "Toowoomba City",
-      "address": "158 Margaret St, 158 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "young-adults",
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486443319",
-      "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
-    },
-    {
-      "id": "8eddeb4c00029164",
-      "kind": "event",
-      "title": "INTRO TO GROOV3: Toowoomba",
-      "start": "2026-11-11T18:15:00+10:00",
-      "end": "2026-11-11T19:15:00+10:00",
-      "allDay": false,
-      "venue": "Belong Church",
-      "suburb": "South Toowoomba",
-      "address": "Belong Church, 1 Fitzgibbon Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "faith",
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-2003385466861",
-      "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
     },
     {
       "id": "ca8db1240007797e",
@@ -801,28 +753,6 @@
       "summary": "Unlock the power of word-of-mouth marketing and get hundreds of quality referrals flowing into your business"
     },
     {
-      "id": "250911600006bce8",
-      "kind": "event",
-      "title": "Australian citizenship ceremony",
-      "start": "2026-11-19T10:00:00+10:00",
-      "end": null,
-      "allDay": false,
-      "venue": "The Annex, 541 Ruthven Street Toowoomba City",
-      "suburb": "Toowoomba City",
-      "address": "The Annex, 541 Ruthven Street Toowoomba City",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "council",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
-      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Thursday, 19 November 2026 - 10am and 2pm"
-    },
-    {
       "id": "fbd5245e0002cba5",
       "kind": "event",
       "title": "Read + Play — Clifton Library",
@@ -846,28 +776,6 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
-    },
-    {
-      "id": "3066a8740006bdb4",
-      "kind": "event",
-      "title": "Australian citizenship ceremony",
-      "start": "2026-11-19T14:00:00+10:00",
-      "end": null,
-      "allDay": false,
-      "venue": "The Annex, 541 Ruthven Street Toowoomba City",
-      "suburb": "Toowoomba City",
-      "address": "The Annex, 541 Ruthven Street Toowoomba City",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "council",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
-      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Thursday, 19 November 2026 - 10am and 2pm"
     },
     {
       "id": "fea569a80005f49b",
@@ -1400,6 +1308,28 @@
       "sourceUrl": "https://events.humanitix.com/live-and-local-the-powerhouse-november-28th"
     },
     {
+      "id": "817d9e140003286d",
+      "kind": "event",
+      "title": "Toowoomba Singles Speed Social",
+      "start": "2026-11-29T19:00:00+10:00",
+      "end": "2026-11-29T20:00:00+10:00",
+      "allDay": false,
+      "venue": "FV52+8X Wellcamp",
+      "suburb": "Toowoomba",
+      "address": "FV52+8X Wellcamp, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/esports-circle-social-club/events/317372403/",
+      "summary": "Esports Circle Social Club"
+    },
+    {
       "id": "cdddb63b000d0242",
       "kind": "event",
       "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
@@ -1448,15 +1378,15 @@
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. 1a Birch Court Park, Darling Heights: 3 November, and 1 December, 10am - 11am"
     },
     {
-      "id": "985260070004a4af",
+      "id": "4b9f948900033064",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2026-12-01T10:00:00+10:00",
       "end": "2026-12-01T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
@@ -2255,15 +2185,15 @@
       "summary": "Bring in 2027 here at Rink 46 - Charity Casino Night raising money for Little Wings. Las Vegas Style!"
     },
     {
-      "id": "dc1bffb60004a546",
+      "id": "cbd952be000330fb",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2027-01-05T10:00:00+10:00",
       "end": "2027-01-05T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
@@ -2328,15 +2258,81 @@
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
     },
     {
-      "id": "3e2f43a80004a4df",
+      "id": "445f2a6a00030ec3",
+      "kind": "event",
+      "title": "Australian citizenship ceremony — Date",
+      "start": "2027-01-25T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "Date",
+      "suburb": "",
+      "address": "Date",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "council",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
+      "summary": "Australian citizenship ceremony. Australian citizenship ceremony. Date: Monday, 25 January 2027"
+    },
+    {
+      "id": "27ac8d5000060a32",
+      "kind": "event",
+      "title": "Australian citizenship ceremony",
+      "start": "2027-01-25T10:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "The Annex, 541 Ruthven Street, Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "The Annex, 541 Ruthven Street, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "council",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
+      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Monday, 25 January 2027 - 10am and 2pm"
+    },
+    {
+      "id": "39e98b1400060afe",
+      "kind": "event",
+      "title": "Australian citizenship ceremony",
+      "start": "2027-01-25T14:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "The Annex, 541 Ruthven Street, Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "The Annex, 541 Ruthven Street, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "council",
+      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
+      "summary": "Australian citizenship ceremony. Citizenship ceremony process. Monday, 25 January 2027 - 10am and 2pm"
+    },
+    {
+      "id": "1c487c8800033094",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2027-02-02T10:00:00+10:00",
       "end": "2027-02-02T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
@@ -2488,15 +2484,15 @@
       "sourceUrl": "https://events.humanitix.com/the-athlete-and-the-alchemist-breathwork-journey-or-toowoomba"
     },
     {
-      "id": "d3cafdf70004a50e",
+      "id": "4f4fe9f9000330c3",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2027-03-02T10:00:00+10:00",
       "end": "2027-03-02T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
@@ -2535,15 +2531,15 @@
       "summary": "Integrated Management System - Practical and interactive workshop"
     },
     {
-      "id": "885b57f20004a605",
+      "id": "14ca1c62000331ba",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2027-04-06T10:00:00+10:00",
       "end": "2027-04-06T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
@@ -2582,15 +2578,15 @@
       "summary": "*POSTPONED UNTIL MAY 1 2027 DUE TO WEATHER* We're throwing open the gates of a local backyard for an evening of live music under the stars."
     },
     {
-      "id": "87de149b0004a5d0",
+      "id": "273bfa9500033185",
       "kind": "event",
       "title": "Toowoomba, QLD - Starts at 60 Meetup",
       "start": "2027-05-04T10:00:00+10:00",
       "end": "2027-05-04T12:00:00+10:00",
       "allDay": false,
-      "venue": "Muffin Break Grand Central",
+      "venue": "Federal Hotel",
       "suburb": "Toowoomba City",
-      "address": "2047/48 Margaret Street Grand Central Shopping Centre Corner, Dent St, Toowoomba City QLD 4350, Australia",
+      "address": "111 James St, Toowoomba City QLD 4350, Australia",
       "price": "Free",
       "ageGroups": [
         "seniors"
