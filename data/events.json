@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:53:52.689Z",
+  "generatedAt": "2026-11-12T16:47:53.072Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 45,
+      "kept": 42,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 45 earlier listing(s) from this source."
+        "Kept 42 earlier listing(s) from this source."
       ]
     },
     {
@@ -46,8 +46,8 @@
     {
       "id": "meetup",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 8,
+      "kept": 6,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -56,8 +56,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 5,
+      "kept": 5,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -130,94 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "bf1826ee00030847",
-      "kind": "event",
-      "title": "Toowoomba Carer Hub OPEN DAY",
-      "start": "2026-11-12T10:00:00+10:00",
-      "end": "2026-11-12T12:00:00+10:00",
-      "allDay": false,
-      "venue": "15-17 Kitchener St",
-      "suburb": "East Toowoomba",
-      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-carer-hub-open-day-tickets-2004048946346",
-      "summary": "Join us to celebrate the re-launch of the Toowoomba Carer Hub. Meet our new Hub Navigators - Robert and Kate!"
-    },
-    {
-      "id": "a7a89df700037f6c",
-      "kind": "event",
-      "title": "The Write Time: Writers group",
-      "start": "2026-11-12T15:30:00+10:00",
-      "end": "2026-11-12T17:00:00+10:00",
-      "allDay": false,
-      "venue": "New Leaf Social Work",
-      "suburb": "Toowoomba City",
-      "address": "New Leaf Social Work, 158 Margaret St, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/the-write-time-writers-group-tickets-2001998409134",
-      "summary": "A low demand place to write something, lay on the floor, or do both!"
-    },
-    {
-      "id": "7c8520290004882a",
-      "kind": "event",
-      "title": "Rural and Regional Practice Management Essentials",
-      "start": "2026-11-12T17:00:00+10:00",
-      "end": "2026-11-12T19:00:00+10:00",
-      "allDay": false,
-      "venue": "190 Hume St",
-      "suburb": "Toowoomba City",
-      "address": "190 Hume St, 190 Hume Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/rural-and-regional-practice-management-essentials-tickets-1980044503411",
-      "summary": "Take the next step in your practice management career with Rural and Regional Practice Management Essentials."
-    },
-    {
-      "id": "004731c50004b3a4",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-13T09:00:00+10:00",
-      "end": "2026-11-13T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317320806/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "02ef23a800064338",
       "kind": "event",
       "title": "Welcoming Australia Summit Series, Toowoomba",
@@ -285,6 +197,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/powerpoint-party-tickets-2003692877334",
       "summary": "Join us for a good ol' wholesome powerpoint night/show & tell. Listen, learn, or do an interpretive dance - it's up to you."
+    },
+    {
+      "id": "8b02e77f0002d285",
+      "kind": "event",
+      "title": "NamiiCon 2027",
+      "start": "2026-11-13T18:00:00+10:00",
+      "end": "2027-03-21T22:00:00+10:00",
+      "allDay": false,
+      "venue": "Wilsonton State High School",
+      "suburb": "Wilsonton Heights",
+      "address": "275 North St, Wilsonton Heights QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "teens"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/namiicon-2027"
     },
     {
       "id": "29c15bae00031373",
@@ -425,6 +360,28 @@
       "summary": "International Hangouts Toowoomba"
     },
     {
+      "id": "d8893ecb0005b023",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-16T09:00:00+10:00",
+      "end": "2026-11-16T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Darling Heights State School",
+      "suburb": "Toowoomba",
+      "address": "Wuth St, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317363246/",
+      "summary": "Community English Class"
+    },
+    {
       "id": "0b2f6961000627ed",
       "kind": "event",
       "title": "DROP IN | Knit, Hook & Sew @ Toowoomba City Library",
@@ -472,9 +429,9 @@
       "summary": "A safe space to connect with other Carers and share stories and support each other after the caring journey changes"
     },
     {
-      "id": "81ceba30000a6d07",
+      "id": "99c77e63000fa736",
       "kind": "event",
-      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
+      "title": "Connect and Learn - A Permaculture Christmas: Traditional Crafts & Low Waste Ideas",
       "start": "2026-11-16T18:30:00+10:00",
       "end": "2026-11-16T20:30:00+10:00",
       "allDay": false,
@@ -493,7 +450,7 @@
         "free"
       ],
       "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways"
+      "sourceUrl": "https://events.humanitix.com/connect-and-learn-a-permaculture-christmas-traditional-crafts-and-low-waste-ideas"
     },
     {
       "id": "10f04fce000ab929",
@@ -515,6 +472,28 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/beyond-awareness-culturally-safe-practice-in-our-sector-toowoomba-november-2026"
+    },
+    {
+      "id": "f886e2910004b480",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-17T09:00:00+10:00",
+      "end": "2026-11-17T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317375449/",
+      "summary": "Community English Class"
     },
     {
       "id": "6469aac80002fec3",
@@ -1118,6 +1097,30 @@
       "summary": "Bring along a project and socialise in the Make & Mend afternoons at the UniSQ Makerspace."
     },
     {
+      "id": "cb2f392d0005a717",
+      "kind": "event",
+      "title": "Forever Neil Diamond - THE GREATEST HITS OF NEIL DIAMOND",
+      "start": "2026-11-27T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "The Empire",
+      "suburb": "Toowoomba",
+      "address": "The Empire, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "empire",
+      "sourceUrl": "https://empiretheatre.com.au/whats-on/forever-neil-diamond-the-greatest-hits-of-neil-diamond",
+      "summary": "Endorsed by music legend Neil Diamond & starring internationally renowned Peter Byrne"
+    },
+    {
       "id": "11f2f3b8000a07c5",
       "kind": "event",
       "title": "1-Day Public Speaking and Presentation Skills Training in Geelong",
@@ -1303,29 +1306,6 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/esports-circle-social-club/events/317372403/",
       "summary": "Esports Circle Social Club"
-    },
-    {
-      "id": "cdddb63b000d0242",
-      "kind": "event",
-      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
-      "start": "2026-12-01T09:30:00+10:00",
-      "end": "2026-12-01T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
-      "suburb": "Toowoomba City",
-      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
     },
     {
       "id": "0baaa332000bbad4",
