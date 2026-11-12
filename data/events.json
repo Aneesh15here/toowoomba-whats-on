@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:09:04.097Z",
+  "generatedAt": "2026-11-12T01:53:52.689Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -17,7 +17,7 @@
       "id": "library",
       "ok": true,
       "parsed": 25,
-      "kept": 14,
+      "kept": 13,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -128,31 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "ca8db1240007797e",
-      "kind": "event",
-      "title": "Talk, Read, Sing, Play in the Community — Newtown Community Hub",
-      "start": "2026-11-12T09:30:00+10:00",
-      "end": "2026-11-12T10:00:00+10:00",
-      "allDay": false,
-      "venue": "Newtown Community Hub",
-      "suburb": "",
-      "address": "Newtown Community Hub",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Newtown Community Hub: Thursday 12 November, 9.30am - 10am"
     },
     {
       "id": "bf1826ee00030847",
