@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:04:17.755Z",
+  "generatedAt": "2026-11-13T16:19:33.389Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 42,
+      "kept": 41,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 42 earlier listing(s) from this source."
+        "Kept 41 earlier listing(s) from this source."
       ]
     },
     {
@@ -47,7 +47,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 5,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -56,8 +56,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -130,53 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "02ef23a800064338",
-      "kind": "event",
-      "title": "Welcoming Australia Summit Series, Toowoomba",
-      "start": "2026-11-13T09:30:00+10:00",
-      "end": "2026-11-13T16:00:00+10:00",
-      "allDay": false,
-      "venue": "The Annex, City Hall Building",
-      "suburb": "Toowoomba City",
-      "address": "541 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/welcoming-australia-summit-series-toowoomba"
-    },
-    {
-      "id": "9f7ba18e00026ffe",
-      "kind": "event",
-      "title": "Powerpoint Party",
-      "start": "2026-11-13T17:00:00+10:00",
-      "end": "2026-11-13T19:30:00+10:00",
-      "allDay": false,
-      "venue": "New Leaf Social Work",
-      "suburb": "Toowoomba City",
-      "address": "New Leaf Social Work, 158 Margaret St, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/powerpoint-party-tickets-2003692877334",
-      "summary": "Join us for a good ol' wholesome powerpoint night/show & tell. Listen, learn, or do an interpretive dance - it's up to you."
-    },
-    {
       "id": "8b02e77f0002d285",
       "kind": "event",
       "title": "NamiiCon 2027",
@@ -198,30 +151,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/namiicon-2027"
-    },
-    {
-      "id": "29c15bae00031373",
-      "kind": "event",
-      "title": "Bangarra Dance Theatre: Horizon",
-      "start": "2026-11-14T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/horizon",
-      "summary": "There is a place between sea and sky—a sacred realm, where the sun rises and falls and the light is new."
     },
     {
       "id": "ac6b81070006963b",
@@ -314,28 +243,6 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/do-more-club"
-    },
-    {
-      "id": "5bae3165000188b1",
-      "kind": "event",
-      "title": "Language Exchange",
-      "start": "2026-11-15T16:00:00+10:00",
-      "end": "2026-11-15T16:45:00+10:00",
-      "allDay": false,
-      "venue": "New Hope",
-      "suburb": "Toowoomba",
-      "address": "12 Peace Street, Toowoomba, AU",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317352200/",
-      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "d8893ecb0005b023",
@@ -1284,6 +1191,29 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/esports-circle-social-club/events/317372403/",
       "summary": "Esports Circle Social Club"
+    },
+    {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
     },
     {
       "id": "0baaa332000bbad4",
