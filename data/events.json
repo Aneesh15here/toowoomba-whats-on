@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T16:19:33.389Z",
+  "generatedAt": "2026-11-14T00:53:43.203Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -1193,29 +1193,6 @@
       "summary": "Esports Circle Social Club"
     },
     {
-      "id": "cdddb63b000d0242",
-      "kind": "event",
-      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
-      "start": "2026-12-01T09:30:00+10:00",
-      "end": "2026-12-01T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
-      "suburb": "Toowoomba City",
-      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
-    },
-    {
       "id": "0baaa332000bbad4",
       "kind": "event",
       "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
@@ -1383,6 +1360,29 @@
       "source": "empire",
       "sourceUrl": "https://empiretheatre.com.au/whats-on/into-the-woods",
       "summary": "In 2026, Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece this acclaimed production to Toowoomba's iconic Empire Theatre for two dazzling performances."
+    },
+    {
+      "id": "2b3e70050004f702",
+      "kind": "event",
+      "title": "Celebrate DAW, IDPwD and Christmas 2026",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Multicultural Australia",
+      "suburb": "Toowoomba City",
+      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
     },
     {
       "id": "0a1f42920002caa7",
