@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:53:43.203Z",
+  "generatedAt": "2026-11-14T15:02:25.963Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 41,
+      "kept": 39,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 41 earlier listing(s) from this source."
+        "Kept 39 earlier listing(s) from this source."
       ]
     },
     {
@@ -151,98 +151,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/namiicon-2027"
-    },
-    {
-      "id": "ac6b81070006963b",
-      "kind": "event",
-      "title": "Love without pain (Workshop) Toowoomba - 14 November 2026",
-      "start": "2026-11-14T10:00:00+10:00",
-      "end": "2026-11-14T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "Free–$65",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/love-without-pain-workshop-toowoomba-14-november-2026"
-    },
-    {
-      "id": "f0b6be1400052789",
-      "kind": "event",
-      "title": "Mime Show & Workshop with James Kerwin",
-      "start": "2026-11-14T10:30:00+10:00",
-      "end": "2026-11-14T11:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts",
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/mime-show-workshop-with-james-kerwin-tickets-2003182515829",
-      "summary": "Get ready to learn the art of silent storytelling and have a blast with James Kerwin’s show and mime workshop!"
-    },
-    {
-      "id": "293fd2f000041ed5",
-      "kind": "event",
-      "title": "Do More Club | Croquet & Bouquet Garden Party",
-      "start": "2026-11-14T12:00:00+10:00",
-      "end": "2026-11-14T14:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba",
-      "suburb": "Toowoomba",
-      "address": "Toowoomba, 209 Herries Street, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/do-more-club-croquet-bouquet-garden-party-tickets-2003899966744",
-      "summary": "Join us at Laurel Bank Croquet Club for our Do More Club event, Croquet & Bouquet Garden Party."
-    },
-    {
-      "id": "8eb898dd00046ec6",
-      "kind": "event",
-      "title": "Do More Club| Croquet & Bouquet Garden Party",
-      "start": "2026-11-14T12:00:00+10:00",
-      "end": "2026-11-14T14:00:00+10:00",
-      "allDay": false,
-      "venue": "209 Herries St",
-      "suburb": "Toowoomba City",
-      "address": "209 Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "$50–$75",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/do-more-club"
     },
     {
       "id": "d8893ecb0005b023",
@@ -1410,6 +1318,54 @@
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
     },
     {
+      "id": "8df8992800085ea4",
+      "kind": "event",
+      "title": "Automating more of your small business tasks | Toowoomba | Beginner",
+      "start": "2026-12-03T11:00:00+10:00",
+      "end": "2026-12-03T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/automating-more-of-your-small-business-tasks-or-toowoomba-or-beginner"
+    },
+    {
+      "id": "2b325da0000652a9",
+      "kind": "event",
+      "title": "Building a Website with AI | Toowoomba | Intermediate",
+      "start": "2026-12-03T13:00:00+10:00",
+      "end": "2026-12-03T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/building-a-website-with-ai-or-toowoomba-or-intermediate"
+    },
+    {
       "id": "9be9337d0004f095",
       "kind": "event",
       "title": "Let's meetup to share and learn more about WordPress",
@@ -1432,6 +1388,30 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/toowoomba-wordpress-meetup/events/317350974/",
       "summary": "Toowoomba WordPress Meetup"
+    },
+    {
+      "id": "7adb072100073b38",
+      "kind": "event",
+      "title": "Getting Found on Google & AI Search | Toowoomba | Beginner",
+      "start": "2026-12-03T21:00:00+10:00",
+      "end": "2026-12-03T22:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "155 Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/getting-found-on-google-and-ai-search-or-toowoomba-or-beginner"
     },
     {
       "id": "4ee52dd70003bbbb",
@@ -2289,29 +2269,6 @@
       "venue": "St Vincents Hospital Clinical School, Level 2, 22 Scott Street, Toowoomba",
       "suburb": "East Toowoomba",
       "address": "St Vincents Hospital, East Toowoomba QLD 4350, Australia",
-      "price": "$10–$50",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/acorn-qld-regional-education-day-toowoomba"
-    },
-    {
-      "id": "c858876c00080d9d",
-      "kind": "event",
-      "title": "ACORN Qld Regional Education Day 2027 - Toowoomba",
-      "start": "2027-02-27T08:00:00+10:00",
-      "end": "2027-02-27T15:30:00+10:00",
-      "allDay": false,
-      "venue": "St Vincent's Hospital Clinical School ",
-      "suburb": "East Toowoomba",
-      "address": "Level 2, 22 Scott St, East Toowoomba QLD 4350, Australia",
       "price": "$15–$55",
       "ageGroups": [
         "families"
@@ -2323,7 +2280,7 @@
         "education"
       ],
       "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/acorn-qld-regional-education-day-2027-toowoomba"
+      "sourceUrl": "https://events.humanitix.com/acorn-qld-regional-education-day-toowoomba"
     },
     {
       "id": "ef201f9c00062016",
