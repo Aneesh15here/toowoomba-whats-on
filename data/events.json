@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:02:25.963Z",
+  "generatedAt": "2026-11-15T15:38:41.974Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -151,28 +151,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/namiicon-2027"
-    },
-    {
-      "id": "d8893ecb0005b023",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-16T09:00:00+10:00",
-      "end": "2026-11-16T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Darling Heights State School",
-      "suburb": "Toowoomba",
-      "address": "Wuth St, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317363246/",
-      "summary": "Community English Class"
     },
     {
       "id": "0b2f6961000627ed",
@@ -594,6 +572,28 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
+    },
+    {
+      "id": "2a6e20400004f1dd",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-20T13:30:00+10:00",
+      "end": "2026-11-20T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton State School",
+      "suburb": "Toowoomba",
+      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317425343/",
+      "summary": "Community English Class"
     },
     {
       "id": "fafe849c00061782",
@@ -1101,6 +1101,29 @@
       "summary": "Esports Circle Social Club"
     },
     {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
+    },
+    {
       "id": "0baaa332000bbad4",
       "kind": "event",
       "title": "Talk, Read, Sing, Play in the Community — 1a Birch Court Park, Darling Heights",
@@ -1267,30 +1290,7 @@
       ],
       "source": "empire",
       "sourceUrl": "https://empiretheatre.com.au/whats-on/into-the-woods",
-      "summary": "In 2026, Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece this acclaimed production to Toowoomba's iconic Empire Theatre for two dazzling performances."
-    },
-    {
-      "id": "2b3e70050004f702",
-      "kind": "event",
-      "title": "Celebrate DAW, IDPwD and Christmas 2026",
-      "start": "2026-12-03T10:00:00+10:00",
-      "end": "2026-12-03T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Multicultural Australia",
-      "suburb": "Toowoomba City",
-      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
+      "summary": "Opera Queensland, Queensland Theatre Company and Queensland Symphony Orchestra collaborate to bring a new production of this Tony Award-winning masterpiece to the Empire Theatre stage."
     },
     {
       "id": "0a1f42920002caa7",
