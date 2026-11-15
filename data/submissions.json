@@ -1175,6 +1175,27 @@
       "url": "https://www.facebook.com/events/1649282410328910/",
       "items": "",
       "summary": "Saturday 21 November, from 11:00 am at The Sweet Plot Bookshop, Shop 1, 10481 New England Hwy, Highfields. Double book launch with storytime. Also the bookshop's 1st birthday. Kid-friendly. Organised by The Sweet Plot Bookshop. No end time was published. Whether it is free or paid was not published."
+    },
+    {
+      "status": "approved",
+      "kind": "event",
+      "title": "Sunday Soirée – A Cracking Christmas",
+      "start": "2026-12-13T15:30:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "Rink 46, Drayton Bowls Club",
+      "suburb": "Drayton",
+      "address": "",
+      "organiser": "Community (Facebook)",
+      "price": "$35",
+      "ageGroups": ["families"],
+      "communities": ["multicultural"],
+      "categories": ["music"],
+      "source": "community (facebook)",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=10239768164955971&set=a.1840595488511",
+      "url": "https://www.facebook.com/photo/?fbid=10239768164955971&set=a.1840595488511",
+      "items": "",
+      "summary": "Sunday 13 December, from 3:30 pm at Rink 46, Drayton Bowls Club, Drayton, Toowoomba. Performers Katie Commens, Ruth Atkinson and Harry Apalais. $35. Organised by Community (Facebook). No end time was published."
     }
   ]
 }
