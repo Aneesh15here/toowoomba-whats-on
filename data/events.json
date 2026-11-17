@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T02:55:20.335Z",
+  "generatedAt": "2026-11-17T17:37:28.336Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,19 +25,20 @@
     },
     {
       "id": "eventbrite",
-      "ok": false,
-      "parsed": 0,
-      "kept": 55,
-      "error": "Eventbrite HTTP 405",
+      "ok": true,
+      "parsed": 79,
+      "kept": 51,
+      "error": null,
       "notes": [
-        "Kept 55 earlier listing(s) from this source."
+        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 38,
+      "kept": 37,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -47,7 +48,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 3,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -151,121 +152,6 @@
       "sourceUrl": "https://events.humanitix.com/beyond-awareness-culturally-safe-practice-in-our-sector-toowoomba-november-2026"
     },
     {
-      "id": "b8b6fdaf0007eed5",
-      "kind": "event",
-      "title": "Google Tag Manager Basics: 1-Day Learning Session | Toowoomba",
-      "start": "2026-11-17T09:00:00+10:00",
-      "end": "2026-11-17T17:00:00+10:00",
-      "allDay": false,
-      "venue": "To be announced, Toowoomba",
-      "suburb": "",
-      "address": "Toowoomba",
-      "price": "$849–$949",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/google-tag-manager-basics-1-day-learning-session-or-toowoomba"
-    },
-    {
-      "id": "5f80c4cc0006e5a8",
-      "kind": "event",
-      "title": "Tabletop Tuesday: NDIS Supported Community Activity",
-      "start": "2026-11-17T10:00:00+10:00",
-      "end": "2026-11-17T14:00:00+10:00",
-      "allDay": false,
-      "venue": "The Milk House Collective",
-      "suburb": "North Toowoomba",
-      "address": "The Milk House Collective, 36/57 Brook Street, North Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000956808",
-      "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
-    },
-    {
-      "id": "629c9b3700049617",
-      "kind": "event",
-      "title": "Future of Women in Business - Toowoomba",
-      "start": "2026-11-17T12:00:00+10:00",
-      "end": "2026-11-17T14:00:00+10:00",
-      "allDay": false,
-      "venue": "Burke & Wills Hotel",
-      "suburb": "Toowoomba City",
-      "address": "554 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "$39–$140",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/future-of-women-in-business-toowoomba"
-    },
-    {
-      "id": "df294be0000783c9",
-      "kind": "event",
-      "title": "First 5 Forever and Crows Nest Library present Fairy Poppilina",
-      "start": "2026-11-17T13:00:00+10:00",
-      "end": "2026-11-17T14:00:00+10:00",
-      "allDay": false,
-      "venue": "Crows Nest Library",
-      "suburb": "Crows Nest",
-      "address": "Crows Nest Library, William Street, Crows Nest, QLD, 4355",
-      "price": "Paid",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/first-5-forever-and-crows-nest-library-present-fairy-poppilina-tickets-2003802418976",
-      "summary": "Fairy Poppilina will be visiting the Crows Nest Library at 1pm, Tuesday 17 November. No bookings required."
-    },
-    {
-      "id": "d9d5074c0003d1bc",
-      "kind": "event",
-      "title": "Line Dancing: Fortnightly Boot Scootin'",
-      "start": "2026-11-17T18:00:00+10:00",
-      "end": "2026-11-17T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Aberfeldy Barn",
-      "suburb": "Toowoomba",
-      "address": "Aberfeldy Barn, 126 Macaulay Street, Westbrook, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999742934950",
-      "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
-    },
-    {
       "id": "085db1f30003bbfe",
       "kind": "event",
       "title": "Coffee and Connect - The Weekly Pause",
@@ -334,31 +220,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486444322",
       "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
-    },
-    {
-      "id": "7d300ad200084e12",
-      "kind": "event",
-      "title": "First Aid for Educators - IN SERVICE ONLY-Freckles Kindy & LC - Highfields",
-      "start": "2026-11-18T17:30:00+10:00",
-      "end": "2026-11-18T20:30:00+10:00",
-      "allDay": false,
-      "venue": "93 Highfields Rd",
-      "suburb": "Highfields",
-      "address": "93 Highfields Rd, 93 Highfields Road, Highfields, QLD, 4352",
-      "price": "Paid",
-      "ageGroups": [
-        "adults",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/first-aid-for-educators-in-service-only-freckles-kindy-lc-highfields-tickets-936098855877",
-      "summary": "Learn the skills and knowledge to respond to a range of emergency situations in an early childhood setting."
     },
     {
       "id": "5f9f5b98000a9cd1",
@@ -520,6 +381,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/community-english-class/events/317422720/",
       "summary": "Community English Class"
+    },
+    {
+      "id": "fea569a80005f49b",
+      "kind": "event",
+      "title": "UniSQ National Agriculture Day 2026",
+      "start": "2026-11-20T09:00:00+10:00",
+      "end": "2026-11-20T14:30:00+10:00",
+      "allDay": false,
+      "venue": "University of Southern Queensland",
+      "suburb": "Darling Heights",
+      "address": "University of Southern Queensland, 487-535 West Street, Darling Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/unisq-national-agriculture-day-2026-tickets-2003639000186",
+      "summary": "Celebrate National Ag Day with UniSQ. Explore research, innovation and the people shaping the future of Australian agriculture."
     },
     {
       "id": "2ab5b489000504d5",
@@ -707,6 +590,28 @@
       "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
     },
     {
+      "id": "eff5df270001886c",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-22T16:00:00+10:00",
+      "end": "2026-11-22T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317449570/",
+      "summary": "International Hangouts Toowoomba"
+    },
+    {
       "id": "4756c8f900028d90",
       "kind": "event",
       "title": "Sound Meditation - Pittsworth",
@@ -753,6 +658,30 @@
       "summary": "100% of ticket sales support Sea Shepherd Australia. Join us for art, community, and conversation."
     },
     {
+      "id": "eef27c0e0006e521",
+      "kind": "event",
+      "title": "Tabletop Tuesday: NDIS Supported Community Activity",
+      "start": "2026-11-24T10:00:00+10:00",
+      "end": "2026-11-24T14:00:00+10:00",
+      "allDay": false,
+      "venue": "The Milk House Collective",
+      "suburb": "North Toowoomba",
+      "address": "The Milk House Collective, 36/57 Brook Street, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000957811",
+      "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
+    },
+    {
       "id": "3badde980007f003",
       "kind": "event",
       "title": "Build an emotional wellbeing plan for the festive season",
@@ -797,6 +726,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/getting-started-with-online-banking-with-be-connected-tickets-2003271143918",
       "summary": "You will learn how to set up your own online banking access\nand manage it safely."
+    },
+    {
+      "id": "4af4b6e100061b9e",
+      "kind": "event",
+      "title": "Toowoomba Learner Driver Night - Tuesday 24 November 2026",
+      "start": "2026-11-24T17:30:00+10:00",
+      "end": "2026-11-24T19:00:00+10:00",
+      "allDay": false,
+      "venue": "Technology Avenue",
+      "suburb": "Wellcamp",
+      "address": "Technology Avenue, Technology Avenue, Wellcamp, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-learner-driver-night-tuesday-24-november-2026-tickets-1984087772939",
+      "summary": "Free, informative and practical session for learner drivers hosted by the Queensland Police Service. 2 sessions available."
     },
     {
       "id": "d8d87ba80001aebd",
@@ -1124,30 +1077,6 @@
       "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
-      "id": "3ea7d9c700022b1f",
-      "kind": "event",
-      "title": "Rnb 90s - 2000s Before Dark",
-      "start": "2026-11-28T16:00:00+10:00",
-      "end": "2026-11-28T21:00:00+10:00",
-      "allDay": false,
-      "venue": "Cube Hotel",
-      "suburb": "Toowoomba",
-      "address": "Cube Hotel, 169 Margaret Street, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/rnb-90s-2000s-before-dark-tickets-2002506823816",
-      "summary": "Get ready to vibe to the smoothest RnB jams from the 90s and 2000s before the sun goes down."
-    },
-    {
       "id": "e744fb530007379f",
       "kind": "event",
       "title": "Live & Local @ The Powerhouse - Saturday 28 November 2026",
@@ -1193,6 +1122,29 @@
       "summary": "Help create a warm and welcoming Hub for the holiday season through crafts, decorating, and connection."
     },
     {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
+    },
+    {
       "id": "6d29201500066167",
       "kind": "event",
       "title": "Christmas Cookie Mix in a Jar Create • Connect • Celebrate",
@@ -1213,6 +1165,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/christmas-cookie-mix-in-a-jar-create-connect-celebrate-tickets-2004632639187",
       "summary": "Get crafty with cookie jar mixes, share some laughs, and kick off the festive vibes together!"
+    },
+    {
+      "id": "955096900004c05c",
+      "kind": "event",
+      "title": "Coffee Catch Up with Flourish QMS | Toowoomba",
+      "start": "2026-12-01T10:00:00+10:00",
+      "end": "2026-12-01T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Dream Cafe & Bar",
+      "suburb": "Toowoomba City",
+      "address": "Dream Cafe & Bar, 35 Bell Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/coffee-catch-up-with-flourish-qms-toowoomba-tickets-2004802559423",
+      "summary": "Coffee’s on us at this in-person Toowoomba networking catch-up with Flourish QMS, First 2 Care and eZaango Care Partners."
     },
     {
       "id": "0baaa332000bbad4",
@@ -1261,30 +1235,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
-    },
-    {
-      "id": "4309600900051193",
-      "kind": "event",
-      "title": "Queensland Police Service Recruiting Seminar - Toowoomba",
-      "start": "2026-12-01T17:30:00+10:00",
-      "end": "2026-12-01T19:00:00+10:00",
-      "allDay": false,
-      "venue": "52 Neil St",
-      "suburb": "Toowoomba City",
-      "address": "52 Neil St, 52 Neil Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/queensland-police-service-recruiting-seminar-toowoomba-tickets-2003694798079",
-      "summary": "A career within the Queensland Police Service is like no other. Register for a recruiting information and Q&A session to learn more."
     },
     {
       "id": "c77491650003686d",
@@ -1601,28 +1551,6 @@
       "summary": "A chance for members to catch up, reflect on the year and celebrate the festive season, in a casual setting."
     },
     {
-      "id": "b3402e5200049db4",
-      "kind": "event",
-      "title": "Sparks Fly Singles Only Bowling - Toowoomba",
-      "start": "2026-12-04T18:30:00+10:00",
-      "end": "2026-12-04T21:00:00+10:00",
-      "allDay": false,
-      "venue": "Sunset Superbowl",
-      "suburb": "Glenvale",
-      "address": "Sunset Superbowl, 527 South Street, Glenvale, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/sparks-fly-singles-only-bowling-toowoomba-tickets-2003439200580",
-      "summary": "Join us for a night of fun for SINGLES ONLY bowling at Sunset Bowling, Toowoomba"
-    },
-    {
       "id": "1122ea050006945b",
       "kind": "event",
       "title": "Toowoomba Disciple Making Accelerator",
@@ -1930,29 +1858,6 @@
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
     },
     {
-      "id": "06ff1b5a0007ed5b",
-      "kind": "event",
-      "title": "Google Tag Manager Basics: 1-Day Learning Session | Toowoomba",
-      "start": "2026-12-11T09:00:00+10:00",
-      "end": "2026-12-11T17:00:00+10:00",
-      "allDay": false,
-      "venue": "To be announced, Toowoomba",
-      "suburb": "",
-      "address": "Toowoomba",
-      "price": "$849–$949",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/google-tag-manager-basics-1-day-learning-session-or-toowoomba"
-    },
-    {
       "id": "60eca832000144f9",
       "kind": "event",
       "title": "INTIMO",
@@ -1972,29 +1877,6 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/intimo"
-    },
-    {
-      "id": "86df23fb0006bab6",
-      "kind": "event",
-      "title": "Event Planner Professional Development: 1 Day Training in Toowoomba",
-      "start": "2026-12-12T08:00:00+10:00",
-      "end": "2026-12-12T16:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba",
-      "suburb": "",
-      "address": "Toowoomba QLD, Australia",
-      "price": "$779–$879",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/event-planner-professional-development-1-day-training-in-toowoomba"
     },
     {
       "id": "bfa9ec3e0007b598",
@@ -2263,30 +2145,6 @@
       "summary": "Celebrate the season with music, connection and festive cheer."
     },
     {
-      "id": "2729400500055bd9",
-      "kind": "event",
-      "title": "WorshipHIM NYE 2026 (Toowoomba)",
-      "start": "2026-12-30T18:00:00+10:00",
-      "end": "2027-01-01T10:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Showgrounds Caravan Park",
-      "suburb": "Glenvale",
-      "address": "Toowoomba Showgrounds Caravan Park, Glenvale Road, Glenvale, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "faith"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/worshiphim-nye-2026-toowoomba-tickets-2003224258683",
-      "summary": "Join us as we gather to worship, pray, and celebrate the coming of 2027 together in the beautiful town of Toowoomba."
-    },
-    {
       "id": "40c8497200040421",
       "kind": "event",
       "title": "Sparks Fly Singles Only NYE 80's Party - Toowoomba",
@@ -2379,6 +2237,30 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "2e5473a3000a4050",
+      "kind": "event",
+      "title": "Connect and Learn - Tool Sharpening for Garden & Home",
+      "start": "2027-01-18T18:30:00+10:00",
+      "end": "2027-01-18T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/connect-and-learn-tool-sharpening-for-garden-and-home"
     },
     {
       "id": "72be527e0002ff17",
@@ -2562,6 +2444,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-speed-dating-tickets-2004759704242",
       "summary": "Meet local singles in person, spark a real connection, and see where the day takes you at Sober Socials Speed Dating!"
+    },
+    {
+      "id": "4f04e9aa000a6d02",
+      "kind": "event",
+      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
+      "start": "2027-02-15T18:30:00+10:00",
+      "end": "2027-02-15T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways-njdk3klp"
     },
     {
       "id": "ec0e212200038fbe",
