@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:30:29.499Z",
+  "generatedAt": "2026-11-17T02:55:20.335Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -16,8 +16,8 @@
     {
       "id": "library",
       "ok": true,
-      "parsed": 25,
-      "kept": 13,
+      "parsed": 23,
+      "kept": 12,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 56,
+      "kept": 55,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 56 earlier listing(s) from this source."
+        "Kept 55 earlier listing(s) from this source."
       ]
     },
     {
@@ -130,29 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "8b02e77f0002d285",
-      "kind": "event",
-      "title": "NamiiCon 2027",
-      "start": "2026-11-13T18:00:00+10:00",
-      "end": "2027-03-21T22:00:00+10:00",
-      "allDay": false,
-      "venue": "Wilsonton State High School",
-      "suburb": "Wilsonton Heights",
-      "address": "275 North St, Wilsonton Heights QLD 4350, Australia",
-      "price": "Free–$5",
-      "ageGroups": [
-        "teens"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/namiicon-2027"
-    },
-    {
       "id": "10f04fce000ab929",
       "kind": "event",
       "title": "Beyond Awareness: Culturally Safe Practice in our Sector - (Toowoomba) November 2026",
@@ -219,55 +196,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000956808",
       "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
-    },
-    {
-      "id": "6469aac80002fec3",
-      "kind": "event",
-      "title": "Read + Play — Yarraman Library",
-      "start": "2026-11-17T10:15:00+10:00",
-      "end": "2026-11-17T10:45:00+10:00",
-      "allDay": false,
-      "venue": "Yarraman Library",
-      "suburb": "",
-      "address": "Yarraman Library",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
-    },
-    {
-      "id": "a463949f0002e09c",
-      "kind": "event",
-      "title": "Upcycling Jar Painting",
-      "start": "2026-11-17T11:00:00+10:00",
-      "end": "2026-11-17T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Wellways Toowoomba, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/upcycling-jar-painting-tickets-2004266173077",
-      "summary": "Paint, create and connect! Transform a glass jar into something unique while enjoying a relaxed morning with fellow carers."
     },
     {
       "id": "629c9b3700049617",
@@ -1265,29 +1193,6 @@
       "summary": "Help create a warm and welcoming Hub for the holiday season through crafts, decorating, and connection."
     },
     {
-      "id": "cdddb63b000d0242",
-      "kind": "event",
-      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
-      "start": "2026-12-01T09:30:00+10:00",
-      "end": "2026-12-01T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
-      "suburb": "Toowoomba City",
-      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
-    },
-    {
       "id": "6d29201500066167",
       "kind": "event",
       "title": "Christmas Cookie Mix in a Jar Create • Connect • Celebrate",
@@ -1854,6 +1759,30 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
+    },
+    {
+      "id": "e2ce64200006ac00",
+      "kind": "event",
+      "title": "End of Year Celebration 6 December 2026 - Buzzing with Bees",
+      "start": "2026-12-06T14:00:00+10:00",
+      "end": "2026-12-06T17:30:00+10:00",
+      "allDay": false,
+      "venue": "The Hub, Civic Church",
+      "suburb": "Kearneys Spring",
+      "address": "258 Spring St, Kearneys Spring QLD 4350, Australia",
+      "price": "Free–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/end-of-year-celebration-6-december-2026"
     },
     {
       "id": "48ef291900051462",
@@ -2747,6 +2676,29 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/introduction-to-integrated-management-system-workshop-toowoomba-tickets-1997806985473",
       "summary": "Integrated Management System - Practical and interactive workshop"
+    },
+    {
+      "id": "d8deafa40002d192",
+      "kind": "event",
+      "title": "NamiiCon 2027",
+      "start": "2027-03-21T10:00:00+10:00",
+      "end": "2027-03-21T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Wilsonton State High School",
+      "suburb": "Wilsonton Heights",
+      "address": "275 North St, Wilsonton Heights QLD 4350, Australia",
+      "price": "Free–$5",
+      "ageGroups": [
+        "teens"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/namiicon-2027"
     },
     {
       "id": "14ca1c62000331ba",
