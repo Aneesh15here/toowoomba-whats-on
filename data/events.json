@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T02:26:00.799Z",
+  "generatedAt": "2026-11-18T17:14:28.698Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,20 +25,19 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 80,
-      "kept": 24,
-      "error": null,
+      "ok": false,
+      "parsed": 0,
+      "kept": 23,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 23 earlier listing(s) from this source."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 42,
+      "kept": 44,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -48,7 +47,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 4,
+      "kept": 5,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -129,51 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "10f04fce000ab929",
-      "kind": "event",
-      "title": "Beyond Awareness: Culturally Safe Practice in our Sector - (Toowoomba) November 2026",
-      "start": "2026-11-17T08:30:00+10:00",
-      "end": "2026-11-18T16:30:00+10:00",
-      "allDay": false,
-      "venue": "Picnic Point Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "164 Tourist Rd, Toowoomba City QLD 4350, Australia",
-      "price": "$180",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/beyond-awareness-culturally-safe-practice-in-our-sector-toowoomba-november-2026"
-    },
-    {
-      "id": "3f9943410004f2fa",
-      "kind": "event",
-      "title": "The Cookies and Milk House Book Club",
-      "start": "2026-11-18T18:30:00+10:00",
-      "end": "2026-11-18T20:30:00+10:00",
-      "allDay": false,
-      "venue": "The Milk House Collective",
-      "suburb": "North Toowoomba",
-      "address": "The Milk House Collective, 57 Brook Street, North Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/the-cookies-and-milk-house-book-club-tickets-2003912697823",
-      "summary": "Come together for a gentle evening of conversation, art and community. Where we share some snacks, talk about all the silly things inbetween"
     },
     {
       "id": "fbd5245e0002cba5",
@@ -422,6 +376,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/sound-meditation-pittsworth-registration-2002909070948",
       "summary": "A deeply grounding meditation and sound harmony experience to slow your nervous system, reset your energy and come home to yourself."
+    },
+    {
+      "id": "f65cb1530005afb4",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-23T09:00:00+10:00",
+      "end": "2026-11-23T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Darling Heights State School",
+      "suburb": "Toowoomba",
+      "address": "Wuth St, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317463339/",
+      "summary": "Community English Class"
     },
     {
       "id": "eef27c0e0006e521",
@@ -745,6 +721,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
+    },
+    {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
     },
     {
       "id": "6d29201500066167",
@@ -1222,6 +1221,29 @@
       "sourceUrl": "https://events.humanitix.com/liam-higgins-love-is-a-language-tour-toowoomba"
     },
     {
+      "id": "40b9756f000441c9",
+      "kind": "event",
+      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
+      "start": "2026-12-06T10:00:00+10:00",
+      "end": "2026-12-06T14:00:00+10:00",
+      "allDay": false,
+      "venue": "376 Ruthven St",
+      "suburb": "Toowoomba City",
+      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
+    },
+    {
       "id": "e2ce64200006ac00",
       "kind": "event",
       "title": "End of Year Celebration 6 December 2026 - Buzzing with Bees",
@@ -1434,29 +1456,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/turkish-coffee-ceramic-painting-workshop-toowoomba"
-    },
-    {
-      "id": "189a150500044150",
-      "kind": "event",
-      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
-      "start": "2026-12-13T10:00:00+10:00",
-      "end": "2026-12-13T14:00:00+10:00",
-      "allDay": false,
-      "venue": "376 Ruthven St",
-      "suburb": "Toowoomba City",
-      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
       "id": "873240cf00069fdb",
@@ -1762,6 +1761,52 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "64fee8e9000441cf",
+      "kind": "event",
+      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
+      "start": "2027-01-14T12:00:00+10:00",
+      "end": "2027-01-14T16:00:00+10:00",
+      "allDay": false,
+      "venue": "376 Ruthven St",
+      "suburb": "Toowoomba City",
+      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
+    },
+    {
+      "id": "873a58b400044205",
+      "kind": "event",
+      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
+      "start": "2027-01-17T10:00:00+10:00",
+      "end": "2027-01-17T14:00:00+10:00",
+      "allDay": false,
+      "venue": "376 Ruthven St",
+      "suburb": "Toowoomba City",
+      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
       "id": "2e5473a3000a4050",
