@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T01:46:09.426Z",
+  "generatedAt": "2026-11-20T16:56:24.497Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -1874,30 +1874,6 @@
       "summary": "Meet local singles in person, spark a real connection, and see where the day takes you at Sober Socials Speed Dating!"
     },
     {
-      "id": "4f04e9aa000a6d02",
-      "kind": "event",
-      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
-      "start": "2027-02-15T18:30:00+10:00",
-      "end": "2027-02-15T20:30:00+10:00",
-      "allDay": false,
-      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "Free–$50",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways-njdk3klp"
-    },
-    {
       "id": "ec0e212200038fbe",
       "kind": "event",
       "title": "Toowoomba - COMMONS WORSHIP NIGHTS",
@@ -2007,6 +1983,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "4d672f7d000a6d46",
+      "kind": "event",
+      "title": "Connect and Learn - Preserving Produce: Zucchinis 10 Ways",
+      "start": "2027-03-15T18:30:00+10:00",
+      "end": "2027-03-15T20:30:00+10:00",
+      "allDay": false,
+      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Herries St, Toowoomba City QLD 4350, Australia",
+      "price": "Free–$50",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/connect-and-learn-preserving-produce-zucchinis-10-ways-njdk3klp"
     },
     {
       "id": "d8deafa40002d192",
