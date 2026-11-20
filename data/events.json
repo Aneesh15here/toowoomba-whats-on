@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T17:21:43.754Z",
+  "generatedAt": "2026-11-20T01:46:09.426Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -17,7 +17,7 @@
       "id": "library",
       "ok": true,
       "parsed": 23,
-      "kept": 10,
+      "kept": 9,
       "error": null,
       "notes": [
         "The Spydus library catalogue disallows robots, so session dates are read from council program pages."
@@ -130,53 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "fa3a0c940003bb2f",
-      "kind": "event",
-      "title": "Read + Play — Cecil Plains Library",
-      "start": "2026-11-20T10:00:00+10:00",
-      "end": "2026-11-20T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Cecil Plains Library",
-      "suburb": "",
-      "address": "Cecil Plains Library",
-      "price": "See listing",
-      "ageGroups": [
-        "kids",
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "library",
-      "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
-      "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Cecil Plains Library: Friday 23 October, 6 November, 20 November, and 4 December, 10am – 10.30am"
-    },
-    {
-      "id": "2a6e20400004f1dd",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-20T13:30:00+10:00",
-      "end": "2026-11-20T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton State School",
-      "suburb": "Toowoomba",
-      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317425343/",
-      "summary": "Community English Class"
-    },
-    {
       "id": "e008d1a10006d732",
       "kind": "event",
       "title": "Toowoomba’s Endless Edit - Sunday 22nd NOVEMBER, 2026",
@@ -241,6 +194,28 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
+    },
+    {
+      "id": "eff5df270001886c",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-22T16:00:00+10:00",
+      "end": "2026-11-22T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317449570/",
+      "summary": "International Hangouts Toowoomba"
     },
     {
       "id": "4756c8f900028d90",
