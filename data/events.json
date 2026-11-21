@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T01:30:21.736Z",
+  "generatedAt": "2026-11-21T16:07:53.538Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,13 +25,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 80,
-      "kept": 47,
-      "error": null,
+      "ok": false,
+      "parsed": 0,
+      "kept": 46,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 46 earlier listing(s) from this source."
       ]
     },
     {
@@ -129,30 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "d7ee029e00027f34",
-      "kind": "event",
-      "title": "30 Minutes Conscious Dancing",
-      "start": "2026-11-21T12:00:00+10:00",
-      "end": "2026-11-21T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba",
-      "suburb": "Toowoomba",
-      "address": "Toowoomba, Toowoomba City Library Level 3, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/30-minutes-conscious-dancing-tickets-2004880268854",
-      "summary": "Conscious dancing leading into meditation at Toowoomba City Library Level 3"
     },
     {
       "id": "e008d1a10006d732",
