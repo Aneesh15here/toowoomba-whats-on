@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:07:53.538Z",
+  "generatedAt": "2026-11-22T16:15:18.442Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,12 +25,13 @@
     },
     {
       "id": "eventbrite",
-      "ok": false,
-      "parsed": 0,
-      "kept": 46,
-      "error": "Eventbrite HTTP 405",
+      "ok": true,
+      "parsed": 79,
+      "kept": 57,
+      "error": null,
       "notes": [
-        "Kept 46 earlier listing(s) from this source."
+        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
       ]
     },
     {
@@ -128,94 +129,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "e008d1a10006d732",
-      "kind": "event",
-      "title": "Toowoomba’s Endless Edit - Sunday 22nd NOVEMBER, 2026",
-      "start": "2026-11-22T08:00:00+10:00",
-      "end": "2026-11-22T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba Indoor Bowls Hall",
-      "suburb": "Toowoomba City",
-      "address": "10 Annand St, Toowoomba City QLD 4350, Australia",
-      "price": "$10–$70",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-s-endless-edit-sunday-22nd-november-2026"
-    },
-    {
-      "id": "4906638b000a94e8",
-      "kind": "event",
-      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
-      "start": "2026-11-22T10:00:00+10:00",
-      "end": "2026-11-22T11:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849276227057",
-      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
-    },
-    {
-      "id": "c61d716e00039484",
-      "kind": "event",
-      "title": "Toowoomba's Kite Flying Festival",
-      "start": "2026-11-22T10:00:00+10:00",
-      "end": "2026-11-22T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Queens Park - Oval 1",
-      "suburb": "East Toowoomba",
-      "address": "43-73 Lindsay St, East Toowoomba QLD 4350, Australia",
-      "price": "$3",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-s-kite-flying-festival"
-    },
-    {
-      "id": "f65cb1530005afb4",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-23T09:00:00+10:00",
-      "end": "2026-11-23T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Darling Heights State School",
-      "suburb": "Toowoomba",
-      "address": "Wuth St, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317463339/",
-      "summary": "Community English Class"
     },
     {
       "id": "cc2068610003e4fb",
@@ -513,6 +426,30 @@
       "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
     },
     {
+      "id": "2b0b837c000a9c16",
+      "kind": "event",
+      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
+      "start": "2026-11-25T17:45:00+10:00",
+      "end": "2026-11-25T18:45:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849274662377",
+      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
+    },
+    {
       "id": "9959a4c300029235",
       "kind": "event",
       "title": "INTRO TO GROOV3: Toowoomba",
@@ -536,6 +473,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-2003385469870",
       "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
+    },
+    {
+      "id": "11d337440005952c",
+      "kind": "event",
+      "title": "Stronger Together: NDIS Roundtable – Toowoomba",
+      "start": "2026-11-26T10:00:00+10:00",
+      "end": "2026-11-26T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/stronger-together-ndis-roundtable-toowoomba-tickets-2002409964106",
+      "summary": "An ongoing series created for NDIS stakeholders, Aruma is collaborating with NDIS providers to give industry and organisational updates."
     },
     {
       "id": "e571d00600044284",
@@ -653,6 +614,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com/e/1-day-public-speaking-and-presentation-skills-training-in-geelong-tickets-1991374468642",
       "summary": "Learn to communicate with confidence, deliver engaging presentations, and influence any audience effectively."
+    },
+    {
+      "id": "9c972f0b0004f35e",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-27T13:30:00+10:00",
+      "end": "2026-11-27T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Harlaxton State School",
+      "suburb": "Toowoomba",
+      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317523294/",
+      "summary": "Community English Class"
     },
     {
       "id": "08e2825c00025d93",
@@ -887,6 +870,29 @@
       "summary": "Help create a warm and welcoming Hub for the holiday season through crafts, decorating, and connection."
     },
     {
+      "id": "cdddb63b000d0242",
+      "kind": "event",
+      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
+      "start": "2026-12-01T09:30:00+10:00",
+      "end": "2026-12-01T12:30:00+10:00",
+      "allDay": false,
+      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
+      "suburb": "Toowoomba City",
+      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
+    },
+    {
       "id": "6d29201500066167",
       "kind": "event",
       "title": "Christmas Cookie Mix in a Jar Create • Connect • Celebrate",
@@ -977,6 +983,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "4309600900051193",
+      "kind": "event",
+      "title": "Queensland Police Service Recruiting Seminar - Toowoomba",
+      "start": "2026-12-01T17:30:00+10:00",
+      "end": "2026-12-01T19:00:00+10:00",
+      "allDay": false,
+      "venue": "52 Neil St",
+      "suburb": "Toowoomba City",
+      "address": "52 Neil St, 52 Neil Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/queensland-police-service-recruiting-seminar-toowoomba-tickets-2003694798079",
+      "summary": "A career within the Queensland Police Service is like no other. Register for a recruiting information and Q&A session to learn more."
     },
     {
       "id": "f71500680003d076",
@@ -1193,9 +1223,9 @@
       "sourceUrl": "https://events.humanitix.com/automating-more-of-your-small-business-tasks-or-toowoomba-or-beginner"
     },
     {
-      "id": "2ffe51c90008b26d",
+      "id": "ea6b6cf10008d7dc",
       "kind": "event",
-      "title": "HubInfo with Downs Syndrome and Intellectual Disability Queenland",
+      "title": "International Day of People with Disability - Join us for Morning Tea",
       "start": "2026-12-03T11:00:00+10:00",
       "end": "2026-12-03T13:00:00+10:00",
       "allDay": false,
@@ -1211,8 +1241,8 @@
       ],
       "categories": [],
       "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/hubinfo-with-downs-syndrome-and-intellectual-disability-queenland-tickets-2005067306288",
-      "summary": "Morning Tea for International Day of People with a Disability"
+      "sourceUrl": "https://www.eventbrite.com.au/e/international-day-of-people-with-disability-join-us-for-morning-tea-tickets-2005067306288",
+      "summary": "Join us along with Down Syndrome & Intellectual Disability Queensland"
     },
     {
       "id": "9018a7fc00044193",
@@ -1360,6 +1390,28 @@
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
     },
     {
+      "id": "089d01730007ce5f",
+      "kind": "event",
+      "title": "Downs & Western Festive Season Celebration",
+      "start": "2026-12-04T14:00:00+10:00",
+      "end": "2026-12-04T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Master Builders Queensland (Toowoomba)",
+      "suburb": "Toowoomba City",
+      "address": "Master Builders Queensland (Toowoomba), 166 Hume Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/downs-western-festive-season-celebration-registration-2003644608962",
+      "summary": "A chance for members to catch up, reflect on the year and celebrate the festive season, in a casual setting."
+    },
+    {
       "id": "b3402e5200049db4",
       "kind": "event",
       "title": "Sparks Fly Singles Only Bowling - Toowoomba",
@@ -1430,6 +1482,30 @@
       "summary": "Theatre of Magic returns to The Empire in 2026 with four spellbinding nights, kicking off in February. Experience Australia's most magical night out!"
     },
     {
+      "id": "c2837a9e00041d08",
+      "kind": "event",
+      "title": "Fun Factory: Origami Card Making",
+      "start": "2026-12-05T10:30:00+10:00",
+      "end": "2026-12-05T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/fun-factory-origami-card-making-tickets-2002014374888",
+      "summary": "Fold a little piece of fun with our origami card making session."
+    },
+    {
       "id": "62ba59390004c5fe",
       "kind": "event",
       "title": "toowoomba queer social ★ 18+ prom night",
@@ -1451,6 +1527,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-queer-social-18-prom-night"
+    },
+    {
+      "id": "01a18b42000431ce",
+      "kind": "event",
+      "title": "Fa La La La Flaws: An Ugly Christmas Shirt Mingle",
+      "start": "2026-12-05T18:30:00+10:00",
+      "end": "2026-12-05T22:00:00+10:00",
+      "allDay": false,
+      "venue": "The Rock",
+      "suburb": "Toowoomba City",
+      "address": "The Rock, 526 Ruthven Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/fa-la-la-la-flaws-an-ugly-christmas-shirt-mingle-tickets-2002292824739",
+      "summary": "Rock your ugliest Christmas shirt and jingle all night at the fun and festive Fa La La La Flaws mingle!"
     },
     {
       "id": "2709ebba00051025",
@@ -1689,6 +1787,32 @@
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
     },
     {
+      "id": "e724f0c5000691f4",
+      "kind": "event",
+      "title": "Matcha & Ceramic Painting Workshop - Toowoomba",
+      "start": "2026-12-11T18:00:00+10:00",
+      "end": "2026-12-11T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Middle Ridge Uniting Church",
+      "suburb": "Centenary Heights",
+      "address": "Middle Ridge Uniting Church, 264 Stenner Street, Centenary Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/matcha-ceramic-painting-workshop-toowoomba-tickets-2005059273261",
+      "summary": "Learn to make your own matcha latte, then paint a ceramic matcha bowl or mug to take home. A relaxed, creative experience."
+    },
+    {
       "id": "60eca832000144f9",
       "kind": "event",
       "title": "INTIMO",
@@ -1710,16 +1834,39 @@
       "sourceUrl": "https://events.humanitix.com/intimo"
     },
     {
+      "id": "86df23fb0006bab6",
+      "kind": "event",
+      "title": "Event Planner Professional Development: 1 Day Training in Toowoomba",
+      "start": "2026-12-12T08:00:00+10:00",
+      "end": "2026-12-12T16:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba",
+      "suburb": "",
+      "address": "Toowoomba QLD, Australia",
+      "price": "$779–$879",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/event-planner-professional-development-1-day-training-in-toowoomba"
+    },
+    {
       "id": "bfa9ec3e0007b598",
       "kind": "event",
-      "title": "Turkish Coffee & Ceramic Painting Workshop (Toowoomba)",
+      "title": "Turkish Coffee & Ceramic Painting Workshop - Toowoomba",
       "start": "2026-12-12T09:00:00+10:00",
       "end": "2026-12-12T11:00:00+10:00",
       "allDay": false,
       "venue": "Middle Ridge Uniting Church",
       "suburb": "Centenary Heights",
-      "address": "264 Stenner St, Centenary Heights QLD 4350, Australia",
-      "price": "$49–$89",
+      "address": "Middle Ridge Uniting Church, 264 Stenner Street, Centenary Heights, QLD, 4350",
+      "price": "Paid",
       "ageGroups": [
         "families"
       ],
@@ -1731,8 +1878,12 @@
         "arts",
         "education"
       ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/turkish-coffee-ceramic-painting-workshop-toowoomba"
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/turkish-coffee-ceramic-painting-workshop-toowoomba-tickets-2003757037238",
+      "summary": "Brew Turkish coffee in hot sand, enjoy Turkish delight & baklava and a fun fortune reading. Add mug painting to take home.",
+      "alsoFrom": [
+        "humanitix"
+      ]
     },
     {
       "id": "aa91c0d700022269",
@@ -1803,6 +1954,31 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/mantra-rhythm-toowoomba"
+    },
+    {
+      "id": "13e109c50007689f",
+      "kind": "event",
+      "title": "How to Achieve the Life You Want: A 2-Day Money Workshop for Youth",
+      "start": "2026-12-14T09:00:00+10:00",
+      "end": "2026-12-15T15:00:00+10:00",
+      "allDay": false,
+      "venue": "WOTSO Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "WOTSO Toowoomba, 123 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "teens",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/how-to-achieve-the-life-you-want-a-2-day-money-workshop-for-youth-tickets-2000082315045",
+      "summary": "Two days. $19.50. You leave with a written plan for your dream goal, and what it will cost. Lunch, morning tea, and refreshments included."
     },
     {
       "id": "44aa901c000585f6",
@@ -1971,6 +2147,30 @@
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
+      "id": "43d7682900050693",
+      "kind": "event",
+      "title": "Meet, Make, and Do @ Toowoomba City Library",
+      "start": "2026-12-18T10:00:00+10:00",
+      "end": "2026-12-18T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/meet-make-and-do-toowoomba-city-library-tickets-1998471728738",
+      "summary": "Card making workshop"
+    },
+    {
       "id": "8a15130b0004ceaa",
       "kind": "event",
       "title": "Christmas Trivia & Games Social Catchup",
@@ -1991,6 +2191,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/christmas-trivia-games-social-catchup-tickets-2004565940690",
       "summary": "Test your knowledge, enjoy festive games and connect with other carers."
+    },
+    {
+      "id": "2dc27d7200054936",
+      "kind": "event",
+      "title": "Pool Party- Holidays Edition!",
+      "start": "2026-12-18T16:00:00+10:00",
+      "end": "2026-12-18T18:00:00+10:00",
+      "allDay": false,
+      "venue": "Milne Bay Aquatic & Fitness Centre",
+      "suburb": "Toowoomba City",
+      "address": "Milne Bay Aquatic & Fitness Centre, 43-49 Victoria Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/pool-party-holidays-edition-tickets-2004991875673",
+      "summary": "New Leaf Social Work's Christmas Pool Party! Water you waiting for?"
     },
     {
       "id": "5f4d99ef000360de",
@@ -2408,6 +2632,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/navigating-grants-and-incentives-unlocking-manufacturing-growth-toowoomba-tickets-1998175420472",
       "summary": "Grants and incentives give manufacturers the boost to invest in new technologies, improve efficiency, upskill teams, & explore new markets."
+    },
+    {
+      "id": "27bddf9d00075dc3",
+      "kind": "event",
+      "title": "Your Local Wedding Guide Toowoomba Expo - 7th February 2027",
+      "start": "2027-02-07T10:00:00+10:00",
+      "end": "2027-02-07T14:00:00+10:00",
+      "allDay": false,
+      "venue": "The Goods Shed Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "The Goods Shed Toowoomba, 3 Victoria Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/your-local-wedding-guide-toowoomba-expo-7th-february-2027-tickets-1998337399957",
+      "summary": "Find your dream team, win prizes, plus get inspo & advice at Your Local Wedding Guide Toowoomba Expo - All You Need to Plan Your Wedding."
     },
     {
       "id": "6494d2f80006194a",
