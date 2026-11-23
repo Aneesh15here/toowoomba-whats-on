@@ -1,35 +1,45 @@
 {
-  "updated": "2026-11-16T11:21:40.802Z",
+  "updated": "2026-11-23T12:46:17.295Z",
   "site": "whatsontoowoomba",
   "status": "ok",
   "period": {
-    "start": "2026-11-09T11:00:00.000Z",
-    "end": "2026-11-16T11:00:00.000Z",
-    "previousStart": "2026-11-02T11:00:00.000Z",
-    "previousEnd": "2026-11-09T11:00:00.000Z"
+    "start": "2026-11-16T12:00:00.000Z",
+    "end": "2026-11-23T12:00:00.000Z",
+    "previousStart": "2026-11-09T12:00:00.000Z",
+    "previousEnd": "2026-11-16T12:00:00.000Z"
   },
   "totals": {
     "week": {
-      "visits": 41,
-      "events": 1,
-      "pages": 40
+      "visits": 61,
+      "events": 6,
+      "pages": 55
     },
     "previousWeek": {
-      "visits": 10,
-      "events": 0,
-      "pages": 10
+      "visits": 42,
+      "events": 1,
+      "pages": 41
     },
     "change": {
-      "visits": 31,
-      "events": 1,
-      "pages": 30
+      "visits": 19,
+      "events": 5,
+      "pages": 14
     }
   },
   "pages": [
     {
       "path": "/",
       "title": "What's on in Toowoomba",
-      "count": 15
+      "count": 18
+    },
+    {
+      "path": "/garage-sales",
+      "title": "Toowoomba garage sales · What's On Toowoomba",
+      "count": 7
+    },
+    {
+      "path": "/this-weekend",
+      "title": "Toowoomba events this weekend · What's On Toowoomba",
+      "count": 6
     },
     {
       "path": "/events/5bda5da400041641",
@@ -37,116 +47,115 @@
       "count": 4
     },
     {
-      "path": "/search",
-      "title": "Search events · What's On Toowoomba",
-      "count": 3
-    },
-    {
-      "path": "/things-to-do.html",
-      "title": "Things to do around Toowoomba · What's On Toowoomba",
-      "count": 3
-    },
-    {
       "path": "/404.html",
       "title": "Page not found · What's On Toowoomba",
+      "count": 3
+    },
+    {
+      "path": "/credits.html",
+      "title": "Photograph credits · What's On Toowoomba",
+      "count": 3
+    },
+    {
+      "path": "/category/free",
+      "title": "Free events in Toowoomba · What's On Toowoomba",
       "count": 2
     },
     {
-      "path": "/garage-sales",
-      "title": "Toowoomba garage sales · What's On Toowoomba",
+      "path": "/events/e008d1a10006d732",
+      "title": "Toowoomba’s Endless Edit - Sunday 22nd NOVEMBER, 2026 · 22 Nov 2026, 8:00 am · What's On Toowoomba",
       "count": 2
     },
     {
-      "path": "/suburb/harristown",
-      "title": "What's on in Harristown · What's On Toowoomba",
+      "path": "/search",
+      "title": "Search events · What's On Toowoomba",
       "count": 2
     },
     {
-      "path": "/events/2729400500055bd9",
-      "title": "WorshipHIM NYE 2026 (Toowoomba) · 30 Dec 2026, 6:00 pm · What's On Toowoomba",
+      "path": "/events/3ce28eac00040a6e",
+      "title": "Wyreema Hall Christmas Markets · 21 Nov 2026, 8:00 am · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/3af93e460003faa9",
-      "title": "Jondaryan Christmas Markets · 19 Dec 2026, 9:00 am · What's On Toowoomba",
+      "path": "/events/5eebb124000ece1d",
+      "title": "Cruise For Kids 2026 Family-friendly Motor Vehicle Show & Shine… · 28 Nov 2026, 10:00 am · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/3f9943410004f2fa",
-      "title": "The Cookies and Milk House Book Club · 18 Nov 2026, 6:30 pm · What's On Toowoomba",
+      "path": "/events/c98f7df90008b9cf",
+      "title": "ACORN Qld Regional Education Day - Toowoomba · 27 Feb 2027, 8:00 am · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/62ba59390004c5fe",
-      "title": "toowoomba queer social ★ 18+ prom night · 5 Dec 2026, 5:00 pm · What's On Toowoomba",
+      "path": "/events/ec0e212200038fbe",
+      "title": "Toowoomba - COMMONS WORSHIP NIGHTS · 20 Feb 2027, 5:30 pm · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/7c8520290004882a",
-      "title": "Rural and Regional Practice Management Essentials · 12 Nov 2026, 5:00 pm · What's On Toowoomba",
+      "path": "/events/ef201f9c00062016",
+      "title": "The Athlete & The Alchemist Breathwork Journey | Toowoomba · 28 Feb 2027, 4:00 pm · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/9e8067ab00043218",
-      "title": "Sweet Acres Garage Sale (extended) · 13 Nov 2026, 7:00 am · What's On Toowoomba",
+      "path": "/suburb/glenvale",
+      "title": "What's on in Glenvale · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/bfa9ec3e0007b598",
-      "title": "Turkish Coffee & Ceramic Painting Workshop - Toowoomba · 12 Dec 2026, 9:00 am · What's On Toowoomba",
+      "path": "/suburb/newtown",
+      "title": "What's on in Newtown · What's On Toowoomba",
       "count": 1
     },
     {
-      "path": "/events/d364c25900029d57",
-      "title": "Clearance garage and shed sale · 14 Nov 2026, 8:00 am · What's On Toowoomba",
-      "count": 1
-    },
-    {
-      "path": "/suburb/greenmount",
-      "title": "What's on in Greenmount · What's On Toowoomba",
+      "path": "/this-week",
+      "title": "Toowoomba events this week · What's On Toowoomba",
       "count": 1
     }
   ],
   "referrers": [
     {
       "name": "Google",
-      "count": 21,
+      "count": 26,
       "scheme": "g",
       "kind": "search"
     },
     {
       "name": "chatgpt.com",
-      "count": 8,
+      "count": 15,
       "scheme": "c",
       "kind": "other"
     },
     {
-      "name": "com.reddit.frontpage",
-      "count": 2,
-      "scheme": "o",
-      "kind": "other"
-    },
-    {
-      "name": "www.reddit.com",
-      "count": 2,
-      "scheme": "h",
-      "kind": "other"
-    },
-    {
       "name": "(direct)",
-      "count": 1,
+      "count": 7,
       "scheme": "o",
       "kind": "direct"
+    },
+    {
+      "name": "www.facebook.com",
+      "count": 1,
+      "scheme": "h",
+      "kind": "other"
     }
   ],
   "traffic": {
-    "search": 21,
-    "direct": 1,
-    "other": 12
+    "search": 26,
+    "direct": 7,
+    "other": 16
   },
   "events": [
     {
-      "path": "outbound-eventbrite.com.au",
+      "path": "outbound-facebook.com",
+      "title": "Outbound event link",
+      "count": 3
+    },
+    {
+      "path": "outbound-events.humanitix.com",
+      "title": "Outbound event link",
+      "count": 2
+    },
+    {
+      "path": "outbound-tr.qld.gov.au",
       "title": "Outbound event link",
       "count": 1
     }
