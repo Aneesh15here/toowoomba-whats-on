@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T16:15:18.442Z",
+  "generatedAt": "2026-11-23T00:51:47.347Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,20 +25,19 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
+      "ok": false,
+      "parsed": 0,
       "kept": 57,
-      "error": null,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 57 earlier listing(s) from this source."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 44,
+      "kept": 43,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -870,29 +869,6 @@
       "summary": "Help create a warm and welcoming Hub for the holiday season through crafts, decorating, and connection."
     },
     {
-      "id": "cdddb63b000d0242",
-      "kind": "event",
-      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
-      "start": "2026-12-01T09:30:00+10:00",
-      "end": "2026-12-01T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
-      "suburb": "Toowoomba City",
-      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
-    },
-    {
       "id": "6d29201500066167",
       "kind": "event",
       "title": "Christmas Cookie Mix in a Jar Create • Connect • Celebrate",
@@ -1172,6 +1148,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/getting-found-on-google-and-ai-search-or-toowoomba-or-beginner"
+    },
+    {
+      "id": "2b3e70050004f702",
+      "kind": "event",
+      "title": "Celebrate DAW, IDPwD and Christmas 2026",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Multicultural Australia",
+      "suburb": "Toowoomba City",
+      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
     },
     {
       "id": "0a1f42920002caa7",
@@ -1832,29 +1831,6 @@
       "categories": [],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/intimo"
-    },
-    {
-      "id": "86df23fb0006bab6",
-      "kind": "event",
-      "title": "Event Planner Professional Development: 1 Day Training in Toowoomba",
-      "start": "2026-12-12T08:00:00+10:00",
-      "end": "2026-12-12T16:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba",
-      "suburb": "",
-      "address": "Toowoomba QLD, Australia",
-      "price": "$779–$879",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/event-planner-professional-development-1-day-training-in-toowoomba"
     },
     {
       "id": "bfa9ec3e0007b598",
