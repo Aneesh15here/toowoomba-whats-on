@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T20:12:14.505Z",
+  "generatedAt": "2026-11-24T04:47:26.949Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,7 +27,7 @@
       "id": "eventbrite",
       "ok": true,
       "parsed": 79,
-      "kept": 57,
+      "kept": 55,
       "error": null,
       "notes": [
         "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
@@ -57,8 +57,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 4,
-      "kept": 4,
+      "parsed": 5,
+      "kept": 5,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -77,12 +77,11 @@
     {
       "id": "unisq",
       "ok": true,
-      "parsed": 0,
-      "kept": 0,
+      "parsed": 2,
+      "kept": 2,
       "error": null,
       "notes": [
-        "Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba.",
-        "UniSQ event feed returned no rows for the current date."
+        "Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba."
       ]
     },
     {
@@ -131,30 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "eef27c0e0006e521",
-      "kind": "event",
-      "title": "Tabletop Tuesday: NDIS Supported Community Activity",
-      "start": "2026-11-24T10:00:00+10:00",
-      "end": "2026-11-24T14:00:00+10:00",
-      "allDay": false,
-      "venue": "The Milk House Collective",
-      "suburb": "North Toowoomba",
-      "address": "The Milk House Collective, 36/57 Brook Street, North Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000957811",
-      "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
-    },
-    {
       "id": "9855e7c40005c784",
       "kind": "event",
       "title": "Getting Started with Online Banking with Be Connected",
@@ -177,30 +152,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/getting-started-with-online-banking-with-be-connected-tickets-2003271143918",
       "summary": "You will learn how to set up your own online banking access\nand manage it safely."
-    },
-    {
-      "id": "4af4b6e100061b9e",
-      "kind": "event",
-      "title": "Toowoomba Learner Driver Night - Tuesday 24 November 2026",
-      "start": "2026-11-24T17:30:00+10:00",
-      "end": "2026-11-24T19:00:00+10:00",
-      "allDay": false,
-      "venue": "Technology Avenue",
-      "suburb": "Wellcamp",
-      "address": "Technology Avenue, Technology Avenue, Wellcamp, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/toowoomba-learner-driver-night-tuesday-24-november-2026-tickets-1984087772939",
-      "summary": "Free, informative and practical session for learner drivers hosted by the Queensland Police Service. 2 sessions available."
     },
     {
       "id": "d8d87ba80001aebd",
@@ -407,30 +358,6 @@
       "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
     },
     {
-      "id": "11d337440005952c",
-      "kind": "event",
-      "title": "Stronger Together: NDIS Roundtable – Toowoomba",
-      "start": "2026-11-26T10:00:00+10:00",
-      "end": "2026-11-26T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/stronger-together-ndis-roundtable-toowoomba-tickets-2002409964106",
-      "summary": "An ongoing series created for NDIS stakeholders, Aruma is collaborating with NDIS providers to give industry and organisational updates."
-    },
-    {
       "id": "e571d00600044284",
       "kind": "event",
       "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
@@ -568,28 +495,6 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/community-english-class/events/317523294/",
       "summary": "Community English Class"
-    },
-    {
-      "id": "08e2825c00025d93",
-      "kind": "event",
-      "title": "Relax and unwind",
-      "start": "2026-11-27T13:30:00+10:00",
-      "end": "2026-11-27T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Wellways Toowoomba, 17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/relax-and-unwind-tickets-2005064862980",
-      "summary": "Relax, unwind, and take a well-deserved pause in a warm and welcoming space created just for carers."
     },
     {
       "id": "d1f7b94a0005491b",
@@ -824,29 +729,6 @@
       "summary": "Enjoy books, board games and great conversation while building connections with other carers."
     },
     {
-      "id": "cdddb63b000d0242",
-      "kind": "event",
-      "title": "Toowoomba: A Therapist's Guide to Mobility Scooter Prescription",
-      "start": "2026-12-01T09:30:00+10:00",
-      "end": "2026-12-01T12:30:00+10:00",
-      "allDay": false,
-      "venue": "Independent Living Specialists (ILS) - Toowoomba Service Department",
-      "suburb": "Toowoomba City",
-      "address": "18 Prescott St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/toowoomba-a-therapist-s-guide-to-mobility-scooter-prescription"
-    },
-    {
       "id": "6d29201500066167",
       "kind": "event",
       "title": "Christmas Cookie Mix in a Jar Create • Connect • Celebrate",
@@ -889,6 +771,30 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com/e/coffee-catch-up-with-flourish-qms-toowoomba-tickets-2004802559423",
       "summary": "Coffee’s on us at this in-person Toowoomba networking catch-up with Flourish QMS, First 2 Care and eZaango Care Partners."
+    },
+    {
+      "id": "0fa7c95c0006e414",
+      "kind": "event",
+      "title": "Tabletop Tuesday: NDIS Supported Community Activity",
+      "start": "2026-12-01T10:00:00+10:00",
+      "end": "2026-12-01T14:00:00+10:00",
+      "allDay": false,
+      "venue": "The Milk House Collective",
+      "suburb": "North Toowoomba",
+      "address": "The Milk House Collective, 36/57 Brook Street, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/tabletop-tuesday-ndis-supported-community-activity-tickets-2004000958814",
+      "summary": "Your weekly gathering to paint, play, and build. Whether you're crawling dungeons, or making mini's, pop into The Milk House for company."
     },
     {
       "id": "0baaa332000bbad4",
@@ -1126,6 +1032,53 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/getting-found-on-google-and-ai-search-or-toowoomba-or-beginner"
+    },
+    {
+      "id": "8d64a79d000596f7",
+      "kind": "event",
+      "title": "Stronger Together: NDIS Roundtable – Toowoomba",
+      "start": "2026-12-03T09:30:00+10:00",
+      "end": "2026-12-03T13:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/stronger-together-ndis-roundtable-toowoomba-tickets-2005319328092",
+      "summary": "An ongoing series created for NDIS stakeholders, Aruma is collaborating with NDIS providers to give industry and organisational updates."
+    },
+    {
+      "id": "2b3e70050004f702",
+      "kind": "event",
+      "title": "Celebrate DAW, IDPwD and Christmas 2026",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "Multicultural Australia",
+      "suburb": "Toowoomba City",
+      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/celebrate-daw-idpwd-and-christmas-2026"
     },
     {
       "id": "0a1f42920002caa7",
@@ -1642,28 +1595,6 @@
       "summary": "Bring Your Ancestors’ Stories to Life\u000bJoin passionate family historian and author Lee Boehm for an inspiring writer’s workshop."
     },
     {
-      "id": "fe52b91a0006824c",
-      "kind": "event",
-      "title": "Taste of Home - Bring a Plate, Recipe Swap & Carer Gathering",
-      "start": "2026-12-08T10:30:00+10:00",
-      "end": "2026-12-08T12:30:00+10:00",
-      "allDay": false,
-      "venue": "15-17 Kitchener St",
-      "suburb": "East Toowoomba",
-      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/taste-of-home-bring-a-plate-recipe-swap-carer-gathering-tickets-2005003433242",
-      "summary": "Share a Plate of Food: Cultural, Festive or Favourite and celebrate food, culture, and connection with other carers."
-    },
-    {
       "id": "3ec4083000023b60",
       "kind": "event",
       "title": "UniSQ Library Book Club",
@@ -1710,6 +1641,28 @@
       "source": "empire",
       "sourceUrl": "https://empiretheatre.com.au/whats-on/the-australian-army-band-2026",
       "summary": "One of the finest military bands in the country makes their return to The Empire for a Christmas special!"
+    },
+    {
+      "id": "4595cdc900068037",
+      "kind": "event",
+      "title": "Taste of Home - Bring a Plate, Recipe Swap & Carer Gathering",
+      "start": "2026-12-10T10:30:00+10:00",
+      "end": "2026-12-10T12:30:00+10:00",
+      "allDay": false,
+      "venue": "15-17 Kitchener St",
+      "suburb": "East Toowoomba",
+      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/taste-of-home-bring-a-plate-recipe-swap-carer-gathering-tickets-2005003433242",
+      "summary": "Share a Plate of Food: Cultural, Festive or Favourite and celebrate food, culture, and connection with other carers."
     },
     {
       "id": "c4653a4c0004411a",
@@ -2396,28 +2349,6 @@
       "summary": "Start the year with good food, fresh ideas, and great conversation."
     },
     {
-      "id": "a3d12e500002aa50",
-      "kind": "event",
-      "title": "Looking Ahead to 2027",
-      "start": "2027-01-12T10:00:00+10:00",
-      "end": "2027-01-12T11:00:00+10:00",
-      "allDay": false,
-      "venue": "Wellways Toowoomba",
-      "suburb": "East Toowoomba",
-      "address": "Wellways Toowoomba, 15-17 Kitchener St, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/looking-ahead-to-2027-tickets-2005108447342",
-      "summary": "Reflect on the year and explore goals, hopes and priorities for 2027"
-    },
-    {
       "id": "c0d3c6710002cad1",
       "kind": "event",
       "title": "Read + Play — Clifton Library",
@@ -2536,6 +2467,27 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
+    },
+    {
+      "id": "a17412d90002a28d",
+      "kind": "event",
+      "title": "McGregor School 2027",
+      "start": "2027-01-22T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "UniSQ Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "UniSQ Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "unisq",
+      "sourceUrl": "https://www.unisq.edu.au/events/2027/01/mcgregor"
     },
     {
       "id": "445f2a6a00030ec3",
@@ -2901,6 +2853,30 @@
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
     },
     {
+      "id": "f08a90cd0007a63b",
+      "kind": "event",
+      "title": "DREAMS PRESENTS: FLEETWOOD MAC RUMOURS 50TH ANNIVERSARY TOUR | MILLMERRAN",
+      "start": "2027-04-17T19:00:00+10:00",
+      "end": "2027-04-17T22:00:00+10:00",
+      "allDay": false,
+      "venue": "The Mill Inn",
+      "suburb": "Millmerran",
+      "address": "The Mill Inn, 33 McKenzie Street, Millmerran, QLD, 4357",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "music"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/dreams-presents-fleetwood-mac-rumours-50th-anniversary-tour-millmerran-tickets-2003180323271",
+      "summary": "Celebrate 50 years of Fleetwood Mac’s Rumours with Dreams performing the iconic album in full, plus Fleetwood Mac and Stevie Nicks hits!"
+    },
+    {
       "id": "3196246f00029136",
       "kind": "event",
       "title": "Open Heavens - Rich in Life!",
@@ -2946,6 +2922,49 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "901bd5a1000266a8",
+      "kind": "event",
+      "title": "Jesus Christ Superstar",
+      "start": "2027-06-24T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "The Empire",
+      "suburb": "Toowoomba",
+      "address": "The Empire, Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "empire",
+      "sourceUrl": "https://empiretheatre.com.au/whats-on/jesus-christ-superstar",
+      "summary": "Andrew Lloyd Webber and Tim Rice’s global rock musical phenomenon returns to The Empire in an electrifying retelling of one of history’s most enduring stories, exploring timeless themes of passion, betrayal and redemption."
+    },
+    {
+      "id": "5bd009060002f3ba",
+      "kind": "event",
+      "title": "2027 Toowoomba Open Day",
+      "start": "2027-08-14T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "UniSQ Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "UniSQ Toowoomba",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "unisq",
+      "sourceUrl": "https://www.unisq.edu.au/events/2027/08/open-days-2027/toowoomba-open-day"
     }
   ]
 }
