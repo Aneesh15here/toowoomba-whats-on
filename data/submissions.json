@@ -1301,6 +1301,48 @@
       "url": "https://www.facebook.com/events/1127550843021057/",
       "items": "",
       "summary": "Saturday 21 November, 12:00 pm–12:30 pm at Toowoomba City Library. Organised by Harshit Walia (ToowoombaMeditation.com). Ticketed; the price was not published."
+    },
+    {
+      "status": "approved",
+      "kind": "event",
+      "title": "Mayoral Carols by Candlelight (Triple M)",
+      "start": "2026-12-13T18:00:00+10:00",
+      "end": null,
+      "allDay": false,
+      "venue": "Frogs Hollow, Queens Park",
+      "suburb": "East Toowoomba",
+      "address": "",
+      "organiser": "Triple M Mayoral Carols by Candlelight",
+      "price": "See listing",
+      "ageGroups": ["families"],
+      "communities": ["multicultural"],
+      "categories": ["music"],
+      "source": "community (facebook)",
+      "sourceUrl": "https://www.facebook.com/events/1082488501438807/",
+      "url": "https://www.facebook.com/events/1082488501438807/",
+      "items": "",
+      "summary": "Sunday 13 December, from 6:00 pm at Frogs Hollow, Queens Park, Toowoomba. Live-streamed by Thru A Lens Media. Organised by Triple M Mayoral Carols by Candlelight. No end time was published. Whether it is free or paid was not published."
+    },
+    {
+      "status": "approved",
+      "kind": "event",
+      "title": "GOCOO taiko workshop with Kaoly Asano",
+      "start": "2026-12-01T17:30:00+10:00",
+      "end": "2026-12-01T20:30:00+10:00",
+      "allDay": false,
+      "venue": "QCWA Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "",
+      "organiser": "Kaoly Asano / GOCOO",
+      "price": "$50 per session, family of 4 $150",
+      "ageGroups": ["families"],
+      "communities": ["multicultural"],
+      "categories": ["music", "education"],
+      "source": "community (humanitix)",
+      "sourceUrl": "https://events.humanitix.com/kaoly-gocoo2026",
+      "url": "https://events.humanitix.com/kaoly-gocoo2026",
+      "items": "",
+      "summary": "Tuesday 1 December, 5:30 pm–8:30 pm at QCWA Toowoomba. Ages 12+, beginners welcome, 30 spots. Arrive 30 minutes early. $50 per session; family of 4 $150. Organised by Kaoly Asano / GOCOO. The street address was not published."
     }
   ]
 }
