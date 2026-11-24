@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:47:26.949Z",
+  "generatedAt": "2026-11-24T19:29:22.958Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,13 +25,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
-      "kept": 55,
-      "error": null,
+      "ok": false,
+      "parsed": 0,
+      "kept": 53,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 53 earlier listing(s) from this source."
       ]
     },
     {
@@ -48,7 +47,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 5,
+      "kept": 6,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -95,8 +94,8 @@
     {
       "id": "garage",
       "ok": true,
-      "parsed": 1,
-      "kept": 0,
+      "parsed": 2,
+      "kept": 1,
       "error": null,
       "notes": [
         "Facebook and Instagram are not fetched. List those sales through the share form.",
@@ -128,52 +127,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "9855e7c40005c784",
-      "kind": "event",
-      "title": "Getting Started with Online Banking with Be Connected",
-      "start": "2026-11-24T14:00:00+10:00",
-      "end": "2026-11-24T15:30:00+10:00",
-      "allDay": false,
-      "venue": "Clifton Library",
-      "suburb": "Clifton",
-      "address": "Clifton Library, 8 Meara Place, Clifton, QLD, 4361",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/getting-started-with-online-banking-with-be-connected-tickets-2003271143918",
-      "summary": "You will learn how to set up your own online banking access\nand manage it safely."
-    },
-    {
-      "id": "d8d87ba80001aebd",
-      "kind": "event",
-      "title": "Honouring Her",
-      "start": "2026-11-24T18:30:00+10:00",
-      "end": "2026-11-24T20:30:00+10:00",
-      "allDay": false,
-      "venue": "DeMolay House",
-      "suburb": "East Toowoomba",
-      "address": "DeMolay House, 90 Margaret Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/honouring-her-tickets-2002909120095",
-      "summary": "Pause. Honour yourself. A women's experience to reconnect with your self-worth, reawaken your inner strength & reclaim your personal power."
     },
     {
       "id": "9a112e36000822e6",
@@ -521,6 +474,31 @@
       "summary": "Dave Hughes calls him a rising star. 50M+ views, lightning wit, zero filter: an hour of fast, filthy laughs. One night only. 18+"
     },
     {
+      "id": "adb723b400019b36",
+      "kind": "garage",
+      "title": "ALL MUST GO!",
+      "start": "2026-11-28T10:00:00+10:00",
+      "end": "2026-11-28T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Private house",
+      "suburb": "South Toowoomba",
+      "address": "Private house",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "garage"
+      ],
+      "source": "garage",
+      "sourceUrl": "https://www.buysearchsell.com.au/buy-sell/garage-sales/all-must-go/6386953/",
+      "summary": "SOUTH TOOWOOMBA\n 9 Tame Street\nEVERYTHING MUST GO! MASSIVE HOUSE CLEARANCE — CASH ONLY. This Saturday, the 28th, from 10 a.m. to 2 p.m. ONLY. *Games and collectibles. *Tools and gardening equipment. *Lawn mower. …",
+      "items": "SOUTH TOOWOOMBA\n 9 Tame Street\nEVERYTHING MUST GO! MASSIVE HOUSE CLEARANCE — CASH ONLY. This Saturday, the 28th, from 10 a.m. to 2 p.m. ONLY. *Games and collectibles. *Tools and gardening equipment. *Lawn mower. …"
+    },
+    {
       "id": "5eebb124000ece1d",
       "kind": "event",
       "title": "Cruise For Kids 2026 Family-friendly Motor Vehicle Show & Shine and Community Cruise Registration",
@@ -661,6 +639,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
+    },
+    {
+      "id": "3dd5acd40005997e",
+      "kind": "event",
+      "title": "Toowoomba Online Speed Dating Made Easy for Newcomers",
+      "start": "2026-11-29T19:00:00+10:00",
+      "end": "2026-11-29T20:00:00+10:00",
+      "allDay": false,
+      "venue": "18 Bowen Street",
+      "suburb": "Toowoomba City",
+      "address": "18 Bowen St, Toowoomba City QLD 4350, Australia, Toowoomba City, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/puzzle-nights-quiet-pieces/events/317555499/",
+      "summary": "Puzzle Nights & Quiet Pieces"
     },
     {
       "id": "271227220002f812",
@@ -1545,30 +1545,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/end-of-year-celebration-6-december-2026"
-    },
-    {
-      "id": "48ef291900051462",
-      "kind": "event",
-      "title": "Nano-Smooth Look & Learn - Toowoomba",
-      "start": "2026-12-07T09:30:00+10:00",
-      "end": "2026-12-07T12:30:00+10:00",
-      "allDay": false,
-      "venue": "TAFE Queensland - Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "100 Bridge St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/nano-smooth-look-and-learn-toowoomba"
     },
     {
       "id": "3600ec390005fb8c",
@@ -2757,6 +2733,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
+    },
+    {
+      "id": "f6c5d5b10007ab9b",
+      "kind": "event",
+      "title": "GIQ Greenlife Industry Tour: Boomaroo & Toowoomba",
+      "start": "2027-03-05T09:00:00+10:00",
+      "end": "2027-03-05T15:30:00+10:00",
+      "allDay": false,
+      "venue": "Boomaroo Nurseries Southbrook",
+      "suburb": "Southbrook",
+      "address": "142 Harelmar Rd, Southbrook QLD 4363, Australia",
+      "price": "Free–$49",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/greenlife-industry-tour-boomaroo"
     },
     {
       "id": "4d672f7d000a6d46",
