@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T03:32:16.715Z",
+  "generatedAt": "2026-11-25T18:38:32.483Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,13 +25,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
-      "kept": 54,
-      "error": null,
+      "ok": false,
+      "parsed": 0,
+      "kept": 50,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 50 earlier listing(s) from this source."
       ]
     },
     {
@@ -77,8 +76,8 @@
     {
       "id": "unisq",
       "ok": true,
-      "parsed": 2,
-      "kept": 2,
+      "parsed": 3,
+      "kept": 3,
       "error": null,
       "notes": [
         "Reads unisq.edu.au/events and keeps rows whose location includes Toowoomba."
@@ -128,123 +127,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "b71900d90006bace",
-      "kind": "event",
-      "title": "2026 SCOTS PGC College Foundation Toowoomba Luncheon",
-      "start": "2026-11-25T11:30:00+10:00",
-      "end": "2026-11-25T15:00:00+10:00",
-      "allDay": false,
-      "venue": "Picnic Point Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "164 Tourist Rd, Toowoomba City QLD 4350, Australia",
-      "price": "$35",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/2026-scots-pgc-college-foundation-toowoomba-luncheon"
-    },
-    {
-      "id": "542de64900052acb",
-      "kind": "event",
-      "title": "DROP IN | Game Zone @ Toowoomba City Library",
-      "start": "2026-11-25T15:30:00+10:00",
-      "end": "2026-11-25T17:00:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-game-zone-toowoomba-city-library-tickets-2002014825235",
-      "summary": "Meet new people and play fun games in a relaxed and welcoming space."
-    },
-    {
-      "id": "b505026400058d0e",
-      "kind": "event",
-      "title": "The Society for Tactical Regrets and Perilous Renewal",
-      "start": "2026-11-25T15:30:00+10:00",
-      "end": "2026-11-25T17:30:00+10:00",
-      "allDay": false,
-      "venue": "158 Margaret St",
-      "suburb": "Toowoomba City",
-      "address": "158 Margaret St, 158 Margaret Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "young-adults",
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486445325",
-      "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
-    },
-    {
-      "id": "2b0b837c000a9c16",
-      "kind": "event",
-      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
-      "start": "2026-11-25T17:45:00+10:00",
-      "end": "2026-11-25T18:45:00+10:00",
-      "allDay": false,
-      "venue": "Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849274662377",
-      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
-    },
-    {
-      "id": "c328ad0e000291a3",
-      "kind": "event",
-      "title": "INTRO TO GROOV3: Toowoomba",
-      "start": "2026-11-25T18:30:00+10:00",
-      "end": "2026-11-25T19:30:00+10:00",
-      "allDay": false,
-      "venue": "Belong Church",
-      "suburb": "South Toowoomba",
-      "address": "Belong Church, 1 Fitzgibbon Street, South Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "faith",
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-2003385469870",
-      "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
     },
     {
       "id": "e571d00600044284",
@@ -1505,6 +1387,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/end-of-year-celebration-6-december-2026"
+    },
+    {
+      "id": "48ef291900051462",
+      "kind": "event",
+      "title": "Nano-Smooth Look & Learn - Toowoomba",
+      "start": "2026-12-07T09:30:00+10:00",
+      "end": "2026-12-07T12:30:00+10:00",
+      "allDay": false,
+      "venue": "TAFE Queensland - Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "100 Bridge St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/nano-smooth-look-and-learn-toowoomba"
     },
     {
       "id": "3600ec390005fb8c",
@@ -2836,6 +2742,30 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/copy-of-toowoomba-commons-worship-nights"
+    },
+    {
+      "id": "6145a9200006d3ce",
+      "kind": "event",
+      "title": "Career Advisers Seminar",
+      "start": "2027-02-25T00:00:00+10:00",
+      "end": null,
+      "allDay": true,
+      "venue": "UniSQ Ipswich Campus and UniSQ Toowoomba Campus",
+      "suburb": "Toowoomba",
+      "address": "UniSQ Ipswich Campus and UniSQ Toowoomba Campus",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "unisq",
+      "sourceUrl": "https://www.unisq.edu.au/events/2027/02/career-adviser",
+      "summary": "We welcome you to our campuses where you will learn more about our exciting new UniSQ degrees and initiatives, admissions trends and pathways options."
     },
     {
       "id": "034204c40007d6c5",
