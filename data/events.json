@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:29:22.958Z",
+  "generatedAt": "2026-11-25T03:32:16.715Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,19 +25,20 @@
     },
     {
       "id": "eventbrite",
-      "ok": false,
-      "parsed": 0,
-      "kept": 53,
-      "error": "Eventbrite HTTP 405",
+      "ok": true,
+      "parsed": 79,
+      "kept": 54,
+      "error": null,
       "notes": [
-        "Kept 53 earlier listing(s) from this source."
+        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
       ]
     },
     {
       "id": "humanitix",
       "ok": true,
       "parsed": 32,
-      "kept": 44,
+      "kept": 51,
       "error": null,
       "notes": [
         "Uses the public Australia/Toowoomba search page."
@@ -127,71 +128,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "9a112e36000822e6",
-      "kind": "event",
-      "title": "Bx Networking Toowoomba - Business Networking in Brisbane",
-      "start": "2026-11-25T08:00:00+10:00",
-      "end": "2026-11-25T10:00:00+10:00",
-      "allDay": false,
-      "venue": "The Southern Hotel Toowoomba",
-      "suburb": "Kearneys Spring",
-      "address": "The Southern Hotel Toowoomba, 839 Ruthven Street, Kearneys Spring, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316334546",
-      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
-    },
-    {
-      "id": "dfeaa5f3000377f9",
-      "kind": "event",
-      "title": "2026 QLD Roadshow - Toowoomba",
-      "start": "2026-11-25T09:00:00+10:00",
-      "end": "2026-11-25T12:00:00+10:00",
-      "allDay": false,
-      "venue": "Oaks Toowoomba Hotel",
-      "suburb": "Toowoomba City",
-      "address": "25 Annand St, Toowoomba City QLD 4350, Australia",
-      "price": "$30–$50",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/2026-qld-roadshow-toowoomba"
-    },
-    {
-      "id": "5a2fcb4b0003bb95",
-      "kind": "event",
-      "title": "Coffee and Connect - The Weekly Pause",
-      "start": "2026-11-25T09:30:00+10:00",
-      "end": "2026-11-25T10:30:00+10:00",
-      "allDay": false,
-      "venue": "15-17 Kitchener St",
-      "suburb": "East Toowoomba",
-      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/coffee-and-connect-the-weekly-pause-tickets-2004101787395",
-      "summary": "Take a break, grab a coffee, and chill with other carers to reset for your week."
     },
     {
       "id": "b71900d90006bace",
@@ -641,6 +577,28 @@
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
+      "id": "6aee92c40001895a",
+      "kind": "event",
+      "title": "Language Exchange",
+      "start": "2026-11-29T16:00:00+10:00",
+      "end": "2026-11-29T16:45:00+10:00",
+      "allDay": false,
+      "venue": "New Hope",
+      "suburb": "Toowoomba",
+      "address": "12 Peace Street, Toowoomba, AU",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317548051/",
+      "summary": "International Hangouts Toowoomba"
+    },
+    {
       "id": "3dd5acd40005997e",
       "kind": "event",
       "title": "Toowoomba Online Speed Dating Made Easy for Newcomers",
@@ -661,28 +619,6 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/puzzle-nights-quiet-pieces/events/317555499/",
       "summary": "Puzzle Nights & Quiet Pieces"
-    },
-    {
-      "id": "271227220002f812",
-      "kind": "event",
-      "title": "Toowoomba Singles Speed Social",
-      "start": "2026-11-29T19:00:00+10:00",
-      "end": "2026-11-29T20:00:00+10:00",
-      "allDay": false,
-      "venue": "GW78+FP Birnam",
-      "suburb": "Toowoomba",
-      "address": "GW78+FP Birnam, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/friendly-blades-ice-skating-social-club/events/317481399/",
-      "summary": "Friendly Blades Ice Skating Social Club"
     },
     {
       "id": "981bfab10004aa91",
@@ -869,15 +805,39 @@
       "summary": "A career within the Queensland Police Service is like no other. Register for a recruiting information and Q&A session to learn more."
     },
     {
-      "id": "f71500680003d076",
+      "id": "42aeac1c00048997",
       "kind": "event",
-      "title": "Line Dancing: Fortnightly Boot Scootin'",
-      "start": "2026-12-01T18:00:00+10:00",
-      "end": "2026-12-01T19:30:00+10:00",
+      "title": "Canvas Memories: Mod Podge Photo Art",
+      "start": "2026-12-02T09:30:00+10:00",
+      "end": "2026-12-02T10:30:00+10:00",
       "allDay": false,
-      "venue": "Aberfeldy Barn",
+      "venue": "Wellways Carer Gateway",
       "suburb": "Toowoomba",
-      "address": "Aberfeldy Barn, 126 Macaulay Street, Westbrook, Toowoomba, QLD, 4350",
+      "address": "Wellways Carer Gateway, 15-17 Kitchener Street, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/canvas-memories-mod-podge-photo-art-tickets-2005344712016",
+      "summary": "Create a personalised photo canvas using Mod Podge. Bring your own photo or print one at the Hub, get creative, and enjoy a relaxed morning"
+    },
+    {
+      "id": "dd114f0b0003bac4",
+      "kind": "event",
+      "title": "Coffee and Connect - The Weekly Pause",
+      "start": "2026-12-02T09:30:00+10:00",
+      "end": "2026-12-02T10:30:00+10:00",
+      "allDay": false,
+      "venue": "15-17 Kitchener St",
+      "suburb": "East Toowoomba",
+      "address": "15-17 Kitchener St, 15-17 Kitchener Street, East Toowoomba, QLD, 4350",
       "price": "Paid",
       "ageGroups": [
         "families"
@@ -887,8 +847,8 @@
       ],
       "categories": [],
       "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/line-dancing-fortnightly-boot-scootin-tickets-1999743166643",
-      "summary": "Welcome to Boot Scootin' Line Dancing Fortnightly with Cody!"
+      "sourceUrl": "https://www.eventbrite.com.au/e/coffee-and-connect-the-weekly-pause-tickets-2004101788398",
+      "summary": "Take a break, grab a coffee, and chill with other carers to reset for your week."
     },
     {
       "id": "c77491650003686d",
@@ -1595,6 +1555,28 @@
       "summary": "Come along and talk about the latest books you've read.  Read to the monthly theme for inspiration or bring your latest reads instead!"
     },
     {
+      "id": "64b60211000823bd",
+      "kind": "event",
+      "title": "Bx Networking Toowoomba - Business Networking in Brisbane",
+      "start": "2026-12-09T08:00:00+10:00",
+      "end": "2026-12-09T10:00:00+10:00",
+      "allDay": false,
+      "venue": "The Southern Hotel Toowoomba",
+      "suburb": "Kearneys Spring",
+      "address": "The Southern Hotel Toowoomba, 839 Ruthven Street, Kearneys Spring, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316335549",
+      "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
+    },
+    {
       "id": "c7795e95000283f7",
       "kind": "event",
       "title": "The Australian Army Band",
@@ -2000,6 +1982,31 @@
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
     },
     {
+      "id": "b4072a090005d260",
+      "kind": "event",
+      "title": "DROP IN | Talk, Read, Sing & Play @ Highfields Library",
+      "start": "2026-12-16T09:30:00+10:00",
+      "end": "2026-12-16T10:00:00+10:00",
+      "allDay": false,
+      "venue": "Highfields Library",
+      "suburb": "Highfields",
+      "address": "Highfields Library, 32 Obrien Road, Highfields, QLD, 4352",
+      "price": "Paid",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/drop-in-talk-read-sing-play-highfields-library-tickets-2004871458502",
+      "summary": "Children learn through play! Join us at the Highfields Library these school holidays to Talk, Read, Sing and Play."
+    },
+    {
       "id": "3ffd7c10000272b1",
       "kind": "event",
       "title": "Build a Bot 2 Day Workshop",
@@ -2118,10 +2125,10 @@
       "summary": "Card making workshop"
     },
     {
-      "id": "8a15130b0004ceaa",
+      "id": "014baf8e0004ce6d",
       "kind": "event",
       "title": "Christmas Trivia & Games Social Catchup",
-      "start": "2026-12-18T14:00:00+10:00",
+      "start": "2026-12-18T13:00:00+10:00",
       "end": "2026-12-18T15:00:00+10:00",
       "allDay": false,
       "venue": "Wellways Toowoomba",
@@ -2303,6 +2310,29 @@
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
     },
     {
+      "id": "b37f6f1600040320",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-06T10:00:00+10:00",
+      "end": "2027-01-06T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
       "id": "0c6567800002af6c",
       "kind": "event",
       "title": "New Year Recipe Swap",
@@ -2323,6 +2353,52 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/new-year-recipe-swap-tickets-2005108331997",
       "summary": "Start the year with good food, fresh ideas, and great conversation."
+    },
+    {
+      "id": "485ae8f100040357",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-07T10:00:00+10:00",
+      "end": "2027-01-07T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "f7d9d338000402b1",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-13T10:00:00+10:00",
+      "end": "2027-01-13T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
     },
     {
       "id": "c0d3c6710002cad1",
@@ -2348,6 +2424,29 @@
       "source": "library",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Libraries/Library-programs-and-events/First-5-Forever-and-0-5-year-sessions",
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
+    },
+    {
+      "id": "853c27c1000402e8",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-14T10:00:00+10:00",
+      "end": "2027-01-14T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
     },
     {
       "id": "64fee8e9000441cf",
@@ -2445,6 +2544,52 @@
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Yarraman Library: Tuesday 20 October, 17 November, 15 December, 19 January, 10.15 - 10.45am"
     },
     {
+      "id": "ea9b7f3600040242",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-20T10:00:00+10:00",
+      "end": "2027-01-20T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "5767789100040279",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-21T10:00:00+10:00",
+      "end": "2027-01-21T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
       "id": "a17412d90002a28d",
       "kind": "event",
       "title": "McGregor School 2027",
@@ -2530,6 +2675,52 @@
       "source": "council",
       "sourceUrl": "https://www.tr.qld.gov.au/Places-and-activities/Things-to-see-and-do/Events-and-special-days/Australian-citizenship-ceremony",
       "summary": "Australian citizenship ceremony. Citizenship ceremony process. Monday, 25 January 2027 - 10am and 2pm"
+    },
+    {
+      "id": "0219b48b000403c3",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-27T10:00:00+10:00",
+      "end": "2027-01-27T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "5bed49de000403fa",
+      "kind": "event",
+      "title": "Toowoomba Inclusive Social Connections",
+      "start": "2027-01-28T10:00:00+10:00",
+      "end": "2027-01-28T14:00:00+10:00",
+      "allDay": false,
+      "venue": "Groom Park Hall",
+      "suburb": "South Toowoomba",
+      "address": "Groom Park Hall, 104C Neil St, South Toowoomba QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
     },
     {
       "id": "1c487c8800033094",
