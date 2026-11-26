@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:50:52.406Z",
+  "generatedAt": "2026-11-26T18:24:32.642Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,7 +27,7 @@
       "id": "eventbrite",
       "ok": true,
       "parsed": 79,
-      "kept": 54,
+      "kept": 58,
       "error": null,
       "notes": [
         "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
@@ -48,7 +48,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 6,
+      "kept": 5,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -130,53 +130,6 @@
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
     },
     {
-      "id": "e571d00600044284",
-      "kind": "event",
-      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
-      "start": "2026-11-26T12:00:00+10:00",
-      "end": "2026-11-26T16:00:00+10:00",
-      "allDay": false,
-      "venue": "376 Ruthven St",
-      "suburb": "Toowoomba City",
-      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
-    },
-    {
-      "id": "79c4cd7a00023cf0",
-      "kind": "event",
-      "title": "Make & Mend Afternoon",
-      "start": "2026-11-26T13:00:00+10:00",
-      "end": "2026-11-26T16:00:00+10:00",
-      "allDay": false,
-      "venue": "USQ Library",
-      "suburb": "Darling Heights",
-      "address": "USQ Library, Room R104, Darling Heights, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/make-mend-afternoon-tickets-1988885946405",
-      "summary": "Bring along a project and socialise in the Make & Mend afternoons at the UniSQ Makerspace."
-    },
-    {
       "id": "cb2f392d0005a717",
       "kind": "event",
       "title": "Forever Neil Diamond - THE GREATEST HITS OF NEIL DIAMOND",
@@ -223,50 +176,6 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com/e/1-day-public-speaking-and-presentation-skills-training-in-geelong-tickets-1991374468642",
       "summary": "Learn to communicate with confidence, deliver engaging presentations, and influence any audience effectively."
-    },
-    {
-      "id": "95d112fc0004b4b6",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-27T09:00:00+10:00",
-      "end": "2026-11-27T10:30:00+10:00",
-      "allDay": false,
-      "venue": "Newtown State School",
-      "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317520806/",
-      "summary": "Community English Class"
-    },
-    {
-      "id": "9c972f0b0004f35e",
-      "kind": "event",
-      "title": "Free Community English Class – Toowoomba",
-      "start": "2026-11-27T13:30:00+10:00",
-      "end": "2026-11-27T14:30:00+10:00",
-      "allDay": false,
-      "venue": "Harlaxton State School",
-      "suburb": "Toowoomba",
-      "address": "110 Ruthven St, Toowoomba, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317523294/",
-      "summary": "Community English Class"
     },
     {
       "id": "d1f7b94a0005491b",
@@ -366,9 +275,9 @@
       "sourceUrl": "https://events.humanitix.com/cruise-for-kids-2026-family-friendly-motor-vehicle-show-and-shine-fun-day-and-community-cruise"
     },
     {
-      "id": "9738ae6a0002f197",
+      "id": "2186a085000405b0",
       "kind": "event",
-      "title": "Conscious Dancing and Celebration",
+      "title": "Conscious dancing leading to deep relaxation",
       "start": "2026-11-28T12:00:00+10:00",
       "end": "2026-11-28T13:00:00+10:00",
       "allDay": false,
@@ -382,12 +291,10 @@
       "communities": [
         "multicultural"
       ],
-      "categories": [
-        "education"
-      ],
+      "categories": [],
       "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com.au/e/conscious-dancing-and-celebration-tickets-2005130843329",
-      "summary": "Conscious dancing leading into meditation at Toowoomba City Library Level 3"
+      "sourceUrl": "https://www.eventbrite.com.au/e/conscious-dancing-leading-to-deep-relaxation-tickets-2005497271325",
+      "summary": "Conscious dancing in person, with a casual, fun path to deep relaxation."
     },
     {
       "id": "3ea7d9c700022b1f",
@@ -526,6 +433,28 @@
       "source": "meetup",
       "sourceUrl": "https://www.meetup.com/puzzle-nights-quiet-pieces/events/317555499/",
       "summary": "Puzzle Nights & Quiet Pieces"
+    },
+    {
+      "id": "ecc4a3580004b36b",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-11-30T09:00:00+10:00",
+      "end": "2026-11-30T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317560041/",
+      "summary": "Community English Class"
     },
     {
       "id": "981bfab10004aa91",
@@ -996,6 +925,28 @@
       "summary": "First 5 Forever and 0-5 year sessions. Read + Play. Clifton Library: Thursday 22 October, 5 November, 19 November, 3 December, 17 December, and 14 January, 10am – 10.30am"
     },
     {
+      "id": "da25001600062eaf",
+      "kind": "event",
+      "title": "VERTO IDPwD Free Movie Screening Toowoomba",
+      "start": "2026-12-03T10:00:00+10:00",
+      "end": "2026-12-03T12:00:00+10:00",
+      "allDay": false,
+      "venue": "BCC Cinemas Toowoomba Strand",
+      "suburb": "Toowoomba City",
+      "address": "BCC Cinemas Toowoomba Strand, 163 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/verto-idpwd-free-movie-screening-toowoomba-tickets-2004206276926",
+      "summary": "Celebrate International Day of People with Disability with a Free Movie Screening at BCC Cinemas Toowoomba Strand"
+    },
+    {
       "id": "8df8992800085ea4",
       "kind": "event",
       "title": "Automating more of your small business tasks | Toowoomba | Beginner",
@@ -1187,6 +1138,30 @@
       "summary": "First 5 Forever and 0-5 year sessions. Talk, Read, Sing, Play in the Community. Harlaxton Hub: Friday 6 November and 4 December, 10am - 11am"
     },
     {
+      "id": "7c102e130003d97f",
+      "kind": "event",
+      "title": "Festive Bath Salts Gift Workshop",
+      "start": "2026-12-04T13:30:00+10:00",
+      "end": "2026-12-04T14:30:00+10:00",
+      "allDay": false,
+      "venue": "Wellways Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "Wellways Toowoomba, 15-17 Kitchener Street, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/festive-bath-salts-gift-workshop-tickets-2005438080283",
+      "summary": "Create your own festive bath salts in a personalised gift jar. Enjoy a relaxed morning of creativity, connection and Christmas cheer!"
+    },
+    {
       "id": "089d01730007ce5f",
       "kind": "event",
       "title": "Downs & Western Festive Season Celebration",
@@ -1322,6 +1297,54 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/fun-factory-origami-card-making-tickets-2002014374888",
       "summary": "Fold a little piece of fun with our origami card making session."
+    },
+    {
+      "id": "6f030ac20003e017",
+      "kind": "event",
+      "title": "The Pinch Pottery Workshop",
+      "start": "2026-12-05T11:00:00+10:00",
+      "end": "2026-12-05T13:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Choral Society",
+      "suburb": "North Toowoomba",
+      "address": "Toowoomba Choral Society, Cnr of Raff and Bridge Streets, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/the-pinch-pottery-workshop-tickets-2005498924269",
+      "summary": "Learn pinch pot pottery in a relaxed, guided workshop. All materials, glazing, firing and treats included. Beginners welcome!"
+    },
+    {
+      "id": "a37206d400050108",
+      "kind": "event",
+      "title": "The Clay Experience Pottery Workshop",
+      "start": "2026-12-05T14:00:00+10:00",
+      "end": "2026-12-05T17:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Choral Society",
+      "suburb": "North Toowoomba",
+      "address": "Toowoomba Choral Society, Cnr of Raff and Bridge Streets, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com/e/the-clay-experience-pottery-workshop-tickets-2005497690579",
+      "summary": "Pull up a chair at the clay table. We’ll teach you how to shape clay and work with you as you bring your ideas to life. Tea and treats, too!"
     },
     {
       "id": "62ba59390004c5fe",
@@ -1694,6 +1717,28 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/patrick-james-live-in-concert-groom-park-hall-toowoomba"
+    },
+    {
+      "id": "c0f4607f00056fbc",
+      "kind": "event",
+      "title": "Gingerbread People Decorating for Young Carers",
+      "start": "2026-12-11T09:30:00+10:00",
+      "end": "2026-12-11T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Wellways Toowoomba",
+      "suburb": "Toowoomba",
+      "address": "Wellways Toowoomba, 15 -17 Kitchener street, Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/gingerbread-people-decorating-for-young-carers-tickets-2005496860095",
+      "summary": "Decorate a gingerbread person with icing and festive treats! A fun and creative holiday activity for young carers!"
     },
     {
       "id": "e724f0c5000691f4",
@@ -2172,11 +2217,11 @@
       "summary": "Summer Fest"
     },
     {
-      "id": "ef82b277000492aa",
+      "id": "c3b6b3f3000491be",
       "kind": "event",
       "title": "Holiday Sing Along & Social Gathering",
-      "start": "2026-12-24T14:00:00+10:00",
-      "end": "2026-12-24T15:00:00+10:00",
+      "start": "2026-12-24T10:00:00+10:00",
+      "end": "2026-12-24T11:00:00+10:00",
       "allDay": false,
       "venue": "Wellways Toowoomba",
       "suburb": "East Toowoomba",
@@ -2355,6 +2400,31 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "11ec97650003c55a",
+      "kind": "event",
+      "title": "Pottery for Paws Workshop",
+      "start": "2027-01-09T18:00:00+10:00",
+      "end": "2027-01-09T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba Choral Society",
+      "suburb": "North Toowoomba",
+      "address": "Toowoomba Choral Society, Cnr of Raff and Bridge Streets, North Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "kids",
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/pottery-for-paws-workshop-tickets-2005500424757",
+      "summary": "Make a personalised bowl for your fur baby in this guided 2 hour pottery workshop. Materials, glazing, firing and (human) treats included!"
     },
     {
       "id": "f7d9d338000402b1",
@@ -2567,6 +2637,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "89efae0d00044156",
+      "kind": "event",
+      "title": "🧵 The Creative Studios: Sew & Sing | Toowoomba",
+      "start": "2027-01-21T12:00:00+10:00",
+      "end": "2027-01-21T16:00:00+10:00",
+      "allDay": false,
+      "venue": "376 Ruthven St",
+      "suburb": "Toowoomba City",
+      "address": "376 Ruthven St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
       "id": "a17412d90002a28d",
@@ -3070,30 +3163,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-qld-starts-at-60-meetup"
-    },
-    {
-      "id": "f08a90cd0007a63b",
-      "kind": "event",
-      "title": "DREAMS PRESENTS: FLEETWOOD MAC RUMOURS 50TH ANNIVERSARY TOUR | MILLMERRAN",
-      "start": "2027-04-17T19:00:00+10:00",
-      "end": "2027-04-17T22:00:00+10:00",
-      "allDay": false,
-      "venue": "The Mill Inn",
-      "suburb": "Millmerran",
-      "address": "The Mill Inn, 33 McKenzie Street, Millmerran, QLD, 4357",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/dreams-presents-fleetwood-mac-rumours-50th-anniversary-tour-millmerran-tickets-2003180323271",
-      "summary": "Celebrate 50 years of Fleetwood Mac’s Rumours with Dreams performing the iconic album in full, plus Fleetwood Mac and Stevie Nicks hits!"
     },
     {
       "id": "3196246f00029136",
