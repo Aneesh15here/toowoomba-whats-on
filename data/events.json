@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T18:38:32.483Z",
+  "generatedAt": "2026-11-26T02:50:52.406Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,12 +25,13 @@
     },
     {
       "id": "eventbrite",
-      "ok": false,
-      "parsed": 0,
-      "kept": 50,
-      "error": "Eventbrite HTTP 405",
+      "ok": true,
+      "parsed": 79,
+      "kept": 54,
+      "error": null,
       "notes": [
-        "Kept 50 earlier listing(s) from this source."
+        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
+        "Stopped after at most 4 public result pages."
       ]
     },
     {
@@ -459,6 +460,30 @@
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
     },
     {
+      "id": "3a82056c000a9773",
+      "kind": "event",
+      "title": "De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city library",
+      "start": "2026-11-29T10:00:00+10:00",
+      "end": "2026-11-29T11:00:00+10:00",
+      "allDay": false,
+      "venue": "Toowoomba City Library",
+      "suburb": "Toowoomba City",
+      "address": "Toowoomba City Library, 155 Herries Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/de-stress-rejuvenate-with-heartfulness-meditation-toowoomba-city-library-tickets-849276237087",
+      "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
+    },
+    {
       "id": "6aee92c40001895a",
       "kind": "event",
       "title": "Language Exchange",
@@ -803,6 +828,29 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/connect-with-peakcare-toowoomba"
+    },
+    {
+      "id": "65d85c8800058bf5",
+      "kind": "event",
+      "title": "The Society for Tactical Regrets and Perilous Renewal",
+      "start": "2026-12-02T15:30:00+10:00",
+      "end": "2026-12-02T17:30:00+10:00",
+      "allDay": false,
+      "venue": "158 Margaret St",
+      "suburb": "Toowoomba City",
+      "address": "158 Margaret St, 158 Margaret Street, Toowoomba City, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "young-adults",
+        "adults"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/the-society-for-tactical-regrets-and-perilous-renewal-tickets-1982486446328",
+      "summary": "An ongoing series of one-shot D&D games for teenagers and young adult players of all skill levels."
     },
     {
       "id": "d175dd270001c2d1",
@@ -1481,6 +1529,31 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/bx-networking-toowoomba-business-networking-in-brisbane-tickets-1983316335549",
       "summary": "Business Networking Reimagined - Unlock the power of word-of-mouth marketing & get hundreds of quality referrals flowing into your business"
+    },
+    {
+      "id": "95aa3dab00029220",
+      "kind": "event",
+      "title": "INTRO TO GROOV3: Toowoomba",
+      "start": "2026-12-09T18:30:00+10:00",
+      "end": "2026-12-09T19:30:00+10:00",
+      "allDay": false,
+      "venue": "Belong Church",
+      "suburb": "South Toowoomba",
+      "address": "Belong Church, 1 Fitzgibbon Street, South Toowoomba, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "arts"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/intro-to-groov3-toowoomba-tickets-2005230075134",
+      "summary": "Come have a dance with us at our fabulous location in Toowoomba!"
     },
     {
       "id": "c7795e95000283f7",
@@ -2627,6 +2700,32 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/toowoomba-inclusive-community-connections"
+    },
+    {
+      "id": "ed12cae80005884a",
+      "kind": "event",
+      "title": "Turkish Mosaic Lamp Workshop - Toowoomba",
+      "start": "2027-01-29T18:00:00+10:00",
+      "end": "2027-01-29T20:00:00+10:00",
+      "allDay": false,
+      "venue": "Middle Ridge Uniting Church",
+      "suburb": "Centenary Heights",
+      "address": "Middle Ridge Uniting Church, 264 Stenner Street, Centenary Heights, QLD, 4350",
+      "price": "Paid",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "faith",
+        "arts",
+        "education"
+      ],
+      "source": "eventbrite",
+      "sourceUrl": "https://www.eventbrite.com.au/e/turkish-mosaic-lamp-workshop-toowoomba-tickets-2005434875698",
+      "summary": "Make your own Turkish mosaic lamp from glass tiles and beads. All materials included, no experience needed. Take your lamp home."
     },
     {
       "id": "1c487c8800033094",
