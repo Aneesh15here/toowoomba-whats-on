@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T02:50:40.636Z",
+  "generatedAt": "2026-11-27T18:10:14.289Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -27,10 +27,10 @@
       "id": "eventbrite",
       "ok": false,
       "parsed": 0,
-      "kept": 58,
+      "kept": 56,
       "error": "Eventbrite HTTP 405",
       "notes": [
-        "Kept 58 earlier listing(s) from this source."
+        "Kept 56 earlier listing(s) from this source."
       ]
     },
     {
@@ -56,8 +56,8 @@
     {
       "id": "empire",
       "ok": true,
-      "parsed": 5,
-      "kept": 5,
+      "parsed": 4,
+      "kept": 4,
       "error": null,
       "notes": [
         "Uses schema.org Event data when present, otherwise the what's-on cards."
@@ -127,78 +127,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/indelarts-film-empiretheatre-t4-2026"
-    },
-    {
-      "id": "cb2f392d0005a717",
-      "kind": "event",
-      "title": "Forever Neil Diamond - THE GREATEST HITS OF NEIL DIAMOND",
-      "start": "2026-11-27T00:00:00+10:00",
-      "end": null,
-      "allDay": true,
-      "venue": "The Empire",
-      "suburb": "Toowoomba",
-      "address": "The Empire, Toowoomba",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "music"
-      ],
-      "source": "empire",
-      "sourceUrl": "https://empiretheatre.com.au/whats-on/forever-neil-diamond-the-greatest-hits-of-neil-diamond",
-      "summary": "Endorsed by music legend Neil Diamond & starring internationally renowned Peter Byrne"
-    },
-    {
-      "id": "11f2f3b8000a07c5",
-      "kind": "event",
-      "title": "1-Day Public Speaking and Presentation Skills Training in Geelong",
-      "start": "2026-11-27T08:00:00+10:00",
-      "end": "2026-11-27T16:00:00+10:00",
-      "allDay": false,
-      "venue": "The venue is yet to be announced",
-      "suburb": "Toowoomba",
-      "address": "The venue is yet to be announced, For any assistance, please reach out to events@wisdomhubglobal.com, Toowoomba, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/1-day-public-speaking-and-presentation-skills-training-in-geelong-tickets-1991374468642",
-      "summary": "Learn to communicate with confidence, deliver engaging presentations, and influence any audience effectively."
-    },
-    {
-      "id": "d1f7b94a0005491b",
-      "kind": "event",
-      "title": "Mickey Wilson - How Ya Goin? | Toowoomba Stand Up Comedy Show",
-      "start": "2026-11-27T19:30:00+10:00",
-      "end": "2026-11-27T20:30:00+10:00",
-      "allDay": false,
-      "venue": "The Irish",
-      "suburb": "Toowoomba City",
-      "address": "The Irish, 80 Russell Street, Toowoomba City, QLD, 4350",
-      "price": "Paid",
-      "ageGroups": [
-        "young-adults"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "arts"
-      ],
-      "source": "eventbrite",
-      "sourceUrl": "https://www.eventbrite.com/e/mickey-wilson-how-ya-goin-toowoomba-stand-up-comedy-show-tickets-2003333011967",
-      "summary": "Dave Hughes calls him a rising star. 50M+ views, lightning wit, zero filter: an hour of fast, filthy laughs. One night only. 18+"
     },
     {
       "id": "adb723b400019b36",
@@ -390,37 +318,15 @@
       "summary": "[Toowoomba] Heartfulness Relaxation & Meditation sessions"
     },
     {
-      "id": "6aee92c40001895a",
+      "id": "91a98b5c000537c5",
       "kind": "event",
-      "title": "Language Exchange",
-      "start": "2026-11-29T16:00:00+10:00",
-      "end": "2026-11-29T16:45:00+10:00",
-      "allDay": false,
-      "venue": "New Hope",
-      "suburb": "Toowoomba",
-      "address": "12 Peace Street, Toowoomba, AU",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/international-hangouts-toowoomba/events/317548051/",
-      "summary": "International Hangouts Toowoomba"
-    },
-    {
-      "id": "3dd5acd40005997e",
-      "kind": "event",
-      "title": "Toowoomba Online Speed Dating Made Easy for Newcomers",
+      "title": "Toowoomba Online Speed Dating for Local Singles",
       "start": "2026-11-29T19:00:00+10:00",
       "end": "2026-11-29T20:00:00+10:00",
       "allDay": false,
-      "venue": "18 Bowen Street",
+      "venue": "5 Victoria Street",
       "suburb": "Toowoomba City",
-      "address": "18 Bowen St, Toowoomba City QLD 4350, Australia, Toowoomba City, au",
+      "address": "5 Victoria St, Toowoomba City QLD 4350, Australia, Toowoomba City, au",
       "price": "See listing",
       "ageGroups": [
         "families"
@@ -430,19 +336,19 @@
       ],
       "categories": [],
       "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/puzzle-nights-quiet-pieces/events/317555499/",
-      "summary": "Puzzle Nights & Quiet Pieces"
+      "sourceUrl": "https://www.meetup.com/flour-and-friends-fresh-pasta-circle/events/317593076/",
+      "summary": "Flour and Friends Fresh Pasta Circle"
     },
     {
-      "id": "ecc4a3580004b36b",
+      "id": "79d6d7630005af45",
       "kind": "event",
       "title": "Free Community English Class – Toowoomba",
       "start": "2026-11-30T09:00:00+10:00",
       "end": "2026-11-30T10:30:00+10:00",
       "allDay": false,
-      "venue": "Newtown State School",
+      "venue": "Darling Heights State School",
       "suburb": "Toowoomba",
-      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "address": "Wuth St, Toowoomba, au",
       "price": "See listing",
       "ageGroups": [
         "families"
@@ -452,7 +358,7 @@
       ],
       "categories": [],
       "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/community-english-class/events/317560041/",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317560043/",
       "summary": "Community English Class"
     },
     {
@@ -498,6 +404,28 @@
       "source": "eventbrite",
       "sourceUrl": "https://www.eventbrite.com.au/e/book-club-board-games-connect-tickets-2004099277889",
       "summary": "Enjoy books, board games and great conversation while building connections with other carers."
+    },
+    {
+      "id": "eaaec3810004b334",
+      "kind": "event",
+      "title": "Free Community English Class – Toowoomba",
+      "start": "2026-12-01T09:00:00+10:00",
+      "end": "2026-12-01T10:30:00+10:00",
+      "allDay": false,
+      "venue": "Newtown State School",
+      "suburb": "Toowoomba",
+      "address": "24 Albert St, Newtown, Toowoomba, au",
+      "price": "See listing",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [],
+      "source": "meetup",
+      "sourceUrl": "https://www.meetup.com/community-english-class/events/317573433/",
+      "summary": "Community English Class"
     },
     {
       "id": "6d29201500066167",
