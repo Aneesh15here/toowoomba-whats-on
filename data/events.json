@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T18:24:32.642Z",
+  "generatedAt": "2026-11-27T02:50:40.636Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -25,13 +25,12 @@
     },
     {
       "id": "eventbrite",
-      "ok": true,
-      "parsed": 79,
+      "ok": false,
+      "parsed": 0,
       "kept": 58,
-      "error": null,
+      "error": "Eventbrite HTTP 405",
       "notes": [
-        "Reads the public Toowoomba destination page as a browser document. schema.org JSON-LD supplies the events, and embedded page data supplies start times. HTTP 405 is retried: Eventbrite returns 405 for a POST of this page, for GET /api/v3/destination/search/, and for some non-browser GETs. The disallowed /api/v3/destination/events/ path is not requested.",
-        "Stopped after at most 4 public result pages."
+        "Kept 58 earlier listing(s) from this source."
       ]
     },
     {
@@ -1460,30 +1459,6 @@
       "sourceUrl": "https://events.humanitix.com/end-of-year-celebration-6-december-2026"
     },
     {
-      "id": "48ef291900051462",
-      "kind": "event",
-      "title": "Nano-Smooth Look & Learn - Toowoomba",
-      "start": "2026-12-07T09:30:00+10:00",
-      "end": "2026-12-07T12:30:00+10:00",
-      "allDay": false,
-      "venue": "TAFE Queensland - Toowoomba",
-      "suburb": "Toowoomba City",
-      "address": "100 Bridge St, Toowoomba City QLD 4350, Australia",
-      "price": "Free",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/nano-smooth-look-and-learn-toowoomba"
-    },
-    {
       "id": "3600ec390005fb8c",
       "kind": "event",
       "title": "Meet the Author & Writer's Workshop: Lee Boehm",
@@ -2427,6 +2402,53 @@
       "summary": "Make a personalised bowl for your fur baby in this guided 2 hour pottery workshop. Materials, glazing, firing and (human) treats included!"
     },
     {
+      "id": "7a5ef0980003b5f4",
+      "kind": "event",
+      "title": "Group Art Therapy Program",
+      "start": "2027-01-11T10:00:00+10:00",
+      "end": "2027-01-11T11:30:00+10:00",
+      "allDay": false,
+      "venue": "Multicultural Australia",
+      "suburb": "Toowoomba City",
+      "address": "15 Snell St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "arts",
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/group-art-therapy-program-uvmu4frh"
+    },
+    {
+      "id": "6bfd3f63000623a4",
+      "kind": "event",
+      "title": "Toowoomba: ACOTAR 7 Early Store Openings at QBD Books",
+      "start": "2027-01-12T08:15:00+10:00",
+      "end": "2027-01-12T09:30:00+10:00",
+      "allDay": false,
+      "venue": "QBD Books Toowoomba",
+      "suburb": "Toowoomba City",
+      "address": "Shop 85 Margaret St, Toowoomba City QLD 4350, Australia",
+      "price": "Free",
+      "ageGroups": [
+        "families"
+      ],
+      "communities": [
+        "multicultural"
+      ],
+      "categories": [
+        "free"
+      ],
+      "source": "humanitix",
+      "sourceUrl": "https://events.humanitix.com/toowoomba-acotar-7-early-store-openings-at-qbd-books"
+    },
+    {
       "id": "f7d9d338000402b1",
       "kind": "event",
       "title": "Toowoomba Inclusive Social Connections",
@@ -2542,30 +2564,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/the-creative-studios-sew-and-sing-or-toowoomba"
-    },
-    {
-      "id": "2e5473a3000a4050",
-      "kind": "event",
-      "title": "Connect and Learn - Tool Sharpening for Garden & Home",
-      "start": "2027-01-18T18:30:00+10:00",
-      "end": "2027-01-18T20:30:00+10:00",
-      "allDay": false,
-      "venue": "Level 3 Meeting Rooms, Toowoomba City Library",
-      "suburb": "Toowoomba City",
-      "address": "Herries St, Toowoomba City QLD 4350, Australia",
-      "price": "Free–$50",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [
-        "education",
-        "free"
-      ],
-      "source": "humanitix",
-      "sourceUrl": "https://events.humanitix.com/connect-and-learn-tool-sharpening-for-garden-and-home"
     },
     {
       "id": "72be527e0002ff17",
