@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T18:10:14.289Z",
+  "generatedAt": "2026-11-28T02:40:26.502Z",
   "timezone": "Australia/Brisbane",
   "sources": [
     {
@@ -47,7 +47,7 @@
       "id": "meetup",
       "ok": true,
       "parsed": 8,
-      "kept": 5,
+      "kept": 4,
       "error": null,
       "notes": [
         "Reads the public find page for au--toowoomba. Disallowed query strings are not used."
@@ -1788,28 +1788,6 @@
       ],
       "source": "humanitix",
       "sourceUrl": "https://events.humanitix.com/mantra-rhythm-toowoomba"
-    },
-    {
-      "id": "d67a557a000445e3",
-      "kind": "event",
-      "title": "Toowoomba Men Dating Men: Online Speed Dating",
-      "start": "2026-12-13T19:00:00+10:00",
-      "end": "2026-12-13T20:00:00+10:00",
-      "allDay": false,
-      "venue": "239 Carroll Rd",
-      "suburb": "Toowoomba",
-      "address": "239 Carroll Rd, Toowoomba, au",
-      "price": "See listing",
-      "ageGroups": [
-        "families"
-      ],
-      "communities": [
-        "multicultural"
-      ],
-      "categories": [],
-      "source": "meetup",
-      "sourceUrl": "https://www.meetup.com/resume-rescue-circle/events/317541579/",
-      "summary": "Resume Rescue Circle"
     },
     {
       "id": "13e109c50007689f",

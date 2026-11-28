@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c4aee75a00057f59@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Term 4 2026: indelarts Toowoomba Film Class - Empire Theatre
 DESCRIPTION:Term 4 2026: indelarts Toowoomba Film Class - Empire Theatre is
   listed for Tue\, 6 Oct 2026\, 1:00 am – Tue\, 8 Dec\, 2:30 pm at The Em
@@ -28,21 +28,8 @@ DTSTART;TZID=Australia/Brisbane:20261006T010000
 DTEND;TZID=Australia/Brisbane:20261208T143000
 END:VEVENT
 BEGIN:VEVENT
-UID:highfields-parkrun-20261128@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
-SUMMARY:Highfields parkrun
-DESCRIPTION:Highfields parkrun is listed for Sat\, 28 Nov 2026\, 7:00 am at
-  Highfields Sports and Recreation Park\, Highfields. A free Saturday 5 km 
- at Highfields Sports and Recreation Park on Barracks Road. Price: Free.
-URL:https://whatsontoowoomba.au/things-to-do/highfields-parkrun/
-LOCATION:Highfields Sports and Recreation Park\, 220 Barracks Road\, Highfi
- elds\, QLD\, 4352
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261128T070000
-END:VEVENT
-BEGIN:VEVENT
 UID:e89241780001e560@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Moving/Garage Sale
 DESCRIPTION:Moving/Garage Sale is listed for Sat\, 28 Nov 2026\, 7:00 am 
  – Sun\, 29 Nov\, 5:00 pm at 16 Morton St\, South Toowoomba. Open 7:00 am
@@ -56,21 +43,8 @@ DTSTART;TZID=Australia/Brisbane:20261128T070000
 DTEND;TZID=Australia/Brisbane:20261129T170000
 END:VEVENT
 BEGIN:VEVENT
-UID:toowoomba-parkrun-20261128@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
-SUMMARY:Toowoomba parkrun
-DESCRIPTION:Toowoomba parkrun is listed for Sat\, 28 Nov 2026\, 7:00 am at 
- Queens Park\, East Toowoomba. A free 5 km every Saturday morning on the pa
- ths through Queens Park. Register once with parkrun and bring a barcode. P
- rice: Free.
-URL:https://whatsontoowoomba.au/things-to-do/toowoomba-parkrun/
-LOCATION:Queens Park\, Lindsay Street\, East Toowoomba\, QLD\, 4350
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261128T070000
-END:VEVENT
-BEGIN:VEVENT
 UID:adb723b400019b36@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:ALL MUST GO!
 DESCRIPTION:ALL MUST GO! is listed for Sat\, 28 Nov 2026\, 10:00 am – 2:0
  0 pm at Private house\, South Toowoomba. SOUTH TOOWOOMBA 9 Tame Street EVE
@@ -85,7 +59,7 @@ DTEND;TZID=Australia/Brisbane:20261128T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:5eebb124000ece1d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Cruise For Kids 2026 Family-friendly Motor Vehicle Show & Shine and
   Community Cruise Registration
 DESCRIPTION:Cruise For Kids 2026 Family-friendly Motor Vehicle Show & Shine
@@ -99,7 +73,7 @@ DTEND;TZID=Australia/Brisbane:20261128T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:5aa691950009af03@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine/Fun
   Day
 DESCRIPTION:Cruise For Kids 2026 Family-Friendly Motor Vehicle Show & Shine
@@ -113,7 +87,7 @@ DTEND;TZID=Australia/Brisbane:20261128T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:2186a085000405b0@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Conscious dancing leading to deep relaxation
 DESCRIPTION:Conscious dancing leading to deep relaxation is listed for Sat\
  , 28 Nov 2026\, 12:00 pm – 1:00 pm at Toowoomba\, Toowoomba. Conscious d
@@ -128,7 +102,7 @@ DTEND;TZID=Australia/Brisbane:20261128T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:8a5da97a0003321d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas Family Fun Day + Tree Lighting
 DESCRIPTION:Christmas Family Fun Day + Tree Lighting is listed for Sat\, 28
   Nov 2026\, 3:00 pm at New Hope\, Harlaxton. Saturday 28 November\, from 3
@@ -142,7 +116,7 @@ DTSTART;TZID=Australia/Brisbane:20261128T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:3ea7d9c700022b1f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Rnb 90s - 2000s Before Dark
 DESCRIPTION:Rnb 90s - 2000s Before Dark is listed for Sat\, 28 Nov 2026\, 4
  :00 pm – 9:00 pm at Cube Hotel\, Toowoomba. Get ready to vibe to the smo
@@ -157,7 +131,7 @@ DTEND;TZID=Australia/Brisbane:20261128T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:5ebe7eca00032377@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Poets in the Bookstore
 DESCRIPTION:Poets in the Bookstore is listed for Sat\, 28 Nov 2026\, 6:00 p
  m – 8:00 pm at Jeremy's Book Exchange\, Top Camp. Saturday 28 November\,
@@ -172,7 +146,7 @@ DTEND;TZID=Australia/Brisbane:20261128T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:e744fb530007379f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Live & Local @ The Powerhouse - Saturday 28 November 2026
 DESCRIPTION:Live & Local @ The Powerhouse - Saturday 28 November 2026 is li
  sted for Sat\, 28 Nov 2026\, 6:30 pm – 10:30 pm at The Powerhouse Toowoo
@@ -186,7 +160,7 @@ DTEND;TZID=Australia/Brisbane:20261128T223000
 END:VEVENT
 BEGIN:VEVENT
 UID:bec9ce9a00056238@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:DownsSteam Christmas Lights Train Trip
 DESCRIPTION:DownsSteam Christmas Lights Train Trip is listed for Sat\, 28 N
  ov 2026\, 7:00 pm – 9:00 pm at Toowoomba railway station\, Toowoomba Cit
@@ -200,7 +174,7 @@ DTEND;TZID=Australia/Brisbane:20261128T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:5f618633000442ba@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Sun\, 29 Nov 2026\, 10:00 am – 2:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -214,7 +188,7 @@ DTEND;TZID=Australia/Brisbane:20261129T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:3a82056c000a9773@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:De-stress & Rejuvenate with Heartfulness meditation @Toowoomba city
   library
 DESCRIPTION:De-stress & Rejuvenate with Heartfulness meditation @Toowoomba 
@@ -230,7 +204,7 @@ DTEND;TZID=Australia/Brisbane:20261129T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:91a98b5c000537c5@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Online Speed Dating for Local Singles
 DESCRIPTION:Toowoomba Online Speed Dating for Local Singles is listed for S
  un\, 29 Nov 2026\, 7:00 pm – 8:00 pm at 5 Victoria Street\, Toowoomba Ci
@@ -244,7 +218,7 @@ DTEND;TZID=Australia/Brisbane:20261129T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:79d6d7630005af45@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Free Community English Class – Toowoomba
 DESCRIPTION:Free Community English Class – Toowoomba is listed for Mon\, 
  30 Nov 2026\, 9:00 am – 10:30 am at Darling Heights State School\, Toowo
@@ -257,7 +231,7 @@ DTEND;TZID=Australia/Brisbane:20261130T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:981bfab10004aa91@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Preparing the Hub for the Holiday Season
 DESCRIPTION:Preparing the Hub for the Holiday Season is listed for Mon\, 30
   Nov 2026\, 10:00 am – 11:00 am at Wellways Toowoomba\, East Toowoomba. 
@@ -272,7 +246,7 @@ DTEND;TZID=Australia/Brisbane:20261130T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:ea56c0310003e496@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Book club\, Board Games & Connect
 DESCRIPTION:Book club\, Board Games & Connect is listed for Mon\, 30 Nov 20
  26\, 2:00 pm – 3:00 pm at Wellways Toowoomba\, East Toowoomba. Enjoy boo
@@ -287,7 +261,7 @@ DTEND;TZID=Australia/Brisbane:20261130T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:eaaec3810004b334@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Free Community English Class – Toowoomba
 DESCRIPTION:Free Community English Class – Toowoomba is listed for Tue\, 
  1 Dec 2026\, 9:00 am – 10:30 am at Newtown State School\, Toowoomba. Com
@@ -300,7 +274,7 @@ DTEND;TZID=Australia/Brisbane:20261201T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:6d29201500066167@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas Cookie Mix in a Jar Create • Connect • Celebrate
 DESCRIPTION:Christmas Cookie Mix in a Jar Create • Connect • Celebrate 
  is listed for Tue\, 1 Dec 2026\, 10:00 am – 12:00 pm at Wellways Toowoom
@@ -315,7 +289,7 @@ DTEND;TZID=Australia/Brisbane:20261201T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:955096900004c05c@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Coffee Catch Up with Flourish QMS | Toowoomba
 DESCRIPTION:Coffee Catch Up with Flourish QMS | Toowoomba is listed for Tue
  \, 1 Dec 2026\, 10:00 am – 11:30 am at Dream Cafe & Bar\, Toowoomba City
@@ -330,7 +304,7 @@ DTEND;TZID=Australia/Brisbane:20261201T113000
 END:VEVENT
 BEGIN:VEVENT
 UID:0fa7c95c0006e414@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Tabletop Tuesday: NDIS Supported Community Activity
 DESCRIPTION:Tabletop Tuesday: NDIS Supported Community Activity is listed f
  or Tue\, 1 Dec 2026\, 10:00 am – 2:00 pm at The Milk House Collective\, 
@@ -346,7 +320,7 @@ DTEND;TZID=Australia/Brisbane:20261201T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:0baaa332000bbad4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Talk\, Read\, Sing\, Play in the Community — 1a Birch Court Park\
  , Darling Heights
 DESCRIPTION:Talk\, Read\, Sing\, Play in the Community — 1a Birch Court P
@@ -363,7 +337,7 @@ DTEND;TZID=Australia/Brisbane:20261201T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:4b9f948900033064@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 1 Dec
   2026\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -376,7 +350,7 @@ DTEND;TZID=Australia/Brisbane:20261201T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:bfe0925f0003d5de@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:GOCOO taiko workshop with Kaoly Asano
 DESCRIPTION:GOCOO taiko workshop with Kaoly Asano is listed for Tue\, 1 Dec
   2026\, 5:30 pm – 8:30 pm at QCWA Toowoomba\, Toowoomba. Tuesday 1 Decem
@@ -390,7 +364,7 @@ DTEND;TZID=Australia/Brisbane:20261201T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:4309600900051193@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Queensland Police Service Recruiting Seminar - Toowoomba
 DESCRIPTION:Queensland Police Service Recruiting Seminar - Toowoomba is lis
  ted for Tue\, 1 Dec 2026\, 5:30 pm – 7:00 pm at 52 Neil St\, Toowoomba C
@@ -405,7 +379,7 @@ DTEND;TZID=Australia/Brisbane:20261201T190000
 END:VEVENT
 BEGIN:VEVENT
 UID:42aeac1c00048997@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Canvas Memories: Mod Podge Photo Art
 DESCRIPTION:Canvas Memories: Mod Podge Photo Art is listed for Wed\, 2 Dec 
  2026\, 9:30 am – 10:30 am at Wellways Carer Gateway\, Toowoomba. Create 
@@ -420,7 +394,7 @@ DTEND;TZID=Australia/Brisbane:20261202T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:dd114f0b0003bac4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Coffee and Connect - The Weekly Pause
 DESCRIPTION:Coffee and Connect - The Weekly Pause is listed for Wed\, 2 Dec
   2026\, 9:30 am – 10:30 am at 15-17 Kitchener St\, East Toowoomba. Take 
@@ -435,7 +409,7 @@ DTEND;TZID=Australia/Brisbane:20261202T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:c77491650003686d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Millmerran Library
 DESCRIPTION:Read + Play — Millmerran Library is listed for Wed\, 2 Dec 20
  26\, 10:00 am – 10:30 am at Millmerran Library\, Millmerran. First 5 For
@@ -450,7 +424,7 @@ DTEND;TZID=Australia/Brisbane:20261202T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:bc9d883f00046d80@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Conversations with the Chair Toowoomba
 DESCRIPTION:Conversations with the Chair Toowoomba is listed for Wed\, 2 De
  c 2026\, 10:30 am – 1:00 pm at Highfields Library\, Highfields. Price: F
@@ -464,7 +438,7 @@ DTEND;TZID=Australia/Brisbane:20261202T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:10040c060003a777@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Connect with PeakCare | Toowoomba
 DESCRIPTION:Connect with PeakCare | Toowoomba is listed for Wed\, 2 Dec 202
  6\, 3:00 pm – 5:00 pm at The Rock Toowoomba\, Toowoomba City. Price: Fre
@@ -478,7 +452,7 @@ DTEND;TZID=Australia/Brisbane:20261202T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:65d85c8800058bf5@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Society for Tactical Regrets and Perilous Renewal
 DESCRIPTION:The Society for Tactical Regrets and Perilous Renewal is listed
   for Wed\, 2 Dec 2026\, 3:30 pm – 5:30 pm at 158 Margaret St\, Toowoomba
@@ -493,7 +467,7 @@ DTEND;TZID=Australia/Brisbane:20261202T173000
 END:VEVENT
 BEGIN:VEVENT
 UID:d175dd270001c2d1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Into the Woods
 DESCRIPTION:Into the Woods is listed for Thu\, 3 Dec 2026 at The Empire\, T
  oowoomba. Opera Queensland\, Queensland Theatre Company and Queensland Sym
@@ -507,7 +481,7 @@ DTEND;VALUE=DATE:20261204
 END:VEVENT
 BEGIN:VEVENT
 UID:fc3445de00087eda@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:BxNetworking Highfields - Business Networking Reimagined in Queensl
  and
 DESCRIPTION:BxNetworking Highfields - Business Networking Reimagined in Que
@@ -523,7 +497,7 @@ DTEND;TZID=Australia/Brisbane:20261203T100000
 END:VEVENT
 BEGIN:VEVENT
 UID:f0e0811b00073d02@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Getting Found on Google & AI Search | Toowoomba | Beginner
 DESCRIPTION:Getting Found on Google & AI Search | Toowoomba | Beginner is l
  isted for Thu\, 3 Dec 2026\, 9:00 am – 10:30 am at Toowoomba City Librar
@@ -537,7 +511,7 @@ DTEND;TZID=Australia/Brisbane:20261203T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:8d64a79d000596f7@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Stronger Together: NDIS Roundtable – Toowoomba
 DESCRIPTION:Stronger Together: NDIS Roundtable – Toowoomba is listed for 
  Thu\, 3 Dec 2026\, 9:30 am – 1:00 pm at Toowoomba City Library\, Toowoom
@@ -553,7 +527,7 @@ DTEND;TZID=Australia/Brisbane:20261203T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:2b3e70050004f702@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Celebrate DAW\, IDPwD and Christmas 2026
 DESCRIPTION:Celebrate DAW\, IDPwD and Christmas 2026 is listed for Thu\, 3 
  Dec 2026\, 10:00 am – 12:00 pm at Multicultural Australia\, Toowoomba Ci
@@ -567,7 +541,7 @@ DTEND;TZID=Australia/Brisbane:20261203T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:0a1f42920002caa7@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Clifton Library
 DESCRIPTION:Read + Play — Clifton Library is listed for Thu\, 3 Dec 2026\
  , 10:00 am – 10:30 am at Clifton Library\, Clifton. First 5 Forever and 
@@ -582,7 +556,7 @@ DTEND;TZID=Australia/Brisbane:20261203T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:da25001600062eaf@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:VERTO IDPwD Free Movie Screening Toowoomba
 DESCRIPTION:VERTO IDPwD Free Movie Screening Toowoomba is listed for Thu\, 
  3 Dec 2026\, 10:00 am – 12:00 pm at BCC Cinemas Toowoomba Strand\, Toowo
@@ -597,7 +571,7 @@ DTEND;TZID=Australia/Brisbane:20261203T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:8df8992800085ea4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Automating more of your small business tasks | Toowoomba | Beginner
 DESCRIPTION:Automating more of your small business tasks | Toowoomba | Begi
  nner is listed for Thu\, 3 Dec 2026\, 11:00 am – 12:30 pm at Toowoomba C
@@ -611,7 +585,7 @@ DTEND;TZID=Australia/Brisbane:20261203T123000
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6b6cf10008d7dc@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:International Day of People with Disability - Join us for Morning T
  ea
 DESCRIPTION:International Day of People with Disability - Join us for Morni
@@ -627,7 +601,7 @@ DTEND;TZID=Australia/Brisbane:20261203T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:9018a7fc00044193@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Thu\, 3 Dec 2026\, 12:00 pm – 4:00 pm at 376 Ruthven St\, Toowoomba Cit
@@ -641,7 +615,7 @@ DTEND;TZID=Australia/Brisbane:20261203T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:2b325da0000652a9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Building a Website with AI | Toowoomba | Intermediate
 DESCRIPTION:Building a Website with AI | Toowoomba | Intermediate is listed
   for Thu\, 3 Dec 2026\, 1:00 pm – 2:30 pm at Toowoomba City Library\, To
@@ -655,7 +629,7 @@ DTEND;TZID=Australia/Brisbane:20261203T143000
 END:VEVENT
 BEGIN:VEVENT
 UID:9be9337d0004f095@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Let's meetup to share and learn more about WordPress
 DESCRIPTION:Let's meetup to share and learn more about WordPress is listed 
  for Thu\, 3 Dec 2026\, 6:00 pm – 8:00 pm at 2 Derwak St\, Harristown. To
@@ -668,7 +642,7 @@ DTEND;TZID=Australia/Brisbane:20261203T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:ed3eda640004017d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:DROP IN | Bikkies and Boardgames
 DESCRIPTION:DROP IN | Bikkies and Boardgames is listed for Fri\, 4 Dec 2026
  \, 10:00 am – 12:00 pm at Toowoomba City Library\, Toowoomba City. Looki
@@ -683,7 +657,7 @@ DTEND;TZID=Australia/Brisbane:20261204T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:4ee52dd70003bbbb@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Cecil Plains Library
 DESCRIPTION:Read + Play — Cecil Plains Library is listed for Fri\, 4 Dec 
  2026\, 10:00 am – 10:30 am at Cecil Plains Library\, Cecil Plains. First
@@ -698,7 +672,7 @@ DTEND;TZID=Australia/Brisbane:20261204T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:bd23f6e900052147@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Talk\, Read\, Sing\, Play in the Community — Harlaxton Hub
 DESCRIPTION:Talk\, Read\, Sing\, Play in the Community — Harlaxton Hub is
   listed for Fri\, 4 Dec 2026\, 10:00 am – 11:00 am at Harlaxton Hub\, Ha
@@ -713,7 +687,7 @@ DTEND;TZID=Australia/Brisbane:20261204T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:7c102e130003d97f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Festive Bath Salts Gift Workshop
 DESCRIPTION:Festive Bath Salts Gift Workshop is listed for Fri\, 4 Dec 2026
  \, 1:30 pm – 2:30 pm at Wellways Toowoomba\, Toowoomba. Create your own 
@@ -728,7 +702,7 @@ DTEND;TZID=Australia/Brisbane:20261204T143000
 END:VEVENT
 BEGIN:VEVENT
 UID:089d01730007ce5f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Downs & Western Festive Season Celebration
 DESCRIPTION:Downs & Western Festive Season Celebration is listed for Fri\, 
  4 Dec 2026\, 2:00 pm – 4:00 pm at Master Builders Queensland (Toowoomba)
@@ -743,7 +717,7 @@ DTEND;TZID=Australia/Brisbane:20261204T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:1eaae4af0003445e@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Rowes Christmas Light Show 2026
 DESCRIPTION:Rowes Christmas Light Show 2026 is listed for Fri\, 4 Dec 2026\
  , 6:30 pm – 9:00 pm at Rowes Furniture\, Toowoomba. Friday 4 December\, 
@@ -758,7 +732,7 @@ DTEND;TZID=Australia/Brisbane:20261204T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:b3402e5200049db4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Sparks Fly Singles Only Bowling - Toowoomba
 DESCRIPTION:Sparks Fly Singles Only Bowling - Toowoomba is listed for Fri\,
   4 Dec 2026\, 6:30 pm – 9:00 pm at Sunset Superbowl\, Glenvale. Join us 
@@ -773,7 +747,7 @@ DTEND;TZID=Australia/Brisbane:20261204T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:1122ea050006945b@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Disciple Making Accelerator
 DESCRIPTION:Toowoomba Disciple Making Accelerator is listed for Fri\, 4 Dec
   2026\, 6:30 pm – Sat\, 5 Dec\, 4:00 pm at Victory Life Church North Too
@@ -787,7 +761,7 @@ DTEND;TZID=Australia/Brisbane:20261205T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:06dd47150001e3a2@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Theatre of Magic
 DESCRIPTION:Theatre of Magic is listed for Sat\, 5 Dec 2026 at The Empire\,
   Toowoomba. Theatre of Magic returns to The Empire in 2026 with four spell
@@ -801,7 +775,7 @@ DTEND;VALUE=DATE:20261206
 END:VEVENT
 BEGIN:VEVENT
 UID:6bd114e90003c7b1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:ACTV GAMES 2.0 TOOWOOMBA
 DESCRIPTION:ACTV GAMES 2.0 TOOWOOMBA is listed for Sat\, 5 Dec 2026\, 6:15 
  am – 8:00 am at ACTV STRENGTH CO TOOWOOMBA \, Toowoomba City. Price: $15
@@ -814,8 +788,34 @@ DTSTART;TZID=Australia/Brisbane:20261205T061500
 DTEND;TZID=Australia/Brisbane:20261205T080000
 END:VEVENT
 BEGIN:VEVENT
+UID:highfields-parkrun-20261205@whatsontoowoomba.au
+DTSTAMP:20261128T024026Z
+SUMMARY:Highfields parkrun
+DESCRIPTION:Highfields parkrun is listed for Sat\, 5 Dec 2026\, 7:00 am at 
+ Highfields Sports and Recreation Park\, Highfields. A free Saturday 5 km a
+ t Highfields Sports and Recreation Park on Barracks Road. Price: Free.
+URL:https://whatsontoowoomba.au/things-to-do/highfields-parkrun/
+LOCATION:Highfields Sports and Recreation Park\, 220 Barracks Road\, Highfi
+ elds\, QLD\, 4352
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261205T070000
+END:VEVENT
+BEGIN:VEVENT
+UID:toowoomba-parkrun-20261205@whatsontoowoomba.au
+DTSTAMP:20261128T024026Z
+SUMMARY:Toowoomba parkrun
+DESCRIPTION:Toowoomba parkrun is listed for Sat\, 5 Dec 2026\, 7:00 am at Q
+ ueens Park\, East Toowoomba. A free 5 km every Saturday morning on the pat
+ hs through Queens Park. Register once with parkrun and bring a barcode. Pr
+ ice: Free.
+URL:https://whatsontoowoomba.au/things-to-do/toowoomba-parkrun/
+LOCATION:Queens Park\, Lindsay Street\, East Toowoomba\, QLD\, 4350
+STATUS:CONFIRMED
+DTSTART;TZID=Australia/Brisbane:20261205T070000
+END:VEVENT
+BEGIN:VEVENT
 UID:c2837a9e00041d08@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Fun Factory: Origami Card Making
 DESCRIPTION:Fun Factory: Origami Card Making is listed for Sat\, 5 Dec 2026
  \, 10:30 am – 12:00 pm at Toowoomba City Library\, Toowoomba City. Fold 
@@ -829,7 +829,7 @@ DTEND;TZID=Australia/Brisbane:20261205T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:6f030ac20003e017@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Pinch Pottery Workshop
 DESCRIPTION:The Pinch Pottery Workshop is listed for Sat\, 5 Dec 2026\, 11:
  00 am – 1:00 pm at Toowoomba Choral Society\, North Toowoomba. Learn pin
@@ -844,7 +844,7 @@ DTEND;TZID=Australia/Brisbane:20261205T130000
 END:VEVENT
 BEGIN:VEVENT
 UID:a37206d400050108@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Clay Experience Pottery Workshop
 DESCRIPTION:The Clay Experience Pottery Workshop is listed for Sat\, 5 Dec 
  2026\, 2:00 pm – 5:00 pm at Toowoomba Choral Society\, North Toowoomba. 
@@ -859,7 +859,7 @@ DTEND;TZID=Australia/Brisbane:20261205T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:baacff66000402f9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Cambooya Christmas Party
 DESCRIPTION:Cambooya Christmas Party is listed for Sat\, 5 Dec 2026\, 4:00 
  pm – 8:00 pm at Cambooya Recreation Grounds\, Cambooya. Saturday 5 Decem
@@ -874,7 +874,7 @@ DTEND;TZID=Australia/Brisbane:20261205T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:62ba59390004c5fe@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:toowoomba queer social ★ 18+ prom night
 DESCRIPTION:toowoomba queer social ★ 18+ prom night is listed for Sat\, 5
   Dec 2026\, 5:00 pm – 11:00 pm at Greek Hall @ 240 Hume Street\, South T
@@ -888,7 +888,7 @@ DTEND;TZID=Australia/Brisbane:20261205T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:01a18b42000431ce@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Fa La La La Flaws: An Ugly Christmas Shirt Mingle
 DESCRIPTION:Fa La La La Flaws: An Ugly Christmas Shirt Mingle is listed for
   Sat\, 5 Dec 2026\, 6:30 pm – 10:00 pm at The Rock\, Toowoomba City. Roc
@@ -903,7 +903,7 @@ DTEND;TZID=Australia/Brisbane:20261205T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:2709ebba00051025@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Liam Higgins - Love Is A Language Tour - Toowoomba
 DESCRIPTION:Liam Higgins - Love Is A Language Tour - Toowoomba is listed fo
  r Sat\, 5 Dec 2026\, 7:00 pm – 11:00 pm at Volcanic Brewing\, Toowoomba 
@@ -917,7 +917,7 @@ DTEND;TZID=Australia/Brisbane:20261205T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:c7acdd8e0004ce0f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba's Christmas Wonderland
 DESCRIPTION:Toowoomba's Christmas Wonderland is listed for Sat\, 5 Dec 2026
  \, 7:00 pm – 10:00 pm at Botanic Gardens\, Queens Park\, East Toowoomba.
@@ -932,7 +932,7 @@ DTEND;TZID=Australia/Brisbane:20261205T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:40b9756f000441c9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Sun\, 6 Dec 2026\, 10:00 am – 2:00 pm at 376 Ruthven St\, Toowoomba Cit
@@ -946,7 +946,7 @@ DTEND;TZID=Australia/Brisbane:20261206T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:e2ce64200006ac00@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:End of Year Celebration 6 December 2026 - Buzzing with Bees
 DESCRIPTION:End of Year Celebration 6 December 2026 - Buzzing with Bees is 
  listed for Sun\, 6 Dec 2026\, 2:00 pm – 5:30 pm at The Hub\, Civic Churc
@@ -960,7 +960,7 @@ DTEND;TZID=Australia/Brisbane:20261206T173000
 END:VEVENT
 BEGIN:VEVENT
 UID:3600ec390005fb8c@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Meet the Author & Writer's Workshop: Lee Boehm
 DESCRIPTION:Meet the Author & Writer's Workshop: Lee Boehm is listed for Mo
  n\, 7 Dec 2026\, 10:00 am – 11:00 am at Toowoomba City Library\, Toowoom
@@ -976,7 +976,7 @@ DTEND;TZID=Australia/Brisbane:20261207T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:3ec4083000023b60@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:UniSQ Library Book Club
 DESCRIPTION:UniSQ Library Book Club is listed for Tue\, 8 Dec 2026\, 1:00 p
  m – 2:00 pm at USQ Library\, Darling Heights. Come along and talk about 
@@ -991,7 +991,7 @@ DTEND;TZID=Australia/Brisbane:20261208T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:64b60211000823bd@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Bx Networking Toowoomba - Business Networking in Brisbane
 DESCRIPTION:Bx Networking Toowoomba - Business Networking in Brisbane is li
  sted for Wed\, 9 Dec 2026\, 8:00 am – 10:00 am at The Southern Hotel Too
@@ -1007,7 +1007,7 @@ DTEND;TZID=Australia/Brisbane:20261209T100000
 END:VEVENT
 BEGIN:VEVENT
 UID:95aa3dab00029220@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:INTRO TO GROOV3: Toowoomba
 DESCRIPTION:INTRO TO GROOV3: Toowoomba is listed for Wed\, 9 Dec 2026\, 6:3
  0 pm – 7:30 pm at Belong Church\, South Toowoomba. Come have a dance wit
@@ -1021,7 +1021,7 @@ DTEND;TZID=Australia/Brisbane:20261209T193000
 END:VEVENT
 BEGIN:VEVENT
 UID:c7795e95000283f7@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Australian Army Band
 DESCRIPTION:The Australian Army Band is listed for Thu\, 10 Dec 2026 at The
   Empire\, Toowoomba. One of the finest military bands in the country makes
@@ -1034,7 +1034,7 @@ DTEND;VALUE=DATE:20261211
 END:VEVENT
 BEGIN:VEVENT
 UID:4595cdc900068037@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Taste of Home - Bring a Plate\, Recipe Swap & Carer Gathering
 DESCRIPTION:Taste of Home - Bring a Plate\, Recipe Swap & Carer Gathering i
  s listed for Thu\, 10 Dec 2026\, 10:30 am – 12:30 pm at 15-17 Kitchener 
@@ -1050,7 +1050,7 @@ DTEND;TZID=Australia/Brisbane:20261210T123000
 END:VEVENT
 BEGIN:VEVENT
 UID:c4653a4c0004411a@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Thu\, 10 Dec 2026\, 12:00 pm – 4:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -1064,7 +1064,7 @@ DTEND;TZID=Australia/Brisbane:20261210T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:5aa133b800037f3c@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Write Time: Writers group
 DESCRIPTION:The Write Time: Writers group is listed for Thu\, 10 Dec 2026\,
   3:30 pm – 5:00 pm at New Leaf Social Work\, Toowoomba City. A low deman
@@ -1078,7 +1078,7 @@ DTEND;TZID=Australia/Brisbane:20261210T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:4dd066230007baba@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:First Aid for Educators - IN SERVICE ONLY - Oakey Kids Patrol
 DESCRIPTION:First Aid for Educators - IN SERVICE ONLY - Oakey Kids Patrol i
  s listed for Thu\, 10 Dec 2026\, 5:30 pm – 8:30 pm at Kids Patrol Oakey 
@@ -1093,7 +1093,7 @@ DTEND;TZID=Australia/Brisbane:20261210T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:fec8f2c70005f2c0@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Patrick James - Live In Concert - GROOM PARK HALL\, TOOWOOMBA
 DESCRIPTION:Patrick James - Live In Concert - GROOM PARK HALL\, TOOWOOMBA i
  s listed for Thu\, 10 Dec 2026\, 7:00 pm – 8:30 pm at Groom Park Hall\, 
@@ -1107,7 +1107,7 @@ DTEND;TZID=Australia/Brisbane:20261210T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:c0f4607f00056fbc@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Gingerbread People Decorating for Young Carers
 DESCRIPTION:Gingerbread People Decorating for Young Carers is listed for Fr
  i\, 11 Dec 2026\, 9:30 am – 11:30 am at Wellways Toowoomba\, Toowoomba. 
@@ -1122,7 +1122,7 @@ DTEND;TZID=Australia/Brisbane:20261211T113000
 END:VEVENT
 BEGIN:VEVENT
 UID:360bdaa800072ee7@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas Twilight Market at Toowoomba Farmers Market
 DESCRIPTION:Christmas Twilight Market at Toowoomba Farmers Market is listed
   for Fri\, 11 Dec 2026\, 4:00 pm – 8:00 pm at Toowoomba Farmers Market\,
@@ -1138,7 +1138,7 @@ DTEND;TZID=Australia/Brisbane:20261211T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:e724f0c5000691f4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Matcha & Ceramic Painting Workshop - Toowoomba
 DESCRIPTION:Matcha & Ceramic Painting Workshop - Toowoomba is listed for Fr
  i\, 11 Dec 2026\, 6:00 pm – 8:00 pm at Middle Ridge Uniting Church\, Cen
@@ -1154,7 +1154,7 @@ DTEND;TZID=Australia/Brisbane:20261211T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:60eca832000144f9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:INTIMO
 DESCRIPTION:INTIMO is listed for Fri\, 11 Dec 2026\, 8:00 pm – Sun\, 13 D
  ec\, 3:00 am at The Cube Hotel\, Toowoomba City. Price: $20.
@@ -1167,7 +1167,7 @@ DTEND;TZID=Australia/Brisbane:20261213T030000
 END:VEVENT
 BEGIN:VEVENT
 UID:995c5a5700036517@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Craft Market Jamboree
 DESCRIPTION:Craft Market Jamboree is listed for Sat\, 12 Dec 2026\, 6:30 am
   – 12:00 pm at The Milk House Collective\, North Toowoomba. Organised by
@@ -1181,7 +1181,7 @@ DTEND;TZID=Australia/Brisbane:20261212T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:bfa9ec3e0007b598@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Turkish Coffee & Ceramic Painting Workshop - Toowoomba
 DESCRIPTION:Turkish Coffee & Ceramic Painting Workshop - Toowoomba is liste
  d for Sat\, 12 Dec 2026\, 9:00 am – 11:00 am at Middle Ridge Uniting Chu
@@ -1196,7 +1196,7 @@ DTEND;TZID=Australia/Brisbane:20261212T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:aa91c0d700022269@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Love Your Cycle
 DESCRIPTION:Love Your Cycle is listed for Sat\, 12 Dec 2026\, 2:00 pm – 3
  :30 pm at Healing Elizabeth\, Toowoomba. The Cycle Sessions Monthly worksh
@@ -1211,7 +1211,7 @@ DTEND;TZID=Australia/Brisbane:20261212T153000
 END:VEVENT
 BEGIN:VEVENT
 UID:09ea5530000560ec@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:DownsSteam Christmas Lights Train Trip
 DESCRIPTION:DownsSteam Christmas Lights Train Trip is listed for Sat\, 12 D
  ec 2026\, 7:00 pm – 9:00 pm at Toowoomba railway station\, Toowoomba Cit
@@ -1225,7 +1225,7 @@ DTEND;TZID=Australia/Brisbane:20261212T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:873240cf00069fdb@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas of Remembrance Service - Toowoomba
 DESCRIPTION:Christmas of Remembrance Service - Toowoomba is listed for Sun\
  , 13 Dec 2026\, 2:00 pm – 4:00 pm at Toowoomba Garden of Remembrance\, K
@@ -1239,7 +1239,7 @@ DTEND;TZID=Australia/Brisbane:20261213T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:d89324e60004b80d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Sunday Soirée – A Cracking Christmas
 DESCRIPTION:Sunday Soirée – A Cracking Christmas is listed for Sun\, 13 
  Dec 2026\, 3:30 pm at Rink 46\, Drayton Bowls Club\, Drayton. Sunday 13 De
@@ -1253,7 +1253,7 @@ DTSTART;TZID=Australia/Brisbane:20261213T153000
 END:VEVENT
 BEGIN:VEVENT
 UID:7d317ad900048fc4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Mantra Rhythm - Toowoomba
 DESCRIPTION:Mantra Rhythm - Toowoomba is listed for Sun\, 13 Dec 2026\, 4:0
  0 pm – 5:30 pm at Clive Berghofer Recreation Centre \, Darling Heights. 
@@ -1267,7 +1267,7 @@ DTEND;TZID=Australia/Brisbane:20261213T173000
 END:VEVENT
 BEGIN:VEVENT
 UID:fbe39bd6000518e7@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Mayoral Carols by Candlelight (Triple M)
 DESCRIPTION:Mayoral Carols by Candlelight (Triple M) is listed for Sun\, 13
   Dec 2026\, 6:00 pm at Frogs Hollow\, Queens Park\, East Toowoomba. Sunday
@@ -1280,21 +1280,8 @@ STATUS:CONFIRMED
 DTSTART;TZID=Australia/Brisbane:20261213T180000
 END:VEVENT
 BEGIN:VEVENT
-UID:d67a557a000445e3@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
-SUMMARY:Toowoomba Men Dating Men: Online Speed Dating
-DESCRIPTION:Toowoomba Men Dating Men: Online Speed Dating is listed for Sun
- \, 13 Dec 2026\, 7:00 pm – 8:00 pm at 239 Carroll Rd\, Toowoomba. Resume
-  Rescue Circle Price: See listing.
-URL:https://whatsontoowoomba.au/events/d67a557a000445e3/
-LOCATION:239 Carroll Rd\, 239 Carroll Rd\, Toowoomba\, au
-STATUS:CONFIRMED
-DTSTART;TZID=Australia/Brisbane:20261213T190000
-DTEND;TZID=Australia/Brisbane:20261213T200000
-END:VEVENT
-BEGIN:VEVENT
 UID:13e109c50007689f@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:How to Achieve the Life You Want: A 2-Day Money Workshop for Youth
 DESCRIPTION:How to Achieve the Life You Want: A 2-Day Money Workshop for Yo
  uth is listed for Mon\, 14 Dec 2026\, 9:00 am – Tue\, 15 Dec\, 3:00 pm a
@@ -1310,7 +1297,7 @@ DTEND;TZID=Australia/Brisbane:20261215T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:44aa901c000585f6@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Gallery Gremlins: School Holiday Sessions
 DESCRIPTION:Gallery Gremlins: School Holiday Sessions is listed for Mon\, 1
  4 Dec 2026\, 10:00 am – 12:00 pm at The Milk House Collective\, North To
@@ -1326,7 +1313,7 @@ DTEND;TZID=Australia/Brisbane:20261214T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:a45048220003f48e@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Life After Caring Group (Toowoomba)
 DESCRIPTION:Life After Caring Group (Toowoomba) is listed for Mon\, 14 Dec 
  2026\, 12:30 pm – 2:00 pm at Wellways Toowoomba\, East Toowoomba. A safe
@@ -1341,7 +1328,7 @@ DTEND;TZID=Australia/Brisbane:20261214T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:582ca8e30002fe95@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Yarraman Library
 DESCRIPTION:Read + Play — Yarraman Library is listed for Tue\, 15 Dec 202
  6\, 10:15 am – 10:45 am at Yarraman Library\, Yarraman. First 5 Forever 
@@ -1356,7 +1343,7 @@ DTEND;TZID=Australia/Brisbane:20261215T104500
 END:VEVENT
 BEGIN:VEVENT
 UID:b4072a090005d260@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:DROP IN | Talk\, Read\, Sing & Play @ Highfields Library
 DESCRIPTION:DROP IN | Talk\, Read\, Sing & Play @ Highfields Library is lis
  ted for Wed\, 16 Dec 2026\, 9:30 am – 10:00 am at Highfields Library\, H
@@ -1371,7 +1358,7 @@ DTEND;TZID=Australia/Brisbane:20261216T100000
 END:VEVENT
 BEGIN:VEVENT
 UID:3ffd7c10000272b1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Build a Bot 2 Day Workshop
 DESCRIPTION:Build a Bot 2 Day Workshop is listed for Thu\, 17 Dec 2026\, 9:
  00 am – Fri\, 18 Dec\, 3:00 pm at USQ Library\, Darling Heights. Learn t
@@ -1386,7 +1373,7 @@ DTEND;TZID=Australia/Brisbane:20261218T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:1d81d35900063fa1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:• QLD 2 Carers\; The Mindful Stitching Project (Toowoomba)
 DESCRIPTION:• QLD 2 Carers\; The Mindful Stitching Project (Toowoomba) is
   listed for Thu\, 17 Dec 2026\, 9:30 am – 11:30 am at Wellways Toowoomba
@@ -1401,7 +1388,7 @@ DTEND;TZID=Australia/Brisbane:20261217T113000
 END:VEVENT
 BEGIN:VEVENT
 UID:f10722fb0002cb78@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Clifton Library
 DESCRIPTION:Read + Play — Clifton Library is listed for Thu\, 17 Dec 2026
  \, 10:00 am – 10:30 am at Clifton Library\, Clifton. First 5 Forever and
@@ -1416,7 +1403,7 @@ DTEND;TZID=Australia/Brisbane:20261217T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:9d9a7e53000442be@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Thu\, 17 Dec 2026\, 12:00 pm – 4:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -1430,7 +1417,7 @@ DTEND;TZID=Australia/Brisbane:20261217T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:43d7682900050693@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Meet\, Make\, and Do @ Toowoomba City Library
 DESCRIPTION:Meet\, Make\, and Do @ Toowoomba City Library is listed for Fri
  \, 18 Dec 2026\, 10:00 am – 12:00 pm at Toowoomba City Library\, Toowoom
@@ -1444,7 +1431,7 @@ DTEND;TZID=Australia/Brisbane:20261218T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:014baf8e0004ce6d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas Trivia & Games Social Catchup
 DESCRIPTION:Christmas Trivia & Games Social Catchup is listed for Fri\, 18 
  Dec 2026\, 1:00 pm – 3:00 pm at Wellways Toowoomba\, East Toowoomba. Tes
@@ -1459,7 +1446,7 @@ DTEND;TZID=Australia/Brisbane:20261218T150000
 END:VEVENT
 BEGIN:VEVENT
 UID:2dc27d7200054936@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Pool Party- Holidays Edition!
 DESCRIPTION:Pool Party- Holidays Edition! is listed for Fri\, 18 Dec 2026\,
   4:00 pm – 6:00 pm at Milne Bay Aquatic & Fitness Centre\, Toowoomba Cit
@@ -1474,7 +1461,7 @@ DTEND;TZID=Australia/Brisbane:20261218T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:9a2b80d00002a085@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Greatest Gift - Christmas
 DESCRIPTION:The Greatest Gift - Christmas is listed for Fri\, 18 Dec 2026\,
   5:30 pm at 11 Moffatt St\, Toowoomba. Friday 18 December\, from 5:30 pm a
@@ -1487,7 +1474,7 @@ DTSTART;TZID=Australia/Brisbane:20261218T173000
 END:VEVENT
 BEGIN:VEVENT
 UID:5f4d99ef000360de@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Summer Fest
 DESCRIPTION:Summer Fest is listed for Sat\, 19 Dec 2026 at Toowoomba Malaya
  li Association\, Middle Ridge. Summer Fest Price: See listing.
@@ -1500,7 +1487,7 @@ DTEND;VALUE=DATE:20261220
 END:VEVENT
 BEGIN:VEVENT
 UID:3af93e460003faa9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Jondaryan Christmas Markets
 DESCRIPTION:Jondaryan Christmas Markets is listed for Sat\, 19 Dec 2026\, 9
  :00 am at Jondaryan Community Hall\, Jondaryan. Santa appearing. Organised
@@ -1513,7 +1500,7 @@ DTSTART;TZID=Australia/Brisbane:20261219T090000
 END:VEVENT
 BEGIN:VEVENT
 UID:fda7d12d0003ac5b@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Christmas Family Fun Day at City Golf
 DESCRIPTION:Christmas Family Fun Day at City Golf is listed for Sun\, 20 De
  c 2026\, 4:00 pm – 6:00 pm at City Golf Club\, Toowoomba. Sunday 20 Dece
@@ -1528,7 +1515,7 @@ DTEND;TZID=Australia/Brisbane:20261220T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:5bda5da400041641@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Community Christmas Carols
 DESCRIPTION:Community Christmas Carols is listed for Sun\, 20 Dec 2026\, 4:
  00 pm at Highfields Cultural Centre\, Highfields. Organised by Community (
@@ -1542,7 +1529,7 @@ DTSTART;TZID=Australia/Brisbane:20261220T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:c3b6b3f3000491be@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Holiday Sing Along & Social Gathering
 DESCRIPTION:Holiday Sing Along & Social Gathering is listed for Thu\, 24 De
  c 2026\, 10:00 am – 11:00 am at Wellways Toowoomba\, East Toowoomba. Cel
@@ -1556,7 +1543,7 @@ DTEND;TZID=Australia/Brisbane:20261224T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:2729400500055bd9@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:WorshipHIM NYE 2026 (Toowoomba)
 DESCRIPTION:WorshipHIM NYE 2026 (Toowoomba) is listed for Wed\, 30 Dec 2026
  \, 6:00 pm – Fri\, 1 Jan\, 10:00 am at Toowoomba Showgrounds Caravan Par
@@ -1571,7 +1558,7 @@ DTEND;TZID=Australia/Brisbane:20270101T100000
 END:VEVENT
 BEGIN:VEVENT
 UID:40c8497200040421@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Sparks Fly Singles Only NYE 80's Party - Toowoomba
 DESCRIPTION:Sparks Fly Singles Only NYE 80's Party - Toowoomba is listed fo
  r Thu\, 31 Dec 2026\, 6:00 pm – 8:30 pm at Flipp'd\, Toowoomba City. Get
@@ -1585,7 +1572,7 @@ DTEND;TZID=Australia/Brisbane:20261231T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:9e240d4700048732@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:NYE Charity Casino Night
 DESCRIPTION:NYE Charity Casino Night is listed for Thu\, 31 Dec 2026\, 7:00
   pm – 11:30 pm at Rink 46 home of Drayton Bowls Club\, Drayton. Bring in
@@ -1600,7 +1587,7 @@ DTEND;TZID=Australia/Brisbane:20261231T233000
 END:VEVENT
 BEGIN:VEVENT
 UID:cbd952be000330fb@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 5 Jan
   2027\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -1613,7 +1600,7 @@ DTEND;TZID=Australia/Brisbane:20270105T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:b37f6f1600040320@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Wed\, 6 Ja
  n 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price:
@@ -1627,7 +1614,7 @@ DTEND;TZID=Australia/Brisbane:20270106T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:0c6567800002af6c@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:New Year Recipe Swap
 DESCRIPTION:New Year Recipe Swap is listed for Thu\, 7 Jan 2027\, 10:00 am 
  – 11:00 am at Wellways Toowoomba\, East Toowoomba. Start the year with g
@@ -1641,7 +1628,7 @@ DTEND;TZID=Australia/Brisbane:20270107T110000
 END:VEVENT
 BEGIN:VEVENT
 UID:485ae8f100040357@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Thu\, 7 Ja
  n 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price:
@@ -1655,7 +1642,7 @@ DTEND;TZID=Australia/Brisbane:20270107T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:11ec97650003c55a@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Pottery for Paws Workshop
 DESCRIPTION:Pottery for Paws Workshop is listed for Sat\, 9 Jan 2027\, 6:00
   pm – 8:00 pm at Toowoomba Choral Society\, North Toowoomba. Make a pers
@@ -1670,7 +1657,7 @@ DTEND;TZID=Australia/Brisbane:20270109T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:7a5ef0980003b5f4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Group Art Therapy Program
 DESCRIPTION:Group Art Therapy Program is listed for Mon\, 11 Jan 2027\, 10:
  00 am – 11:30 am at Multicultural Australia\, Toowoomba City. Price: Fre
@@ -1684,7 +1671,7 @@ DTEND;TZID=Australia/Brisbane:20270111T113000
 END:VEVENT
 BEGIN:VEVENT
 UID:6bfd3f63000623a4@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba: ACOTAR 7 Early Store Openings at QBD Books
 DESCRIPTION:Toowoomba: ACOTAR 7 Early Store Openings at QBD Books is listed
   for Tue\, 12 Jan 2027\, 8:15 am – 9:30 am at QBD Books Toowoomba\, Toow
@@ -1698,7 +1685,7 @@ DTEND;TZID=Australia/Brisbane:20270112T093000
 END:VEVENT
 BEGIN:VEVENT
 UID:f7d9d338000402b1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Wed\, 13 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1712,7 +1699,7 @@ DTEND;TZID=Australia/Brisbane:20270113T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:c0d3c6710002cad1@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Clifton Library
 DESCRIPTION:Read + Play — Clifton Library is listed for Thu\, 14 Jan 2027
  \, 10:00 am – 10:30 am at Clifton Library\, Clifton. First 5 Forever and
@@ -1727,7 +1714,7 @@ DTEND;TZID=Australia/Brisbane:20270114T103000
 END:VEVENT
 BEGIN:VEVENT
 UID:853c27c1000402e8@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Thu\, 14 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1741,7 +1728,7 @@ DTEND;TZID=Australia/Brisbane:20270114T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:64fee8e9000441cf@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Thu\, 14 Jan 2027\, 12:00 pm – 4:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -1755,7 +1742,7 @@ DTEND;TZID=Australia/Brisbane:20270114T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:873a58b400044205@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Sun\, 17 Jan 2027\, 10:00 am – 2:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -1769,7 +1756,7 @@ DTEND;TZID=Australia/Brisbane:20270117T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:72be527e0002ff17@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Read + Play — Yarraman Library
 DESCRIPTION:Read + Play — Yarraman Library is listed for Tue\, 19 Jan 202
  7\, 10:15 am – 10:45 am at Yarraman Library\, Yarraman. First 5 Forever 
@@ -1784,7 +1771,7 @@ DTEND;TZID=Australia/Brisbane:20270119T104500
 END:VEVENT
 BEGIN:VEVENT
 UID:ea9b7f3600040242@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Wed\, 20 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1798,7 +1785,7 @@ DTEND;TZID=Australia/Brisbane:20270120T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:5767789100040279@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Thu\, 21 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1812,7 +1799,7 @@ DTEND;TZID=Australia/Brisbane:20270121T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:89efae0d00044156@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:🧵 The Creative Studios: Sew & Sing | Toowoomba
 DESCRIPTION:🧵 The Creative Studios: Sew & Sing | Toowoomba is listed for
   Thu\, 21 Jan 2027\, 12:00 pm – 4:00 pm at 376 Ruthven St\, Toowoomba Ci
@@ -1826,7 +1813,7 @@ DTEND;TZID=Australia/Brisbane:20270121T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:a17412d90002a28d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:McGregor School 2027
 DESCRIPTION:McGregor School 2027 is listed for Fri\, 22 Jan 2027 at UniSQ T
  oowoomba\, Toowoomba. Price: See listing.
@@ -1838,7 +1825,7 @@ DTEND;VALUE=DATE:20270123
 END:VEVENT
 BEGIN:VEVENT
 UID:445f2a6a00030ec3@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Australian citizenship ceremony — Date
 DESCRIPTION:Australian citizenship ceremony — Date is listed for Mon\, 25
   Jan 2027 at Date. Australian citizenship ceremony. Australian citizenship
@@ -1851,7 +1838,7 @@ DTEND;VALUE=DATE:20270126
 END:VEVENT
 BEGIN:VEVENT
 UID:27ac8d5000060a32@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Australian citizenship ceremony
 DESCRIPTION:Australian citizenship ceremony is listed for Mon\, 25 Jan 2027
  \, 10:00 am at The Annex\, 541 Ruthven Street\, Toowoomba\, Toowoomba. Aus
@@ -1865,7 +1852,7 @@ DTSTART;TZID=Australia/Brisbane:20270125T100000
 END:VEVENT
 BEGIN:VEVENT
 UID:39e98b1400060afe@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Australian citizenship ceremony
 DESCRIPTION:Australian citizenship ceremony is listed for Mon\, 25 Jan 2027
  \, 2:00 pm at The Annex\, 541 Ruthven Street\, Toowoomba\, Toowoomba. Aust
@@ -1879,7 +1866,7 @@ DTSTART;TZID=Australia/Brisbane:20270125T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:0219b48b000403c3@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Wed\, 27 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1893,7 +1880,7 @@ DTEND;TZID=Australia/Brisbane:20270127T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:5bed49de000403fa@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Inclusive Social Connections
 DESCRIPTION:Toowoomba Inclusive Social Connections is listed for Thu\, 28 J
  an 2027\, 10:00 am – 2:00 pm at Groom Park Hall\, South Toowoomba. Price
@@ -1907,7 +1894,7 @@ DTEND;TZID=Australia/Brisbane:20270128T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:ed12cae80005884a@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Turkish Mosaic Lamp Workshop - Toowoomba
 DESCRIPTION:Turkish Mosaic Lamp Workshop - Toowoomba is listed for Fri\, 29
   Jan 2027\, 6:00 pm – 8:00 pm at Middle Ridge Uniting Church\, Centenary
@@ -1923,7 +1910,7 @@ DTEND;TZID=Australia/Brisbane:20270129T200000
 END:VEVENT
 BEGIN:VEVENT
 UID:e1955861000354a0@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Stand together for MND
 DESCRIPTION:Stand together for MND is listed for Sat\, 30 Jan 2027\, 3:00 p
  m – 10:00 pm at Pittsworth Showgrounds\, Pittsworth. Saturday 30 January
@@ -1938,7 +1925,7 @@ DTEND;TZID=Australia/Brisbane:20270130T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:1c487c8800033094@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 2 Feb
   2027\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -1951,7 +1938,7 @@ DTEND;TZID=Australia/Brisbane:20270202T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:13af8b51000a1d3d@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Navigating Grants and Incentives: Unlocking Manufacturing Growth\, 
  Toowoomba
 DESCRIPTION:Navigating Grants and Incentives: Unlocking Manufacturing Growt
@@ -1968,7 +1955,7 @@ DTEND;TZID=Australia/Brisbane:20270203T143000
 END:VEVENT
 BEGIN:VEVENT
 UID:27bddf9d00075dc3@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Your Local Wedding Guide Toowoomba Expo - 7th February 2027
 DESCRIPTION:Your Local Wedding Guide Toowoomba Expo - 7th February 2027 is 
  listed for Sun\, 7 Feb 2027\, 10:00 am – 2:00 pm at The Goods Shed Toowo
@@ -1984,7 +1971,7 @@ DTEND;TZID=Australia/Brisbane:20270207T140000
 END:VEVENT
 BEGIN:VEVENT
 UID:6494d2f80006194a@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba Speed Dating
 DESCRIPTION:Toowoomba Speed Dating is listed for Sat\, 13 Feb 2027\, 10:30 
  am – 12:30 pm at St Lukes Hall\, 152 Herries St Toowoomba City (Opposite
@@ -2001,7 +1988,7 @@ DTEND;TZID=Australia/Brisbane:20270213T123000
 END:VEVENT
 BEGIN:VEVENT
 UID:ec0e212200038fbe@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba - COMMONS WORSHIP NIGHTS
 DESCRIPTION:Toowoomba - COMMONS WORSHIP NIGHTS is listed for Sat\, 20 Feb 2
  027\, 5:30 pm – 9:30 pm at Highlands Church\, Kearneys Spring. Price: $5
@@ -2015,7 +2002,7 @@ DTEND;TZID=Australia/Brisbane:20270220T213000
 END:VEVENT
 BEGIN:VEVENT
 UID:6145a9200006d3ce@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Career Advisers Seminar
 DESCRIPTION:Career Advisers Seminar is listed for Thu\, 25 Feb 2027 at UniS
  Q Ipswich Campus and UniSQ Toowoomba Campus\, Toowoomba. We welcome you to
@@ -2030,7 +2017,7 @@ DTEND;VALUE=DATE:20270226
 END:VEVENT
 BEGIN:VEVENT
 UID:034204c40007d6c5@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Champagne After Dark - Champagne Dinner - Bergen\, Toowoomba
 DESCRIPTION:Champagne After Dark - Champagne Dinner - Bergen\, Toowoomba is
   listed for Fri\, 26 Feb 2027\, 6:00 pm – 9:00 pm at Bergen Restaurant T
@@ -2044,7 +2031,7 @@ DTEND;TZID=Australia/Brisbane:20270226T210000
 END:VEVENT
 BEGIN:VEVENT
 UID:c98f7df90008b9cf@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:ACORN Qld Regional Education Day - Toowoomba
 DESCRIPTION:ACORN Qld Regional Education Day - Toowoomba is listed for Sat\
  , 27 Feb 2027\, 8:00 am – 3:30 pm at St Vincents Hospital Clinical Schoo
@@ -2059,7 +2046,7 @@ DTEND;TZID=Australia/Brisbane:20270227T153000
 END:VEVENT
 BEGIN:VEVENT
 UID:ef201f9c00062016@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:The Athlete & The Alchemist Breathwork Journey | Toowoomba
 DESCRIPTION:The Athlete & The Alchemist Breathwork Journey | Toowoomba is l
  isted for Sun\, 28 Feb 2027\, 4:00 pm – 6:00 pm at Newtown Hall\, Newtow
@@ -2073,7 +2060,7 @@ DTEND;TZID=Australia/Brisbane:20270228T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:4f4fe9f9000330c3@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 2 Mar
   2027\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -2086,7 +2073,7 @@ DTEND;TZID=Australia/Brisbane:20270302T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:f6c5d5b10007ab9b@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:GIQ Greenlife Industry Tour: Boomaroo & Toowoomba
 DESCRIPTION:GIQ Greenlife Industry Tour: Boomaroo & Toowoomba is listed for
   Fri\, 5 Mar 2027\, 9:00 am – 3:30 pm at Boomaroo Nurseries Southbrook\,
@@ -2100,7 +2087,7 @@ DTEND;TZID=Australia/Brisbane:20270305T153000
 END:VEVENT
 BEGIN:VEVENT
 UID:4d672f7d000a6d46@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Connect and Learn - Preserving Produce: Zucchinis 10 Ways
 DESCRIPTION:Connect and Learn - Preserving Produce: Zucchinis 10 Ways is li
  sted for Mon\, 15 Mar 2027\, 6:30 pm – 8:30 pm at Level 3 Meeting Rooms\
@@ -2114,7 +2101,7 @@ DTEND;TZID=Australia/Brisbane:20270315T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:bd7a11640008b582@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Introduction to Integrated Management System Workshop - Toowoomba
 DESCRIPTION:Introduction to Integrated Management System Workshop - Toowoom
  ba is listed for Thu\, 18 Mar 2027\, 8:30 am – 4:30 pm at Toowoomba Spor
@@ -2129,7 +2116,7 @@ DTEND;TZID=Australia/Brisbane:20270318T163000
 END:VEVENT
 BEGIN:VEVENT
 UID:d8deafa40002d192@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:NamiiCon 2027
 DESCRIPTION:NamiiCon 2027 is listed for Sun\, 21 Mar 2027\, 10:00 am – 4:
  00 pm at Wilsonton State High School\, Wilsonton Heights. Price: Free–$5
@@ -2143,7 +2130,7 @@ DTEND;TZID=Australia/Brisbane:20270321T160000
 END:VEVENT
 BEGIN:VEVENT
 UID:14ca1c62000331ba@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 6 Apr
   2027\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -2156,7 +2143,7 @@ DTEND;TZID=Australia/Brisbane:20270406T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:87251c0a00054a5c@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Neil Diamond musical 'A Beautiful Noise' day trip
 DESCRIPTION:Neil Diamond musical 'A Beautiful Noise' day trip is listed for
   Thu\, 15 Apr 2027\, 10:00 am – 6:00 pm at Discovery Coaches\, Toowoomba
@@ -2170,7 +2157,7 @@ DTEND;TZID=Australia/Brisbane:20270415T180000
 END:VEVENT
 BEGIN:VEVENT
 UID:3196246f00029136@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Open Heavens - Rich in Life!
 DESCRIPTION:Open Heavens - Rich in Life! is listed for Sat\, 1 May 2027\, 4
  :00 pm – 8:30 pm at 311 Cooby Dam Rd\, Meringandan. *POSTPONED UNTIL MAY
@@ -2185,7 +2172,7 @@ DTEND;TZID=Australia/Brisbane:20270501T203000
 END:VEVENT
 BEGIN:VEVENT
 UID:273bfa9500033185@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba\, QLD - Starts at 60 Meetup
 DESCRIPTION:Toowoomba\, QLD - Starts at 60 Meetup is listed for Tue\, 4 May
   2027\, 10:00 am – 12:00 pm at Federal Hotel\, Toowoomba City. Price: Fr
@@ -2198,7 +2185,7 @@ DTEND;TZID=Australia/Brisbane:20270504T120000
 END:VEVENT
 BEGIN:VEVENT
 UID:901bd5a1000266a8@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Jesus Christ Superstar
 DESCRIPTION:Jesus Christ Superstar is listed for Thu\, 24 June 2027 at The 
  Empire\, Toowoomba. Andrew Lloyd Webber and Tim Rice’s global rock music
@@ -2213,7 +2200,7 @@ DTEND;VALUE=DATE:20270625
 END:VEVENT
 BEGIN:VEVENT
 UID:225c18f5000277ef@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:Toowoomba West Special School Cent Sale
 DESCRIPTION:Toowoomba West Special School Cent Sale is listed for Sun\, 25 
  July 2027\, 11:30 am at Toowoomba City. Doors open at 10:30 am and the sal
@@ -2226,7 +2213,7 @@ DTSTART;TZID=Australia/Brisbane:20270725T113000
 END:VEVENT
 BEGIN:VEVENT
 UID:5bd009060002f3ba@whatsontoowoomba.au
-DTSTAMP:20261127T181014Z
+DTSTAMP:20261128T024026Z
 SUMMARY:2027 Toowoomba Open Day
 DESCRIPTION:2027 Toowoomba Open Day is listed for Sat\, 14 Aug 2027 at UniS
  Q Toowoomba\, Toowoomba. Price: See listing.
